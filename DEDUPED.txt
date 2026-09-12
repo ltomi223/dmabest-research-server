@@ -1,0 +1,6 @@
+MSI | MAG X870 TOMAHAWK WIFI | removed rev=x.x | header=TPM module connector
+MSI | MAG Z890 TOMAHAWK WIFI | removed rev=x.x | header=TPM module connector
+MSI | MEG X870E GODLIKE | removed rev=x.x | header=TPM module connector
+MSI | MEG Z890 GODLIKE | removed rev=x.x | header=TPM module connector
+MSI | MPG X870E CARBON WIFI | removed rev=x.x | header=TPM module connector
+MSI | MPG Z890 CARBON WIFI | removed rev=x.x | header=TPM module connector

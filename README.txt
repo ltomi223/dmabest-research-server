@@ -1,14 +1,19 @@
-DMA Best EU Research V13 - MERGED STRICT DATABASE
+DMA Best EU Research V14 - CACHE + DATABASE FIX
 
-Total strict profiles embedded: 41
-Original V12 strict profiles: 12
-V13 expansion entries supplied: 29
+Database version: V14
+Canonical profiles: 35
+Removed duplicate generic MSI records: 6
 
-IMPORTANT:
-1. Upload ALL files in this package to the existing GitHub repository.
-2. Make sure motherboards.json is included.
-3. Render -> Manual Deploy -> Deploy latest commit.
-4. In Render logs look for:
-   verified motherboard DB loaded: 41 profiles
+Main fixes:
+1. VERIFIED database lookup now runs BEFORE cache.
+   Old PENDING cache entries can no longer hide new VERIFIED profiles.
+2. Exact revision match is preferred over wildcard profiles.
+3. Duplicate generic MSI profiles were consolidated.
+4. /health now shows databaseVersion, databaseSchema, verifiedProfiles and generated date.
 
-This package merges the previous working strict V12 server with the 29-profile V13 expansion dataset.
+After deployment, open:
+https://dmabest-research-server.onrender.com/health
+
+Expected:
+databaseVersion = V14
+verifiedProfiles = 35

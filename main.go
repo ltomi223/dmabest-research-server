@@ -127,40 +127,64 @@ func lookupVerifiedProfile(h Hardware) (ResearchResult, bool) {
 			continue
 		}
 		candidates = append(candidates, p)
-		revMatch := p.Revision == "*" || strings.EqualFold(strings.TrimSpace(p.Revision), rev)
-		if !revMatch && strings.Contains(p.Revision, "/") {
-			for _, part := range strings.Split(p.Revision, "/") {
+	}
+
+	matchRevision := func(p VerifiedProfile, allowWildcard bool) bool {
+		pr := strings.TrimSpace(p.Revision)
+		if allowWildcard && pr == "*" {
+			return true
+		}
+		if strings.EqualFold(pr, rev) {
+			return true
+		}
+		if strings.Contains(pr, "/") {
+			for _, part := range strings.Split(pr, "/") {
 				if strings.EqualFold(strings.TrimSpace(part), rev) {
-					revMatch = true
-					break
+					return true
 				}
 			}
 		}
-		if !revMatch && strings.EqualFold(strings.TrimSpace(p.Revision), "1.x") && strings.HasPrefix(strings.ToLower(rev), "1.") {
-			revMatch = true
+		if strings.EqualFold(pr, "1.x") && strings.HasPrefix(strings.ToLower(rev), "1.") {
+			return true
 		}
-		if revMatch {
-			r := ResearchResult{
-				Status:       p.Status,
-				Manufacturer: p.Manufacturer,
-				Model:        p.Model,
-				Chipset:      p.Chipset,
-				Socket:       p.Socket,
-				Header:       p.Header,
-				Bus:          p.Bus,
-				PinLayout:    p.PinLayout,
-				Module:       p.Module,
-				Confidence:   p.Confidence,
-				Sources:      p.Sources,
-				Evidence:     p.Evidence,
-				Note:         p.Note,
-				Updated:      time.Now().Format(time.RFC3339),
-			}
-			missingFields(&r)
-			return r, true
+		return false
+	}
+
+	makeResult := func(p VerifiedProfile) ResearchResult {
+		r := ResearchResult{
+			Status:       p.Status,
+			Manufacturer: p.Manufacturer,
+			Model:        p.Model,
+			Chipset:      p.Chipset,
+			Socket:       p.Socket,
+			Header:       p.Header,
+			Bus:          p.Bus,
+			PinLayout:    p.PinLayout,
+			Module:       p.Module,
+			Confidence:   p.Confidence,
+			Sources:      p.Sources,
+			Evidence:     p.Evidence,
+			Note:         p.Note,
+			Updated:      time.Now().Format(time.RFC3339),
+		}
+		missingFields(&r)
+		return r
+	}
+
+	// Exact/grouped revision first.
+	for _, p := range candidates {
+		if strings.TrimSpace(p.Revision) != "*" && matchRevision(p, false) {
+			return makeResult(p), true
+		}
+	}
+	// Generic wildcard profile second.
+	for _, p := range candidates {
+		if strings.TrimSpace(p.Revision) == "*" && matchRevision(p, true) {
+			return makeResult(p), true
 		}
 	}
 
+	// Multiple revision-specific profiles exist but revision is unresolved.
 	if len(candidates) > 1 {
 		base := candidates[0]
 		r := ResearchResult{
@@ -588,11 +612,16 @@ func main() {
 
 	mux.HandleFunc("/health", func(w http.ResponseWriter, r *http.Request) {
 		cors(w)
+		db := verifiedDB()
 		w.Header().Set("Content-Type", "application/json")
 		_ = json.NewEncoder(w).Encode(map[string]any{
-			"ok":         true,
-			"service":    "DMA Best EU Free Manufacturer Research",
-			"aiRequired": false,
+			"ok":               true,
+			"service":          "DMA Best EU Research",
+			"databaseVersion":  "V14",
+			"databaseSchema":   db.SchemaVersion,
+			"verifiedProfiles": len(db.Profiles),
+			"generated":        db.Generated,
+			"aiRequired":       false,
 		})
 	})
 
@@ -612,6 +641,14 @@ func main() {
 			http.Error(w, "bad json", http.StatusBadRequest)
 			return
 		}
+		// Always check the embedded verified database before cache.
+		// This prevents old PENDING cache entries from masking newly added VERIFIED profiles.
+		if verified, ok := lookupVerifiedProfile(h); ok {
+			w.Header().Set("Content-Type", "application/json")
+			_ = json.NewEncoder(w).Encode(verified)
+			return
+		}
+
 		if cached, ok := loadCache(cfg, h); ok {
 			w.Header().Set("Content-Type", "application/json")
 			_ = json.NewEncoder(w).Encode(cached)
@@ -626,5 +663,6 @@ func main() {
 
 	log.Printf("DMA Best EU FREE Research listening on %s", cfg.Listen)
 	log.Printf("No OpenAI API key required")
+	log.Printf("Database V14 active: %d profiles", len(verifiedDB().Profiles))
 	log.Fatal(http.ListenAndServe(cfg.Listen, mux))
 }
