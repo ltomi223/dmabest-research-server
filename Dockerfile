@@ -1,6 +1,7 @@
 FROM golang:1.23-alpine AS build
 WORKDIR /app
 COPY main.go .
+COPY motherboards.json .
 RUN CGO_ENABLED=0 GOOS=linux go build -ldflags="-s -w" -o /out/dmabest-research-server main.go
 
 FROM alpine:3.20

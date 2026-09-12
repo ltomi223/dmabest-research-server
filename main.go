@@ -2,6 +2,7 @@ package main
 
 import (
 	"crypto/sha256"
+	_ "embed"
 	"encoding/hex"
 	"encoding/json"
 	"fmt"
@@ -50,6 +51,126 @@ type ResearchResult struct {
 	Note         string   `json:"note"`
 	Updated      string   `json:"updated"`
 	Cached       bool     `json:"cached,omitempty"`
+}
+
+type VerifiedProfile struct {
+	Manufacturer string   `json:"manufacturer"`
+	Model        string   `json:"model"`
+	Revision     string   `json:"revision"`
+	Status       string   `json:"status"`
+	Chipset      string   `json:"chipset"`
+	Socket       string   `json:"socket"`
+	Header       string   `json:"header"`
+	Bus          string   `json:"bus"`
+	PinLayout    string   `json:"pinLayout"`
+	Module       string   `json:"module"`
+	Confidence   int      `json:"confidence"`
+	Note         string   `json:"note"`
+	Sources      []string `json:"sources"`
+	Evidence     []string `json:"evidence"`
+}
+
+type VerifiedDatabase struct {
+	SchemaVersion int               `json:"schemaVersion"`
+	Generated     string            `json:"generated"`
+	Profiles      []VerifiedProfile `json:"profiles"`
+}
+
+//go:embed motherboards.json
+var motherboardDBJSON []byte
+
+var (
+	dbOnce sync.Once
+	dbData VerifiedDatabase
+)
+
+func verifiedDB() VerifiedDatabase {
+	dbOnce.Do(func() {
+		if err := json.Unmarshal(motherboardDBJSON, &dbData); err != nil {
+			log.Printf("motherboard database parse error: %v", err)
+		} else {
+			log.Printf("verified motherboard DB loaded: %d profiles", len(dbData.Profiles))
+		}
+	})
+	return dbData
+}
+
+func normDBText(v string) string {
+	v = strings.ToUpper(strings.TrimSpace(v))
+	v = strings.ReplaceAll(v, " TECHNOLOGY CO., LTD.", "")
+	v = strings.ReplaceAll(v, " TECHNOLOGY CO., LTD", "")
+	v = strings.ReplaceAll(v, " INC.", "")
+	v = strings.ReplaceAll(v, " INC", "")
+	return strings.Join(strings.Fields(v), " ")
+}
+
+func lookupVerifiedProfile(h Hardware) (ResearchResult, bool) {
+	db := verifiedDB()
+	maker := normDBText(h.Manufacturer)
+	if maker == "" {
+		maker = normDBText(h.SystemManufacturer)
+	}
+	model := normDBText(h.Product)
+	if model == "" {
+		model = normDBText(h.SystemModel)
+	}
+	rev := strings.TrimSpace(h.Version)
+
+	var candidates []VerifiedProfile
+	for _, p := range db.Profiles {
+		pm := normDBText(p.Manufacturer)
+		pp := normDBText(p.Model)
+		if pp != model {
+			continue
+		}
+		if pm != "" && maker != "" && !strings.Contains(maker, pm) && !strings.Contains(pm, maker) {
+			continue
+		}
+		candidates = append(candidates, p)
+		if p.Revision == "*" || strings.EqualFold(strings.TrimSpace(p.Revision), rev) {
+			r := ResearchResult{
+				Status:       p.Status,
+				Manufacturer: p.Manufacturer,
+				Model:        p.Model,
+				Chipset:      p.Chipset,
+				Socket:       p.Socket,
+				Header:       p.Header,
+				Bus:          p.Bus,
+				PinLayout:    p.PinLayout,
+				Module:       p.Module,
+				Confidence:   p.Confidence,
+				Sources:      p.Sources,
+				Evidence:     p.Evidence,
+				Note:         p.Note,
+				Updated:      time.Now().Format(time.RFC3339),
+			}
+			missingFields(&r)
+			return r, true
+		}
+	}
+
+	if len(candidates) > 1 {
+		base := candidates[0]
+		r := ResearchResult{
+			Status:       "pending",
+			Manufacturer: base.Manufacturer,
+			Model:        base.Model,
+			Chipset:      base.Chipset,
+			Socket:       base.Socket,
+			Header:       base.Header,
+			Bus:          base.Bus,
+			PinLayout:    base.PinLayout,
+			Module:       "Revision required",
+			Confidence:   95,
+			Sources:      base.Sources,
+			Evidence:     base.Evidence,
+			Note:         "Az alaplap megtalálható az adatbázisban, de a pontos PCB revízió szükséges a TPM modul kiválasztásához.",
+			Updated:      time.Now().Format(time.RFC3339),
+		}
+		missingFields(&r)
+		return r, true
+	}
+	return ResearchResult{}, false
 }
 
 type Config struct {
@@ -374,49 +495,7 @@ func missingFields(r *ResearchResult) {
 }
 
 func researchFree(h Hardware) ResearchResult {
-	// VERIFIED LOCAL PROFILE: GIGABYTE X870E AORUS PRO ICE.
-	// Revision is supplied by the checker in h.Version after the user confirms the PCB revision.
-	modelKey := strings.ToUpper(strings.TrimSpace(h.Product))
-	rev := strings.TrimSpace(h.Version)
-	if strings.Contains(modelKey, "X870E AORUS PRO ICE") {
-		module := "Revision required"
-		status := "pending"
-		note := "Hardware profile matched, but exact motherboard revision is still required before selecting the TPM module."
-		evidence := []string{
-			"Official GIGABYTE manual: SPI_TPM header uses SPI and has 12 positions; pin 3 is No Pin.",
-		}
-		if rev == "1.0" {
-			status = "verified"
-			module = "GC-TPM2.0 SPI / GC-TPM2.0 SPI 2.0 / GC-TPM2.0 SPI V2"
-			note = "ELLENŐRZÖTT Rev. 1.0 profil. A GIGABYTE hivatalos dokumentációja ezt a három SPI TPM modulcsaládot sorolja kompatibilisként Rev. 1.0-hoz."
-			evidence = append(evidence, "Rev. 1.0 official manual/specification lists GC-TPM2.0 SPI, GC-TPM2.0 SPI 2.0 and GC-TPM2.0 SPI V2.")
-		} else if rev == "1.1" {
-			status = "verified"
-			module = "GC-TPM2.0 SPI V2"
-			note = "ELLENŐRZÖTT Rev. 1.1 profil. A GIGABYTE hivatalos specifikációja ehhez a revízióhoz kizárólag a GC-TPM2.0 SPI V2 modult jelöli."
-			evidence = append(evidence, "Rev. 1.1 official specification: Trusted Platform Module header (For the GC-TPM2.0 SPI V2 module only).")
-		}
-		r := ResearchResult{
-			Status:       status,
-			Manufacturer: "GIGABYTE",
-			Model:        strings.TrimSpace(h.Product),
-			Chipset:      "AMD X870E",
-			Socket:       "AM5",
-			Header:       "SPI_TPM",
-			Bus:          "SPI",
-			PinLayout:    "12 positions (2x6); pin 3 is No Pin",
-			Module:       module,
-			Confidence:   100,
-			Sources: []string{
-				"https://www.gigabyte.com/Motherboard/X870E-AORUS-PRO-ICE-rev-10/support",
-				"https://www.gigabyte.com/hu/Motherboard/X870E-AORUS-PRO-ICE-rev-11/sp",
-				"https://download.gigabyte.com/FileList/Manual/mb_manual_x870e-aorus-pro-ice_1002_e.pdf",
-			},
-			Evidence: evidence,
-			Note:     note,
-			Updated:  time.Now().Format(time.RFC3339),
-		}
-		missingFields(&r)
+	if r, ok := lookupVerifiedProfile(h); ok {
 		return r
 	}
 

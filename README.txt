@@ -1,9 +1,9 @@
-DMA Best EU Research V9 - VERIFIED STATUS
+DMA Best EU Research V10 - DATABASE ENGINE
 
-Changes:
-- Exact X870E AORUS PRO ICE Rev. 1.0 or Rev. 1.1 profiles now return status=verified.
-- Unknown revision remains pending.
-- Rev. 1.0 shows the official compatible module families because the official documentation lists multiple compatible modules.
-- Rev. 1.1 shows the exact GC-TPM2.0 SPI V2 module.
+Profiles in first expanded official-source batch: 12
 
-Upload the files in this package to the existing GitHub repository, then Render -> Manual Deploy -> Deploy latest commit.
+VERIFIED profiles return deterministic TPM compatibility data.
+PENDING profiles contain verified header/bus information but do not claim an exact TPM module until an official model-specific compatibility source is confirmed.
+
+The database is embedded from motherboards.json.
+To expand later, add profiles to motherboards.json and redeploy.

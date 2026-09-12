@@ -1,78 +1,254 @@
-[
-  {
-    "manufacturer": "GIGABYTE",
-    "model": "X870E AORUS PRO ICE",
-    "aliases": [
-      "GIGABYTE X870E AORUS PRO ICE"
-    ],
-    "revision": "1.1",
-    "chipset": "AMD X870E",
-    "socket": "AM5",
-    "header": "SPI_TPM",
-    "bus": "SPI",
-    "pinLayout": "12 positions (2x6); pin 3 is No Pin",
-    "module": "GIGABYTE GC-TPM2.0 SPI V2",
-    "biosHint": "",
-    "sources": [
-      "https://www.gigabyte.com/hu/Motherboard/X870E-AORUS-PRO-ICE-rev-11/sp",
-      "https://download.gigabyte.com/FileList/Manual/mb_manual_x870e-aorus-pro-ice_1002_e.pdf"
-    ],
-    "evidence": [
-      "Official GIGABYTE specification: AMD Socket AM5 and AMD X870E chipset.",
-      "Official GIGABYTE specification for Rev. 1.1: TPM header supports GC-TPM2.0 SPI V2.",
-      "Official manual: SPI_TPM header uses SPI and has 12 positions; pin 3 is No Pin."
-    ],
-    "note": "VERIFIED profile for Rev. 1.1. Always confirm the revision printed on the motherboard before buying a TPM module."
-  },
-  {
-    "manufacturer": "GIGABYTE",
-    "model": "X870E AORUS PRO ICE",
-    "aliases": [
-      "GIGABYTE X870E AORUS PRO ICE"
-    ],
-    "revision": "*",
-    "chipset": "AMD X870E",
-    "socket": "AM5",
-    "header": "SPI_TPM",
-    "bus": "SPI",
-    "pinLayout": "12 positions (2x6); pin 3 is No Pin",
-    "module": "GC-TPM2.0 SPI / GC-TPM2.0 SPI 2.0 / GC-TPM2.0 SPI V2 (revision-dependent)",
-    "biosHint": "",
-    "sources": [
-      "https://www.gigabyte.com/cz/Motherboard/X870E-AORUS-PRO-ICE-rev-10/sp",
-      "https://www.gigabyte.com/hu/Motherboard/X870E-AORUS-PRO-ICE-rev-11/sp",
-      "https://download.gigabyte.com/FileList/Manual/mb_manual_x870e-aorus-pro-ice_1002_e.pdf"
-    ],
-    "evidence": [
-      "Official GIGABYTE specifications: AMD Socket AM5 and AMD X870E chipset.",
-      "Official manual: SPI_TPM header uses SPI and has 12 positions; pin 3 is No Pin.",
-      "Official manual lists GC-TPM2.0 SPI, GC-TPM2.0 SPI 2.0 and GC-TPM2.0 SPI V2; exact support is revision-dependent."
-    ],
-    "note": "VERIFIED hardware profile. Exact motherboard Rev. 1.0/1.1 must be confirmed before selecting the TPM module."
-  },
-  {
-    "manufacturer": "MSI",
-    "model": "X570-A PRO",
-    "aliases": [
-      "MSI X570-A PRO",
-      "X570-A PRO (MS-7C37)"
-    ],
-    "revision": "*",
-    "chipset": "AMD X570",
-    "socket": "AM4",
-    "header": "JTPM1",
-    "bus": "LPC",
-    "pinLayout": "14-pin layout (2x7); pin 10 is No Pin",
-    "module": "",
-    "biosHint": "",
-    "sources": [
-      "https://www.msi.com/Motherboard/X570-A-PRO/Specification",
-      "https://download-2.msi.com/archive/mnu_exe/mb/E7B85v1.4.pdf"
-    ],
-    "evidence": [
-      "Official MSI specification: AM4 socket and AMD X570 chipset.",
-      "Official MSI manual: JTPM1 TPM Module Connector uses LPC signals and a 14-pin layout; pin 10 is No Pin."
-    ],
-    "note": "VERIFIED header/chipset/socket profile. Exact MSI TPM module part number is intentionally left blank until separately verified from an official compatibility source."
-  }
-]
+{
+  "schemaVersion": 1,
+  "generated": "2026-09-12",
+  "profiles": [
+    {
+      "manufacturer": "GIGABYTE",
+      "model": "X870E AORUS PRO ICE",
+      "revision": "1.0",
+      "status": "verified",
+      "chipset": "AMD X870E",
+      "socket": "AM5",
+      "header": "SPI_TPM",
+      "bus": "SPI",
+      "pinLayout": "12 positions (2x6); pin 3 is No Pin",
+      "module": "GC-TPM2.0 SPI / GC-TPM2.0 SPI 2.0 / GC-TPM2.0 SPI V2",
+      "confidence": 100,
+      "note": "ELLENŐRZÖTT Rev. 1.0 profil.",
+      "sources": [
+        "https://www.gigabyte.com/Motherboard/X870E-AORUS-PRO-ICE-rev-10/support",
+        "https://download.gigabyte.com/FileList/Manual/mb_manual_x870e-aorus-pro-ice_1002_e.pdf"
+      ],
+      "evidence": [
+        "Official GIGABYTE documentation lists the SPI_TPM header and the compatible Rev. 1.0 SPI TPM module families."
+      ]
+    },
+    {
+      "manufacturer": "GIGABYTE",
+      "model": "X870E AORUS PRO ICE",
+      "revision": "1.1",
+      "status": "verified",
+      "chipset": "AMD X870E",
+      "socket": "AM5",
+      "header": "SPI_TPM",
+      "bus": "SPI",
+      "pinLayout": "12 positions (2x6); pin 3 is No Pin",
+      "module": "GC-TPM2.0 SPI V2",
+      "confidence": 100,
+      "note": "ELLENŐRZÖTT Rev. 1.1 profil.",
+      "sources": [
+        "https://www.gigabyte.com/hu/Motherboard/X870E-AORUS-PRO-ICE-rev-11/sp"
+      ],
+      "evidence": [
+        "Official GIGABYTE Rev. 1.1 specification states GC-TPM2.0 SPI V2 module only."
+      ]
+    },
+    {
+      "manufacturer": "GIGABYTE",
+      "model": "X570 AORUS ELITE",
+      "revision": "1.0",
+      "status": "verified",
+      "chipset": "AMD X570",
+      "socket": "AM4",
+      "header": "TPM",
+      "bus": "LPC",
+      "pinLayout": "2x6 pin",
+      "module": "GC-TPM2.0_S",
+      "confidence": 100,
+      "note": "ELLENŐRZÖTT Rev. 1.0 profil.",
+      "sources": [
+        "https://www.gigabyte.com/hu/Motherboard/X570-AORUS-ELITE-rev-10/sp"
+      ],
+      "evidence": [
+        "Official GIGABYTE specification: 2x6-pin TPM header, for the GC-TPM2.0_S module only."
+      ]
+    },
+    {
+      "manufacturer": "GIGABYTE",
+      "model": "B550 AORUS PRO V2",
+      "revision": "1.0",
+      "status": "verified",
+      "chipset": "AMD B550",
+      "socket": "AM4",
+      "header": "TPM",
+      "bus": "LPC",
+      "pinLayout": "2x6 pin",
+      "module": "GC-TPM2.0_S",
+      "confidence": 100,
+      "note": "ELLENŐRZÖTT Rev. 1.0 profil.",
+      "sources": [
+        "https://www.gigabyte.com/hu/Motherboard/B550-AORUS-PRO-V2-rev-10/sp"
+      ],
+      "evidence": [
+        "Official GIGABYTE specification: 2x6-pin TPM header, for the GC-TPM2.0_S module only."
+      ]
+    },
+    {
+      "manufacturer": "MSI",
+      "model": "MAG B550 TOMAHAWK",
+      "revision": "*",
+      "status": "verified",
+      "chipset": "AMD B550",
+      "socket": "AM4",
+      "header": "JTPM1",
+      "bus": "SPI",
+      "pinLayout": "12-pin / 12-1 style SPI TPM connector",
+      "module": "TPM 2.0 (MS-4462)",
+      "confidence": 100,
+      "note": "ELLENŐRZÖTT MSI AMD 500-series SPI TPM profil.",
+      "sources": [
+        "https://download.msi.com/archive/mnu_exe/mb/MAGB550TOMAHAWK.pdf",
+        "https://www.msi.com/Motherboard/TPM-20-Module/Overview"
+      ],
+      "evidence": [
+        "Official MAG B550 TOMAHAWK manual documents JTPM1 as a 12-pin SPI TPM connector.",
+        "MSI lists TPM 2.0 (MS-4462) as a 12-1-pin SPI module supporting AMD 500 Series motherboards."
+      ]
+    },
+    {
+      "manufacturer": "MSI",
+      "model": "MPG X870E CARBON WIFI",
+      "revision": "*",
+      "status": "verified",
+      "chipset": "AMD X870E",
+      "socket": "AM5",
+      "header": "TPM module connector",
+      "bus": "SPI",
+      "pinLayout": "12-1 pin SPI",
+      "module": "TPM 2.0 (9672) / TPM 2.0 (MS-4462)",
+      "confidence": 100,
+      "note": "ELLENŐRZÖTT MSI kompatibilitási lista alapján.",
+      "sources": [
+        "https://www.msi.com/faq/11095",
+        "https://www.msi.com/Motherboard/TPM-20-Module/Overview"
+      ],
+      "evidence": [
+        "MSI FAQ explicitly lists MPG X870E CARBON WIFI with TPM 2.0 (9672) or TPM 2.0 (MS-4462)."
+      ]
+    },
+    {
+      "manufacturer": "MSI",
+      "model": "MAG X870 TOMAHAWK WIFI",
+      "revision": "*",
+      "status": "verified",
+      "chipset": "AMD X870",
+      "socket": "AM5",
+      "header": "TPM module connector",
+      "bus": "SPI",
+      "pinLayout": "12-1 pin SPI",
+      "module": "TPM 2.0 (9672) / TPM 2.0 (MS-4462)",
+      "confidence": 100,
+      "note": "ELLENŐRZÖTT MSI kompatibilitási lista alapján.",
+      "sources": [
+        "https://www.msi.com/faq/11095",
+        "https://www.msi.com/Motherboard/TPM-20-Module/Overview"
+      ],
+      "evidence": [
+        "MSI FAQ explicitly lists MAG X870 TOMAHAWK WIFI with TPM 2.0 (9672) or TPM 2.0 (MS-4462)."
+      ]
+    },
+    {
+      "manufacturer": "ASUS",
+      "model": "TUF GAMING B550M-PLUS",
+      "revision": "*",
+      "status": "verified",
+      "chipset": "AMD B550",
+      "socket": "AM4",
+      "header": "SPI TPM",
+      "bus": "SPI",
+      "pinLayout": "14-1 pin",
+      "module": "ASUS TPM-SPI (90MC07D0-M0XBN1)",
+      "confidence": 100,
+      "note": "ELLENŐRZÖTT ASUS SPI TPM profil.",
+      "sources": [
+        "https://dlcdnets.asus.com/pub/ASUS/mb/SocketAM4/TUF_GAMING_B550M-PLUS/E17265_TUF_GAMING_B550M-PLUS_UM_v2_WEB.pdf",
+        "https://dlcdnets.asus.com/pub/ASUS/mb/Add-on_card/TPM-SPI/E20464_TPM-SPI_card_QSG_V2_WEB.pdf"
+      ],
+      "evidence": [
+        "Official board manual documents an SPI TPM header.",
+        "Official ASUS TPM-SPI guide identifies the 14-1-pin TPM-SPI module; ASUS support identifies P/N 90MC07D0-M0XBN1."
+      ]
+    },
+    {
+      "manufacturer": "ASUS",
+      "model": "TUF GAMING B550-PLUS",
+      "revision": "*",
+      "status": "verified",
+      "chipset": "AMD B550",
+      "socket": "AM4",
+      "header": "SPI TPM",
+      "bus": "SPI",
+      "pinLayout": "14-1 pin",
+      "module": "ASUS TPM-SPI (90MC07D0-M0XBN1)",
+      "confidence": 100,
+      "note": "ELLENŐRZÖTT ASUS SPI TPM profil.",
+      "sources": [
+        "https://dlcdnets.asus.com/pub/ASUS/mb/SocketAM4/TUF_GAMING_B550-PLUS/E16576_TUF_GAMING_B550-PLUS_UM_WEB.pdf",
+        "https://dlcdnets.asus.com/pub/ASUS/mb/Add-on_card/TPM-SPI/E20464_TPM-SPI_card_QSG_V2_WEB.pdf"
+      ],
+      "evidence": [
+        "Official TUF GAMING B550-PLUS manual documents an SPI TPM header; ASUS TPM-SPI is a 14-1-pin SPI module."
+      ]
+    },
+    {
+      "manufacturer": "ASROCK",
+      "model": "B550 Steel Legend",
+      "revision": "*",
+      "status": "pending",
+      "chipset": "AMD B550",
+      "socket": "AM4",
+      "header": "SPI_TPM_J1",
+      "bus": "SPI",
+      "pinLayout": "13-pin",
+      "module": "Exact ASRock TPM module still requires model-specific support-list confirmation",
+      "confidence": 90,
+      "note": "A header és pin-kiosztás hivatalosan ellenőrzött; a pontos modul még nincs VERIFIED állapotban.",
+      "sources": [
+        "https://download.asrock.com/Manual/B550%20Steel%20Legend.pdf"
+      ],
+      "evidence": [
+        "Official ASRock manual documents a 13-pin SPI_TPM_J1 header."
+      ]
+    },
+    {
+      "manufacturer": "ASROCK",
+      "model": "B650E PG Riptide WiFi",
+      "revision": "*",
+      "status": "pending",
+      "chipset": "AMD B650E",
+      "socket": "AM5",
+      "header": "SPI_TPM_J1",
+      "bus": "SPI",
+      "pinLayout": "13-pin",
+      "module": "Exact ASRock TPM module still requires model-specific support-list confirmation",
+      "confidence": 90,
+      "note": "A header és pin-kiosztás hivatalosan ellenőrzött; a pontos modul még nincs VERIFIED állapotban.",
+      "sources": [
+        "https://download.asrock.com/Manual/B650E%20PG%20Riptide%20WiFi_Korean.pdf"
+      ],
+      "evidence": [
+        "Official ASRock manual documents a 13-pin SPI_TPM_J1 header."
+      ]
+    },
+    {
+      "manufacturer": "ASROCK",
+      "model": "X670E Steel Legend",
+      "revision": "*",
+      "status": "pending",
+      "chipset": "AMD X670E",
+      "socket": "AM5",
+      "header": "SPI_TPM_J1",
+      "bus": "SPI",
+      "pinLayout": "13-pin",
+      "module": "Exact ASRock TPM module still requires model-specific support-list confirmation",
+      "confidence": 90,
+      "note": "A header hivatalosan ellenőrzött; a pontos modul még nincs VERIFIED állapotban.",
+      "sources": [
+        "https://download.asrock.com/Manual/X670E%20Steel%20Legend.pdf"
+      ],
+      "evidence": [
+        "Official ASRock manual identifies SPI_TPM_J1."
+      ]
+    }
+  ]
+}
