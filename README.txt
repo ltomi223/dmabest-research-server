@@ -1,40 +1,16 @@
-DMA Best EU Central Research V4
+DMA Best EU FREE Manufacturer Research V5
 
-FINAL ARCHITECTURE
-------------------
-Customer PC:
-  DMA Best EU Checker.exe
-       |
-       | HTTPS
-       v
-  https://research.dmabest.eu/v1/research
-       |
-       v
-  Central Research Server
-       |
-       v
-  OpenAI Responses API + web_search
-       |
-       v
-  PENDING compatibility profile
+No OpenAI API. No per-request AI token cost.
 
-The OpenAI API key exists ONLY on the server.
-It is never shipped inside the customer EXE.
+Flow:
+Checker EXE -> Render backend -> official manufacturer web search/pages -> pending profile -> cache
 
-Required server environment variables:
-  OPENAI_API_KEY
-  DMABEST_MODEL (optional, default gpt-6-astra)
+Safety:
+- Only official manufacturer domains are accepted as sources.
+- Unknown fields stay empty.
+- Automatic results are always PENDING until approved.
+- Results are cached for 30 days.
 
-Health endpoint:
-  GET /health
-
-Research endpoint:
-  POST /v1/research
-
-Recommended deployment:
-  Docker-capable service (Render, Railway, VPS, Fly.io, etc.)
-  Then point research.dmabest.eu to the deployed server.
-
-Safety rule:
-  Automatic research always returns status=pending.
-  Human approval is required before a profile becomes verified.
+Endpoints:
+GET /health
+POST /v1/research
