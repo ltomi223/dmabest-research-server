@@ -1,0 +1,11 @@
+services:
+  - type: web
+    name: dmabest-research
+    runtime: docker
+    dockerfilePath: ./Dockerfile
+    healthCheckPath: /health
+    envVars:
+      - key: OPENAI_API_KEY
+        sync: false
+      - key: DMABEST_MODEL
+        value: gpt-6-astra
