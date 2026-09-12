@@ -11,6 +11,7 @@ import (
 	"net/http"
 	"net/url"
 	"os"
+	"os/exec"
 	"path/filepath"
 	"regexp"
 	"strings"
@@ -132,15 +133,21 @@ func cacheKey(h Hardware) string {
 	sum := sha256.Sum256([]byte(raw))
 	return hex.EncodeToString(sum[:16])
 }
-func cachePath(cfg Config, h Hardware) string { return filepath.Join(cfg.CacheDir, cacheKey(h)+".json") }
+func cachePath(cfg Config, h Hardware) string {
+	return filepath.Join(cfg.CacheDir, cacheKey(h)+".json")
+}
 
 func loadCache(cfg Config, h Hardware) (ResearchResult, bool) {
 	cacheMu.Lock()
 	defer cacheMu.Unlock()
 	b, err := os.ReadFile(cachePath(cfg, h))
-	if err != nil { return ResearchResult{}, false }
+	if err != nil {
+		return ResearchResult{}, false
+	}
 	var r ResearchResult
-	if json.Unmarshal(b, &r) != nil { return ResearchResult{}, false }
+	if json.Unmarshal(b, &r) != nil {
+		return ResearchResult{}, false
+	}
 	if r.Updated != "" {
 		if t, err := time.Parse(time.RFC3339, r.Updated); err == nil && time.Since(t) > 30*24*time.Hour {
 			return ResearchResult{}, false
@@ -162,7 +169,9 @@ func httpClient() *http.Client {
 	return &http.Client{
 		Timeout: 20 * time.Second,
 		CheckRedirect: func(req *http.Request, via []*http.Request) error {
-			if len(via) >= 6 { return http.ErrUseLastResponse }
+			if len(via) >= 6 {
+				return http.ErrUseLastResponse
+			}
 			return nil
 		},
 	}
@@ -170,18 +179,114 @@ func httpClient() *http.Client {
 
 func fetch(rawURL string) (string, error) {
 	req, err := http.NewRequest("GET", rawURL, nil)
-	if err != nil { return "", err }
+	if err != nil {
+		return "", err
+	}
 	req.Header.Set("User-Agent", "Mozilla/5.0 (compatible; DMA-Best-EU-Checker/1.0)")
 	req.Header.Set("Accept-Language", "en-US,en;q=0.9")
 	resp, err := httpClient().Do(req)
-	if err != nil { return "", err }
+	if err != nil {
+		return "", err
+	}
 	defer resp.Body.Close()
 	if resp.StatusCode < 200 || resp.StatusCode >= 400 {
 		return "", fmt.Errorf("HTTP %d", resp.StatusCode)
 	}
 	b, err := io.ReadAll(io.LimitReader(resp.Body, 4<<20))
-	if err != nil { return "", err }
+	if err != nil {
+		return "", err
+	}
 	return string(b), nil
+}
+
+func fetchBytes(rawURL string) ([]byte, string, error) {
+	req, err := http.NewRequest("GET", rawURL, nil)
+	if err != nil {
+		return nil, "", err
+	}
+	req.Header.Set("User-Agent", "Mozilla/5.0 (compatible; DMA-Best-EU-Checker/2.0)")
+	req.Header.Set("Accept-Language", "en-US,en;q=0.9")
+	resp, err := httpClient().Do(req)
+	if err != nil {
+		return nil, "", err
+	}
+	defer resp.Body.Close()
+	if resp.StatusCode < 200 || resp.StatusCode >= 400 {
+		return nil, "", fmt.Errorf("HTTP %d", resp.StatusCode)
+	}
+	b, err := io.ReadAll(io.LimitReader(resp.Body, 16<<20))
+	return b, resp.Header.Get("Content-Type"), err
+}
+
+func pdfText(rawURL string) (string, error) {
+	b, _, err := fetchBytes(rawURL)
+	if err != nil {
+		return "", err
+	}
+	in, err := os.CreateTemp("", "dmabest-*.pdf")
+	if err != nil {
+		return "", err
+	}
+	inName := in.Name()
+	defer os.Remove(inName)
+	if _, err = in.Write(b); err != nil {
+		in.Close()
+		return "", err
+	}
+	in.Close()
+	outName := inName + ".txt"
+	defer os.Remove(outName)
+	cmd := exec.Command("pdftotext", "-layout", inName, outName)
+	if out, err := cmd.CombinedOutput(); err != nil {
+		return "", fmt.Errorf("pdftotext: %v: %s", err, strings.TrimSpace(string(out)))
+	}
+	text, err := os.ReadFile(outName)
+	if err != nil {
+		return "", err
+	}
+	return string(text), nil
+}
+
+func slugModel(s string) string {
+	s = strings.ToUpper(strings.TrimSpace(s))
+	s = regexp.MustCompile(`[^A-Z0-9]+`).ReplaceAllString(s, "-")
+	return strings.Trim(s, "-")
+}
+
+func directOfficialCandidates(maker, model string) []string {
+	slug := slugModel(model)
+	if slug == "" {
+		return nil
+	}
+	switch maker {
+	case "GIGABYTE":
+		return []string{
+			"https://www.gigabyte.com/Motherboard/" + slug + "-rev-10/sp",
+			"https://www.gigabyte.com/Motherboard/" + slug + "-rev-10/support",
+			"https://www.gigabyte.com/Motherboard/" + slug + "-rev-11/sp",
+			"https://www.gigabyte.com/Motherboard/" + slug + "-rev-11/support",
+		}
+	case "ASUS":
+		return []string{"https://www.asus.com/motherboards-components/motherboards/prime/" + strings.ToLower(slug) + "/techspec/"}
+	}
+	return nil
+}
+
+func extractOfficialPDFLinks(page, domain string) []string {
+	re := regexp.MustCompile(`(?i)https?://[^"'<> ]+\.pdf(?:\?[^"'<> ]*)?`)
+	var out []string
+	seen := map[string]bool{}
+	for _, u := range re.FindAllString(html.UnescapeString(page), -1) {
+		lu := strings.ToLower(u)
+		if (strings.Contains(lu, domain) || strings.Contains(lu, "download."+domain)) && !seen[u] {
+			seen[u] = true
+			out = append(out, u)
+			if len(out) >= 4 {
+				break
+			}
+		}
+	}
+	return out
 }
 
 func stripHTML(s string) string {
@@ -195,36 +300,51 @@ func stripHTML(s string) string {
 
 func searchOfficial(maker, model string) []string {
 	domain := officialDomain(maker)
-	if domain == "" { return nil }
-	q := fmt.Sprintf(`site:%s "%s" TPM`, domain, model)
+	if domain == "" {
+		return nil
+	}
+	out := directOfficialCandidates(maker, model)
+	seen := map[string]bool{}
+	var clean []string
+	for _, u := range out {
+		if !seen[u] {
+			seen[u] = true
+			clean = append(clean, u)
+		}
+	}
+
+	q := fmt.Sprintf(`site:%s "%s" motherboard manual TPM`, domain, model)
 	searchURL := "https://html.duckduckgo.com/html/?q=" + url.QueryEscape(q)
 	body, err := fetch(searchURL)
-	if err != nil { return nil }
-
-	re := regexp.MustCompile(`(?is)href="([^"]+)"[^>]*class="[^"]*result__a[^"]*"`)
-	matches := re.FindAllStringSubmatch(body, -1)
-	var out []string
-	seen := map[string]bool{}
-	for _, m := range matches {
-		u := html.UnescapeString(m[1])
-		if strings.Contains(u, "uddg=") {
-			if pu, err := url.Parse(u); err == nil {
-				if t := pu.Query().Get("uddg"); t != "" { u = t }
+	if err == nil {
+		re := regexp.MustCompile(`(?is)href="([^"]+)"[^>]*class="[^"]*result__a[^"]*"`)
+		for _, m := range re.FindAllStringSubmatch(body, -1) {
+			u := html.UnescapeString(m[1])
+			if strings.Contains(u, "uddg=") {
+				if pu, e := url.Parse(u); e == nil {
+					if t := pu.Query().Get("uddg"); t != "" {
+						u = t
+					}
+				}
+			}
+			if strings.Contains(strings.ToLower(u), domain) && !seen[u] {
+				seen[u] = true
+				clean = append(clean, u)
+			}
+			if len(clean) >= 10 {
+				break
 			}
 		}
-		if strings.Contains(strings.ToLower(u), domain) && !seen[u] {
-			seen[u] = true
-			out = append(out, u)
-		}
-		if len(out) >= 5 { break }
 	}
-	return out
+	return clean
 }
 
 func anyMatch(text string, patterns ...string) string {
 	for _, p := range patterns {
 		re := regexp.MustCompile(`(?i)` + p)
-		if m := re.FindString(text); m != "" { return m }
+		if m := re.FindString(text); m != "" {
+			return m
+		}
 	}
 	return ""
 }
@@ -239,29 +359,49 @@ func extractFromText(text string) (chipset, socket, header, bus, pin, module, bi
 		`Z890`, `B860`, `H810`, `Z790`, `B760`, `H770`, `H610`, `Z690`, `B660`, `H670`,
 	}
 	for _, c := range chipsets {
-		if strings.Contains(upper, c) { chipset = c; break }
+		if strings.Contains(upper, c) {
+			chipset = c
+			break
+		}
 	}
-	if chipset != "" { evidence = append(evidence, "Chipset found on official page: "+chipset) }
+	if chipset != "" {
+		evidence = append(evidence, "Chipset found on official page: "+chipset)
+	}
 
-	sockets := []string{`AM5`,`AM4`,`LGA1851`,`LGA1700`,`LGA1200`}
+	sockets := []string{`AM5`, `AM4`, `LGA1851`, `LGA1700`, `LGA1200`}
 	for _, s := range sockets {
-		if strings.Contains(upper, s) { socket = s; break }
+		if strings.Contains(upper, s) {
+			socket = s
+			break
+		}
 	}
-	if socket != "" { evidence = append(evidence, "Socket found on official page: "+socket) }
+	if socket != "" {
+		evidence = append(evidence, "Socket found on official page: "+socket)
+	}
 
 	if regexp.MustCompile(`(?i)\bSPI[_ -]?TPM\b|TPM HEADER|TRUSTED PLATFORM MODULE HEADER`).MatchString(t) {
 		header = "TPM header"
 	}
 	if regexp.MustCompile(`(?i)\bSPI[_ -]?TPM\b|\bSPI\b.{0,80}\bTPM\b|\bTPM\b.{0,80}\bSPI\b`).MatchString(t) {
 		bus = "SPI"
-		if header == "" { header = "SPI_TPM / TPM header" }
+		if header == "" {
+			header = "SPI_TPM / TPM header"
+		}
 	}
 	if regexp.MustCompile(`(?i)\bJTPM1\b|\bLPC\b.{0,80}\bTPM\b|\bTPM\b.{0,80}\bLPC\b`).MatchString(t) {
-		if bus == "" { bus = "LPC" }
-		if header == "" { header = "JTPM1 / TPM header" }
+		if bus == "" {
+			bus = "LPC"
+		}
+		if header == "" {
+			header = "JTPM1 / TPM header"
+		}
 	}
-	if header != "" { evidence = append(evidence, "External TPM header reference found on official page") }
-	if bus != "" { evidence = append(evidence, "TPM bus reference found: "+bus) }
+	if header != "" {
+		evidence = append(evidence, "External TPM header reference found on official page")
+	}
+	if bus != "" {
+		evidence = append(evidence, "TPM bus reference found: "+bus)
+	}
 
 	pinPatterns := []string{
 		`14\s*-\s*1\s*(?:pin|pins)?`,
@@ -308,7 +448,10 @@ func dedupe(in []string) []string {
 	var out []string
 	for _, s := range in {
 		s = strings.TrimSpace(s)
-		if s != "" && !seen[s] { seen[s] = true; out = append(out, s) }
+		if s != "" && !seen[s] {
+			seen[s] = true
+			out = append(out, s)
+		}
 	}
 	return out
 }
@@ -320,15 +463,21 @@ func missingFields(r *ResearchResult) {
 		{"busz", r.Bus}, {"pin-kiosztás", r.PinLayout}, {"modul", r.Module},
 	}
 	for _, c := range checks {
-		if strings.TrimSpace(c.v) == "" { r.Missing = append(r.Missing, c.n) }
+		if strings.TrimSpace(c.v) == "" {
+			r.Missing = append(r.Missing, c.n)
+		}
 	}
 }
 
 func researchFree(h Hardware) ResearchResult {
 	maker := normMaker(h.Manufacturer)
-	if maker == "" { maker = normMaker(h.SystemManufacturer) }
+	if maker == "" {
+		maker = normMaker(h.SystemManufacturer)
+	}
 	model := strings.TrimSpace(h.Product)
-	if model == "" { model = h.SystemModel }
+	if model == "" {
+		model = h.SystemModel
+	}
 
 	r := ResearchResult{
 		Status: "pending", Manufacturer: maker, Model: model,
@@ -336,29 +485,66 @@ func researchFree(h Hardware) ResearchResult {
 		Note: "Automatikus, költségmentes gyártói webkutatás. Emberi jóváhagyás nélkül nem válik ellenőrzött profillá.",
 	}
 	urls := searchOfficial(maker, model)
+	domain := officialDomain(maker)
+	var pdfs []string
+	applyText := func(text, source string) {
+		c, s, hdr, b, p, m, bios, ev := extractFromText(text)
+		if c == "" && s == "" && hdr == "" && b == "" && p == "" && m == "" && bios == "" {
+			return
+		}
+		if r.Chipset == "" {
+			r.Chipset = c
+		}
+		if r.Socket == "" {
+			r.Socket = s
+		}
+		if r.Header == "" {
+			r.Header = hdr
+		}
+		if r.Bus == "" {
+			r.Bus = b
+		}
+		if r.PinLayout == "" {
+			r.PinLayout = p
+		}
+		if r.Module == "" {
+			r.Module = m
+		}
+		if r.BIOSHint == "" {
+			r.BIOSHint = bios
+		}
+		r.Evidence = append(r.Evidence, ev...)
+		r.Sources = append(r.Sources, source)
+	}
 	for _, u := range urls {
 		page, err := fetch(u)
-		if err != nil { continue }
-		text := stripHTML(page)
-		c,s,hdr,b,p,m,bios,ev := extractFromText(text)
-		if r.Chipset=="" { r.Chipset=c }
-		if r.Socket=="" { r.Socket=s }
-		if r.Header=="" { r.Header=hdr }
-		if r.Bus=="" { r.Bus=b }
-		if r.PinLayout=="" { r.PinLayout=p }
-		if r.Module=="" { r.Module=m }
-		if r.BIOSHint=="" { r.BIOSHint=bios }
-		r.Evidence = append(r.Evidence, ev...)
-		r.Sources = append(r.Sources, u)
+		if err != nil {
+			continue
+		}
+		applyText(stripHTML(page), u)
+		pdfs = append(pdfs, extractOfficialPDFLinks(page, domain)...)
+	}
+	for _, u := range dedupe(pdfs) {
+		text, err := pdfText(u)
+		if err != nil {
+			continue
+		}
+		applyText(text, u)
 	}
 	r.Sources = dedupe(r.Sources)
 	r.Evidence = dedupe(r.Evidence)
-	if len(r.Sources) > 0 { r.Confidence += 25 }
-	fields := []string{r.Chipset,r.Socket,r.Header,r.Bus,r.PinLayout,r.Module,r.BIOSHint}
-	for _, f := range fields {
-		if f != "" { r.Confidence += 8 }
+	if len(r.Sources) > 0 {
+		r.Confidence += 25
 	}
-	if r.Confidence > 90 { r.Confidence = 90 }
+	fields := []string{r.Chipset, r.Socket, r.Header, r.Bus, r.PinLayout, r.Module, r.BIOSHint}
+	for _, f := range fields {
+		if f != "" {
+			r.Confidence += 8
+		}
+	}
+	if r.Confidence > 90 {
+		r.Confidence = 90
+	}
 	missingFields(&r)
 	return r
 }
@@ -378,24 +564,32 @@ func main() {
 		cors(w)
 		w.Header().Set("Content-Type", "application/json")
 		_ = json.NewEncoder(w).Encode(map[string]any{
-			"ok": true,
-			"service": "DMA Best EU Free Manufacturer Research",
+			"ok":         true,
+			"service":    "DMA Best EU Free Manufacturer Research",
 			"aiRequired": false,
 		})
 	})
 
 	mux.HandleFunc("/v1/research", func(w http.ResponseWriter, r *http.Request) {
 		cors(w)
-		if r.Method == "OPTIONS" { w.WriteHeader(http.StatusNoContent); return }
-		if r.Method != "POST" { http.Error(w, "method", http.StatusMethodNotAllowed); return }
+		if r.Method == "OPTIONS" {
+			w.WriteHeader(http.StatusNoContent)
+			return
+		}
+		if r.Method != "POST" {
+			http.Error(w, "method", http.StatusMethodNotAllowed)
+			return
+		}
 
 		var h Hardware
 		if err := json.NewDecoder(io.LimitReader(r.Body, 1<<20)).Decode(&h); err != nil {
-			http.Error(w, "bad json", http.StatusBadRequest); return
+			http.Error(w, "bad json", http.StatusBadRequest)
+			return
 		}
 		if cached, ok := loadCache(cfg, h); ok {
 			w.Header().Set("Content-Type", "application/json")
-			_ = json.NewEncoder(w).Encode(cached); return
+			_ = json.NewEncoder(w).Encode(cached)
+			return
 		}
 
 		res := researchFree(h)

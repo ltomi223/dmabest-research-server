@@ -4,6 +4,7 @@ COPY main.go .
 RUN CGO_ENABLED=0 GOOS=linux go build -ldflags="-s -w" -o /out/dmabest-research-server main.go
 
 FROM alpine:3.20
+RUN apk add --no-cache poppler-utils ca-certificates
 RUN adduser -D -u 10001 appuser
 WORKDIR /app
 COPY --from=build /out/dmabest-research-server /app/dmabest-research-server
