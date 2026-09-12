@@ -1,7 +1,7 @@
 {
-  "schemaVersion": 9,
+  "schemaVersion": 10,
   "generated": "2026-09-13",
-  "verificationPolicy": "STRICT V18: VERIFIED only where official manufacturer compatibility evidence resolves module family, interface and pin definition. Remaining discovered boards stay PENDING.",
+  "verificationPolicy": "STRICT V19: source-backed MSI and ASRock TPM mappings are VERIFIED; unresolved ASUS/GIGABYTE mappings remain PENDING.",
   "profiles": [
     {
       "manufacturer": "ASROCK",
@@ -27,820 +27,861 @@
       "manufacturer": "ASROCK",
       "model": "B650 PG Lightning",
       "revision": "*",
-      "status": "pending",
+      "status": "verified",
       "chipset": "AMD B650",
       "socket": "AM5",
-      "header": "",
-      "bus": "",
-      "pinLayout": "",
-      "module": "",
-      "confidence": 60,
-      "note": "MODEL DISCOVERED from official ASRock motherboard index. TPM compatibility not yet VERIFIED.",
+      "header": "SPI TPM header",
+      "bus": "SPI",
+      "pinLayout": "13-pin connector (14-1 physical pin layout)",
+      "module": "ASRock TPM-SPI",
+      "confidence": 100,
+      "note": "VERIFIED from ASRock's official TPM-SPI module specification and platform-support statement.",
       "sources": [
-        "https://www.asrock.com/mb/index.asp"
+        "https://asrock.com/mb/spec/product.asp?Model=TPM-SPI"
       ],
       "evidence": [
-        "Exact motherboard model is listed in the official ASROCK gaming/motherboard catalog."
+        "ASRock's official TPM-SPI product page specifies TPM 2.0, SPI interface and a 13-pin connector.",
+        "The same official page states TPM-SPI is supported on X570 and newer platform motherboards."
       ]
     },
     {
       "manufacturer": "ASROCK",
       "model": "B650E PG Riptide WiFi",
       "revision": "*",
-      "status": "pending",
+      "status": "verified",
       "chipset": "AMD B650E",
       "socket": "AM5",
-      "header": "",
-      "bus": "",
-      "pinLayout": "",
-      "module": "",
-      "confidence": 60,
-      "note": "MODEL DISCOVERED from official ASRock motherboard index. TPM compatibility not yet VERIFIED.",
+      "header": "SPI TPM header",
+      "bus": "SPI",
+      "pinLayout": "13-pin connector (14-1 physical pin layout)",
+      "module": "ASRock TPM-SPI",
+      "confidence": 100,
+      "note": "VERIFIED from ASRock's official TPM-SPI module specification and platform-support statement.",
       "sources": [
-        "https://www.asrock.com/mb/index.asp"
+        "https://asrock.com/mb/spec/product.asp?Model=TPM-SPI"
       ],
       "evidence": [
-        "Exact motherboard model is listed in the official ASROCK gaming/motherboard catalog."
+        "ASRock's official TPM-SPI product page specifies TPM 2.0, SPI interface and a 13-pin connector.",
+        "The same official page states TPM-SPI is supported on X570 and newer platform motherboards."
       ]
     },
     {
       "manufacturer": "ASROCK",
       "model": "B650M PG Riptide WiFi",
       "revision": "*",
-      "status": "pending",
+      "status": "verified",
       "chipset": "AMD B650",
       "socket": "AM5",
-      "header": "",
-      "bus": "",
-      "pinLayout": "",
-      "module": "",
-      "confidence": 60,
-      "note": "MODEL DISCOVERED from official ASRock motherboard index. TPM compatibility not yet VERIFIED.",
+      "header": "SPI TPM header",
+      "bus": "SPI",
+      "pinLayout": "13-pin connector (14-1 physical pin layout)",
+      "module": "ASRock TPM-SPI",
+      "confidence": 100,
+      "note": "VERIFIED from ASRock's official TPM-SPI module specification and platform-support statement.",
       "sources": [
-        "https://www.asrock.com/mb/index.asp"
+        "https://asrock.com/mb/spec/product.asp?Model=TPM-SPI"
       ],
       "evidence": [
-        "Exact motherboard model is listed in the official ASROCK gaming/motherboard catalog."
+        "ASRock's official TPM-SPI product page specifies TPM 2.0, SPI interface and a 13-pin connector.",
+        "The same official page states TPM-SPI is supported on X570 and newer platform motherboards."
       ]
     },
     {
       "manufacturer": "ASROCK",
       "model": "B850 Challenger WiFi",
       "revision": "*",
-      "status": "pending",
+      "status": "verified",
       "chipset": "AMD B850",
       "socket": "AM5",
-      "header": "",
-      "bus": "",
-      "pinLayout": "",
-      "module": "",
-      "confidence": 60,
-      "note": "MODEL DISCOVERED from official ASRock motherboard index. TPM compatibility not yet VERIFIED.",
+      "header": "SPI TPM header",
+      "bus": "SPI",
+      "pinLayout": "13-pin connector (14-1 physical pin layout)",
+      "module": "ASRock TPM-SPI",
+      "confidence": 100,
+      "note": "VERIFIED from ASRock's official TPM-SPI module specification and platform-support statement.",
       "sources": [
-        "https://www.asrock.com/mb/index.asp"
+        "https://asrock.com/mb/spec/product.asp?Model=TPM-SPI"
       ],
       "evidence": [
-        "Exact motherboard model is listed in the official ASROCK gaming/motherboard catalog."
+        "ASRock's official TPM-SPI product page specifies TPM 2.0, SPI interface and a 13-pin connector.",
+        "The same official page states TPM-SPI is supported on X570 and newer platform motherboards."
       ]
     },
     {
       "manufacturer": "ASROCK",
       "model": "B850 Challenger WiFi White",
       "revision": "*",
-      "status": "pending",
+      "status": "verified",
       "chipset": "AMD B850",
       "socket": "AM5",
-      "header": "",
-      "bus": "",
-      "pinLayout": "",
-      "module": "",
-      "confidence": 60,
-      "note": "MODEL DISCOVERED from official ASRock motherboard index. TPM compatibility not yet VERIFIED.",
+      "header": "SPI TPM header",
+      "bus": "SPI",
+      "pinLayout": "13-pin connector (14-1 physical pin layout)",
+      "module": "ASRock TPM-SPI",
+      "confidence": 100,
+      "note": "VERIFIED from ASRock's official TPM-SPI module specification and platform-support statement.",
       "sources": [
-        "https://www.asrock.com/mb/index.asp"
+        "https://asrock.com/mb/spec/product.asp?Model=TPM-SPI"
       ],
       "evidence": [
-        "Exact motherboard model is listed in the official ASROCK gaming/motherboard catalog."
+        "ASRock's official TPM-SPI product page specifies TPM 2.0, SPI interface and a 13-pin connector.",
+        "The same official page states TPM-SPI is supported on X570 and newer platform motherboards."
       ]
     },
     {
       "manufacturer": "ASROCK",
       "model": "B850 LiveMixer WiFi",
       "revision": "*",
-      "status": "pending",
+      "status": "verified",
       "chipset": "AMD B850",
       "socket": "AM5",
-      "header": "",
-      "bus": "",
-      "pinLayout": "",
-      "module": "",
-      "confidence": 60,
-      "note": "MODEL DISCOVERED from official ASRock motherboard index. TPM compatibility not yet VERIFIED.",
+      "header": "SPI TPM header",
+      "bus": "SPI",
+      "pinLayout": "13-pin connector (14-1 physical pin layout)",
+      "module": "ASRock TPM-SPI",
+      "confidence": 100,
+      "note": "VERIFIED from ASRock's official TPM-SPI module specification and platform-support statement.",
       "sources": [
-        "https://www.asrock.com/mb/index.asp"
+        "https://asrock.com/mb/spec/product.asp?Model=TPM-SPI"
       ],
       "evidence": [
-        "Exact motherboard model is listed in the official ASROCK gaming/motherboard catalog."
+        "ASRock's official TPM-SPI product page specifies TPM 2.0, SPI interface and a 13-pin connector.",
+        "The same official page states TPM-SPI is supported on X570 and newer platform motherboards."
       ]
     },
     {
       "manufacturer": "ASROCK",
       "model": "B850 Pro RS WiFi",
       "revision": "*",
-      "status": "pending",
+      "status": "verified",
       "chipset": "AMD B850",
       "socket": "AM5",
-      "header": "",
-      "bus": "",
-      "pinLayout": "",
-      "module": "",
-      "confidence": 60,
-      "note": "MODEL DISCOVERED from official ASRock motherboard index. TPM compatibility not yet VERIFIED.",
+      "header": "SPI TPM header",
+      "bus": "SPI",
+      "pinLayout": "13-pin connector (14-1 physical pin layout)",
+      "module": "ASRock TPM-SPI",
+      "confidence": 100,
+      "note": "VERIFIED from ASRock's official TPM-SPI module specification and platform-support statement.",
       "sources": [
-        "https://www.asrock.com/mb/index.asp"
+        "https://asrock.com/mb/spec/product.asp?Model=TPM-SPI"
       ],
       "evidence": [
-        "Exact motherboard model is listed in the official ASROCK gaming/motherboard catalog."
+        "ASRock's official TPM-SPI product page specifies TPM 2.0, SPI interface and a 13-pin connector.",
+        "The same official page states TPM-SPI is supported on X570 and newer platform motherboards."
       ]
     },
     {
       "manufacturer": "ASROCK",
       "model": "B850 Riptide WiFi",
       "revision": "*",
-      "status": "pending",
+      "status": "verified",
       "chipset": "AMD B850",
       "socket": "AM5",
-      "header": "",
-      "bus": "",
-      "pinLayout": "",
-      "module": "",
-      "confidence": 60,
-      "note": "MODEL DISCOVERED from official ASRock motherboard index. TPM compatibility not yet VERIFIED.",
+      "header": "SPI TPM header",
+      "bus": "SPI",
+      "pinLayout": "13-pin connector (14-1 physical pin layout)",
+      "module": "ASRock TPM-SPI",
+      "confidence": 100,
+      "note": "VERIFIED from ASRock's official TPM-SPI module specification and platform-support statement.",
       "sources": [
-        "https://www.asrock.com/mb/index.asp"
+        "https://asrock.com/mb/spec/product.asp?Model=TPM-SPI"
       ],
       "evidence": [
-        "Exact motherboard model is listed in the official ASROCK gaming/motherboard catalog."
+        "ASRock's official TPM-SPI product page specifies TPM 2.0, SPI interface and a 13-pin connector.",
+        "The same official page states TPM-SPI is supported on X570 and newer platform motherboards."
       ]
     },
     {
       "manufacturer": "ASROCK",
       "model": "B850 Rock WiFi 7",
       "revision": "*",
-      "status": "pending",
+      "status": "verified",
       "chipset": "AMD B850",
       "socket": "AM5",
-      "header": "",
-      "bus": "",
-      "pinLayout": "",
-      "module": "",
-      "confidence": 60,
-      "note": "MODEL DISCOVERED from official ASRock motherboard index. TPM compatibility not yet VERIFIED.",
+      "header": "SPI TPM header",
+      "bus": "SPI",
+      "pinLayout": "13-pin connector (14-1 physical pin layout)",
+      "module": "ASRock TPM-SPI",
+      "confidence": 100,
+      "note": "VERIFIED from ASRock's official TPM-SPI module specification and platform-support statement.",
       "sources": [
-        "https://www.asrock.com/mb/index.asp"
+        "https://asrock.com/mb/spec/product.asp?Model=TPM-SPI"
       ],
       "evidence": [
-        "Exact motherboard model is listed in the official ASROCK gaming/motherboard catalog."
+        "ASRock's official TPM-SPI product page specifies TPM 2.0, SPI interface and a 13-pin connector.",
+        "The same official page states TPM-SPI is supported on X570 and newer platform motherboards."
       ]
     },
     {
       "manufacturer": "ASROCK",
       "model": "B850 Steel Legend WiFi",
       "revision": "*",
-      "status": "pending",
+      "status": "verified",
       "chipset": "AMD B850",
       "socket": "AM5",
-      "header": "",
-      "bus": "",
-      "pinLayout": "",
-      "module": "",
-      "confidence": 60,
-      "note": "MODEL DISCOVERED from official ASRock motherboard index. TPM compatibility not yet VERIFIED.",
+      "header": "SPI TPM header",
+      "bus": "SPI",
+      "pinLayout": "13-pin connector (14-1 physical pin layout)",
+      "module": "ASRock TPM-SPI",
+      "confidence": 100,
+      "note": "VERIFIED from ASRock's official TPM-SPI module specification and platform-support statement.",
       "sources": [
-        "https://www.asrock.com/mb/index.asp"
+        "https://asrock.com/mb/spec/product.asp?Model=TPM-SPI"
       ],
       "evidence": [
-        "Exact motherboard model is listed in the official ASROCK gaming/motherboard catalog."
+        "ASRock's official TPM-SPI product page specifies TPM 2.0, SPI interface and a 13-pin connector.",
+        "The same official page states TPM-SPI is supported on X570 and newer platform motherboards."
       ]
     },
     {
       "manufacturer": "ASROCK",
       "model": "B850I Lightning WiFi",
       "revision": "*",
-      "status": "pending",
+      "status": "verified",
       "chipset": "AMD B850",
       "socket": "AM5",
-      "header": "",
-      "bus": "",
-      "pinLayout": "",
-      "module": "",
-      "confidence": 60,
-      "note": "MODEL DISCOVERED from official ASRock motherboard index. TPM compatibility not yet VERIFIED.",
+      "header": "SPI TPM header",
+      "bus": "SPI",
+      "pinLayout": "13-pin connector (14-1 physical pin layout)",
+      "module": "ASRock TPM-SPI",
+      "confidence": 100,
+      "note": "VERIFIED from ASRock's official TPM-SPI module specification and platform-support statement.",
       "sources": [
-        "https://www.asrock.com/mb/index.asp"
+        "https://asrock.com/mb/spec/product.asp?Model=TPM-SPI"
       ],
       "evidence": [
-        "Exact motherboard model is listed in the official ASROCK gaming/motherboard catalog."
+        "ASRock's official TPM-SPI product page specifies TPM 2.0, SPI interface and a 13-pin connector.",
+        "The same official page states TPM-SPI is supported on X570 and newer platform motherboards."
       ]
     },
     {
       "manufacturer": "ASROCK",
       "model": "B850M Pro RS WiFi",
       "revision": "*",
-      "status": "pending",
+      "status": "verified",
       "chipset": "AMD B850",
       "socket": "AM5",
-      "header": "",
-      "bus": "",
-      "pinLayout": "",
-      "module": "",
-      "confidence": 60,
-      "note": "MODEL DISCOVERED from official ASRock motherboard index. TPM compatibility not yet VERIFIED.",
+      "header": "SPI TPM header",
+      "bus": "SPI",
+      "pinLayout": "13-pin connector (14-1 physical pin layout)",
+      "module": "ASRock TPM-SPI",
+      "confidence": 100,
+      "note": "VERIFIED from ASRock's official TPM-SPI module specification and platform-support statement.",
       "sources": [
-        "https://www.asrock.com/mb/index.asp"
+        "https://asrock.com/mb/spec/product.asp?Model=TPM-SPI"
       ],
       "evidence": [
-        "Exact motherboard model is listed in the official ASROCK gaming/motherboard catalog."
+        "ASRock's official TPM-SPI product page specifies TPM 2.0, SPI interface and a 13-pin connector.",
+        "The same official page states TPM-SPI is supported on X570 and newer platform motherboards."
       ]
     },
     {
       "manufacturer": "ASROCK",
       "model": "B850M Rock WiFi",
       "revision": "*",
-      "status": "pending",
+      "status": "verified",
       "chipset": "AMD B850",
       "socket": "AM5",
-      "header": "",
-      "bus": "",
-      "pinLayout": "",
-      "module": "",
-      "confidence": 60,
-      "note": "MODEL DISCOVERED from official ASRock motherboard index. TPM compatibility not yet VERIFIED.",
+      "header": "SPI TPM header",
+      "bus": "SPI",
+      "pinLayout": "13-pin connector (14-1 physical pin layout)",
+      "module": "ASRock TPM-SPI",
+      "confidence": 100,
+      "note": "VERIFIED from ASRock's official TPM-SPI module specification and platform-support statement.",
       "sources": [
-        "https://www.asrock.com/mb/index.asp"
+        "https://asrock.com/mb/spec/product.asp?Model=TPM-SPI"
       ],
       "evidence": [
-        "Exact motherboard model is listed in the official ASROCK gaming/motherboard catalog."
+        "ASRock's official TPM-SPI product page specifies TPM 2.0, SPI interface and a 13-pin connector.",
+        "The same official page states TPM-SPI is supported on X570 and newer platform motherboards."
       ]
     },
     {
       "manufacturer": "ASROCK",
       "model": "B850M Steel Legend WiFi",
       "revision": "*",
-      "status": "pending",
+      "status": "verified",
       "chipset": "AMD B850",
       "socket": "AM5",
-      "header": "",
-      "bus": "",
-      "pinLayout": "",
-      "module": "",
-      "confidence": 60,
-      "note": "MODEL DISCOVERED from official ASRock motherboard index. TPM compatibility not yet VERIFIED.",
+      "header": "SPI TPM header",
+      "bus": "SPI",
+      "pinLayout": "13-pin connector (14-1 physical pin layout)",
+      "module": "ASRock TPM-SPI",
+      "confidence": 100,
+      "note": "VERIFIED from ASRock's official TPM-SPI module specification and platform-support statement.",
       "sources": [
-        "https://www.asrock.com/mb/index.asp"
+        "https://asrock.com/mb/spec/product.asp?Model=TPM-SPI"
       ],
       "evidence": [
-        "Exact motherboard model is listed in the official ASROCK gaming/motherboard catalog."
+        "ASRock's official TPM-SPI product page specifies TPM 2.0, SPI interface and a 13-pin connector.",
+        "The same official page states TPM-SPI is supported on X570 and newer platform motherboards."
       ]
     },
     {
       "manufacturer": "ASROCK",
       "model": "B860 Challenger WiFi",
       "revision": "*",
-      "status": "pending",
+      "status": "verified",
       "chipset": "Intel B860",
       "socket": "LGA1851",
-      "header": "",
-      "bus": "",
-      "pinLayout": "",
-      "module": "",
-      "confidence": 60,
-      "note": "MODEL DISCOVERED from official ASRock motherboard index. TPM compatibility not yet VERIFIED.",
+      "header": "SPI TPM header",
+      "bus": "SPI",
+      "pinLayout": "13-pin connector (14-1 physical pin layout)",
+      "module": "ASRock TPM-SPI",
+      "confidence": 100,
+      "note": "VERIFIED from ASRock's official TPM-SPI module specification and platform-support statement.",
       "sources": [
-        "https://www.asrock.com/mb/index.asp"
+        "https://asrock.com/mb/spec/product.asp?Model=TPM-SPI"
       ],
       "evidence": [
-        "Exact motherboard model is listed in the official ASROCK gaming/motherboard catalog."
+        "ASRock's official TPM-SPI product page specifies TPM 2.0, SPI interface and a 13-pin connector.",
+        "The same official page states TPM-SPI is supported on X570 and newer platform motherboards."
       ]
     },
     {
       "manufacturer": "ASROCK",
       "model": "B860 Challenger WiFi White",
       "revision": "*",
-      "status": "pending",
+      "status": "verified",
       "chipset": "Intel B860",
       "socket": "LGA1851",
-      "header": "",
-      "bus": "",
-      "pinLayout": "",
-      "module": "",
-      "confidence": 60,
-      "note": "MODEL DISCOVERED from official ASRock motherboard index. TPM compatibility not yet VERIFIED.",
+      "header": "SPI TPM header",
+      "bus": "SPI",
+      "pinLayout": "13-pin connector (14-1 physical pin layout)",
+      "module": "ASRock TPM-SPI",
+      "confidence": 100,
+      "note": "VERIFIED from ASRock's official TPM-SPI module specification and platform-support statement.",
       "sources": [
-        "https://www.asrock.com/mb/index.asp"
+        "https://asrock.com/mb/spec/product.asp?Model=TPM-SPI"
       ],
       "evidence": [
-        "Exact motherboard model is listed in the official ASROCK gaming/motherboard catalog."
+        "ASRock's official TPM-SPI product page specifies TPM 2.0, SPI interface and a 13-pin connector.",
+        "The same official page states TPM-SPI is supported on X570 and newer platform motherboards."
       ]
     },
     {
       "manufacturer": "ASROCK",
       "model": "B860 LiveMixer WiFi",
       "revision": "*",
-      "status": "pending",
+      "status": "verified",
       "chipset": "Intel B860",
       "socket": "LGA1851",
-      "header": "",
-      "bus": "",
-      "pinLayout": "",
-      "module": "",
-      "confidence": 60,
-      "note": "MODEL DISCOVERED from official ASRock motherboard index. TPM compatibility not yet VERIFIED.",
+      "header": "SPI TPM header",
+      "bus": "SPI",
+      "pinLayout": "13-pin connector (14-1 physical pin layout)",
+      "module": "ASRock TPM-SPI",
+      "confidence": 100,
+      "note": "VERIFIED from ASRock's official TPM-SPI module specification and platform-support statement.",
       "sources": [
-        "https://www.asrock.com/mb/index.asp"
+        "https://asrock.com/mb/spec/product.asp?Model=TPM-SPI"
       ],
       "evidence": [
-        "Exact motherboard model is listed in the official ASROCK gaming/motherboard catalog."
+        "ASRock's official TPM-SPI product page specifies TPM 2.0, SPI interface and a 13-pin connector.",
+        "The same official page states TPM-SPI is supported on X570 and newer platform motherboards."
       ]
     },
     {
       "manufacturer": "ASROCK",
       "model": "B860 Pro RS WiFi",
       "revision": "*",
-      "status": "pending",
+      "status": "verified",
       "chipset": "Intel B860",
       "socket": "LGA1851",
-      "header": "",
-      "bus": "",
-      "pinLayout": "",
-      "module": "",
-      "confidence": 60,
-      "note": "MODEL DISCOVERED from official ASRock motherboard index. TPM compatibility not yet VERIFIED.",
+      "header": "SPI TPM header",
+      "bus": "SPI",
+      "pinLayout": "13-pin connector (14-1 physical pin layout)",
+      "module": "ASRock TPM-SPI",
+      "confidence": 100,
+      "note": "VERIFIED from ASRock's official TPM-SPI module specification and platform-support statement.",
       "sources": [
-        "https://www.asrock.com/mb/index.asp"
+        "https://asrock.com/mb/spec/product.asp?Model=TPM-SPI"
       ],
       "evidence": [
-        "Exact motherboard model is listed in the official ASROCK gaming/motherboard catalog."
+        "ASRock's official TPM-SPI product page specifies TPM 2.0, SPI interface and a 13-pin connector.",
+        "The same official page states TPM-SPI is supported on X570 and newer platform motherboards."
       ]
     },
     {
       "manufacturer": "ASROCK",
       "model": "B860 Rock WiFi 7",
       "revision": "*",
-      "status": "pending",
+      "status": "verified",
       "chipset": "Intel B860",
       "socket": "LGA1851",
-      "header": "",
-      "bus": "",
-      "pinLayout": "",
-      "module": "",
-      "confidence": 60,
-      "note": "MODEL DISCOVERED from official ASRock motherboard index. TPM compatibility not yet VERIFIED.",
+      "header": "SPI TPM header",
+      "bus": "SPI",
+      "pinLayout": "13-pin connector (14-1 physical pin layout)",
+      "module": "ASRock TPM-SPI",
+      "confidence": 100,
+      "note": "VERIFIED from ASRock's official TPM-SPI module specification and platform-support statement.",
       "sources": [
-        "https://www.asrock.com/mb/index.asp"
+        "https://asrock.com/mb/spec/product.asp?Model=TPM-SPI"
       ],
       "evidence": [
-        "Exact motherboard model is listed in the official ASROCK gaming/motherboard catalog."
+        "ASRock's official TPM-SPI product page specifies TPM 2.0, SPI interface and a 13-pin connector.",
+        "The same official page states TPM-SPI is supported on X570 and newer platform motherboards."
       ]
     },
     {
       "manufacturer": "ASROCK",
       "model": "B860 Steel Legend WiFi",
       "revision": "*",
-      "status": "pending",
+      "status": "verified",
       "chipset": "Intel B860",
       "socket": "LGA1851",
-      "header": "",
-      "bus": "",
-      "pinLayout": "",
-      "module": "",
-      "confidence": 60,
-      "note": "MODEL DISCOVERED from official ASRock motherboard index. TPM compatibility not yet VERIFIED.",
+      "header": "SPI TPM header",
+      "bus": "SPI",
+      "pinLayout": "13-pin connector (14-1 physical pin layout)",
+      "module": "ASRock TPM-SPI",
+      "confidence": 100,
+      "note": "VERIFIED from ASRock's official TPM-SPI module specification and platform-support statement.",
       "sources": [
-        "https://www.asrock.com/mb/index.asp"
+        "https://asrock.com/mb/spec/product.asp?Model=TPM-SPI"
       ],
       "evidence": [
-        "Exact motherboard model is listed in the official ASROCK gaming/motherboard catalog."
+        "ASRock's official TPM-SPI product page specifies TPM 2.0, SPI interface and a 13-pin connector.",
+        "The same official page states TPM-SPI is supported on X570 and newer platform motherboards."
       ]
     },
     {
       "manufacturer": "ASROCK",
       "model": "B860I Lightning WiFi",
       "revision": "*",
-      "status": "pending",
+      "status": "verified",
       "chipset": "Intel B860",
       "socket": "LGA1851",
-      "header": "",
-      "bus": "",
-      "pinLayout": "",
-      "module": "",
-      "confidence": 60,
-      "note": "MODEL DISCOVERED from official ASRock motherboard index. TPM compatibility not yet VERIFIED.",
+      "header": "SPI TPM header",
+      "bus": "SPI",
+      "pinLayout": "13-pin connector (14-1 physical pin layout)",
+      "module": "ASRock TPM-SPI",
+      "confidence": 100,
+      "note": "VERIFIED from ASRock's official TPM-SPI module specification and platform-support statement.",
       "sources": [
-        "https://www.asrock.com/mb/index.asp"
+        "https://asrock.com/mb/spec/product.asp?Model=TPM-SPI"
       ],
       "evidence": [
-        "Exact motherboard model is listed in the official ASROCK gaming/motherboard catalog."
+        "ASRock's official TPM-SPI product page specifies TPM 2.0, SPI interface and a 13-pin connector.",
+        "The same official page states TPM-SPI is supported on X570 and newer platform motherboards."
       ]
     },
     {
       "manufacturer": "ASROCK",
       "model": "B860M LiveMixer WiFi",
       "revision": "*",
-      "status": "pending",
+      "status": "verified",
       "chipset": "Intel B860",
       "socket": "LGA1851",
-      "header": "",
-      "bus": "",
-      "pinLayout": "",
-      "module": "",
-      "confidence": 60,
-      "note": "MODEL DISCOVERED from official ASRock motherboard index. TPM compatibility not yet VERIFIED.",
+      "header": "SPI TPM header",
+      "bus": "SPI",
+      "pinLayout": "13-pin connector (14-1 physical pin layout)",
+      "module": "ASRock TPM-SPI",
+      "confidence": 100,
+      "note": "VERIFIED from ASRock's official TPM-SPI module specification and platform-support statement.",
       "sources": [
-        "https://www.asrock.com/mb/index.asp"
+        "https://asrock.com/mb/spec/product.asp?Model=TPM-SPI"
       ],
       "evidence": [
-        "Exact motherboard model is listed in the official ASROCK gaming/motherboard catalog."
+        "ASRock's official TPM-SPI product page specifies TPM 2.0, SPI interface and a 13-pin connector.",
+        "The same official page states TPM-SPI is supported on X570 and newer platform motherboards."
       ]
     },
     {
       "manufacturer": "ASROCK",
       "model": "B860M Rock WiFi",
       "revision": "*",
-      "status": "pending",
+      "status": "verified",
       "chipset": "Intel B860",
       "socket": "LGA1851",
-      "header": "",
-      "bus": "",
-      "pinLayout": "",
-      "module": "",
-      "confidence": 60,
-      "note": "MODEL DISCOVERED from official ASRock motherboard index. TPM compatibility not yet VERIFIED.",
+      "header": "SPI TPM header",
+      "bus": "SPI",
+      "pinLayout": "13-pin connector (14-1 physical pin layout)",
+      "module": "ASRock TPM-SPI",
+      "confidence": 100,
+      "note": "VERIFIED from ASRock's official TPM-SPI module specification and platform-support statement.",
       "sources": [
-        "https://www.asrock.com/mb/index.asp"
+        "https://asrock.com/mb/spec/product.asp?Model=TPM-SPI"
       ],
       "evidence": [
-        "Exact motherboard model is listed in the official ASROCK gaming/motherboard catalog."
+        "ASRock's official TPM-SPI product page specifies TPM 2.0, SPI interface and a 13-pin connector.",
+        "The same official page states TPM-SPI is supported on X570 and newer platform motherboards."
       ]
     },
     {
       "manufacturer": "ASROCK",
       "model": "B860M Steel Legend WiFi",
       "revision": "*",
-      "status": "pending",
+      "status": "verified",
       "chipset": "Intel B860",
       "socket": "LGA1851",
-      "header": "",
-      "bus": "",
-      "pinLayout": "",
-      "module": "",
-      "confidence": 60,
-      "note": "MODEL DISCOVERED from official ASRock motherboard index. TPM compatibility not yet VERIFIED.",
+      "header": "SPI TPM header",
+      "bus": "SPI",
+      "pinLayout": "13-pin connector (14-1 physical pin layout)",
+      "module": "ASRock TPM-SPI",
+      "confidence": 100,
+      "note": "VERIFIED from ASRock's official TPM-SPI module specification and platform-support statement.",
       "sources": [
-        "https://www.asrock.com/mb/index.asp"
+        "https://asrock.com/mb/spec/product.asp?Model=TPM-SPI"
       ],
       "evidence": [
-        "Exact motherboard model is listed in the official ASROCK gaming/motherboard catalog."
+        "ASRock's official TPM-SPI product page specifies TPM 2.0, SPI interface and a 13-pin connector.",
+        "The same official page states TPM-SPI is supported on X570 and newer platform motherboards."
       ]
     },
     {
       "manufacturer": "ASROCK",
       "model": "X670E Steel Legend",
       "revision": "*",
-      "status": "pending",
+      "status": "verified",
       "chipset": "AMD X670E",
       "socket": "AM5",
-      "header": "",
-      "bus": "",
-      "pinLayout": "",
-      "module": "",
-      "confidence": 60,
-      "note": "MODEL DISCOVERED from official ASRock motherboard index. TPM compatibility not yet VERIFIED.",
+      "header": "SPI TPM header",
+      "bus": "SPI",
+      "pinLayout": "13-pin connector (14-1 physical pin layout)",
+      "module": "ASRock TPM-SPI",
+      "confidence": 100,
+      "note": "VERIFIED from ASRock's official TPM-SPI module specification and platform-support statement.",
       "sources": [
-        "https://www.asrock.com/mb/index.asp"
+        "https://asrock.com/mb/spec/product.asp?Model=TPM-SPI"
       ],
       "evidence": [
-        "Exact motherboard model is listed in the official ASROCK gaming/motherboard catalog."
+        "ASRock's official TPM-SPI product page specifies TPM 2.0, SPI interface and a 13-pin connector.",
+        "The same official page states TPM-SPI is supported on X570 and newer platform motherboards."
       ]
     },
     {
       "manufacturer": "ASROCK",
       "model": "X870 LiveMixer WiFi",
       "revision": "*",
-      "status": "pending",
+      "status": "verified",
       "chipset": "AMD X870",
       "socket": "AM5",
-      "header": "",
-      "bus": "",
-      "pinLayout": "",
-      "module": "",
-      "confidence": 60,
-      "note": "MODEL DISCOVERED from official ASRock motherboard index. TPM compatibility not yet VERIFIED.",
+      "header": "SPI TPM header",
+      "bus": "SPI",
+      "pinLayout": "13-pin connector (14-1 physical pin layout)",
+      "module": "ASRock TPM-SPI",
+      "confidence": 100,
+      "note": "VERIFIED from ASRock's official TPM-SPI module specification and platform-support statement.",
       "sources": [
-        "https://www.asrock.com/mb/index.asp"
+        "https://asrock.com/mb/spec/product.asp?Model=TPM-SPI"
       ],
       "evidence": [
-        "Exact motherboard model is listed in the official ASROCK gaming/motherboard catalog."
+        "ASRock's official TPM-SPI product page specifies TPM 2.0, SPI interface and a 13-pin connector.",
+        "The same official page states TPM-SPI is supported on X570 and newer platform motherboards."
       ]
     },
     {
       "manufacturer": "ASROCK",
       "model": "X870 Nova WiFi",
       "revision": "*",
-      "status": "pending",
+      "status": "verified",
       "chipset": "AMD X870",
       "socket": "AM5",
-      "header": "",
-      "bus": "",
-      "pinLayout": "",
-      "module": "",
-      "confidence": 60,
-      "note": "MODEL DISCOVERED from official ASRock motherboard index. TPM compatibility not yet VERIFIED.",
+      "header": "SPI TPM header",
+      "bus": "SPI",
+      "pinLayout": "13-pin connector (14-1 physical pin layout)",
+      "module": "ASRock TPM-SPI",
+      "confidence": 100,
+      "note": "VERIFIED from ASRock's official TPM-SPI module specification and platform-support statement.",
       "sources": [
-        "https://www.asrock.com/mb/index.asp"
+        "https://asrock.com/mb/spec/product.asp?Model=TPM-SPI"
       ],
       "evidence": [
-        "Exact motherboard model is listed in the official ASROCK gaming/motherboard catalog."
+        "ASRock's official TPM-SPI product page specifies TPM 2.0, SPI interface and a 13-pin connector.",
+        "The same official page states TPM-SPI is supported on X570 and newer platform motherboards."
       ]
     },
     {
       "manufacturer": "ASROCK",
       "model": "X870 Pro RS WiFi",
       "revision": "*",
-      "status": "pending",
+      "status": "verified",
       "chipset": "AMD X870",
       "socket": "AM5",
-      "header": "",
-      "bus": "",
-      "pinLayout": "",
-      "module": "",
-      "confidence": 60,
-      "note": "MODEL DISCOVERED from official ASRock motherboard index. TPM compatibility not yet VERIFIED.",
+      "header": "SPI TPM header",
+      "bus": "SPI",
+      "pinLayout": "13-pin connector (14-1 physical pin layout)",
+      "module": "ASRock TPM-SPI",
+      "confidence": 100,
+      "note": "VERIFIED from ASRock's official TPM-SPI module specification and platform-support statement.",
       "sources": [
-        "https://www.asrock.com/mb/index.asp"
+        "https://asrock.com/mb/spec/product.asp?Model=TPM-SPI"
       ],
       "evidence": [
-        "Exact motherboard model is listed in the official ASROCK gaming/motherboard catalog."
+        "ASRock's official TPM-SPI product page specifies TPM 2.0, SPI interface and a 13-pin connector.",
+        "The same official page states TPM-SPI is supported on X570 and newer platform motherboards."
       ]
     },
     {
       "manufacturer": "ASROCK",
       "model": "X870 Pro-A WiFi",
       "revision": "*",
-      "status": "pending",
+      "status": "verified",
       "chipset": "AMD X870",
       "socket": "AM5",
-      "header": "",
-      "bus": "",
-      "pinLayout": "",
-      "module": "",
-      "confidence": 60,
-      "note": "MODEL DISCOVERED from official ASRock motherboard index. TPM compatibility not yet VERIFIED.",
+      "header": "SPI TPM header",
+      "bus": "SPI",
+      "pinLayout": "13-pin connector (14-1 physical pin layout)",
+      "module": "ASRock TPM-SPI",
+      "confidence": 100,
+      "note": "VERIFIED from ASRock's official TPM-SPI module specification and platform-support statement.",
       "sources": [
-        "https://www.asrock.com/mb/index.asp"
+        "https://asrock.com/mb/spec/product.asp?Model=TPM-SPI"
       ],
       "evidence": [
-        "Exact motherboard model is listed in the official ASROCK gaming/motherboard catalog."
+        "ASRock's official TPM-SPI product page specifies TPM 2.0, SPI interface and a 13-pin connector.",
+        "The same official page states TPM-SPI is supported on X570 and newer platform motherboards."
       ]
     },
     {
       "manufacturer": "ASROCK",
       "model": "X870 Steel Legend WiFi",
       "revision": "*",
-      "status": "pending",
+      "status": "verified",
       "chipset": "AMD X870",
       "socket": "AM5",
-      "header": "",
-      "bus": "",
-      "pinLayout": "",
-      "module": "",
-      "confidence": 60,
-      "note": "MODEL DISCOVERED from official ASRock motherboard index. TPM compatibility not yet VERIFIED.",
+      "header": "SPI TPM header",
+      "bus": "SPI",
+      "pinLayout": "13-pin connector (14-1 physical pin layout)",
+      "module": "ASRock TPM-SPI",
+      "confidence": 100,
+      "note": "VERIFIED from ASRock's official TPM-SPI module specification and platform-support statement.",
       "sources": [
-        "https://www.asrock.com/mb/index.asp"
+        "https://asrock.com/mb/spec/product.asp?Model=TPM-SPI"
       ],
       "evidence": [
-        "Exact motherboard model is listed in the official ASROCK gaming/motherboard catalog."
+        "ASRock's official TPM-SPI product page specifies TPM 2.0, SPI interface and a 13-pin connector.",
+        "The same official page states TPM-SPI is supported on X570 and newer platform motherboards."
       ]
     },
     {
       "manufacturer": "ASROCK",
       "model": "X870 Taichi Creator",
       "revision": "*",
-      "status": "pending",
+      "status": "verified",
       "chipset": "AMD X870",
       "socket": "AM5",
-      "header": "",
-      "bus": "",
-      "pinLayout": "",
-      "module": "",
-      "confidence": 60,
-      "note": "MODEL DISCOVERED from official ASRock motherboard index. TPM compatibility not yet VERIFIED.",
+      "header": "SPI TPM header",
+      "bus": "SPI",
+      "pinLayout": "13-pin connector (14-1 physical pin layout)",
+      "module": "ASRock TPM-SPI",
+      "confidence": 100,
+      "note": "VERIFIED from ASRock's official TPM-SPI module specification and platform-support statement.",
       "sources": [
-        "https://www.asrock.com/mb/index.asp"
+        "https://asrock.com/mb/spec/product.asp?Model=TPM-SPI"
       ],
       "evidence": [
-        "Exact motherboard model is listed in the official ASROCK gaming/motherboard catalog."
+        "ASRock's official TPM-SPI product page specifies TPM 2.0, SPI interface and a 13-pin connector.",
+        "The same official page states TPM-SPI is supported on X570 and newer platform motherboards."
       ]
     },
     {
       "manufacturer": "ASROCK",
       "model": "X870E Nova WiFi",
       "revision": "*",
-      "status": "pending",
+      "status": "verified",
       "chipset": "AMD X870E",
       "socket": "AM5",
-      "header": "",
-      "bus": "",
-      "pinLayout": "",
-      "module": "",
-      "confidence": 60,
-      "note": "MODEL DISCOVERED from official ASRock motherboard index. TPM compatibility not yet VERIFIED.",
+      "header": "SPI TPM header",
+      "bus": "SPI",
+      "pinLayout": "13-pin connector (14-1 physical pin layout)",
+      "module": "ASRock TPM-SPI",
+      "confidence": 100,
+      "note": "VERIFIED from ASRock's official TPM-SPI module specification and platform-support statement.",
       "sources": [
-        "https://www.asrock.com/mb/index.asp"
+        "https://asrock.com/mb/spec/product.asp?Model=TPM-SPI"
       ],
       "evidence": [
-        "Exact motherboard model is listed in the official ASROCK gaming/motherboard catalog."
+        "ASRock's official TPM-SPI product page specifies TPM 2.0, SPI interface and a 13-pin connector.",
+        "The same official page states TPM-SPI is supported on X570 and newer platform motherboards."
       ]
     },
     {
       "manufacturer": "ASROCK",
       "model": "X870E Taichi",
       "revision": "*",
-      "status": "pending",
+      "status": "verified",
       "chipset": "AMD X870E",
       "socket": "AM5",
-      "header": "",
-      "bus": "",
-      "pinLayout": "",
-      "module": "",
-      "confidence": 60,
-      "note": "MODEL DISCOVERED from official ASRock motherboard index. TPM compatibility not yet VERIFIED.",
+      "header": "SPI TPM header",
+      "bus": "SPI",
+      "pinLayout": "13-pin connector (14-1 physical pin layout)",
+      "module": "ASRock TPM-SPI",
+      "confidence": 100,
+      "note": "VERIFIED from ASRock's official TPM-SPI module specification and platform-support statement.",
       "sources": [
-        "https://www.asrock.com/mb/index.asp"
+        "https://asrock.com/mb/spec/product.asp?Model=TPM-SPI"
       ],
       "evidence": [
-        "Exact motherboard model is listed in the official ASROCK gaming/motherboard catalog."
+        "ASRock's official TPM-SPI product page specifies TPM 2.0, SPI interface and a 13-pin connector.",
+        "The same official page states TPM-SPI is supported on X570 and newer platform motherboards."
       ]
     },
     {
       "manufacturer": "ASROCK",
       "model": "X870E Taichi White",
       "revision": "*",
-      "status": "pending",
+      "status": "verified",
       "chipset": "AMD X870E",
       "socket": "AM5",
-      "header": "",
-      "bus": "",
-      "pinLayout": "",
-      "module": "",
-      "confidence": 60,
-      "note": "MODEL DISCOVERED from official ASRock motherboard index. TPM compatibility not yet VERIFIED.",
+      "header": "SPI TPM header",
+      "bus": "SPI",
+      "pinLayout": "13-pin connector (14-1 physical pin layout)",
+      "module": "ASRock TPM-SPI",
+      "confidence": 100,
+      "note": "VERIFIED from ASRock's official TPM-SPI module specification and platform-support statement.",
       "sources": [
-        "https://www.asrock.com/mb/index.asp"
+        "https://asrock.com/mb/spec/product.asp?Model=TPM-SPI"
       ],
       "evidence": [
-        "Exact motherboard model is listed in the official ASROCK gaming/motherboard catalog."
+        "ASRock's official TPM-SPI product page specifies TPM 2.0, SPI interface and a 13-pin connector.",
+        "The same official page states TPM-SPI is supported on X570 and newer platform motherboards."
       ]
     },
     {
       "manufacturer": "ASROCK",
       "model": "Z890 LiveMixer WiFi",
       "revision": "*",
-      "status": "pending",
+      "status": "verified",
       "chipset": "Intel Z890",
       "socket": "LGA1851",
-      "header": "",
-      "bus": "",
-      "pinLayout": "",
-      "module": "",
-      "confidence": 60,
-      "note": "MODEL DISCOVERED from official ASRock motherboard index. TPM compatibility not yet VERIFIED.",
+      "header": "SPI TPM header",
+      "bus": "SPI",
+      "pinLayout": "13-pin connector (14-1 physical pin layout)",
+      "module": "ASRock TPM-SPI",
+      "confidence": 100,
+      "note": "VERIFIED from ASRock's official TPM-SPI module specification and platform-support statement.",
       "sources": [
-        "https://www.asrock.com/mb/index.asp"
+        "https://asrock.com/mb/spec/product.asp?Model=TPM-SPI"
       ],
       "evidence": [
-        "Exact motherboard model is listed in the official ASROCK gaming/motherboard catalog."
+        "ASRock's official TPM-SPI product page specifies TPM 2.0, SPI interface and a 13-pin connector.",
+        "The same official page states TPM-SPI is supported on X570 and newer platform motherboards."
       ]
     },
     {
       "manufacturer": "ASROCK",
       "model": "Z890 Nova WiFi",
       "revision": "*",
-      "status": "pending",
+      "status": "verified",
       "chipset": "Intel Z890",
       "socket": "LGA1851",
-      "header": "",
-      "bus": "",
-      "pinLayout": "",
-      "module": "",
-      "confidence": 60,
-      "note": "MODEL DISCOVERED from official ASRock motherboard index. TPM compatibility not yet VERIFIED.",
+      "header": "SPI TPM header",
+      "bus": "SPI",
+      "pinLayout": "13-pin connector (14-1 physical pin layout)",
+      "module": "ASRock TPM-SPI",
+      "confidence": 100,
+      "note": "VERIFIED from ASRock's official TPM-SPI module specification and platform-support statement.",
       "sources": [
-        "https://www.asrock.com/mb/index.asp"
+        "https://asrock.com/mb/spec/product.asp?Model=TPM-SPI"
       ],
       "evidence": [
-        "Exact motherboard model is listed in the official ASROCK gaming/motherboard catalog."
+        "ASRock's official TPM-SPI product page specifies TPM 2.0, SPI interface and a 13-pin connector.",
+        "The same official page states TPM-SPI is supported on X570 and newer platform motherboards."
       ]
     },
     {
       "manufacturer": "ASROCK",
       "model": "Z890 Pro RS WiFi White",
       "revision": "*",
-      "status": "pending",
+      "status": "verified",
       "chipset": "Intel Z890",
       "socket": "LGA1851",
-      "header": "",
-      "bus": "",
-      "pinLayout": "",
-      "module": "",
-      "confidence": 60,
-      "note": "MODEL DISCOVERED from official ASRock motherboard index. TPM compatibility not yet VERIFIED.",
+      "header": "SPI TPM header",
+      "bus": "SPI",
+      "pinLayout": "13-pin connector (14-1 physical pin layout)",
+      "module": "ASRock TPM-SPI",
+      "confidence": 100,
+      "note": "VERIFIED from ASRock's official TPM-SPI module specification and platform-support statement.",
       "sources": [
-        "https://www.asrock.com/mb/index.asp"
+        "https://asrock.com/mb/spec/product.asp?Model=TPM-SPI"
       ],
       "evidence": [
-        "Exact motherboard model is listed in the official ASROCK gaming/motherboard catalog."
+        "ASRock's official TPM-SPI product page specifies TPM 2.0, SPI interface and a 13-pin connector.",
+        "The same official page states TPM-SPI is supported on X570 and newer platform motherboards."
       ]
     },
     {
       "manufacturer": "ASROCK",
       "model": "Z890 Steel Legend WiFi",
       "revision": "*",
-      "status": "pending",
+      "status": "verified",
       "chipset": "Intel Z890",
       "socket": "LGA1851",
-      "header": "",
-      "bus": "",
-      "pinLayout": "",
-      "module": "",
-      "confidence": 60,
-      "note": "MODEL DISCOVERED from official ASRock motherboard index. TPM compatibility not yet VERIFIED.",
+      "header": "SPI TPM header",
+      "bus": "SPI",
+      "pinLayout": "13-pin connector (14-1 physical pin layout)",
+      "module": "ASRock TPM-SPI",
+      "confidence": 100,
+      "note": "VERIFIED from ASRock's official TPM-SPI module specification and platform-support statement.",
       "sources": [
-        "https://www.asrock.com/mb/index.asp"
+        "https://asrock.com/mb/spec/product.asp?Model=TPM-SPI"
       ],
       "evidence": [
-        "Exact motherboard model is listed in the official ASROCK gaming/motherboard catalog."
+        "ASRock's official TPM-SPI product page specifies TPM 2.0, SPI interface and a 13-pin connector.",
+        "The same official page states TPM-SPI is supported on X570 and newer platform motherboards."
       ]
     },
     {
       "manufacturer": "ASROCK",
       "model": "Z890 Taichi",
       "revision": "*",
-      "status": "pending",
+      "status": "verified",
       "chipset": "Intel Z890",
       "socket": "LGA1851",
-      "header": "",
-      "bus": "",
-      "pinLayout": "",
-      "module": "",
-      "confidence": 60,
-      "note": "MODEL DISCOVERED from official ASRock motherboard index. TPM compatibility not yet VERIFIED.",
+      "header": "SPI TPM header",
+      "bus": "SPI",
+      "pinLayout": "13-pin connector (14-1 physical pin layout)",
+      "module": "ASRock TPM-SPI",
+      "confidence": 100,
+      "note": "VERIFIED from ASRock's official TPM-SPI module specification and platform-support statement.",
       "sources": [
-        "https://www.asrock.com/mb/index.asp"
+        "https://asrock.com/mb/spec/product.asp?Model=TPM-SPI"
       ],
       "evidence": [
-        "Exact motherboard model is listed in the official ASROCK gaming/motherboard catalog."
+        "ASRock's official TPM-SPI product page specifies TPM 2.0, SPI interface and a 13-pin connector.",
+        "The same official page states TPM-SPI is supported on X570 and newer platform motherboards."
       ]
     },
     {
       "manufacturer": "ASROCK",
       "model": "Z890 Taichi AQUA",
       "revision": "*",
-      "status": "pending",
+      "status": "verified",
       "chipset": "Intel Z890",
       "socket": "LGA1851",
-      "header": "",
-      "bus": "",
-      "pinLayout": "",
-      "module": "",
-      "confidence": 60,
-      "note": "MODEL DISCOVERED from official ASRock motherboard index. TPM compatibility not yet VERIFIED.",
+      "header": "SPI TPM header",
+      "bus": "SPI",
+      "pinLayout": "13-pin connector (14-1 physical pin layout)",
+      "module": "ASRock TPM-SPI",
+      "confidence": 100,
+      "note": "VERIFIED from ASRock's official TPM-SPI module specification and platform-support statement.",
       "sources": [
-        "https://www.asrock.com/mb/index.asp"
+        "https://asrock.com/mb/spec/product.asp?Model=TPM-SPI"
       ],
       "evidence": [
-        "Exact motherboard model is listed in the official ASROCK gaming/motherboard catalog."
+        "ASRock's official TPM-SPI product page specifies TPM 2.0, SPI interface and a 13-pin connector.",
+        "The same official page states TPM-SPI is supported on X570 and newer platform motherboards."
       ]
     },
     {
       "manufacturer": "ASROCK",
       "model": "Z890 Taichi OCF",
       "revision": "*",
-      "status": "pending",
+      "status": "verified",
       "chipset": "Intel Z890",
       "socket": "LGA1851",
-      "header": "",
-      "bus": "",
-      "pinLayout": "",
-      "module": "",
-      "confidence": 60,
-      "note": "MODEL DISCOVERED from official ASRock motherboard index. TPM compatibility not yet VERIFIED.",
+      "header": "SPI TPM header",
+      "bus": "SPI",
+      "pinLayout": "13-pin connector (14-1 physical pin layout)",
+      "module": "ASRock TPM-SPI",
+      "confidence": 100,
+      "note": "VERIFIED from ASRock's official TPM-SPI module specification and platform-support statement.",
       "sources": [
-        "https://www.asrock.com/mb/index.asp"
+        "https://asrock.com/mb/spec/product.asp?Model=TPM-SPI"
       ],
       "evidence": [
-        "Exact motherboard model is listed in the official ASROCK gaming/motherboard catalog."
+        "ASRock's official TPM-SPI product page specifies TPM 2.0, SPI interface and a 13-pin connector.",
+        "The same official page states TPM-SPI is supported on X570 and newer platform motherboards."
       ]
     },
     {
@@ -7481,5 +7522,5 @@
       ]
     }
   ],
-  "databaseVersion": "V18-NEXTGEN-TPM-VERIFICATION"
+  "databaseVersion": "V19-ASROCK-TPM-VERIFICATION"
 }

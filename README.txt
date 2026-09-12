@@ -1,25 +1,23 @@
-DMA Best EU V18 NEXTGEN TPM VERIFICATION
+DMA Best EU V19 - ASRock TPM verification pass
 
 TOTAL: 363
-VERIFIED: 131
-PENDING: 232
-NEWLY VERIFIED IN V18: 96
+VERIFIED: 172
+PENDING: 191
+NEW ASROCK VERIFIED IN V19: 41
 
-V18 upgrades MSI pending profiles only where MSI's official TPM 2.0 compatibility matrix
-explicitly covers the chipset/series and specifies the compatible module/interface/pin family.
+Official ASRock evidence:
+https://asrock.com/mb/spec/product.asp?Model=TPM-SPI
 
-Official MSI evidence:
-- https://storage-asset.msi.com/file/test_report/TR34_18957.pdf
-- https://www.msi.com/Motherboard/TPM-20-Module
-
-Remaining ASUS / GIGABYTE / ASRock profiles stay PENDING unless official evidence is strong
-enough to resolve the exact TPM compatibility without guessing.
+Important:
+- ASUS remains PENDING where exact discrete TPM-module support is not proven.
+- GIGABYTE remains PENDING except exact/source-backed records already verified.
+- B550 Steel Legend remains PENDING because the ASRock TPM-SPI platform wording is not precise enough to promote it safely.
 
 BY BRAND:
 {
   "ASROCK": {
-    "verified": 0,
-    "pending": 42,
+    "verified": 41,
+    "pending": 1,
     "total": 42
   },
   "ASUS": {
