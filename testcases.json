@@ -1,0 +1,249 @@
+[
+  {
+    "name": "GIGABYTE X870E AORUS PRO ICE Rev 1.0",
+    "hardware": {
+      "manufacturer": "GIGABYTE",
+      "product": "X870E AORUS PRO ICE",
+      "version": "1.0"
+    },
+    "expected": {
+      "status": "verified",
+      "chipset": "AMD X870E",
+      "socket": "AM5",
+      "header": "SPI_TPM",
+      "bus": "SPI",
+      "moduleContains": [
+        "GC-TPM2.0 SPI / GC-TPM2.0 SPI 2.0 / GC-TPM2.0 SPI V2"
+      ],
+      "confidenceMin": 100
+    }
+  },
+  {
+    "name": "GIGABYTE X870E AORUS PRO ICE Rev 1.1",
+    "hardware": {
+      "manufacturer": "GIGABYTE",
+      "product": "X870E AORUS PRO ICE",
+      "version": "1.1"
+    },
+    "expected": {
+      "status": "verified",
+      "chipset": "AMD X870E",
+      "socket": "AM5",
+      "header": "SPI_TPM",
+      "bus": "SPI",
+      "moduleContains": [
+        "GC-TPM2.0 SPI V2"
+      ],
+      "confidenceMin": 100
+    }
+  },
+  {
+    "name": "GIGABYTE X570 AORUS ELITE Rev 1.0",
+    "hardware": {
+      "manufacturer": "GIGABYTE",
+      "product": "X570 AORUS ELITE",
+      "version": "1.0"
+    },
+    "expected": {
+      "status": "verified",
+      "chipset": "AMD X570",
+      "socket": "AM4",
+      "header": "TPM",
+      "bus": "LPC",
+      "moduleContains": [
+        "GC-TPM2.0_S"
+      ],
+      "confidenceMin": 100
+    }
+  },
+  {
+    "name": "GIGABYTE B550 AORUS PRO V2 Rev 1.0",
+    "hardware": {
+      "manufacturer": "GIGABYTE",
+      "product": "B550 AORUS PRO V2",
+      "version": "1.0"
+    },
+    "expected": {
+      "status": "verified",
+      "chipset": "AMD B550",
+      "socket": "AM4",
+      "header": "TPM",
+      "bus": "LPC",
+      "moduleContains": [
+        "GC-TPM2.0_S"
+      ],
+      "confidenceMin": 100
+    }
+  },
+  {
+    "name": "MSI MAG B550 TOMAHAWK Rev x.x",
+    "hardware": {
+      "manufacturer": "MSI",
+      "product": "MAG B550 TOMAHAWK",
+      "version": "x.x"
+    },
+    "expected": {
+      "status": "verified",
+      "chipset": "AMD B550",
+      "socket": "AM4",
+      "header": "JTPM1",
+      "bus": "SPI",
+      "moduleContains": [
+        "TPM 2.0 (MS-4462)"
+      ],
+      "confidenceMin": 100
+    }
+  },
+  {
+    "name": "MSI MPG X870E CARBON WIFI Rev x.x",
+    "hardware": {
+      "manufacturer": "MSI",
+      "product": "MPG X870E CARBON WIFI",
+      "version": "x.x"
+    },
+    "expected": {
+      "status": "verified",
+      "chipset": "AMD X870E",
+      "socket": "AM5",
+      "header": "TPM module connector",
+      "bus": "SPI",
+      "moduleContains": [
+        "TPM 2.0 (9672) / TPM 2.0 (MS-4462)"
+      ],
+      "confidenceMin": 100
+    }
+  },
+  {
+    "name": "MSI MAG X870 TOMAHAWK WIFI Rev x.x",
+    "hardware": {
+      "manufacturer": "MSI",
+      "product": "MAG X870 TOMAHAWK WIFI",
+      "version": "x.x"
+    },
+    "expected": {
+      "status": "verified",
+      "chipset": "AMD X870",
+      "socket": "AM5",
+      "header": "TPM module connector",
+      "bus": "SPI",
+      "moduleContains": [
+        "TPM 2.0 (9672) / TPM 2.0 (MS-4462)"
+      ],
+      "confidenceMin": 100
+    }
+  },
+  {
+    "name": "ASUS TUF GAMING B550M-PLUS Rev x.x",
+    "hardware": {
+      "manufacturer": "ASUS",
+      "product": "TUF GAMING B550M-PLUS",
+      "version": "x.x"
+    },
+    "expected": {
+      "status": "verified",
+      "chipset": "AMD B550",
+      "socket": "AM4",
+      "header": "SPI TPM",
+      "bus": "SPI",
+      "moduleContains": [
+        "ASUS TPM-SPI (90MC07D0-M0XBN1)"
+      ],
+      "confidenceMin": 100
+    }
+  },
+  {
+    "name": "ASUS TUF GAMING B550-PLUS Rev x.x",
+    "hardware": {
+      "manufacturer": "ASUS",
+      "product": "TUF GAMING B550-PLUS",
+      "version": "x.x"
+    },
+    "expected": {
+      "status": "verified",
+      "chipset": "AMD B550",
+      "socket": "AM4",
+      "header": "SPI TPM",
+      "bus": "SPI",
+      "moduleContains": [
+        "ASUS TPM-SPI (90MC07D0-M0XBN1)"
+      ],
+      "confidenceMin": 100
+    }
+  },
+  {
+    "name": "ASROCK B550 Steel Legend Rev x.x",
+    "hardware": {
+      "manufacturer": "ASROCK",
+      "product": "B550 Steel Legend",
+      "version": "x.x"
+    },
+    "expected": {
+      "status": "pending",
+      "chipset": "AMD B550",
+      "socket": "AM4",
+      "header": "SPI_TPM_J1",
+      "bus": "SPI",
+      "moduleContains": [
+        "Exact ASRock TPM module still requires model-specific support-list confirmation"
+      ],
+      "confidenceMin": 90
+    }
+  },
+  {
+    "name": "ASROCK B650E PG Riptide WiFi Rev x.x",
+    "hardware": {
+      "manufacturer": "ASROCK",
+      "product": "B650E PG Riptide WiFi",
+      "version": "x.x"
+    },
+    "expected": {
+      "status": "pending",
+      "chipset": "AMD B650E",
+      "socket": "AM5",
+      "header": "SPI_TPM_J1",
+      "bus": "SPI",
+      "moduleContains": [
+        "Exact ASRock TPM module still requires model-specific support-list confirmation"
+      ],
+      "confidenceMin": 90
+    }
+  },
+  {
+    "name": "ASROCK X670E Steel Legend Rev x.x",
+    "hardware": {
+      "manufacturer": "ASROCK",
+      "product": "X670E Steel Legend",
+      "version": "x.x"
+    },
+    "expected": {
+      "status": "pending",
+      "chipset": "AMD X670E",
+      "socket": "AM5",
+      "header": "SPI_TPM_J1",
+      "bus": "SPI",
+      "moduleContains": [
+        "Exact ASRock TPM module still requires model-specific support-list confirmation"
+      ],
+      "confidenceMin": 90
+    }
+  },
+  {
+    "name": "GIGABYTE X870E AORUS PRO ICE unknown revision",
+    "hardware": {
+      "manufacturer": "GIGABYTE",
+      "product": "X870E AORUS PRO ICE",
+      "version": "x.x"
+    },
+    "expected": {
+      "status": "pending",
+      "chipset": "AMD X870E",
+      "socket": "AM5",
+      "header": "SPI_TPM",
+      "bus": "SPI",
+      "moduleContains": [
+        "Revision required"
+      ],
+      "confidenceMin": 95
+    }
+  }
+]

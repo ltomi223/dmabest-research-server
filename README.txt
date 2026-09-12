@@ -1,9 +1,8 @@
-DMA Best EU Research V10 - DATABASE ENGINE
+DMA Best EU MASS Database/API Tester V3
 
-Profiles in first expanded official-source batch: 12
+This pack contains 13 automated tests matching the first expanded V10 motherboard database.
 
-VERIFIED profiles return deterministic TPM compatibility data.
-PENDING profiles contain verified header/bus information but do not claim an exact TPM module until an official model-specific compatibility source is confirmed.
+Run only AFTER deploying V10 to Render.
+Expected final result: 13/13 PASSED.
 
-The database is embedded from motherboards.json.
-To expand later, add profiles to motherboards.json and redeploy.
+The pack includes a CSV/JSON report generator.
