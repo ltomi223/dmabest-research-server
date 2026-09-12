@@ -1,6 +1,7 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 3,
   "generated": "2026-09-12",
+  "verificationPolicy": "Only exact motherboard/model data supported by official manufacturer documentation is marked verified.",
   "profiles": [
     {
       "manufacturer": "GIGABYTE",
@@ -20,7 +21,7 @@
         "https://download.gigabyte.com/FileList/Manual/mb_manual_x870e-aorus-pro-ice_1002_e.pdf"
       ],
       "evidence": [
-        "Official GIGABYTE documentation lists the SPI_TPM header and the compatible Rev. 1.0 SPI TPM module families."
+        "Official GIGABYTE documentation identifies the SPI_TPM header and the Rev. 1.0 compatible SPI TPM module families."
       ]
     },
     {
@@ -40,7 +41,7 @@
         "https://www.gigabyte.com/hu/Motherboard/X870E-AORUS-PRO-ICE-rev-11/sp"
       ],
       "evidence": [
-        "Official GIGABYTE Rev. 1.1 specification states GC-TPM2.0 SPI V2 module only."
+        "Official GIGABYTE Rev. 1.1 specification states the TPM header is for the GC-TPM2.0 SPI V2 module only."
       ]
     },
     {
@@ -65,8 +66,28 @@
     },
     {
       "manufacturer": "GIGABYTE",
-      "model": "B550 AORUS PRO V2",
-      "revision": "1.0",
+      "model": "X570 AORUS ELITE WIFI",
+      "revision": "1.x",
+      "status": "verified",
+      "chipset": "AMD X570",
+      "socket": "AM4",
+      "header": "TPM",
+      "bus": "LPC",
+      "pinLayout": "2x6 pin",
+      "module": "GC-TPM2.0_S",
+      "confidence": 100,
+      "note": "ELLENŐRZÖTT Rev. 1.x profil.",
+      "sources": [
+        "https://www.gigabyte.com/hu/Motherboard/X570-AORUS-ELITE-WIFI-rev-1x/sp"
+      ],
+      "evidence": [
+        "Official GIGABYTE specification: 2x6-pin TPM header, for the GC-TPM2.0_S module only."
+      ]
+    },
+    {
+      "manufacturer": "GIGABYTE",
+      "model": "B550 AORUS ELITE V2",
+      "revision": "1.0/1.1",
       "status": "verified",
       "chipset": "AMD B550",
       "socket": "AM4",
@@ -75,34 +96,32 @@
       "pinLayout": "2x6 pin",
       "module": "GC-TPM2.0_S",
       "confidence": 100,
-      "note": "ELLENŐRZÖTT Rev. 1.0 profil.",
+      "note": "ELLENŐRZÖTT Rev. 1.0/1.1 profil.",
       "sources": [
-        "https://www.gigabyte.com/hu/Motherboard/B550-AORUS-PRO-V2-rev-10/sp"
+        "https://www.gigabyte.com/hu/Motherboard/B550-AORUS-ELITE-V2-rev-10-11/sp"
       ],
       "evidence": [
         "Official GIGABYTE specification: 2x6-pin TPM header, for the GC-TPM2.0_S module only."
       ]
     },
     {
-      "manufacturer": "MSI",
-      "model": "MAG B550 TOMAHAWK",
-      "revision": "*",
+      "manufacturer": "GIGABYTE",
+      "model": "Z690 AORUS ELITE",
+      "revision": "1.x",
       "status": "verified",
-      "chipset": "AMD B550",
-      "socket": "AM4",
-      "header": "JTPM1",
+      "chipset": "Intel Z690",
+      "socket": "LGA1700",
+      "header": "Trusted Platform Module header",
       "bus": "SPI",
-      "pinLayout": "12-pin / 12-1 style SPI TPM connector",
-      "module": "TPM 2.0 (MS-4462)",
+      "pinLayout": "GIGABYTE SPI TPM connector",
+      "module": "GC-TPM2.0 SPI / GC-TPM2.0 SPI 2.0",
       "confidence": 100,
-      "note": "ELLENŐRZÖTT MSI AMD 500-series SPI TPM profil.",
+      "note": "ELLENŐRZÖTT Rev. 1.x profil.",
       "sources": [
-        "https://download.msi.com/archive/mnu_exe/mb/MAGB550TOMAHAWK.pdf",
-        "https://www.msi.com/Motherboard/TPM-20-Module/Overview"
+        "https://www.gigabyte.com/hu/Motherboard/Z690-AORUS-ELITE-rev-1x/sp"
       ],
       "evidence": [
-        "Official MAG B550 TOMAHAWK manual documents JTPM1 as a 12-pin SPI TPM connector.",
-        "MSI lists TPM 2.0 (MS-4462) as a 12-1-pin SPI module supporting AMD 500 Series motherboards."
+        "Official GIGABYTE specification states the TPM header is for GC-TPM2.0 SPI / GC-TPM2.0 SPI 2.0."
       ]
     },
     {
@@ -112,18 +131,21 @@
       "status": "verified",
       "chipset": "AMD X870E",
       "socket": "AM5",
-      "header": "TPM module connector",
+      "header": "Compatible MSI TPM 2.0 module connector",
       "bus": "SPI",
-      "pinLayout": "12-1 pin SPI",
+      "pinLayout": "12-1 pin (module specification)",
       "module": "TPM 2.0 (9672) / TPM 2.0 (MS-4462)",
       "confidence": 100,
-      "note": "ELLENŐRZÖTT MSI kompatibilitási lista alapján.",
+      "note": "ELLENŐRZÖTT MSI kompatibilitási profil.",
       "sources": [
+        "https://www.msi.com/Motherboard/MPG-X870E-CARBON-WIFI/Specification",
         "https://www.msi.com/faq/11095",
-        "https://www.msi.com/Motherboard/TPM-20-Module/Overview"
+        "https://www.msi.com/Motherboard/TPM-20-Module"
       ],
       "evidence": [
-        "MSI FAQ explicitly lists MPG X870E CARBON WIFI with TPM 2.0 (9672) or TPM 2.0 (MS-4462)."
+        "Official MSI product specification confirms the exact motherboard chipset and CPU socket.",
+        "Official MSI FAQ 11095 explicitly lists this exact motherboard as compatible with TPM 2.0 (9672) or TPM 2.0 (MS-4462).",
+        "Official MSI TPM module page states both compatible modules use SPI and 12-1-pin definition."
       ]
     },
     {
@@ -133,121 +155,117 @@
       "status": "verified",
       "chipset": "AMD X870",
       "socket": "AM5",
-      "header": "TPM module connector",
+      "header": "Compatible MSI TPM 2.0 module connector",
       "bus": "SPI",
-      "pinLayout": "12-1 pin SPI",
+      "pinLayout": "12-1 pin (module specification)",
       "module": "TPM 2.0 (9672) / TPM 2.0 (MS-4462)",
       "confidence": 100,
-      "note": "ELLENŐRZÖTT MSI kompatibilitási lista alapján.",
+      "note": "ELLENŐRZÖTT MSI kompatibilitási profil.",
       "sources": [
+        "https://www.msi.com/Motherboard/MAG-X870-TOMAHAWK-WIFI/Specification",
         "https://www.msi.com/faq/11095",
-        "https://www.msi.com/Motherboard/TPM-20-Module/Overview"
+        "https://www.msi.com/Motherboard/TPM-20-Module"
       ],
       "evidence": [
-        "MSI FAQ explicitly lists MAG X870 TOMAHAWK WIFI with TPM 2.0 (9672) or TPM 2.0 (MS-4462)."
+        "Official MSI product specification confirms the exact motherboard chipset and CPU socket.",
+        "Official MSI FAQ 11095 explicitly lists this exact motherboard as compatible with TPM 2.0 (9672) or TPM 2.0 (MS-4462).",
+        "Official MSI TPM module page states both compatible modules use SPI and 12-1-pin definition."
       ]
     },
     {
-      "manufacturer": "ASUS",
-      "model": "TUF GAMING B550M-PLUS",
+      "manufacturer": "MSI",
+      "model": "MEG X870E GODLIKE",
       "revision": "*",
       "status": "verified",
-      "chipset": "AMD B550",
-      "socket": "AM4",
-      "header": "SPI TPM",
+      "chipset": "AMD X870E",
+      "socket": "AM5",
+      "header": "Compatible MSI TPM 2.0 module connector",
       "bus": "SPI",
-      "pinLayout": "14-1 pin",
-      "module": "ASUS TPM-SPI (90MC07D0-M0XBN1)",
+      "pinLayout": "12-1 pin (module specification)",
+      "module": "TPM 2.0 (9672) / TPM 2.0 (MS-4462)",
       "confidence": 100,
-      "note": "ELLENŐRZÖTT ASUS SPI TPM profil.",
+      "note": "ELLENŐRZÖTT MSI kompatibilitási profil.",
       "sources": [
-        "https://dlcdnets.asus.com/pub/ASUS/mb/SocketAM4/TUF_GAMING_B550M-PLUS/E17265_TUF_GAMING_B550M-PLUS_UM_v2_WEB.pdf",
-        "https://dlcdnets.asus.com/pub/ASUS/mb/Add-on_card/TPM-SPI/E20464_TPM-SPI_card_QSG_V2_WEB.pdf"
+        "https://www.msi.com/Motherboard/MEG-X870E-GODLIKE/Specification",
+        "https://www.msi.com/faq/11095",
+        "https://www.msi.com/Motherboard/TPM-20-Module"
       ],
       "evidence": [
-        "Official board manual documents an SPI TPM header.",
-        "Official ASUS TPM-SPI guide identifies the 14-1-pin TPM-SPI module; ASUS support identifies P/N 90MC07D0-M0XBN1."
+        "Official MSI product specification confirms the exact motherboard chipset and CPU socket.",
+        "Official MSI FAQ 11095 explicitly lists this exact motherboard as compatible with TPM 2.0 (9672) or TPM 2.0 (MS-4462).",
+        "Official MSI TPM module page states both compatible modules use SPI and 12-1-pin definition."
       ]
     },
     {
-      "manufacturer": "ASUS",
-      "model": "TUF GAMING B550-PLUS",
+      "manufacturer": "MSI",
+      "model": "MPG Z890 CARBON WIFI",
       "revision": "*",
       "status": "verified",
-      "chipset": "AMD B550",
-      "socket": "AM4",
-      "header": "SPI TPM",
+      "chipset": "Intel Z890",
+      "socket": "LGA1851",
+      "header": "Compatible MSI TPM 2.0 module connector",
       "bus": "SPI",
-      "pinLayout": "14-1 pin",
-      "module": "ASUS TPM-SPI (90MC07D0-M0XBN1)",
+      "pinLayout": "12-1 pin (module specification)",
+      "module": "TPM 2.0 (9672) / TPM 2.0 (MS-4462)",
       "confidence": 100,
-      "note": "ELLENŐRZÖTT ASUS SPI TPM profil.",
+      "note": "ELLENŐRZÖTT MSI kompatibilitási profil.",
       "sources": [
-        "https://dlcdnets.asus.com/pub/ASUS/mb/SocketAM4/TUF_GAMING_B550-PLUS/E16576_TUF_GAMING_B550-PLUS_UM_WEB.pdf",
-        "https://dlcdnets.asus.com/pub/ASUS/mb/Add-on_card/TPM-SPI/E20464_TPM-SPI_card_QSG_V2_WEB.pdf"
+        "https://www.msi.com/Motherboard/MPG-Z890-CARBON-WIFI/Specification",
+        "https://www.msi.com/faq/11095",
+        "https://www.msi.com/Motherboard/TPM-20-Module"
       ],
       "evidence": [
-        "Official TUF GAMING B550-PLUS manual documents an SPI TPM header; ASUS TPM-SPI is a 14-1-pin SPI module."
+        "Official MSI product specification confirms the exact motherboard chipset and CPU socket.",
+        "Official MSI FAQ 11095 explicitly lists this exact motherboard as compatible with TPM 2.0 (9672) or TPM 2.0 (MS-4462).",
+        "Official MSI TPM module page states both compatible modules use SPI and 12-1-pin definition."
       ]
     },
     {
-      "manufacturer": "ASROCK",
-      "model": "B550 Steel Legend",
+      "manufacturer": "MSI",
+      "model": "MAG Z890 TOMAHAWK WIFI",
       "revision": "*",
-      "status": "pending",
-      "chipset": "AMD B550",
-      "socket": "AM4",
-      "header": "SPI_TPM_J1",
+      "status": "verified",
+      "chipset": "Intel Z890",
+      "socket": "LGA1851",
+      "header": "Compatible MSI TPM 2.0 module connector",
       "bus": "SPI",
-      "pinLayout": "13-pin",
-      "module": "Exact ASRock TPM module still requires model-specific support-list confirmation",
-      "confidence": 90,
-      "note": "A header és pin-kiosztás hivatalosan ellenőrzött; a pontos modul még nincs VERIFIED állapotban.",
+      "pinLayout": "12-1 pin (module specification)",
+      "module": "TPM 2.0 (9672) / TPM 2.0 (MS-4462)",
+      "confidence": 100,
+      "note": "ELLENŐRZÖTT MSI kompatibilitási profil.",
       "sources": [
-        "https://download.asrock.com/Manual/B550%20Steel%20Legend.pdf"
+        "https://www.msi.com/Motherboard/MAG-Z890-TOMAHAWK-WIFI/Specification",
+        "https://www.msi.com/faq/11095",
+        "https://www.msi.com/Motherboard/TPM-20-Module"
       ],
       "evidence": [
-        "Official ASRock manual documents a 13-pin SPI_TPM_J1 header."
+        "Official MSI product specification confirms the exact motherboard chipset and CPU socket.",
+        "Official MSI FAQ 11095 explicitly lists this exact motherboard as compatible with TPM 2.0 (9672) or TPM 2.0 (MS-4462).",
+        "Official MSI TPM module page states both compatible modules use SPI and 12-1-pin definition."
       ]
     },
     {
-      "manufacturer": "ASROCK",
-      "model": "B650E PG Riptide WiFi",
+      "manufacturer": "MSI",
+      "model": "MEG Z890 GODLIKE",
       "revision": "*",
-      "status": "pending",
-      "chipset": "AMD B650E",
-      "socket": "AM5",
-      "header": "SPI_TPM_J1",
+      "status": "verified",
+      "chipset": "Intel Z890",
+      "socket": "LGA1851",
+      "header": "Compatible MSI TPM 2.0 module connector",
       "bus": "SPI",
-      "pinLayout": "13-pin",
-      "module": "Exact ASRock TPM module still requires model-specific support-list confirmation",
-      "confidence": 90,
-      "note": "A header és pin-kiosztás hivatalosan ellenőrzött; a pontos modul még nincs VERIFIED állapotban.",
+      "pinLayout": "12-1 pin (module specification)",
+      "module": "TPM 2.0 (9672) / TPM 2.0 (MS-4462)",
+      "confidence": 100,
+      "note": "ELLENŐRZÖTT MSI kompatibilitási profil.",
       "sources": [
-        "https://download.asrock.com/Manual/B650E%20PG%20Riptide%20WiFi_Korean.pdf"
+        "https://us.msi.com/Motherboard/MEG-Z890-GODLIKE/Specification",
+        "https://www.msi.com/faq/11095",
+        "https://www.msi.com/Motherboard/TPM-20-Module"
       ],
       "evidence": [
-        "Official ASRock manual documents a 13-pin SPI_TPM_J1 header."
-      ]
-    },
-    {
-      "manufacturer": "ASROCK",
-      "model": "X670E Steel Legend",
-      "revision": "*",
-      "status": "pending",
-      "chipset": "AMD X670E",
-      "socket": "AM5",
-      "header": "SPI_TPM_J1",
-      "bus": "SPI",
-      "pinLayout": "13-pin",
-      "module": "Exact ASRock TPM module still requires model-specific support-list confirmation",
-      "confidence": 90,
-      "note": "A header hivatalosan ellenőrzött; a pontos modul még nincs VERIFIED állapotban.",
-      "sources": [
-        "https://download.asrock.com/Manual/X670E%20Steel%20Legend.pdf"
-      ],
-      "evidence": [
-        "Official ASRock manual identifies SPI_TPM_J1."
+        "Official MSI product specification confirms the exact motherboard chipset and CPU socket.",
+        "Official MSI FAQ 11095 explicitly lists this exact motherboard as compatible with TPM 2.0 (9672) or TPM 2.0 (MS-4462).",
+        "Official MSI TPM module page states both compatible modules use SPI and 12-1-pin definition."
       ]
     }
   ]

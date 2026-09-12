@@ -1,8 +1,18 @@
-DMA Best EU MASS Database/API Tester V3
+DMA Best EU Research V12 - STRICT VERIFIED DATABASE
 
-This pack contains 13 automated tests matching the first expanded V10 motherboard database.
+Profiles: 12
 
-Run only AFTER deploying V10 to Render.
-Expected final result: 13/13 PASSED.
+STRICT RULE:
+A profile is VERIFIED only when the exact motherboard/model is supported by official manufacturer documentation.
+No chipset-family guessing.
+No module-family guessing.
+No inferred revision support.
 
-The pack includes a CSV/JSON report generator.
+This batch contains only official-source-verified GIGABYTE and MSI profiles.
+ASUS/ASRock are intentionally not included as VERIFIED in this batch because exact model-to-module compatibility was not yet fully established from official model-specific sources.
+
+Upload ALL files to GitHub including motherboards.json.
+Then deploy the latest commit in Render.
+
+Expected startup log:
+verified motherboard DB loaded: 12 profiles

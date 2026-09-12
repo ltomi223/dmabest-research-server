@@ -127,7 +127,19 @@ func lookupVerifiedProfile(h Hardware) (ResearchResult, bool) {
 			continue
 		}
 		candidates = append(candidates, p)
-		if p.Revision == "*" || strings.EqualFold(strings.TrimSpace(p.Revision), rev) {
+		revMatch := p.Revision == "*" || strings.EqualFold(strings.TrimSpace(p.Revision), rev)
+		if !revMatch && strings.Contains(p.Revision, "/") {
+			for _, part := range strings.Split(p.Revision, "/") {
+				if strings.EqualFold(strings.TrimSpace(part), rev) {
+					revMatch = true
+					break
+				}
+			}
+		}
+		if !revMatch && strings.EqualFold(strings.TrimSpace(p.Revision), "1.x") && strings.HasPrefix(strings.ToLower(rev), "1.") {
+			revMatch = true
+		}
+		if revMatch {
 			r := ResearchResult{
 				Status:       p.Status,
 				Manufacturer: p.Manufacturer,
