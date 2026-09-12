@@ -1,6 +1,6 @@
 services:
   - type: web
-    name: dmabest-research
+    name: dmabest-research-server
     runtime: docker
     dockerfilePath: ./Dockerfile
     healthCheckPath: /health
