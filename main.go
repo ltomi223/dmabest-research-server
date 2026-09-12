@@ -380,21 +380,24 @@ func researchFree(h Hardware) ResearchResult {
 	rev := strings.TrimSpace(h.Version)
 	if strings.Contains(modelKey, "X870E AORUS PRO ICE") {
 		module := "Revision required"
-		note := "VERIFIED hardware profile. Confirm Rev. 1.0 or Rev. 1.1 before selecting the TPM module."
+		status := "pending"
+		note := "Hardware profile matched, but exact motherboard revision is still required before selecting the TPM module."
 		evidence := []string{
 			"Official GIGABYTE manual: SPI_TPM header uses SPI and has 12 positions; pin 3 is No Pin.",
 		}
 		if rev == "1.0" {
+			status = "verified"
 			module = "GC-TPM2.0 SPI / GC-TPM2.0 SPI 2.0 / GC-TPM2.0 SPI V2"
-			note = "VERIFIED Rev. 1.0 profile. Official GIGABYTE documentation lists these SPI TPM module families for Rev. 1.0."
+			note = "ELLENŐRZÖTT Rev. 1.0 profil. A GIGABYTE hivatalos dokumentációja ezt a három SPI TPM modulcsaládot sorolja kompatibilisként Rev. 1.0-hoz."
 			evidence = append(evidence, "Rev. 1.0 official manual/specification lists GC-TPM2.0 SPI, GC-TPM2.0 SPI 2.0 and GC-TPM2.0 SPI V2.")
 		} else if rev == "1.1" {
+			status = "verified"
 			module = "GC-TPM2.0 SPI V2"
-			note = "VERIFIED Rev. 1.1 profile. Official GIGABYTE specification states GC-TPM2.0 SPI V2 module only."
+			note = "ELLENŐRZÖTT Rev. 1.1 profil. A GIGABYTE hivatalos specifikációja ehhez a revízióhoz kizárólag a GC-TPM2.0 SPI V2 modult jelöli."
 			evidence = append(evidence, "Rev. 1.1 official specification: Trusted Platform Module header (For the GC-TPM2.0 SPI V2 module only).")
 		}
 		r := ResearchResult{
-			Status:       "pending",
+			Status:       status,
 			Manufacturer: "GIGABYTE",
 			Model:        strings.TrimSpace(h.Product),
 			Chipset:      "AMD X870E",
