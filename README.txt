@@ -1,37 +1,40 @@
-DMA Best EU V17 - ALL BRANDS MASS DISCOVERY
+DMA Best EU V18 NEXTGEN TPM VERIFICATION
 
-TOTAL PROFILES: 363
-VERIFIED: 35
-PENDING: 328
+TOTAL: 363
+VERIFIED: 131
+PENDING: 232
+NEWLY VERIFIED IN V18: 96
+
+V18 upgrades MSI pending profiles only where MSI's official TPM 2.0 compatibility matrix
+explicitly covers the chipset/series and specifies the compatible module/interface/pin family.
+
+Official MSI evidence:
+- https://storage-asset.msi.com/file/test_report/TR34_18957.pdf
+- https://www.msi.com/Motherboard/TPM-20-Module
+
+Remaining ASUS / GIGABYTE / ASRock profiles stay PENDING unless official evidence is strong
+enough to resolve the exact TPM compatibility without guessing.
 
 BY BRAND:
 {
   "ASROCK": {
-    "total": 42,
     "verified": 0,
-    "pending": 42
+    "pending": 42,
+    "total": 42
   },
   "ASUS": {
-    "total": 78,
     "verified": 0,
-    "pending": 78
+    "pending": 78,
+    "total": 78
   },
   "GIGABYTE": {
-    "total": 123,
     "verified": 11,
-    "pending": 112
+    "pending": 112,
+    "total": 123
   },
   "MSI": {
-    "total": 120,
-    "verified": 24,
-    "pending": 96
+    "verified": 120,
+    "pending": 0,
+    "total": 120
   }
 }
-
-Sources:
-- ASUS/ROG official gaming motherboard catalogs
-- GIGABYTE/AORUS official motherboard catalog
-- ASRock official motherboard index
-- MSI official motherboard CPU-support catalog from V16
-
-New models remain PENDING until exact TPM header/module/pinout is verified.
