@@ -1,8 +1,14 @@
-DMA BEST EU STRICT EXPANSION V13
-New verified profiles: 29
-Test cases: 29
-Rule: VERIFIED only where the exact model/module relationship is explicitly supported by an official manufacturer source.
-Files:
-- verified_profiles.json
-- testcases.json
-This is an expansion dataset/test pack. Merge verified_profiles.json into the server's existing strict profile database, preserving the existing 12 verified V12 profiles.
+DMA Best EU Research V13 - MERGED STRICT DATABASE
+
+Total strict profiles embedded: 41
+Original V12 strict profiles: 12
+V13 expansion entries supplied: 29
+
+IMPORTANT:
+1. Upload ALL files in this package to the existing GitHub repository.
+2. Make sure motherboards.json is included.
+3. Render -> Manual Deploy -> Deploy latest commit.
+4. In Render logs look for:
+   verified motherboard DB loaded: 41 profiles
+
+This package merges the previous working strict V12 server with the 29-profile V13 expansion dataset.

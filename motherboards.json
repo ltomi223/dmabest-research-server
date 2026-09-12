@@ -1,47 +1,26 @@
 {
-  "schemaVersion": 3,
+  "schemaVersion": 4,
   "generated": "2026-09-12",
-  "verificationPolicy": "Only exact motherboard/model data supported by official manufacturer documentation is marked verified.",
+  "verificationPolicy": "STRICT: VERIFIED only when the exact motherboard/model compatibility is supported by official manufacturer documentation.",
   "profiles": [
     {
       "manufacturer": "GIGABYTE",
-      "model": "X870E AORUS PRO ICE",
-      "revision": "1.0",
+      "model": "B550 AORUS ELITE V2",
+      "revision": "1.0/1.1",
       "status": "verified",
-      "chipset": "AMD X870E",
-      "socket": "AM5",
-      "header": "SPI_TPM",
-      "bus": "SPI",
-      "pinLayout": "12 positions (2x6); pin 3 is No Pin",
-      "module": "GC-TPM2.0 SPI / GC-TPM2.0 SPI 2.0 / GC-TPM2.0 SPI V2",
+      "chipset": "AMD B550",
+      "socket": "AM4",
+      "header": "TPM",
+      "bus": "LPC",
+      "pinLayout": "2x6 pin",
+      "module": "GC-TPM2.0_S",
       "confidence": 100,
-      "note": "ELLENŐRZÖTT Rev. 1.0 profil.",
+      "note": "ELLENŐRZÖTT Rev. 1.0/1.1 profil.",
       "sources": [
-        "https://www.gigabyte.com/Motherboard/X870E-AORUS-PRO-ICE-rev-10/support",
-        "https://download.gigabyte.com/FileList/Manual/mb_manual_x870e-aorus-pro-ice_1002_e.pdf"
+        "https://www.gigabyte.com/hu/Motherboard/B550-AORUS-ELITE-V2-rev-10-11/sp"
       ],
       "evidence": [
-        "Official GIGABYTE documentation identifies the SPI_TPM header and the Rev. 1.0 compatible SPI TPM module families."
-      ]
-    },
-    {
-      "manufacturer": "GIGABYTE",
-      "model": "X870E AORUS PRO ICE",
-      "revision": "1.1",
-      "status": "verified",
-      "chipset": "AMD X870E",
-      "socket": "AM5",
-      "header": "SPI_TPM",
-      "bus": "SPI",
-      "pinLayout": "12 positions (2x6); pin 3 is No Pin",
-      "module": "GC-TPM2.0 SPI V2",
-      "confidence": 100,
-      "note": "ELLENŐRZÖTT Rev. 1.1 profil.",
-      "sources": [
-        "https://www.gigabyte.com/hu/Motherboard/X870E-AORUS-PRO-ICE-rev-11/sp"
-      ],
-      "evidence": [
-        "Official GIGABYTE Rev. 1.1 specification states the TPM header is for the GC-TPM2.0 SPI V2 module only."
+        "Official GIGABYTE specification: 2x6-pin TPM header, for the GC-TPM2.0_S module only."
       ]
     },
     {
@@ -86,22 +65,143 @@
     },
     {
       "manufacturer": "GIGABYTE",
-      "model": "B550 AORUS ELITE V2",
+      "model": "X870 AORUS ELITE WIFI7",
       "revision": "1.0/1.1",
       "status": "verified",
-      "chipset": "AMD B550",
-      "socket": "AM4",
-      "header": "TPM",
-      "bus": "LPC",
-      "pinLayout": "2x6 pin",
-      "module": "GC-TPM2.0_S",
+      "chipset": "AMD X870",
+      "socket": "AM5",
+      "header": "Trusted Platform Module header",
+      "bus": "SPI",
+      "pinLayout": "",
+      "module": "GC-TPM2.0 SPI / GC-TPM2.0 SPI 2.0 / GC-TPM2.0 SPI V2",
       "confidence": 100,
-      "note": "ELLENŐRZÖTT Rev. 1.0/1.1 profil.",
+      "note": "ELLENŐRZÖTT hivatalos gyártói forrás alapján.",
       "sources": [
-        "https://www.gigabyte.com/hu/Motherboard/B550-AORUS-ELITE-V2-rev-10-11/sp"
+        "https://www.gigabyte.com/hu/Motherboard/X870-AORUS-ELITE-WIFI7-rev-10-11/sp"
       ],
       "evidence": [
-        "Official GIGABYTE specification: 2x6-pin TPM header, for the GC-TPM2.0_S module only."
+        "Official manufacturer documentation supports this model/module compatibility."
+      ]
+    },
+    {
+      "manufacturer": "GIGABYTE",
+      "model": "X870 AORUS ELITE WIFI7",
+      "revision": "1.2",
+      "status": "verified",
+      "chipset": "AMD X870",
+      "socket": "AM5",
+      "header": "Trusted Platform Module header",
+      "bus": "SPI",
+      "pinLayout": "",
+      "module": "GC-TPM2.0 SPI / GC-TPM2.0 SPI 2.0 / GC-TPM2.0 SPI V2",
+      "confidence": 100,
+      "note": "ELLENŐRZÖTT hivatalos gyártói forrás alapján.",
+      "sources": [
+        "https://www.gigabyte.com/us/Motherboard/X870-AORUS-ELITE-WIFI7-rev-12/sp"
+      ],
+      "evidence": [
+        "Official manufacturer documentation supports this model/module compatibility."
+      ]
+    },
+    {
+      "manufacturer": "GIGABYTE",
+      "model": "X870E AORUS ELITE WIFI7",
+      "revision": "1.2",
+      "status": "verified",
+      "chipset": "AMD X870E",
+      "socket": "AM5",
+      "header": "Trusted Platform Module header",
+      "bus": "SPI",
+      "pinLayout": "",
+      "module": "GC-TPM2.0 SPI / GC-TPM2.0 SPI 2.0 / GC-TPM2.0 SPI V2",
+      "confidence": 100,
+      "note": "ELLENŐRZÖTT hivatalos gyártói forrás alapján.",
+      "sources": [
+        "https://www.gigabyte.com/hu/Motherboard/X870E-AORUS-ELITE-WIFI7-rev-12/sp"
+      ],
+      "evidence": [
+        "Official manufacturer documentation supports this model/module compatibility."
+      ]
+    },
+    {
+      "manufacturer": "GIGABYTE",
+      "model": "X870E AORUS MASTER",
+      "revision": "x.x",
+      "status": "verified",
+      "chipset": "AMD X870E",
+      "socket": "AM5",
+      "header": "Trusted Platform Module header",
+      "bus": "SPI",
+      "pinLayout": "",
+      "module": "GC-TPM2.0 SPI V2",
+      "confidence": 100,
+      "note": "ELLENŐRZÖTT hivatalos gyártói forrás alapján.",
+      "sources": [
+        "https://www.gigabyte.com/hu/Motherboard/X870E-AORUS-MASTER/sp"
+      ],
+      "evidence": [
+        "Official manufacturer documentation supports this model/module compatibility."
+      ]
+    },
+    {
+      "manufacturer": "GIGABYTE",
+      "model": "X870E AORUS PRO ICE",
+      "revision": "1.0",
+      "status": "verified",
+      "chipset": "AMD X870E",
+      "socket": "AM5",
+      "header": "SPI_TPM",
+      "bus": "SPI",
+      "pinLayout": "12 positions (2x6); pin 3 is No Pin",
+      "module": "GC-TPM2.0 SPI / GC-TPM2.0 SPI 2.0 / GC-TPM2.0 SPI V2",
+      "confidence": 100,
+      "note": "ELLENŐRZÖTT Rev. 1.0 profil.",
+      "sources": [
+        "https://www.gigabyte.com/Motherboard/X870E-AORUS-PRO-ICE-rev-10/support",
+        "https://download.gigabyte.com/FileList/Manual/mb_manual_x870e-aorus-pro-ice_1002_e.pdf"
+      ],
+      "evidence": [
+        "Official GIGABYTE documentation identifies the SPI_TPM header and the Rev. 1.0 compatible SPI TPM module families."
+      ]
+    },
+    {
+      "manufacturer": "GIGABYTE",
+      "model": "X870E AORUS PRO ICE",
+      "revision": "1.1",
+      "status": "verified",
+      "chipset": "AMD X870E",
+      "socket": "AM5",
+      "header": "SPI_TPM",
+      "bus": "SPI",
+      "pinLayout": "12 positions (2x6); pin 3 is No Pin",
+      "module": "GC-TPM2.0 SPI V2",
+      "confidence": 100,
+      "note": "ELLENŐRZÖTT Rev. 1.1 profil.",
+      "sources": [
+        "https://www.gigabyte.com/hu/Motherboard/X870E-AORUS-PRO-ICE-rev-11/sp"
+      ],
+      "evidence": [
+        "Official GIGABYTE Rev. 1.1 specification states the TPM header is for the GC-TPM2.0 SPI V2 module only."
+      ]
+    },
+    {
+      "manufacturer": "GIGABYTE",
+      "model": "X870M AORUS ELITE WIFI7",
+      "revision": "x.x",
+      "status": "verified",
+      "chipset": "AMD X870",
+      "socket": "AM5",
+      "header": "Trusted Platform Module header",
+      "bus": "SPI",
+      "pinLayout": "",
+      "module": "GC-TPM2.0 SPI V2",
+      "confidence": 100,
+      "note": "ELLENŐRZÖTT hivatalos gyártói forrás alapján.",
+      "sources": [
+        "https://www.gigabyte.com/hu/Motherboard/X870M-AORUS-ELITE-WIFI7/sp"
+      ],
+      "evidence": [
+        "Official manufacturer documentation supports this model/module compatibility."
       ]
     },
     {
@@ -122,30 +222,6 @@
       ],
       "evidence": [
         "Official GIGABYTE specification states the TPM header is for GC-TPM2.0 SPI / GC-TPM2.0 SPI 2.0."
-      ]
-    },
-    {
-      "manufacturer": "MSI",
-      "model": "MPG X870E CARBON WIFI",
-      "revision": "*",
-      "status": "verified",
-      "chipset": "AMD X870E",
-      "socket": "AM5",
-      "header": "Compatible MSI TPM 2.0 module connector",
-      "bus": "SPI",
-      "pinLayout": "12-1 pin (module specification)",
-      "module": "TPM 2.0 (9672) / TPM 2.0 (MS-4462)",
-      "confidence": 100,
-      "note": "ELLENŐRZÖTT MSI kompatibilitási profil.",
-      "sources": [
-        "https://www.msi.com/Motherboard/MPG-X870E-CARBON-WIFI/Specification",
-        "https://www.msi.com/faq/11095",
-        "https://www.msi.com/Motherboard/TPM-20-Module"
-      ],
-      "evidence": [
-        "Official MSI product specification confirms the exact motherboard chipset and CPU socket.",
-        "Official MSI FAQ 11095 explicitly lists this exact motherboard as compatible with TPM 2.0 (9672) or TPM 2.0 (MS-4462).",
-        "Official MSI TPM module page states both compatible modules use SPI and 12-1-pin definition."
       ]
     },
     {
@@ -174,50 +250,42 @@
     },
     {
       "manufacturer": "MSI",
-      "model": "MEG X870E GODLIKE",
-      "revision": "*",
+      "model": "MAG X870 TOMAHAWK WIFI",
+      "revision": "x.x",
       "status": "verified",
-      "chipset": "AMD X870E",
+      "chipset": "AMD X870",
       "socket": "AM5",
-      "header": "Compatible MSI TPM 2.0 module connector",
+      "header": "TPM module connector",
       "bus": "SPI",
-      "pinLayout": "12-1 pin (module specification)",
+      "pinLayout": "",
       "module": "TPM 2.0 (9672) / TPM 2.0 (MS-4462)",
       "confidence": 100,
-      "note": "ELLENŐRZÖTT MSI kompatibilitási profil.",
+      "note": "ELLENŐRZÖTT hivatalos gyártói forrás alapján.",
       "sources": [
-        "https://www.msi.com/Motherboard/MEG-X870E-GODLIKE/Specification",
-        "https://www.msi.com/faq/11095",
-        "https://www.msi.com/Motherboard/TPM-20-Module"
+        "https://us.msi.com/faq/11095"
       ],
       "evidence": [
-        "Official MSI product specification confirms the exact motherboard chipset and CPU socket.",
-        "Official MSI FAQ 11095 explicitly lists this exact motherboard as compatible with TPM 2.0 (9672) or TPM 2.0 (MS-4462).",
-        "Official MSI TPM module page states both compatible modules use SPI and 12-1-pin definition."
+        "Official manufacturer documentation supports this model/module compatibility."
       ]
     },
     {
       "manufacturer": "MSI",
-      "model": "MPG Z890 CARBON WIFI",
-      "revision": "*",
+      "model": "MAG X870E TOMAHAWK WIFI",
+      "revision": "x.x",
       "status": "verified",
-      "chipset": "Intel Z890",
-      "socket": "LGA1851",
-      "header": "Compatible MSI TPM 2.0 module connector",
+      "chipset": "AMD X870E",
+      "socket": "AM5",
+      "header": "TPM module connector",
       "bus": "SPI",
-      "pinLayout": "12-1 pin (module specification)",
+      "pinLayout": "",
       "module": "TPM 2.0 (9672) / TPM 2.0 (MS-4462)",
       "confidence": 100,
-      "note": "ELLENŐRZÖTT MSI kompatibilitási profil.",
+      "note": "ELLENŐRZÖTT hivatalos gyártói forrás alapján.",
       "sources": [
-        "https://www.msi.com/Motherboard/MPG-Z890-CARBON-WIFI/Specification",
-        "https://www.msi.com/faq/11095",
-        "https://www.msi.com/Motherboard/TPM-20-Module"
+        "https://us.msi.com/faq/11095"
       ],
       "evidence": [
-        "Official MSI product specification confirms the exact motherboard chipset and CPU socket.",
-        "Official MSI FAQ 11095 explicitly lists this exact motherboard as compatible with TPM 2.0 (9672) or TPM 2.0 (MS-4462).",
-        "Official MSI TPM module page states both compatible modules use SPI and 12-1-pin definition."
+        "Official manufacturer documentation supports this model/module compatibility."
       ]
     },
     {
@@ -246,6 +314,90 @@
     },
     {
       "manufacturer": "MSI",
+      "model": "MAG Z890 TOMAHAWK WIFI",
+      "revision": "x.x",
+      "status": "verified",
+      "chipset": "Intel Z890",
+      "socket": "LGA1851",
+      "header": "TPM module connector",
+      "bus": "SPI",
+      "pinLayout": "",
+      "module": "TPM 2.0 (9672) / TPM 2.0 (MS-4462)",
+      "confidence": 100,
+      "note": "ELLENŐRZÖTT hivatalos gyártói forrás alapján.",
+      "sources": [
+        "https://us.msi.com/faq/11095"
+      ],
+      "evidence": [
+        "Official manufacturer documentation supports this model/module compatibility."
+      ]
+    },
+    {
+      "manufacturer": "MSI",
+      "model": "MEG X870E GODLIKE",
+      "revision": "*",
+      "status": "verified",
+      "chipset": "AMD X870E",
+      "socket": "AM5",
+      "header": "Compatible MSI TPM 2.0 module connector",
+      "bus": "SPI",
+      "pinLayout": "12-1 pin (module specification)",
+      "module": "TPM 2.0 (9672) / TPM 2.0 (MS-4462)",
+      "confidence": 100,
+      "note": "ELLENŐRZÖTT MSI kompatibilitási profil.",
+      "sources": [
+        "https://www.msi.com/Motherboard/MEG-X870E-GODLIKE/Specification",
+        "https://www.msi.com/faq/11095",
+        "https://www.msi.com/Motherboard/TPM-20-Module"
+      ],
+      "evidence": [
+        "Official MSI product specification confirms the exact motherboard chipset and CPU socket.",
+        "Official MSI FAQ 11095 explicitly lists this exact motherboard as compatible with TPM 2.0 (9672) or TPM 2.0 (MS-4462).",
+        "Official MSI TPM module page states both compatible modules use SPI and 12-1-pin definition."
+      ]
+    },
+    {
+      "manufacturer": "MSI",
+      "model": "MEG X870E GODLIKE",
+      "revision": "x.x",
+      "status": "verified",
+      "chipset": "AMD X870E",
+      "socket": "AM5",
+      "header": "TPM module connector",
+      "bus": "SPI",
+      "pinLayout": "",
+      "module": "TPM 2.0 (9672) / TPM 2.0 (MS-4462)",
+      "confidence": 100,
+      "note": "ELLENŐRZÖTT hivatalos gyártói forrás alapján.",
+      "sources": [
+        "https://us.msi.com/faq/11095"
+      ],
+      "evidence": [
+        "Official manufacturer documentation supports this model/module compatibility."
+      ]
+    },
+    {
+      "manufacturer": "MSI",
+      "model": "MEG Z890 ACE",
+      "revision": "x.x",
+      "status": "verified",
+      "chipset": "Intel Z890",
+      "socket": "LGA1851",
+      "header": "TPM module connector",
+      "bus": "SPI",
+      "pinLayout": "",
+      "module": "TPM 2.0 (9672) / TPM 2.0 (MS-4462)",
+      "confidence": 100,
+      "note": "ELLENŐRZÖTT hivatalos gyártói forrás alapján.",
+      "sources": [
+        "https://us.msi.com/faq/11095"
+      ],
+      "evidence": [
+        "Official manufacturer documentation supports this model/module compatibility."
+      ]
+    },
+    {
+      "manufacturer": "MSI",
       "model": "MEG Z890 GODLIKE",
       "revision": "*",
       "status": "verified",
@@ -266,6 +418,434 @@
         "Official MSI product specification confirms the exact motherboard chipset and CPU socket.",
         "Official MSI FAQ 11095 explicitly lists this exact motherboard as compatible with TPM 2.0 (9672) or TPM 2.0 (MS-4462).",
         "Official MSI TPM module page states both compatible modules use SPI and 12-1-pin definition."
+      ]
+    },
+    {
+      "manufacturer": "MSI",
+      "model": "MEG Z890 GODLIKE",
+      "revision": "x.x",
+      "status": "verified",
+      "chipset": "Intel Z890",
+      "socket": "LGA1851",
+      "header": "TPM module connector",
+      "bus": "SPI",
+      "pinLayout": "",
+      "module": "TPM 2.0 (9672) / TPM 2.0 (MS-4462)",
+      "confidence": 100,
+      "note": "ELLENŐRZÖTT hivatalos gyártói forrás alapján.",
+      "sources": [
+        "https://us.msi.com/faq/11095"
+      ],
+      "evidence": [
+        "Official manufacturer documentation supports this model/module compatibility."
+      ]
+    },
+    {
+      "manufacturer": "MSI",
+      "model": "MEG Z890 UNIFY-X",
+      "revision": "x.x",
+      "status": "verified",
+      "chipset": "Intel Z890",
+      "socket": "LGA1851",
+      "header": "TPM module connector",
+      "bus": "SPI",
+      "pinLayout": "",
+      "module": "TPM 2.0 (9672) / TPM 2.0 (MS-4462)",
+      "confidence": 100,
+      "note": "ELLENŐRZÖTT hivatalos gyártói forrás alapján.",
+      "sources": [
+        "https://us.msi.com/faq/11095"
+      ],
+      "evidence": [
+        "Official manufacturer documentation supports this model/module compatibility."
+      ]
+    },
+    {
+      "manufacturer": "MSI",
+      "model": "MPG X870E CARBON WIFI",
+      "revision": "*",
+      "status": "verified",
+      "chipset": "AMD X870E",
+      "socket": "AM5",
+      "header": "Compatible MSI TPM 2.0 module connector",
+      "bus": "SPI",
+      "pinLayout": "12-1 pin (module specification)",
+      "module": "TPM 2.0 (9672) / TPM 2.0 (MS-4462)",
+      "confidence": 100,
+      "note": "ELLENŐRZÖTT MSI kompatibilitási profil.",
+      "sources": [
+        "https://www.msi.com/Motherboard/MPG-X870E-CARBON-WIFI/Specification",
+        "https://www.msi.com/faq/11095",
+        "https://www.msi.com/Motherboard/TPM-20-Module"
+      ],
+      "evidence": [
+        "Official MSI product specification confirms the exact motherboard chipset and CPU socket.",
+        "Official MSI FAQ 11095 explicitly lists this exact motherboard as compatible with TPM 2.0 (9672) or TPM 2.0 (MS-4462).",
+        "Official MSI TPM module page states both compatible modules use SPI and 12-1-pin definition."
+      ]
+    },
+    {
+      "manufacturer": "MSI",
+      "model": "MPG X870E CARBON WIFI",
+      "revision": "x.x",
+      "status": "verified",
+      "chipset": "AMD X870E",
+      "socket": "AM5",
+      "header": "TPM module connector",
+      "bus": "SPI",
+      "pinLayout": "",
+      "module": "TPM 2.0 (9672) / TPM 2.0 (MS-4462)",
+      "confidence": 100,
+      "note": "ELLENŐRZÖTT hivatalos gyártói forrás alapján.",
+      "sources": [
+        "https://us.msi.com/faq/11095"
+      ],
+      "evidence": [
+        "Official manufacturer documentation supports this model/module compatibility."
+      ]
+    },
+    {
+      "manufacturer": "MSI",
+      "model": "MPG X870E EDGE TI WIFI",
+      "revision": "x.x",
+      "status": "verified",
+      "chipset": "AMD X870E",
+      "socket": "AM5",
+      "header": "TPM module connector",
+      "bus": "SPI",
+      "pinLayout": "",
+      "module": "TPM 2.0 (9672) / TPM 2.0 (MS-4462)",
+      "confidence": 100,
+      "note": "ELLENŐRZÖTT hivatalos gyártói forrás alapján.",
+      "sources": [
+        "https://us.msi.com/faq/11095"
+      ],
+      "evidence": [
+        "Official manufacturer documentation supports this model/module compatibility."
+      ]
+    },
+    {
+      "manufacturer": "MSI",
+      "model": "MPG Z890 CARBON WIFI",
+      "revision": "*",
+      "status": "verified",
+      "chipset": "Intel Z890",
+      "socket": "LGA1851",
+      "header": "Compatible MSI TPM 2.0 module connector",
+      "bus": "SPI",
+      "pinLayout": "12-1 pin (module specification)",
+      "module": "TPM 2.0 (9672) / TPM 2.0 (MS-4462)",
+      "confidence": 100,
+      "note": "ELLENŐRZÖTT MSI kompatibilitási profil.",
+      "sources": [
+        "https://www.msi.com/Motherboard/MPG-Z890-CARBON-WIFI/Specification",
+        "https://www.msi.com/faq/11095",
+        "https://www.msi.com/Motherboard/TPM-20-Module"
+      ],
+      "evidence": [
+        "Official MSI product specification confirms the exact motherboard chipset and CPU socket.",
+        "Official MSI FAQ 11095 explicitly lists this exact motherboard as compatible with TPM 2.0 (9672) or TPM 2.0 (MS-4462).",
+        "Official MSI TPM module page states both compatible modules use SPI and 12-1-pin definition."
+      ]
+    },
+    {
+      "manufacturer": "MSI",
+      "model": "MPG Z890 CARBON WIFI",
+      "revision": "x.x",
+      "status": "verified",
+      "chipset": "Intel Z890",
+      "socket": "LGA1851",
+      "header": "TPM module connector",
+      "bus": "SPI",
+      "pinLayout": "",
+      "module": "TPM 2.0 (9672) / TPM 2.0 (MS-4462)",
+      "confidence": 100,
+      "note": "ELLENŐRZÖTT hivatalos gyártói forrás alapján.",
+      "sources": [
+        "https://us.msi.com/faq/11095"
+      ],
+      "evidence": [
+        "Official manufacturer documentation supports this model/module compatibility."
+      ]
+    },
+    {
+      "manufacturer": "MSI",
+      "model": "MPG Z890 EDGE TI WIFI",
+      "revision": "x.x",
+      "status": "verified",
+      "chipset": "Intel Z890",
+      "socket": "LGA1851",
+      "header": "TPM module connector",
+      "bus": "SPI",
+      "pinLayout": "",
+      "module": "TPM 2.0 (9672) / TPM 2.0 (MS-4462)",
+      "confidence": 100,
+      "note": "ELLENŐRZÖTT hivatalos gyártói forrás alapján.",
+      "sources": [
+        "https://us.msi.com/faq/11095"
+      ],
+      "evidence": [
+        "Official manufacturer documentation supports this model/module compatibility."
+      ]
+    },
+    {
+      "manufacturer": "MSI",
+      "model": "MPG Z890I EDGE TI WIFI",
+      "revision": "x.x",
+      "status": "verified",
+      "chipset": "Intel Z890",
+      "socket": "LGA1851",
+      "header": "TPM module connector",
+      "bus": "SPI",
+      "pinLayout": "",
+      "module": "TPM 2.0 (9672) / TPM 2.0 (MS-4462)",
+      "confidence": 100,
+      "note": "ELLENŐRZÖTT hivatalos gyártói forrás alapján.",
+      "sources": [
+        "https://us.msi.com/faq/11095"
+      ],
+      "evidence": [
+        "Official manufacturer documentation supports this model/module compatibility."
+      ]
+    },
+    {
+      "manufacturer": "MSI",
+      "model": "PRO X870-P WIFI",
+      "revision": "x.x",
+      "status": "verified",
+      "chipset": "AMD X870",
+      "socket": "AM5",
+      "header": "TPM module connector",
+      "bus": "SPI",
+      "pinLayout": "",
+      "module": "TPM 2.0 (9672) / TPM 2.0 (MS-4462)",
+      "confidence": 100,
+      "note": "ELLENŐRZÖTT hivatalos gyártói forrás alapján.",
+      "sources": [
+        "https://us.msi.com/faq/11095"
+      ],
+      "evidence": [
+        "Official manufacturer documentation supports this model/module compatibility."
+      ]
+    },
+    {
+      "manufacturer": "MSI",
+      "model": "PRO X870E-P WIFI",
+      "revision": "x.x",
+      "status": "verified",
+      "chipset": "AMD X870E",
+      "socket": "AM5",
+      "header": "TPM module connector",
+      "bus": "SPI",
+      "pinLayout": "",
+      "module": "TPM 2.0 (9672) / TPM 2.0 (MS-4462)",
+      "confidence": 100,
+      "note": "ELLENŐRZÖTT hivatalos gyártói forrás alapján.",
+      "sources": [
+        "https://us.msi.com/faq/11095"
+      ],
+      "evidence": [
+        "Official manufacturer documentation supports this model/module compatibility."
+      ]
+    },
+    {
+      "manufacturer": "MSI",
+      "model": "PRO Z890-A WIFI",
+      "revision": "x.x",
+      "status": "verified",
+      "chipset": "Intel Z890",
+      "socket": "LGA1851",
+      "header": "TPM module connector",
+      "bus": "SPI",
+      "pinLayout": "",
+      "module": "TPM 2.0 (9672) / TPM 2.0 (MS-4462)",
+      "confidence": 100,
+      "note": "ELLENŐRZÖTT hivatalos gyártói forrás alapján.",
+      "sources": [
+        "https://us.msi.com/faq/11095"
+      ],
+      "evidence": [
+        "Official manufacturer documentation supports this model/module compatibility."
+      ]
+    },
+    {
+      "manufacturer": "MSI",
+      "model": "PRO Z890-P",
+      "revision": "x.x",
+      "status": "verified",
+      "chipset": "Intel Z890",
+      "socket": "LGA1851",
+      "header": "TPM module connector",
+      "bus": "SPI",
+      "pinLayout": "",
+      "module": "TPM 2.0 (9672) / TPM 2.0 (MS-4462)",
+      "confidence": 100,
+      "note": "ELLENŐRZÖTT hivatalos gyártói forrás alapján.",
+      "sources": [
+        "https://us.msi.com/faq/11095"
+      ],
+      "evidence": [
+        "Official manufacturer documentation supports this model/module compatibility."
+      ]
+    },
+    {
+      "manufacturer": "MSI",
+      "model": "PRO Z890-P WIFI",
+      "revision": "x.x",
+      "status": "verified",
+      "chipset": "Intel Z890",
+      "socket": "LGA1851",
+      "header": "TPM module connector",
+      "bus": "SPI",
+      "pinLayout": "",
+      "module": "TPM 2.0 (9672) / TPM 2.0 (MS-4462)",
+      "confidence": 100,
+      "note": "ELLENŐRZÖTT hivatalos gyártói forrás alapján.",
+      "sources": [
+        "https://us.msi.com/faq/11095"
+      ],
+      "evidence": [
+        "Official manufacturer documentation supports this model/module compatibility."
+      ]
+    },
+    {
+      "manufacturer": "MSI",
+      "model": "PRO Z890-S WIFI",
+      "revision": "x.x",
+      "status": "verified",
+      "chipset": "Intel Z890",
+      "socket": "LGA1851",
+      "header": "TPM module connector",
+      "bus": "SPI",
+      "pinLayout": "",
+      "module": "TPM 2.0 (9672) / TPM 2.0 (MS-4462)",
+      "confidence": 100,
+      "note": "ELLENŐRZÖTT hivatalos gyártói forrás alapján.",
+      "sources": [
+        "https://us.msi.com/faq/11095"
+      ],
+      "evidence": [
+        "Official manufacturer documentation supports this model/module compatibility."
+      ]
+    },
+    {
+      "manufacturer": "MSI",
+      "model": "PRO Z890-S WIFI PZ",
+      "revision": "x.x",
+      "status": "verified",
+      "chipset": "Intel Z890",
+      "socket": "LGA1851",
+      "header": "TPM module connector",
+      "bus": "SPI",
+      "pinLayout": "",
+      "module": "TPM 2.0 (9672) / TPM 2.0 (MS-4462)",
+      "confidence": 100,
+      "note": "ELLENŐRZÖTT hivatalos gyártói forrás alapján.",
+      "sources": [
+        "https://us.msi.com/faq/11095"
+      ],
+      "evidence": [
+        "Official manufacturer documentation supports this model/module compatibility."
+      ]
+    },
+    {
+      "manufacturer": "MSI",
+      "model": "PRO Z890-S WIFI WHITE",
+      "revision": "x.x",
+      "status": "verified",
+      "chipset": "Intel Z890",
+      "socket": "LGA1851",
+      "header": "TPM module connector",
+      "bus": "SPI",
+      "pinLayout": "",
+      "module": "TPM 2.0 (9672) / TPM 2.0 (MS-4462)",
+      "confidence": 100,
+      "note": "ELLENŐRZÖTT hivatalos gyártói forrás alapján.",
+      "sources": [
+        "https://us.msi.com/faq/11095"
+      ],
+      "evidence": [
+        "Official manufacturer documentation supports this model/module compatibility."
+      ]
+    },
+    {
+      "manufacturer": "MSI",
+      "model": "X870 GAMING PLUS WIFI",
+      "revision": "x.x",
+      "status": "verified",
+      "chipset": "AMD X870",
+      "socket": "AM5",
+      "header": "TPM module connector",
+      "bus": "SPI",
+      "pinLayout": "",
+      "module": "TPM 2.0 (9672) / TPM 2.0 (MS-4462)",
+      "confidence": 100,
+      "note": "ELLENŐRZÖTT hivatalos gyártói forrás alapján.",
+      "sources": [
+        "https://us.msi.com/faq/11095"
+      ],
+      "evidence": [
+        "Official manufacturer documentation supports this model/module compatibility."
+      ]
+    },
+    {
+      "manufacturer": "MSI",
+      "model": "X870E GAMING PLUS WIFI",
+      "revision": "x.x",
+      "status": "verified",
+      "chipset": "AMD X870E",
+      "socket": "AM5",
+      "header": "TPM module connector",
+      "bus": "SPI",
+      "pinLayout": "",
+      "module": "TPM 2.0 (9672) / TPM 2.0 (MS-4462)",
+      "confidence": 100,
+      "note": "ELLENŐRZÖTT hivatalos gyártói forrás alapján.",
+      "sources": [
+        "https://us.msi.com/faq/11095"
+      ],
+      "evidence": [
+        "Official manufacturer documentation supports this model/module compatibility."
+      ]
+    },
+    {
+      "manufacturer": "MSI",
+      "model": "Z890 GAMING PLUS WIFI",
+      "revision": "x.x",
+      "status": "verified",
+      "chipset": "Intel Z890",
+      "socket": "LGA1851",
+      "header": "TPM module connector",
+      "bus": "SPI",
+      "pinLayout": "",
+      "module": "TPM 2.0 (9672) / TPM 2.0 (MS-4462)",
+      "confidence": 100,
+      "note": "ELLENŐRZÖTT hivatalos gyártói forrás alapján.",
+      "sources": [
+        "https://us.msi.com/faq/11095"
+      ],
+      "evidence": [
+        "Official manufacturer documentation supports this model/module compatibility."
+      ]
+    },
+    {
+      "manufacturer": "MSI",
+      "model": "Z890 GAMING WIFI",
+      "revision": "x.x",
+      "status": "verified",
+      "chipset": "Intel Z890",
+      "socket": "LGA1851",
+      "header": "TPM module connector",
+      "bus": "SPI",
+      "pinLayout": "",
+      "module": "TPM 2.0 (9672) / TPM 2.0 (MS-4462)",
+      "confidence": 100,
+      "note": "ELLENŐRZÖTT hivatalos gyártói forrás alapján.",
+      "sources": [
+        "https://us.msi.com/faq/11095"
+      ],
+      "evidence": [
+        "Official manufacturer documentation supports this model/module compatibility."
       ]
     }
   ]
