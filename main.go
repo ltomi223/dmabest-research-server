@@ -617,7 +617,7 @@ func main() {
 		_ = json.NewEncoder(w).Encode(map[string]any{
 			"ok":               true,
 			"service":          "DMA Best EU Research",
-			"databaseVersion":  "V14",
+			"databaseVersion":  "V16-MASS-DISCOVERY",
 			"databaseSchema":   db.SchemaVersion,
 			"verifiedProfiles": len(db.Profiles),
 			"generated":        db.Generated,
@@ -663,6 +663,6 @@ func main() {
 
 	log.Printf("DMA Best EU FREE Research listening on %s", cfg.Listen)
 	log.Printf("No OpenAI API key required")
-	log.Printf("Database V14 active: %d profiles", len(verifiedDB().Profiles))
+	log.Printf("Database V16 MASS DISCOVERY active: %d profiles", len(verifiedDB().Profiles))
 	log.Fatal(http.ListenAndServe(cfg.Listen, mux))
 }

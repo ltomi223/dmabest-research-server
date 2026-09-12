@@ -1,19 +1,12 @@
-DMA Best EU Research V14 - CACHE + DATABASE FIX
+DMA Best EU V16 MASS DISCOVERY
 
-Database version: V14
-Canonical profiles: 35
-Removed duplicate generic MSI records: 6
+TOTAL PROFILES: 131
+VERIFIED: 35
+PENDING/DISCOVERED: 96
 
-Main fixes:
-1. VERIFIED database lookup now runs BEFORE cache.
-   Old PENDING cache entries can no longer hide new VERIFIED profiles.
-2. Exact revision match is preferred over wildcard profiles.
-3. Duplicate generic MSI profiles were consolidated.
-4. /health now shows databaseVersion, databaseSchema, verifiedProfiles and generated date.
+This is the first scalable database build.
+The existing 35 verified profiles are preserved unchanged.
+A large MSI gaming motherboard model set was imported from MSI's official CPU-support catalog.
+Discovered models include exact model, chipset and socket and remain PENDING until exact TPM compatibility is verified.
 
-After deployment, open:
-https://dmabest-research-server.onrender.com/health
-
-Expected:
-databaseVersion = V14
-verifiedProfiles = 35
+Upload ALL files in this package to GitHub and deploy latest commit on Render.

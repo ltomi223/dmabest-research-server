@@ -1,7 +1,7 @@
 {
-  "schemaVersion": 5,
+  "schemaVersion": 7,
   "generated": "2026-09-13",
-  "verificationPolicy": "STRICT: only source-backed profiles are VERIFIED; exact model/revision lookup is preferred over wildcard.",
+  "verificationPolicy": "VERIFIED records remain strict/source-backed. Mass-discovered models are PENDING until TPM header/module is confirmed from official documentation.",
   "profiles": [
     {
       "manufacturer": "GIGABYTE",
@@ -226,6 +226,546 @@
     },
     {
       "manufacturer": "MSI",
+      "model": "B450 GAMING PLUS MAX",
+      "revision": "*",
+      "status": "pending",
+      "chipset": "AMD B450",
+      "socket": "AM4",
+      "header": "",
+      "bus": "",
+      "pinLayout": "",
+      "module": "",
+      "confidence": 60,
+      "note": "MODEL DISCOVERED from MSI official CPU-support catalog. TPM compatibility not yet VERIFIED.",
+      "sources": [
+        "https://www.msi.com/support/motherboard/cpu-support"
+      ],
+      "evidence": [
+        "Exact motherboard model is listed in MSI's official motherboard CPU-support catalog."
+      ]
+    },
+    {
+      "manufacturer": "MSI",
+      "model": "B450 GAMING PRO CARBON MAX WIFI",
+      "revision": "*",
+      "status": "pending",
+      "chipset": "AMD B450",
+      "socket": "AM4",
+      "header": "",
+      "bus": "",
+      "pinLayout": "",
+      "module": "",
+      "confidence": 60,
+      "note": "MODEL DISCOVERED from MSI official CPU-support catalog. TPM compatibility not yet VERIFIED.",
+      "sources": [
+        "https://www.msi.com/support/motherboard/cpu-support"
+      ],
+      "evidence": [
+        "Exact motherboard model is listed in MSI's official motherboard CPU-support catalog."
+      ]
+    },
+    {
+      "manufacturer": "MSI",
+      "model": "B450 TOMAHAWK MAX",
+      "revision": "*",
+      "status": "pending",
+      "chipset": "AMD B450",
+      "socket": "AM4",
+      "header": "",
+      "bus": "",
+      "pinLayout": "",
+      "module": "",
+      "confidence": 60,
+      "note": "MODEL DISCOVERED from MSI official CPU-support catalog. TPM compatibility not yet VERIFIED.",
+      "sources": [
+        "https://www.msi.com/support/motherboard/cpu-support"
+      ],
+      "evidence": [
+        "Exact motherboard model is listed in MSI's official motherboard CPU-support catalog."
+      ]
+    },
+    {
+      "manufacturer": "MSI",
+      "model": "B450 TOMAHAWK MAX II",
+      "revision": "*",
+      "status": "pending",
+      "chipset": "AMD B450",
+      "socket": "AM4",
+      "header": "",
+      "bus": "",
+      "pinLayout": "",
+      "module": "",
+      "confidence": 60,
+      "note": "MODEL DISCOVERED from MSI official CPU-support catalog. TPM compatibility not yet VERIFIED.",
+      "sources": [
+        "https://www.msi.com/support/motherboard/cpu-support"
+      ],
+      "evidence": [
+        "Exact motherboard model is listed in MSI's official motherboard CPU-support catalog."
+      ]
+    },
+    {
+      "manufacturer": "MSI",
+      "model": "B550 GAMING GEN3",
+      "revision": "*",
+      "status": "pending",
+      "chipset": "AMD B550",
+      "socket": "AM4",
+      "header": "",
+      "bus": "",
+      "pinLayout": "",
+      "module": "",
+      "confidence": 60,
+      "note": "MODEL DISCOVERED from MSI official CPU-support catalog. TPM compatibility not yet VERIFIED.",
+      "sources": [
+        "https://www.msi.com/support/motherboard/cpu-support"
+      ],
+      "evidence": [
+        "Exact motherboard model is listed in MSI's official motherboard CPU-support catalog."
+      ]
+    },
+    {
+      "manufacturer": "MSI",
+      "model": "B650 GAMING PLUS",
+      "revision": "*",
+      "status": "pending",
+      "chipset": "AMD B650",
+      "socket": "AM5",
+      "header": "",
+      "bus": "",
+      "pinLayout": "",
+      "module": "",
+      "confidence": 60,
+      "note": "MODEL DISCOVERED from MSI official CPU-support catalog. TPM compatibility not yet VERIFIED.",
+      "sources": [
+        "https://www.msi.com/support/motherboard/cpu-support"
+      ],
+      "evidence": [
+        "Exact motherboard model is listed in MSI's official motherboard CPU-support catalog."
+      ]
+    },
+    {
+      "manufacturer": "MSI",
+      "model": "B650 GAMING PLUS WIFI",
+      "revision": "*",
+      "status": "pending",
+      "chipset": "AMD B650",
+      "socket": "AM5",
+      "header": "",
+      "bus": "",
+      "pinLayout": "",
+      "module": "",
+      "confidence": 60,
+      "note": "MODEL DISCOVERED from MSI official CPU-support catalog. TPM compatibility not yet VERIFIED.",
+      "sources": [
+        "https://www.msi.com/support/motherboard/cpu-support"
+      ],
+      "evidence": [
+        "Exact motherboard model is listed in MSI's official motherboard CPU-support catalog."
+      ]
+    },
+    {
+      "manufacturer": "MSI",
+      "model": "B760 GAMING PLUS WIFI",
+      "revision": "*",
+      "status": "pending",
+      "chipset": "Intel B760",
+      "socket": "LGA1700",
+      "header": "",
+      "bus": "",
+      "pinLayout": "",
+      "module": "",
+      "confidence": 60,
+      "note": "MODEL DISCOVERED from MSI official CPU-support catalog. TPM compatibility not yet VERIFIED.",
+      "sources": [
+        "https://www.msi.com/support/motherboard/cpu-support"
+      ],
+      "evidence": [
+        "Exact motherboard model is listed in MSI's official motherboard CPU-support catalog."
+      ]
+    },
+    {
+      "manufacturer": "MSI",
+      "model": "B760 GAMING PLUS WIFI DDR4",
+      "revision": "*",
+      "status": "pending",
+      "chipset": "Intel B760",
+      "socket": "LGA1700",
+      "header": "",
+      "bus": "",
+      "pinLayout": "",
+      "module": "",
+      "confidence": 60,
+      "note": "MODEL DISCOVERED from MSI official CPU-support catalog. TPM compatibility not yet VERIFIED.",
+      "sources": [
+        "https://www.msi.com/support/motherboard/cpu-support"
+      ],
+      "evidence": [
+        "Exact motherboard model is listed in MSI's official motherboard CPU-support catalog."
+      ]
+    },
+    {
+      "manufacturer": "MSI",
+      "model": "B850 GAMING PLUS WIFI PZ",
+      "revision": "*",
+      "status": "pending",
+      "chipset": "AMD B850",
+      "socket": "AM5",
+      "header": "",
+      "bus": "",
+      "pinLayout": "",
+      "module": "",
+      "confidence": 60,
+      "note": "MODEL DISCOVERED from MSI official CPU-support catalog. TPM compatibility not yet VERIFIED.",
+      "sources": [
+        "https://www.msi.com/support/motherboard/cpu-support"
+      ],
+      "evidence": [
+        "Exact motherboard model is listed in MSI's official motherboard CPU-support catalog."
+      ]
+    },
+    {
+      "manufacturer": "MSI",
+      "model": "B850 GAMING PLUS WIFI6E",
+      "revision": "*",
+      "status": "pending",
+      "chipset": "AMD B850",
+      "socket": "AM5",
+      "header": "",
+      "bus": "",
+      "pinLayout": "",
+      "module": "",
+      "confidence": 60,
+      "note": "MODEL DISCOVERED from MSI official CPU-support catalog. TPM compatibility not yet VERIFIED.",
+      "sources": [
+        "https://www.msi.com/support/motherboard/cpu-support"
+      ],
+      "evidence": [
+        "Exact motherboard model is listed in MSI's official motherboard CPU-support catalog."
+      ]
+    },
+    {
+      "manufacturer": "MSI",
+      "model": "B850 GAMING PRO WIFI6E",
+      "revision": "*",
+      "status": "pending",
+      "chipset": "AMD B850",
+      "socket": "AM5",
+      "header": "",
+      "bus": "",
+      "pinLayout": "",
+      "module": "",
+      "confidence": 60,
+      "note": "MODEL DISCOVERED from MSI official CPU-support catalog. TPM compatibility not yet VERIFIED.",
+      "sources": [
+        "https://www.msi.com/support/motherboard/cpu-support"
+      ],
+      "evidence": [
+        "Exact motherboard model is listed in MSI's official motherboard CPU-support catalog."
+      ]
+    },
+    {
+      "manufacturer": "MSI",
+      "model": "MAG B460 TOMAHAWK",
+      "revision": "*",
+      "status": "pending",
+      "chipset": "Intel B460",
+      "socket": "LGA1200",
+      "header": "",
+      "bus": "",
+      "pinLayout": "",
+      "module": "",
+      "confidence": 60,
+      "note": "MODEL DISCOVERED from MSI official CPU-support catalog. TPM compatibility not yet VERIFIED.",
+      "sources": [
+        "https://www.msi.com/support/motherboard/cpu-support"
+      ],
+      "evidence": [
+        "Exact motherboard model is listed in MSI's official motherboard CPU-support catalog."
+      ]
+    },
+    {
+      "manufacturer": "MSI",
+      "model": "MAG B460 TORPEDO",
+      "revision": "*",
+      "status": "pending",
+      "chipset": "Intel B460",
+      "socket": "LGA1200",
+      "header": "",
+      "bus": "",
+      "pinLayout": "",
+      "module": "",
+      "confidence": 60,
+      "note": "MODEL DISCOVERED from MSI official CPU-support catalog. TPM compatibility not yet VERIFIED.",
+      "sources": [
+        "https://www.msi.com/support/motherboard/cpu-support"
+      ],
+      "evidence": [
+        "Exact motherboard model is listed in MSI's official motherboard CPU-support catalog."
+      ]
+    },
+    {
+      "manufacturer": "MSI",
+      "model": "MAG B550 TOMAHAWK",
+      "revision": "*",
+      "status": "pending",
+      "chipset": "AMD B550",
+      "socket": "AM4",
+      "header": "",
+      "bus": "",
+      "pinLayout": "",
+      "module": "",
+      "confidence": 60,
+      "note": "MODEL DISCOVERED from MSI official CPU-support catalog. TPM compatibility not yet VERIFIED.",
+      "sources": [
+        "https://www.msi.com/support/motherboard/cpu-support"
+      ],
+      "evidence": [
+        "Exact motherboard model is listed in MSI's official motherboard CPU-support catalog."
+      ]
+    },
+    {
+      "manufacturer": "MSI",
+      "model": "MAG B550 TOMAHAWK MAX WIFI",
+      "revision": "*",
+      "status": "pending",
+      "chipset": "AMD B550",
+      "socket": "AM4",
+      "header": "",
+      "bus": "",
+      "pinLayout": "",
+      "module": "",
+      "confidence": 60,
+      "note": "MODEL DISCOVERED from MSI official CPU-support catalog. TPM compatibility not yet VERIFIED.",
+      "sources": [
+        "https://www.msi.com/support/motherboard/cpu-support"
+      ],
+      "evidence": [
+        "Exact motherboard model is listed in MSI's official motherboard CPU-support catalog."
+      ]
+    },
+    {
+      "manufacturer": "MSI",
+      "model": "MAG B550 TOMAHAWK WIFI",
+      "revision": "*",
+      "status": "pending",
+      "chipset": "AMD B550",
+      "socket": "AM4",
+      "header": "",
+      "bus": "",
+      "pinLayout": "",
+      "module": "",
+      "confidence": 60,
+      "note": "MODEL DISCOVERED from MSI official CPU-support catalog. TPM compatibility not yet VERIFIED.",
+      "sources": [
+        "https://www.msi.com/support/motherboard/cpu-support"
+      ],
+      "evidence": [
+        "Exact motherboard model is listed in MSI's official motherboard CPU-support catalog."
+      ]
+    },
+    {
+      "manufacturer": "MSI",
+      "model": "MAG B550 TORPEDO",
+      "revision": "*",
+      "status": "pending",
+      "chipset": "AMD B550",
+      "socket": "AM4",
+      "header": "",
+      "bus": "",
+      "pinLayout": "",
+      "module": "",
+      "confidence": 60,
+      "note": "MODEL DISCOVERED from MSI official CPU-support catalog. TPM compatibility not yet VERIFIED.",
+      "sources": [
+        "https://www.msi.com/support/motherboard/cpu-support"
+      ],
+      "evidence": [
+        "Exact motherboard model is listed in MSI's official motherboard CPU-support catalog."
+      ]
+    },
+    {
+      "manufacturer": "MSI",
+      "model": "MAG B560 TOMAHAWK WIFI",
+      "revision": "*",
+      "status": "pending",
+      "chipset": "Intel B560",
+      "socket": "LGA1200",
+      "header": "",
+      "bus": "",
+      "pinLayout": "",
+      "module": "",
+      "confidence": 60,
+      "note": "MODEL DISCOVERED from MSI official CPU-support catalog. TPM compatibility not yet VERIFIED.",
+      "sources": [
+        "https://www.msi.com/support/motherboard/cpu-support"
+      ],
+      "evidence": [
+        "Exact motherboard model is listed in MSI's official motherboard CPU-support catalog."
+      ]
+    },
+    {
+      "manufacturer": "MSI",
+      "model": "MAG B560 TORPEDO",
+      "revision": "*",
+      "status": "pending",
+      "chipset": "Intel B560",
+      "socket": "LGA1200",
+      "header": "",
+      "bus": "",
+      "pinLayout": "",
+      "module": "",
+      "confidence": 60,
+      "note": "MODEL DISCOVERED from MSI official CPU-support catalog. TPM compatibility not yet VERIFIED.",
+      "sources": [
+        "https://www.msi.com/support/motherboard/cpu-support"
+      ],
+      "evidence": [
+        "Exact motherboard model is listed in MSI's official motherboard CPU-support catalog."
+      ]
+    },
+    {
+      "manufacturer": "MSI",
+      "model": "MAG B650 TOMAHAWK WIFI",
+      "revision": "*",
+      "status": "pending",
+      "chipset": "AMD B650",
+      "socket": "AM5",
+      "header": "",
+      "bus": "",
+      "pinLayout": "",
+      "module": "",
+      "confidence": 60,
+      "note": "MODEL DISCOVERED from MSI official CPU-support catalog. TPM compatibility not yet VERIFIED.",
+      "sources": [
+        "https://www.msi.com/support/motherboard/cpu-support"
+      ],
+      "evidence": [
+        "Exact motherboard model is listed in MSI's official motherboard CPU-support catalog."
+      ]
+    },
+    {
+      "manufacturer": "MSI",
+      "model": "MAG B850 GAMING PLUS MAX WIFI S",
+      "revision": "*",
+      "status": "pending",
+      "chipset": "AMD B850",
+      "socket": "AM5",
+      "header": "",
+      "bus": "",
+      "pinLayout": "",
+      "module": "",
+      "confidence": 60,
+      "note": "MODEL DISCOVERED from MSI official CPU-support catalog. TPM compatibility not yet VERIFIED.",
+      "sources": [
+        "https://www.msi.com/support/motherboard/cpu-support"
+      ],
+      "evidence": [
+        "Exact motherboard model is listed in MSI's official motherboard CPU-support catalog."
+      ]
+    },
+    {
+      "manufacturer": "MSI",
+      "model": "MAG B860 TOMAHAWK WIFI",
+      "revision": "*",
+      "status": "pending",
+      "chipset": "Intel B860",
+      "socket": "LGA1851",
+      "header": "",
+      "bus": "",
+      "pinLayout": "",
+      "module": "",
+      "confidence": 60,
+      "note": "MODEL DISCOVERED from MSI official CPU-support catalog. TPM compatibility not yet VERIFIED.",
+      "sources": [
+        "https://www.msi.com/support/motherboard/cpu-support"
+      ],
+      "evidence": [
+        "Exact motherboard model is listed in MSI's official motherboard CPU-support catalog."
+      ]
+    },
+    {
+      "manufacturer": "MSI",
+      "model": "MAG X570 TOMAHAWK WIFI",
+      "revision": "*",
+      "status": "pending",
+      "chipset": "AMD X570",
+      "socket": "AM4",
+      "header": "",
+      "bus": "",
+      "pinLayout": "",
+      "module": "",
+      "confidence": 60,
+      "note": "MODEL DISCOVERED from MSI official CPU-support catalog. TPM compatibility not yet VERIFIED.",
+      "sources": [
+        "https://www.msi.com/support/motherboard/cpu-support"
+      ],
+      "evidence": [
+        "Exact motherboard model is listed in MSI's official motherboard CPU-support catalog."
+      ]
+    },
+    {
+      "manufacturer": "MSI",
+      "model": "MAG X570S TOMAHAWK MAX WIFI",
+      "revision": "*",
+      "status": "pending",
+      "chipset": "AMD X570S",
+      "socket": "AM4",
+      "header": "",
+      "bus": "",
+      "pinLayout": "",
+      "module": "",
+      "confidence": 60,
+      "note": "MODEL DISCOVERED from MSI official CPU-support catalog. TPM compatibility not yet VERIFIED.",
+      "sources": [
+        "https://www.msi.com/support/motherboard/cpu-support"
+      ],
+      "evidence": [
+        "Exact motherboard model is listed in MSI's official motherboard CPU-support catalog."
+      ]
+    },
+    {
+      "manufacturer": "MSI",
+      "model": "MAG X570S TORPEDO MAX",
+      "revision": "*",
+      "status": "pending",
+      "chipset": "AMD X570S",
+      "socket": "AM4",
+      "header": "",
+      "bus": "",
+      "pinLayout": "",
+      "module": "",
+      "confidence": 60,
+      "note": "MODEL DISCOVERED from MSI official CPU-support catalog. TPM compatibility not yet VERIFIED.",
+      "sources": [
+        "https://www.msi.com/support/motherboard/cpu-support"
+      ],
+      "evidence": [
+        "Exact motherboard model is listed in MSI's official motherboard CPU-support catalog."
+      ]
+    },
+    {
+      "manufacturer": "MSI",
+      "model": "MAG X670E TOMAHAWK WIFI",
+      "revision": "*",
+      "status": "pending",
+      "chipset": "AMD X670E",
+      "socket": "AM5",
+      "header": "",
+      "bus": "",
+      "pinLayout": "",
+      "module": "",
+      "confidence": 60,
+      "note": "MODEL DISCOVERED from MSI official CPU-support catalog. TPM compatibility not yet VERIFIED.",
+      "sources": [
+        "https://www.msi.com/support/motherboard/cpu-support"
+      ],
+      "evidence": [
+        "Exact motherboard model is listed in MSI's official motherboard CPU-support catalog."
+      ]
+    },
+    {
+      "manufacturer": "MSI",
       "model": "MAG X870 TOMAHAWK WIFI",
       "revision": "*",
       "status": "verified",
@@ -250,6 +790,106 @@
     },
     {
       "manufacturer": "MSI",
+      "model": "MAG X870E GAMING MAX WIFI",
+      "revision": "*",
+      "status": "pending",
+      "chipset": "AMD X870E",
+      "socket": "AM5",
+      "header": "",
+      "bus": "",
+      "pinLayout": "",
+      "module": "",
+      "confidence": 60,
+      "note": "MODEL DISCOVERED from MSI official CPU-support catalog. TPM compatibility not yet VERIFIED.",
+      "sources": [
+        "https://www.msi.com/support/motherboard/cpu-support"
+      ],
+      "evidence": [
+        "Exact motherboard model is listed in MSI's official motherboard CPU-support catalog."
+      ]
+    },
+    {
+      "manufacturer": "MSI",
+      "model": "MAG X870E GAMING PLUS MAX WIFI",
+      "revision": "*",
+      "status": "pending",
+      "chipset": "AMD X870E",
+      "socket": "AM5",
+      "header": "",
+      "bus": "",
+      "pinLayout": "",
+      "module": "",
+      "confidence": 60,
+      "note": "MODEL DISCOVERED from MSI official CPU-support catalog. TPM compatibility not yet VERIFIED.",
+      "sources": [
+        "https://www.msi.com/support/motherboard/cpu-support"
+      ],
+      "evidence": [
+        "Exact motherboard model is listed in MSI's official motherboard CPU-support catalog."
+      ]
+    },
+    {
+      "manufacturer": "MSI",
+      "model": "MAG X870E GAMING PLUS MAX WIFI S",
+      "revision": "*",
+      "status": "pending",
+      "chipset": "AMD X870E",
+      "socket": "AM5",
+      "header": "",
+      "bus": "",
+      "pinLayout": "",
+      "module": "",
+      "confidence": 60,
+      "note": "MODEL DISCOVERED from MSI official CPU-support catalog. TPM compatibility not yet VERIFIED.",
+      "sources": [
+        "https://www.msi.com/support/motherboard/cpu-support"
+      ],
+      "evidence": [
+        "Exact motherboard model is listed in MSI's official motherboard CPU-support catalog."
+      ]
+    },
+    {
+      "manufacturer": "MSI",
+      "model": "MAG X870E TOMAHAWK MAX WIFI",
+      "revision": "*",
+      "status": "pending",
+      "chipset": "AMD X870E",
+      "socket": "AM5",
+      "header": "",
+      "bus": "",
+      "pinLayout": "",
+      "module": "",
+      "confidence": 60,
+      "note": "MODEL DISCOVERED from MSI official CPU-support catalog. TPM compatibility not yet VERIFIED.",
+      "sources": [
+        "https://www.msi.com/support/motherboard/cpu-support"
+      ],
+      "evidence": [
+        "Exact motherboard model is listed in MSI's official motherboard CPU-support catalog."
+      ]
+    },
+    {
+      "manufacturer": "MSI",
+      "model": "MAG X870E TOMAHAWK MAX WIFI PZ",
+      "revision": "*",
+      "status": "pending",
+      "chipset": "AMD X870E",
+      "socket": "AM5",
+      "header": "",
+      "bus": "",
+      "pinLayout": "",
+      "module": "",
+      "confidence": 60,
+      "note": "MODEL DISCOVERED from MSI official CPU-support catalog. TPM compatibility not yet VERIFIED.",
+      "sources": [
+        "https://www.msi.com/support/motherboard/cpu-support"
+      ],
+      "evidence": [
+        "Exact motherboard model is listed in MSI's official motherboard CPU-support catalog."
+      ]
+    },
+    {
+      "manufacturer": "MSI",
       "model": "MAG X870E TOMAHAWK WIFI",
       "revision": "*",
       "status": "verified",
@@ -266,6 +906,146 @@
       ],
       "evidence": [
         "Official manufacturer documentation supports this model/module compatibility."
+      ]
+    },
+    {
+      "manufacturer": "MSI",
+      "model": "MAG Z490 TOMAHAWK",
+      "revision": "*",
+      "status": "pending",
+      "chipset": "Intel Z490",
+      "socket": "LGA1200",
+      "header": "",
+      "bus": "",
+      "pinLayout": "",
+      "module": "",
+      "confidence": 60,
+      "note": "MODEL DISCOVERED from MSI official CPU-support catalog. TPM compatibility not yet VERIFIED.",
+      "sources": [
+        "https://www.msi.com/support/motherboard/cpu-support"
+      ],
+      "evidence": [
+        "Exact motherboard model is listed in MSI's official motherboard CPU-support catalog."
+      ]
+    },
+    {
+      "manufacturer": "MSI",
+      "model": "MAG Z590 TOMAHAWK WIFI",
+      "revision": "*",
+      "status": "pending",
+      "chipset": "Intel Z590",
+      "socket": "LGA1200",
+      "header": "",
+      "bus": "",
+      "pinLayout": "",
+      "module": "",
+      "confidence": 60,
+      "note": "MODEL DISCOVERED from MSI official CPU-support catalog. TPM compatibility not yet VERIFIED.",
+      "sources": [
+        "https://www.msi.com/support/motherboard/cpu-support"
+      ],
+      "evidence": [
+        "Exact motherboard model is listed in MSI's official motherboard CPU-support catalog."
+      ]
+    },
+    {
+      "manufacturer": "MSI",
+      "model": "MAG Z590 TORPEDO",
+      "revision": "*",
+      "status": "pending",
+      "chipset": "Intel Z590",
+      "socket": "LGA1200",
+      "header": "",
+      "bus": "",
+      "pinLayout": "",
+      "module": "",
+      "confidence": 60,
+      "note": "MODEL DISCOVERED from MSI official CPU-support catalog. TPM compatibility not yet VERIFIED.",
+      "sources": [
+        "https://www.msi.com/support/motherboard/cpu-support"
+      ],
+      "evidence": [
+        "Exact motherboard model is listed in MSI's official motherboard CPU-support catalog."
+      ]
+    },
+    {
+      "manufacturer": "MSI",
+      "model": "MAG Z690 TOMAHAWK WIFI DDR4",
+      "revision": "*",
+      "status": "pending",
+      "chipset": "Intel Z690",
+      "socket": "LGA1700",
+      "header": "",
+      "bus": "",
+      "pinLayout": "",
+      "module": "",
+      "confidence": 60,
+      "note": "MODEL DISCOVERED from MSI official CPU-support catalog. TPM compatibility not yet VERIFIED.",
+      "sources": [
+        "https://www.msi.com/support/motherboard/cpu-support"
+      ],
+      "evidence": [
+        "Exact motherboard model is listed in MSI's official motherboard CPU-support catalog."
+      ]
+    },
+    {
+      "manufacturer": "MSI",
+      "model": "MAG Z690 TORPEDO",
+      "revision": "*",
+      "status": "pending",
+      "chipset": "Intel Z690",
+      "socket": "LGA1700",
+      "header": "",
+      "bus": "",
+      "pinLayout": "",
+      "module": "",
+      "confidence": 60,
+      "note": "MODEL DISCOVERED from MSI official CPU-support catalog. TPM compatibility not yet VERIFIED.",
+      "sources": [
+        "https://www.msi.com/support/motherboard/cpu-support"
+      ],
+      "evidence": [
+        "Exact motherboard model is listed in MSI's official motherboard CPU-support catalog."
+      ]
+    },
+    {
+      "manufacturer": "MSI",
+      "model": "MAG Z690 TORPEDO EK X",
+      "revision": "*",
+      "status": "pending",
+      "chipset": "Intel Z690",
+      "socket": "LGA1700",
+      "header": "",
+      "bus": "",
+      "pinLayout": "",
+      "module": "",
+      "confidence": 60,
+      "note": "MODEL DISCOVERED from MSI official CPU-support catalog. TPM compatibility not yet VERIFIED.",
+      "sources": [
+        "https://www.msi.com/support/motherboard/cpu-support"
+      ],
+      "evidence": [
+        "Exact motherboard model is listed in MSI's official motherboard CPU-support catalog."
+      ]
+    },
+    {
+      "manufacturer": "MSI",
+      "model": "MAG Z790 TOMAHAWK WIFI",
+      "revision": "*",
+      "status": "pending",
+      "chipset": "Intel Z790",
+      "socket": "LGA1700",
+      "header": "",
+      "bus": "",
+      "pinLayout": "",
+      "module": "",
+      "confidence": 60,
+      "note": "MODEL DISCOVERED from MSI official CPU-support catalog. TPM compatibility not yet VERIFIED.",
+      "sources": [
+        "https://www.msi.com/support/motherboard/cpu-support"
+      ],
+      "evidence": [
+        "Exact motherboard model is listed in MSI's official motherboard CPU-support catalog."
       ]
     },
     {
@@ -294,6 +1074,246 @@
     },
     {
       "manufacturer": "MSI",
+      "model": "MAG Z890 TOMAHAWK WIFI II",
+      "revision": "*",
+      "status": "pending",
+      "chipset": "Intel Z890",
+      "socket": "LGA1851",
+      "header": "",
+      "bus": "",
+      "pinLayout": "",
+      "module": "",
+      "confidence": 60,
+      "note": "MODEL DISCOVERED from MSI official CPU-support catalog. TPM compatibility not yet VERIFIED.",
+      "sources": [
+        "https://www.msi.com/support/motherboard/cpu-support"
+      ],
+      "evidence": [
+        "Exact motherboard model is listed in MSI's official motherboard CPU-support catalog."
+      ]
+    },
+    {
+      "manufacturer": "MSI",
+      "model": "MEG B550 UNIFY",
+      "revision": "*",
+      "status": "pending",
+      "chipset": "AMD B550",
+      "socket": "AM4",
+      "header": "",
+      "bus": "",
+      "pinLayout": "",
+      "module": "",
+      "confidence": 60,
+      "note": "MODEL DISCOVERED from MSI official CPU-support catalog. TPM compatibility not yet VERIFIED.",
+      "sources": [
+        "https://www.msi.com/support/motherboard/cpu-support"
+      ],
+      "evidence": [
+        "Exact motherboard model is listed in MSI's official motherboard CPU-support catalog."
+      ]
+    },
+    {
+      "manufacturer": "MSI",
+      "model": "MEG B550 UNIFY-X",
+      "revision": "*",
+      "status": "pending",
+      "chipset": "AMD B550",
+      "socket": "AM4",
+      "header": "",
+      "bus": "",
+      "pinLayout": "",
+      "module": "",
+      "confidence": 60,
+      "note": "MODEL DISCOVERED from MSI official CPU-support catalog. TPM compatibility not yet VERIFIED.",
+      "sources": [
+        "https://www.msi.com/support/motherboard/cpu-support"
+      ],
+      "evidence": [
+        "Exact motherboard model is listed in MSI's official motherboard CPU-support catalog."
+      ]
+    },
+    {
+      "manufacturer": "MSI",
+      "model": "MEG X570 ACE",
+      "revision": "*",
+      "status": "pending",
+      "chipset": "AMD X570",
+      "socket": "AM4",
+      "header": "",
+      "bus": "",
+      "pinLayout": "",
+      "module": "",
+      "confidence": 60,
+      "note": "MODEL DISCOVERED from MSI official CPU-support catalog. TPM compatibility not yet VERIFIED.",
+      "sources": [
+        "https://www.msi.com/support/motherboard/cpu-support"
+      ],
+      "evidence": [
+        "Exact motherboard model is listed in MSI's official motherboard CPU-support catalog."
+      ]
+    },
+    {
+      "manufacturer": "MSI",
+      "model": "MEG X570 GODLIKE",
+      "revision": "*",
+      "status": "pending",
+      "chipset": "AMD X570",
+      "socket": "AM4",
+      "header": "",
+      "bus": "",
+      "pinLayout": "",
+      "module": "",
+      "confidence": 60,
+      "note": "MODEL DISCOVERED from MSI official CPU-support catalog. TPM compatibility not yet VERIFIED.",
+      "sources": [
+        "https://www.msi.com/support/motherboard/cpu-support"
+      ],
+      "evidence": [
+        "Exact motherboard model is listed in MSI's official motherboard CPU-support catalog."
+      ]
+    },
+    {
+      "manufacturer": "MSI",
+      "model": "MEG X570 UNIFY",
+      "revision": "*",
+      "status": "pending",
+      "chipset": "AMD X570",
+      "socket": "AM4",
+      "header": "",
+      "bus": "",
+      "pinLayout": "",
+      "module": "",
+      "confidence": 60,
+      "note": "MODEL DISCOVERED from MSI official CPU-support catalog. TPM compatibility not yet VERIFIED.",
+      "sources": [
+        "https://www.msi.com/support/motherboard/cpu-support"
+      ],
+      "evidence": [
+        "Exact motherboard model is listed in MSI's official motherboard CPU-support catalog."
+      ]
+    },
+    {
+      "manufacturer": "MSI",
+      "model": "MEG X570S ACE MAX",
+      "revision": "*",
+      "status": "pending",
+      "chipset": "AMD X570S",
+      "socket": "AM4",
+      "header": "",
+      "bus": "",
+      "pinLayout": "",
+      "module": "",
+      "confidence": 60,
+      "note": "MODEL DISCOVERED from MSI official CPU-support catalog. TPM compatibility not yet VERIFIED.",
+      "sources": [
+        "https://www.msi.com/support/motherboard/cpu-support"
+      ],
+      "evidence": [
+        "Exact motherboard model is listed in MSI's official motherboard CPU-support catalog."
+      ]
+    },
+    {
+      "manufacturer": "MSI",
+      "model": "MEG X570S UNIFY-X MAX",
+      "revision": "*",
+      "status": "pending",
+      "chipset": "AMD X570S",
+      "socket": "AM4",
+      "header": "",
+      "bus": "",
+      "pinLayout": "",
+      "module": "",
+      "confidence": 60,
+      "note": "MODEL DISCOVERED from MSI official CPU-support catalog. TPM compatibility not yet VERIFIED.",
+      "sources": [
+        "https://www.msi.com/support/motherboard/cpu-support"
+      ],
+      "evidence": [
+        "Exact motherboard model is listed in MSI's official motherboard CPU-support catalog."
+      ]
+    },
+    {
+      "manufacturer": "MSI",
+      "model": "MEG X670E ACE",
+      "revision": "*",
+      "status": "pending",
+      "chipset": "AMD X670E",
+      "socket": "AM5",
+      "header": "",
+      "bus": "",
+      "pinLayout": "",
+      "module": "",
+      "confidence": 60,
+      "note": "MODEL DISCOVERED from MSI official CPU-support catalog. TPM compatibility not yet VERIFIED.",
+      "sources": [
+        "https://www.msi.com/support/motherboard/cpu-support"
+      ],
+      "evidence": [
+        "Exact motherboard model is listed in MSI's official motherboard CPU-support catalog."
+      ]
+    },
+    {
+      "manufacturer": "MSI",
+      "model": "MEG X670E GODLIKE",
+      "revision": "*",
+      "status": "pending",
+      "chipset": "AMD X670E",
+      "socket": "AM5",
+      "header": "",
+      "bus": "",
+      "pinLayout": "",
+      "module": "",
+      "confidence": 60,
+      "note": "MODEL DISCOVERED from MSI official CPU-support catalog. TPM compatibility not yet VERIFIED.",
+      "sources": [
+        "https://www.msi.com/support/motherboard/cpu-support"
+      ],
+      "evidence": [
+        "Exact motherboard model is listed in MSI's official motherboard CPU-support catalog."
+      ]
+    },
+    {
+      "manufacturer": "MSI",
+      "model": "MEG X870E ACE MAX",
+      "revision": "*",
+      "status": "pending",
+      "chipset": "AMD X870E",
+      "socket": "AM5",
+      "header": "",
+      "bus": "",
+      "pinLayout": "",
+      "module": "",
+      "confidence": 60,
+      "note": "MODEL DISCOVERED from MSI official CPU-support catalog. TPM compatibility not yet VERIFIED.",
+      "sources": [
+        "https://www.msi.com/support/motherboard/cpu-support"
+      ],
+      "evidence": [
+        "Exact motherboard model is listed in MSI's official motherboard CPU-support catalog."
+      ]
+    },
+    {
+      "manufacturer": "MSI",
+      "model": "MEG X870E ACE MAX DRACO EPIC EDITION",
+      "revision": "*",
+      "status": "pending",
+      "chipset": "AMD X870E",
+      "socket": "AM5",
+      "header": "",
+      "bus": "",
+      "pinLayout": "",
+      "module": "",
+      "confidence": 60,
+      "note": "MODEL DISCOVERED from MSI official CPU-support catalog. TPM compatibility not yet VERIFIED.",
+      "sources": [
+        "https://www.msi.com/support/motherboard/cpu-support"
+      ],
+      "evidence": [
+        "Exact motherboard model is listed in MSI's official motherboard CPU-support catalog."
+      ]
+    },
+    {
+      "manufacturer": "MSI",
       "model": "MEG X870E GODLIKE",
       "revision": "*",
       "status": "verified",
@@ -314,6 +1334,306 @@
         "Official MSI product specification confirms the exact motherboard chipset and CPU socket.",
         "Official MSI FAQ 11095 explicitly lists this exact motherboard as compatible with TPM 2.0 (9672) or TPM 2.0 (MS-4462).",
         "Official MSI TPM module page states both compatible modules use SPI and 12-1-pin definition."
+      ]
+    },
+    {
+      "manufacturer": "MSI",
+      "model": "MEG X870E GODLIKE MAX",
+      "revision": "*",
+      "status": "pending",
+      "chipset": "AMD X870E",
+      "socket": "AM5",
+      "header": "",
+      "bus": "",
+      "pinLayout": "",
+      "module": "",
+      "confidence": 60,
+      "note": "MODEL DISCOVERED from MSI official CPU-support catalog. TPM compatibility not yet VERIFIED.",
+      "sources": [
+        "https://www.msi.com/support/motherboard/cpu-support"
+      ],
+      "evidence": [
+        "Exact motherboard model is listed in MSI's official motherboard CPU-support catalog."
+      ]
+    },
+    {
+      "manufacturer": "MSI",
+      "model": "MEG X870E GODLIKE X EDITION",
+      "revision": "*",
+      "status": "pending",
+      "chipset": "AMD X870E",
+      "socket": "AM5",
+      "header": "",
+      "bus": "",
+      "pinLayout": "",
+      "module": "",
+      "confidence": 60,
+      "note": "MODEL DISCOVERED from MSI official CPU-support catalog. TPM compatibility not yet VERIFIED.",
+      "sources": [
+        "https://www.msi.com/support/motherboard/cpu-support"
+      ],
+      "evidence": [
+        "Exact motherboard model is listed in MSI's official motherboard CPU-support catalog."
+      ]
+    },
+    {
+      "manufacturer": "MSI",
+      "model": "MEG X870E UNIFY-X MAX",
+      "revision": "*",
+      "status": "pending",
+      "chipset": "AMD X870E",
+      "socket": "AM5",
+      "header": "",
+      "bus": "",
+      "pinLayout": "",
+      "module": "",
+      "confidence": 60,
+      "note": "MODEL DISCOVERED from MSI official CPU-support catalog. TPM compatibility not yet VERIFIED.",
+      "sources": [
+        "https://www.msi.com/support/motherboard/cpu-support"
+      ],
+      "evidence": [
+        "Exact motherboard model is listed in MSI's official motherboard CPU-support catalog."
+      ]
+    },
+    {
+      "manufacturer": "MSI",
+      "model": "MEG Z490 ACE",
+      "revision": "*",
+      "status": "pending",
+      "chipset": "Intel Z490",
+      "socket": "LGA1200",
+      "header": "",
+      "bus": "",
+      "pinLayout": "",
+      "module": "",
+      "confidence": 60,
+      "note": "MODEL DISCOVERED from MSI official CPU-support catalog. TPM compatibility not yet VERIFIED.",
+      "sources": [
+        "https://www.msi.com/support/motherboard/cpu-support"
+      ],
+      "evidence": [
+        "Exact motherboard model is listed in MSI's official motherboard CPU-support catalog."
+      ]
+    },
+    {
+      "manufacturer": "MSI",
+      "model": "MEG Z490 GODLIKE",
+      "revision": "*",
+      "status": "pending",
+      "chipset": "Intel Z490",
+      "socket": "LGA1200",
+      "header": "",
+      "bus": "",
+      "pinLayout": "",
+      "module": "",
+      "confidence": 60,
+      "note": "MODEL DISCOVERED from MSI official CPU-support catalog. TPM compatibility not yet VERIFIED.",
+      "sources": [
+        "https://www.msi.com/support/motherboard/cpu-support"
+      ],
+      "evidence": [
+        "Exact motherboard model is listed in MSI's official motherboard CPU-support catalog."
+      ]
+    },
+    {
+      "manufacturer": "MSI",
+      "model": "MEG Z490 UNIFY",
+      "revision": "*",
+      "status": "pending",
+      "chipset": "Intel Z490",
+      "socket": "LGA1200",
+      "header": "",
+      "bus": "",
+      "pinLayout": "",
+      "module": "",
+      "confidence": 60,
+      "note": "MODEL DISCOVERED from MSI official CPU-support catalog. TPM compatibility not yet VERIFIED.",
+      "sources": [
+        "https://www.msi.com/support/motherboard/cpu-support"
+      ],
+      "evidence": [
+        "Exact motherboard model is listed in MSI's official motherboard CPU-support catalog."
+      ]
+    },
+    {
+      "manufacturer": "MSI",
+      "model": "MEG Z590 ACE",
+      "revision": "*",
+      "status": "pending",
+      "chipset": "Intel Z590",
+      "socket": "LGA1200",
+      "header": "",
+      "bus": "",
+      "pinLayout": "",
+      "module": "",
+      "confidence": 60,
+      "note": "MODEL DISCOVERED from MSI official CPU-support catalog. TPM compatibility not yet VERIFIED.",
+      "sources": [
+        "https://www.msi.com/support/motherboard/cpu-support"
+      ],
+      "evidence": [
+        "Exact motherboard model is listed in MSI's official motherboard CPU-support catalog."
+      ]
+    },
+    {
+      "manufacturer": "MSI",
+      "model": "MEG Z590 ACE GOLD EDITION",
+      "revision": "*",
+      "status": "pending",
+      "chipset": "Intel Z590",
+      "socket": "LGA1200",
+      "header": "",
+      "bus": "",
+      "pinLayout": "",
+      "module": "",
+      "confidence": 60,
+      "note": "MODEL DISCOVERED from MSI official CPU-support catalog. TPM compatibility not yet VERIFIED.",
+      "sources": [
+        "https://www.msi.com/support/motherboard/cpu-support"
+      ],
+      "evidence": [
+        "Exact motherboard model is listed in MSI's official motherboard CPU-support catalog."
+      ]
+    },
+    {
+      "manufacturer": "MSI",
+      "model": "MEG Z590 GODLIKE",
+      "revision": "*",
+      "status": "pending",
+      "chipset": "Intel Z590",
+      "socket": "LGA1200",
+      "header": "",
+      "bus": "",
+      "pinLayout": "",
+      "module": "",
+      "confidence": 60,
+      "note": "MODEL DISCOVERED from MSI official CPU-support catalog. TPM compatibility not yet VERIFIED.",
+      "sources": [
+        "https://www.msi.com/support/motherboard/cpu-support"
+      ],
+      "evidence": [
+        "Exact motherboard model is listed in MSI's official motherboard CPU-support catalog."
+      ]
+    },
+    {
+      "manufacturer": "MSI",
+      "model": "MEG Z590 UNIFY",
+      "revision": "*",
+      "status": "pending",
+      "chipset": "Intel Z590",
+      "socket": "LGA1200",
+      "header": "",
+      "bus": "",
+      "pinLayout": "",
+      "module": "",
+      "confidence": 60,
+      "note": "MODEL DISCOVERED from MSI official CPU-support catalog. TPM compatibility not yet VERIFIED.",
+      "sources": [
+        "https://www.msi.com/support/motherboard/cpu-support"
+      ],
+      "evidence": [
+        "Exact motherboard model is listed in MSI's official motherboard CPU-support catalog."
+      ]
+    },
+    {
+      "manufacturer": "MSI",
+      "model": "MEG Z590 UNIFY-X",
+      "revision": "*",
+      "status": "pending",
+      "chipset": "Intel Z590",
+      "socket": "LGA1200",
+      "header": "",
+      "bus": "",
+      "pinLayout": "",
+      "module": "",
+      "confidence": 60,
+      "note": "MODEL DISCOVERED from MSI official CPU-support catalog. TPM compatibility not yet VERIFIED.",
+      "sources": [
+        "https://www.msi.com/support/motherboard/cpu-support"
+      ],
+      "evidence": [
+        "Exact motherboard model is listed in MSI's official motherboard CPU-support catalog."
+      ]
+    },
+    {
+      "manufacturer": "MSI",
+      "model": "MEG Z690 ACE",
+      "revision": "*",
+      "status": "pending",
+      "chipset": "Intel Z690",
+      "socket": "LGA1700",
+      "header": "",
+      "bus": "",
+      "pinLayout": "",
+      "module": "",
+      "confidence": 60,
+      "note": "MODEL DISCOVERED from MSI official CPU-support catalog. TPM compatibility not yet VERIFIED.",
+      "sources": [
+        "https://www.msi.com/support/motherboard/cpu-support"
+      ],
+      "evidence": [
+        "Exact motherboard model is listed in MSI's official motherboard CPU-support catalog."
+      ]
+    },
+    {
+      "manufacturer": "MSI",
+      "model": "MEG Z690 GODLIKE",
+      "revision": "*",
+      "status": "pending",
+      "chipset": "Intel Z690",
+      "socket": "LGA1700",
+      "header": "",
+      "bus": "",
+      "pinLayout": "",
+      "module": "",
+      "confidence": 60,
+      "note": "MODEL DISCOVERED from MSI official CPU-support catalog. TPM compatibility not yet VERIFIED.",
+      "sources": [
+        "https://www.msi.com/support/motherboard/cpu-support"
+      ],
+      "evidence": [
+        "Exact motherboard model is listed in MSI's official motherboard CPU-support catalog."
+      ]
+    },
+    {
+      "manufacturer": "MSI",
+      "model": "MEG Z790 ACE",
+      "revision": "*",
+      "status": "pending",
+      "chipset": "Intel Z790",
+      "socket": "LGA1700",
+      "header": "",
+      "bus": "",
+      "pinLayout": "",
+      "module": "",
+      "confidence": 60,
+      "note": "MODEL DISCOVERED from MSI official CPU-support catalog. TPM compatibility not yet VERIFIED.",
+      "sources": [
+        "https://www.msi.com/support/motherboard/cpu-support"
+      ],
+      "evidence": [
+        "Exact motherboard model is listed in MSI's official motherboard CPU-support catalog."
+      ]
+    },
+    {
+      "manufacturer": "MSI",
+      "model": "MEG Z790 GODLIKE",
+      "revision": "*",
+      "status": "pending",
+      "chipset": "Intel Z790",
+      "socket": "LGA1700",
+      "header": "",
+      "bus": "",
+      "pinLayout": "",
+      "module": "",
+      "confidence": 60,
+      "note": "MODEL DISCOVERED from MSI official CPU-support catalog. TPM compatibility not yet VERIFIED.",
+      "sources": [
+        "https://www.msi.com/support/motherboard/cpu-support"
+      ],
+      "evidence": [
+        "Exact motherboard model is listed in MSI's official motherboard CPU-support catalog."
       ]
     },
     {
@@ -382,6 +1702,266 @@
     },
     {
       "manufacturer": "MSI",
+      "model": "MPG B550 GAMING CARBON WIFI",
+      "revision": "*",
+      "status": "pending",
+      "chipset": "AMD B550",
+      "socket": "AM4",
+      "header": "",
+      "bus": "",
+      "pinLayout": "",
+      "module": "",
+      "confidence": 60,
+      "note": "MODEL DISCOVERED from MSI official CPU-support catalog. TPM compatibility not yet VERIFIED.",
+      "sources": [
+        "https://www.msi.com/support/motherboard/cpu-support"
+      ],
+      "evidence": [
+        "Exact motherboard model is listed in MSI's official motherboard CPU-support catalog."
+      ]
+    },
+    {
+      "manufacturer": "MSI",
+      "model": "MPG B550 GAMING EDGE WIFI",
+      "revision": "*",
+      "status": "pending",
+      "chipset": "AMD B550",
+      "socket": "AM4",
+      "header": "",
+      "bus": "",
+      "pinLayout": "",
+      "module": "",
+      "confidence": 60,
+      "note": "MODEL DISCOVERED from MSI official CPU-support catalog. TPM compatibility not yet VERIFIED.",
+      "sources": [
+        "https://www.msi.com/support/motherboard/cpu-support"
+      ],
+      "evidence": [
+        "Exact motherboard model is listed in MSI's official motherboard CPU-support catalog."
+      ]
+    },
+    {
+      "manufacturer": "MSI",
+      "model": "MPG B550 GAMING PLUS",
+      "revision": "*",
+      "status": "pending",
+      "chipset": "AMD B550",
+      "socket": "AM4",
+      "header": "",
+      "bus": "",
+      "pinLayout": "",
+      "module": "",
+      "confidence": 60,
+      "note": "MODEL DISCOVERED from MSI official CPU-support catalog. TPM compatibility not yet VERIFIED.",
+      "sources": [
+        "https://www.msi.com/support/motherboard/cpu-support"
+      ],
+      "evidence": [
+        "Exact motherboard model is listed in MSI's official motherboard CPU-support catalog."
+      ]
+    },
+    {
+      "manufacturer": "MSI",
+      "model": "MPG B650 CARBON WIFI",
+      "revision": "*",
+      "status": "pending",
+      "chipset": "AMD B650",
+      "socket": "AM5",
+      "header": "",
+      "bus": "",
+      "pinLayout": "",
+      "module": "",
+      "confidence": 60,
+      "note": "MODEL DISCOVERED from MSI official CPU-support catalog. TPM compatibility not yet VERIFIED.",
+      "sources": [
+        "https://www.msi.com/support/motherboard/cpu-support"
+      ],
+      "evidence": [
+        "Exact motherboard model is listed in MSI's official motherboard CPU-support catalog."
+      ]
+    },
+    {
+      "manufacturer": "MSI",
+      "model": "MPG B650 EDGE WIFI",
+      "revision": "*",
+      "status": "pending",
+      "chipset": "AMD B650",
+      "socket": "AM5",
+      "header": "",
+      "bus": "",
+      "pinLayout": "",
+      "module": "",
+      "confidence": 60,
+      "note": "MODEL DISCOVERED from MSI official CPU-support catalog. TPM compatibility not yet VERIFIED.",
+      "sources": [
+        "https://www.msi.com/support/motherboard/cpu-support"
+      ],
+      "evidence": [
+        "Exact motherboard model is listed in MSI's official motherboard CPU-support catalog."
+      ]
+    },
+    {
+      "manufacturer": "MSI",
+      "model": "MPG X570 GAMING EDGE WIFI",
+      "revision": "*",
+      "status": "pending",
+      "chipset": "AMD X570",
+      "socket": "AM4",
+      "header": "",
+      "bus": "",
+      "pinLayout": "",
+      "module": "",
+      "confidence": 60,
+      "note": "MODEL DISCOVERED from MSI official CPU-support catalog. TPM compatibility not yet VERIFIED.",
+      "sources": [
+        "https://www.msi.com/support/motherboard/cpu-support"
+      ],
+      "evidence": [
+        "Exact motherboard model is listed in MSI's official motherboard CPU-support catalog."
+      ]
+    },
+    {
+      "manufacturer": "MSI",
+      "model": "MPG X570 GAMING PLUS",
+      "revision": "*",
+      "status": "pending",
+      "chipset": "AMD X570",
+      "socket": "AM4",
+      "header": "",
+      "bus": "",
+      "pinLayout": "",
+      "module": "",
+      "confidence": 60,
+      "note": "MODEL DISCOVERED from MSI official CPU-support catalog. TPM compatibility not yet VERIFIED.",
+      "sources": [
+        "https://www.msi.com/support/motherboard/cpu-support"
+      ],
+      "evidence": [
+        "Exact motherboard model is listed in MSI's official motherboard CPU-support catalog."
+      ]
+    },
+    {
+      "manufacturer": "MSI",
+      "model": "MPG X570 GAMING PRO CARBON WIFI",
+      "revision": "*",
+      "status": "pending",
+      "chipset": "AMD X570",
+      "socket": "AM4",
+      "header": "",
+      "bus": "",
+      "pinLayout": "",
+      "module": "",
+      "confidence": 60,
+      "note": "MODEL DISCOVERED from MSI official CPU-support catalog. TPM compatibility not yet VERIFIED.",
+      "sources": [
+        "https://www.msi.com/support/motherboard/cpu-support"
+      ],
+      "evidence": [
+        "Exact motherboard model is listed in MSI's official motherboard CPU-support catalog."
+      ]
+    },
+    {
+      "manufacturer": "MSI",
+      "model": "MPG X570S CARBON EK X",
+      "revision": "*",
+      "status": "pending",
+      "chipset": "AMD X570S",
+      "socket": "AM4",
+      "header": "",
+      "bus": "",
+      "pinLayout": "",
+      "module": "",
+      "confidence": 60,
+      "note": "MODEL DISCOVERED from MSI official CPU-support catalog. TPM compatibility not yet VERIFIED.",
+      "sources": [
+        "https://www.msi.com/support/motherboard/cpu-support"
+      ],
+      "evidence": [
+        "Exact motherboard model is listed in MSI's official motherboard CPU-support catalog."
+      ]
+    },
+    {
+      "manufacturer": "MSI",
+      "model": "MPG X570S CARBON MAX WIFI",
+      "revision": "*",
+      "status": "pending",
+      "chipset": "AMD X570S",
+      "socket": "AM4",
+      "header": "",
+      "bus": "",
+      "pinLayout": "",
+      "module": "",
+      "confidence": 60,
+      "note": "MODEL DISCOVERED from MSI official CPU-support catalog. TPM compatibility not yet VERIFIED.",
+      "sources": [
+        "https://www.msi.com/support/motherboard/cpu-support"
+      ],
+      "evidence": [
+        "Exact motherboard model is listed in MSI's official motherboard CPU-support catalog."
+      ]
+    },
+    {
+      "manufacturer": "MSI",
+      "model": "MPG X570S EDGE MAX WIFI",
+      "revision": "*",
+      "status": "pending",
+      "chipset": "AMD X570S",
+      "socket": "AM4",
+      "header": "",
+      "bus": "",
+      "pinLayout": "",
+      "module": "",
+      "confidence": 60,
+      "note": "MODEL DISCOVERED from MSI official CPU-support catalog. TPM compatibility not yet VERIFIED.",
+      "sources": [
+        "https://www.msi.com/support/motherboard/cpu-support"
+      ],
+      "evidence": [
+        "Exact motherboard model is listed in MSI's official motherboard CPU-support catalog."
+      ]
+    },
+    {
+      "manufacturer": "MSI",
+      "model": "MPG X670E CARBON WIFI",
+      "revision": "*",
+      "status": "pending",
+      "chipset": "AMD X670E",
+      "socket": "AM5",
+      "header": "",
+      "bus": "",
+      "pinLayout": "",
+      "module": "",
+      "confidence": 60,
+      "note": "MODEL DISCOVERED from MSI official CPU-support catalog. TPM compatibility not yet VERIFIED.",
+      "sources": [
+        "https://www.msi.com/support/motherboard/cpu-support"
+      ],
+      "evidence": [
+        "Exact motherboard model is listed in MSI's official motherboard CPU-support catalog."
+      ]
+    },
+    {
+      "manufacturer": "MSI",
+      "model": "MPG X870E CARBON MAX WIFI",
+      "revision": "*",
+      "status": "pending",
+      "chipset": "AMD X870E",
+      "socket": "AM5",
+      "header": "",
+      "bus": "",
+      "pinLayout": "",
+      "module": "",
+      "confidence": 60,
+      "note": "MODEL DISCOVERED from MSI official CPU-support catalog. TPM compatibility not yet VERIFIED.",
+      "sources": [
+        "https://www.msi.com/support/motherboard/cpu-support"
+      ],
+      "evidence": [
+        "Exact motherboard model is listed in MSI's official motherboard CPU-support catalog."
+      ]
+    },
+    {
+      "manufacturer": "MSI",
       "model": "MPG X870E CARBON WIFI",
       "revision": "*",
       "status": "verified",
@@ -422,6 +2002,226 @@
       ],
       "evidence": [
         "Official manufacturer documentation supports this model/module compatibility."
+      ]
+    },
+    {
+      "manufacturer": "MSI",
+      "model": "MPG Z490 CARBON EK X",
+      "revision": "*",
+      "status": "pending",
+      "chipset": "Intel Z490",
+      "socket": "LGA1200",
+      "header": "",
+      "bus": "",
+      "pinLayout": "",
+      "module": "",
+      "confidence": 60,
+      "note": "MODEL DISCOVERED from MSI official CPU-support catalog. TPM compatibility not yet VERIFIED.",
+      "sources": [
+        "https://www.msi.com/support/motherboard/cpu-support"
+      ],
+      "evidence": [
+        "Exact motherboard model is listed in MSI's official motherboard CPU-support catalog."
+      ]
+    },
+    {
+      "manufacturer": "MSI",
+      "model": "MPG Z490 GAMING CARBON WIFI",
+      "revision": "*",
+      "status": "pending",
+      "chipset": "Intel Z490",
+      "socket": "LGA1200",
+      "header": "",
+      "bus": "",
+      "pinLayout": "",
+      "module": "",
+      "confidence": 60,
+      "note": "MODEL DISCOVERED from MSI official CPU-support catalog. TPM compatibility not yet VERIFIED.",
+      "sources": [
+        "https://www.msi.com/support/motherboard/cpu-support"
+      ],
+      "evidence": [
+        "Exact motherboard model is listed in MSI's official motherboard CPU-support catalog."
+      ]
+    },
+    {
+      "manufacturer": "MSI",
+      "model": "MPG Z490 GAMING EDGE WIFI",
+      "revision": "*",
+      "status": "pending",
+      "chipset": "Intel Z490",
+      "socket": "LGA1200",
+      "header": "",
+      "bus": "",
+      "pinLayout": "",
+      "module": "",
+      "confidence": 60,
+      "note": "MODEL DISCOVERED from MSI official CPU-support catalog. TPM compatibility not yet VERIFIED.",
+      "sources": [
+        "https://www.msi.com/support/motherboard/cpu-support"
+      ],
+      "evidence": [
+        "Exact motherboard model is listed in MSI's official motherboard CPU-support catalog."
+      ]
+    },
+    {
+      "manufacturer": "MSI",
+      "model": "MPG Z490 GAMING PLUS",
+      "revision": "*",
+      "status": "pending",
+      "chipset": "Intel Z490",
+      "socket": "LGA1200",
+      "header": "",
+      "bus": "",
+      "pinLayout": "",
+      "module": "",
+      "confidence": 60,
+      "note": "MODEL DISCOVERED from MSI official CPU-support catalog. TPM compatibility not yet VERIFIED.",
+      "sources": [
+        "https://www.msi.com/support/motherboard/cpu-support"
+      ],
+      "evidence": [
+        "Exact motherboard model is listed in MSI's official motherboard CPU-support catalog."
+      ]
+    },
+    {
+      "manufacturer": "MSI",
+      "model": "MPG Z590 CARBON EK X",
+      "revision": "*",
+      "status": "pending",
+      "chipset": "Intel Z590",
+      "socket": "LGA1200",
+      "header": "",
+      "bus": "",
+      "pinLayout": "",
+      "module": "",
+      "confidence": 60,
+      "note": "MODEL DISCOVERED from MSI official CPU-support catalog. TPM compatibility not yet VERIFIED.",
+      "sources": [
+        "https://www.msi.com/support/motherboard/cpu-support"
+      ],
+      "evidence": [
+        "Exact motherboard model is listed in MSI's official motherboard CPU-support catalog."
+      ]
+    },
+    {
+      "manufacturer": "MSI",
+      "model": "MPG Z590 GAMING CARBON WIFI",
+      "revision": "*",
+      "status": "pending",
+      "chipset": "Intel Z590",
+      "socket": "LGA1200",
+      "header": "",
+      "bus": "",
+      "pinLayout": "",
+      "module": "",
+      "confidence": 60,
+      "note": "MODEL DISCOVERED from MSI official CPU-support catalog. TPM compatibility not yet VERIFIED.",
+      "sources": [
+        "https://www.msi.com/support/motherboard/cpu-support"
+      ],
+      "evidence": [
+        "Exact motherboard model is listed in MSI's official motherboard CPU-support catalog."
+      ]
+    },
+    {
+      "manufacturer": "MSI",
+      "model": "MPG Z590 GAMING EDGE WIFI",
+      "revision": "*",
+      "status": "pending",
+      "chipset": "Intel Z590",
+      "socket": "LGA1200",
+      "header": "",
+      "bus": "",
+      "pinLayout": "",
+      "module": "",
+      "confidence": 60,
+      "note": "MODEL DISCOVERED from MSI official CPU-support catalog. TPM compatibility not yet VERIFIED.",
+      "sources": [
+        "https://www.msi.com/support/motherboard/cpu-support"
+      ],
+      "evidence": [
+        "Exact motherboard model is listed in MSI's official motherboard CPU-support catalog."
+      ]
+    },
+    {
+      "manufacturer": "MSI",
+      "model": "MPG Z590 GAMING FORCE",
+      "revision": "*",
+      "status": "pending",
+      "chipset": "Intel Z590",
+      "socket": "LGA1200",
+      "header": "",
+      "bus": "",
+      "pinLayout": "",
+      "module": "",
+      "confidence": 60,
+      "note": "MODEL DISCOVERED from MSI official CPU-support catalog. TPM compatibility not yet VERIFIED.",
+      "sources": [
+        "https://www.msi.com/support/motherboard/cpu-support"
+      ],
+      "evidence": [
+        "Exact motherboard model is listed in MSI's official motherboard CPU-support catalog."
+      ]
+    },
+    {
+      "manufacturer": "MSI",
+      "model": "MPG Z590 GAMING PLUS",
+      "revision": "*",
+      "status": "pending",
+      "chipset": "Intel Z590",
+      "socket": "LGA1200",
+      "header": "",
+      "bus": "",
+      "pinLayout": "",
+      "module": "",
+      "confidence": 60,
+      "note": "MODEL DISCOVERED from MSI official CPU-support catalog. TPM compatibility not yet VERIFIED.",
+      "sources": [
+        "https://www.msi.com/support/motherboard/cpu-support"
+      ],
+      "evidence": [
+        "Exact motherboard model is listed in MSI's official motherboard CPU-support catalog."
+      ]
+    },
+    {
+      "manufacturer": "MSI",
+      "model": "MPG Z790 CARBON WIFI",
+      "revision": "*",
+      "status": "pending",
+      "chipset": "Intel Z790",
+      "socket": "LGA1700",
+      "header": "",
+      "bus": "",
+      "pinLayout": "",
+      "module": "",
+      "confidence": 60,
+      "note": "MODEL DISCOVERED from MSI official CPU-support catalog. TPM compatibility not yet VERIFIED.",
+      "sources": [
+        "https://www.msi.com/support/motherboard/cpu-support"
+      ],
+      "evidence": [
+        "Exact motherboard model is listed in MSI's official motherboard CPU-support catalog."
+      ]
+    },
+    {
+      "manufacturer": "MSI",
+      "model": "MPG Z790 EDGE WIFI",
+      "revision": "*",
+      "status": "pending",
+      "chipset": "Intel Z790",
+      "socket": "LGA1700",
+      "header": "",
+      "bus": "",
+      "pinLayout": "",
+      "module": "",
+      "confidence": 60,
+      "note": "MODEL DISCOVERED from MSI official CPU-support catalog. TPM compatibility not yet VERIFIED.",
+      "sources": [
+        "https://www.msi.com/support/motherboard/cpu-support"
+      ],
+      "evidence": [
+        "Exact motherboard model is listed in MSI's official motherboard CPU-support catalog."
       ]
     },
     {
@@ -650,6 +2450,66 @@
     },
     {
       "manufacturer": "MSI",
+      "model": "X470 GAMING PLUS MAX",
+      "revision": "*",
+      "status": "pending",
+      "chipset": "AMD X470",
+      "socket": "AM4",
+      "header": "",
+      "bus": "",
+      "pinLayout": "",
+      "module": "",
+      "confidence": 60,
+      "note": "MODEL DISCOVERED from MSI official CPU-support catalog. TPM compatibility not yet VERIFIED.",
+      "sources": [
+        "https://www.msi.com/support/motherboard/cpu-support"
+      ],
+      "evidence": [
+        "Exact motherboard model is listed in MSI's official motherboard CPU-support catalog."
+      ]
+    },
+    {
+      "manufacturer": "MSI",
+      "model": "X470 GAMING PRO MAX",
+      "revision": "*",
+      "status": "pending",
+      "chipset": "AMD X470",
+      "socket": "AM4",
+      "header": "",
+      "bus": "",
+      "pinLayout": "",
+      "module": "",
+      "confidence": 60,
+      "note": "MODEL DISCOVERED from MSI official CPU-support catalog. TPM compatibility not yet VERIFIED.",
+      "sources": [
+        "https://www.msi.com/support/motherboard/cpu-support"
+      ],
+      "evidence": [
+        "Exact motherboard model is listed in MSI's official motherboard CPU-support catalog."
+      ]
+    },
+    {
+      "manufacturer": "MSI",
+      "model": "X670E GAMING PLUS WIFI",
+      "revision": "*",
+      "status": "pending",
+      "chipset": "AMD X670E",
+      "socket": "AM5",
+      "header": "",
+      "bus": "",
+      "pinLayout": "",
+      "module": "",
+      "confidence": 60,
+      "note": "MODEL DISCOVERED from MSI official CPU-support catalog. TPM compatibility not yet VERIFIED.",
+      "sources": [
+        "https://www.msi.com/support/motherboard/cpu-support"
+      ],
+      "evidence": [
+        "Exact motherboard model is listed in MSI's official motherboard CPU-support catalog."
+      ]
+    },
+    {
+      "manufacturer": "MSI",
       "model": "X870 GAMING PLUS WIFI",
       "revision": "*",
       "status": "verified",
@@ -690,6 +2550,26 @@
     },
     {
       "manufacturer": "MSI",
+      "model": "Z790 PROJECT ZERO",
+      "revision": "*",
+      "status": "pending",
+      "chipset": "Intel Z790",
+      "socket": "LGA1700",
+      "header": "",
+      "bus": "",
+      "pinLayout": "",
+      "module": "",
+      "confidence": 60,
+      "note": "MODEL DISCOVERED from MSI official CPU-support catalog. TPM compatibility not yet VERIFIED.",
+      "sources": [
+        "https://www.msi.com/support/motherboard/cpu-support"
+      ],
+      "evidence": [
+        "Exact motherboard model is listed in MSI's official motherboard CPU-support catalog."
+      ]
+    },
+    {
+      "manufacturer": "MSI",
       "model": "Z890 GAMING PLUS WIFI",
       "revision": "*",
       "status": "verified",
@@ -706,6 +2586,26 @@
       ],
       "evidence": [
         "Official manufacturer documentation supports this model/module compatibility."
+      ]
+    },
+    {
+      "manufacturer": "MSI",
+      "model": "Z890 GAMING PLUS WIFI6E",
+      "revision": "*",
+      "status": "pending",
+      "chipset": "Intel Z890",
+      "socket": "LGA1851",
+      "header": "",
+      "bus": "",
+      "pinLayout": "",
+      "module": "",
+      "confidence": 60,
+      "note": "MODEL DISCOVERED from MSI official CPU-support catalog. TPM compatibility not yet VERIFIED.",
+      "sources": [
+        "https://www.msi.com/support/motherboard/cpu-support"
+      ],
+      "evidence": [
+        "Exact motherboard model is listed in MSI's official motherboard CPU-support catalog."
       ]
     },
     {
@@ -727,7 +2627,27 @@
       "evidence": [
         "Official manufacturer documentation supports this model/module compatibility."
       ]
+    },
+    {
+      "manufacturer": "MSI",
+      "model": "Z890 GAMING WIFI6E",
+      "revision": "*",
+      "status": "pending",
+      "chipset": "Intel Z890",
+      "socket": "LGA1851",
+      "header": "",
+      "bus": "",
+      "pinLayout": "",
+      "module": "",
+      "confidence": 60,
+      "note": "MODEL DISCOVERED from MSI official CPU-support catalog. TPM compatibility not yet VERIFIED.",
+      "sources": [
+        "https://www.msi.com/support/motherboard/cpu-support"
+      ],
+      "evidence": [
+        "Exact motherboard model is listed in MSI's official motherboard CPU-support catalog."
+      ]
     }
   ],
-  "databaseVersion": "V14"
+  "databaseVersion": "V16-MASS-DISCOVERY"
 }
