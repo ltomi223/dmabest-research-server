@@ -1,8 +1,2548 @@
 {
-  "schemaVersion": 7,
+  "schemaVersion": 8,
   "generated": "2026-09-13",
-  "verificationPolicy": "VERIFIED records remain strict/source-backed. Mass-discovered models are PENDING until TPM header/module is confirmed from official documentation.",
+  "verificationPolicy": "Existing VERIFIED records remain strict. Newly discovered ASUS/GIGABYTE/ASRock/MSI models are PENDING until exact TPM compatibility is confirmed from official documentation.",
   "profiles": [
+    {
+      "manufacturer": "ASROCK",
+      "model": "B550 Steel Legend",
+      "revision": "*",
+      "status": "pending",
+      "chipset": "AMD B550",
+      "socket": "AM4",
+      "header": "",
+      "bus": "",
+      "pinLayout": "",
+      "module": "",
+      "confidence": 60,
+      "note": "MODEL DISCOVERED from official ASRock motherboard index. TPM compatibility not yet VERIFIED.",
+      "sources": [
+        "https://www.asrock.com/mb/index.asp"
+      ],
+      "evidence": [
+        "Exact motherboard model is listed in the official ASROCK gaming/motherboard catalog."
+      ]
+    },
+    {
+      "manufacturer": "ASROCK",
+      "model": "B650 PG Lightning",
+      "revision": "*",
+      "status": "pending",
+      "chipset": "AMD B650",
+      "socket": "AM5",
+      "header": "",
+      "bus": "",
+      "pinLayout": "",
+      "module": "",
+      "confidence": 60,
+      "note": "MODEL DISCOVERED from official ASRock motherboard index. TPM compatibility not yet VERIFIED.",
+      "sources": [
+        "https://www.asrock.com/mb/index.asp"
+      ],
+      "evidence": [
+        "Exact motherboard model is listed in the official ASROCK gaming/motherboard catalog."
+      ]
+    },
+    {
+      "manufacturer": "ASROCK",
+      "model": "B650E PG Riptide WiFi",
+      "revision": "*",
+      "status": "pending",
+      "chipset": "AMD B650E",
+      "socket": "AM5",
+      "header": "",
+      "bus": "",
+      "pinLayout": "",
+      "module": "",
+      "confidence": 60,
+      "note": "MODEL DISCOVERED from official ASRock motherboard index. TPM compatibility not yet VERIFIED.",
+      "sources": [
+        "https://www.asrock.com/mb/index.asp"
+      ],
+      "evidence": [
+        "Exact motherboard model is listed in the official ASROCK gaming/motherboard catalog."
+      ]
+    },
+    {
+      "manufacturer": "ASROCK",
+      "model": "B650M PG Riptide WiFi",
+      "revision": "*",
+      "status": "pending",
+      "chipset": "AMD B650",
+      "socket": "AM5",
+      "header": "",
+      "bus": "",
+      "pinLayout": "",
+      "module": "",
+      "confidence": 60,
+      "note": "MODEL DISCOVERED from official ASRock motherboard index. TPM compatibility not yet VERIFIED.",
+      "sources": [
+        "https://www.asrock.com/mb/index.asp"
+      ],
+      "evidence": [
+        "Exact motherboard model is listed in the official ASROCK gaming/motherboard catalog."
+      ]
+    },
+    {
+      "manufacturer": "ASROCK",
+      "model": "B850 Challenger WiFi",
+      "revision": "*",
+      "status": "pending",
+      "chipset": "AMD B850",
+      "socket": "AM5",
+      "header": "",
+      "bus": "",
+      "pinLayout": "",
+      "module": "",
+      "confidence": 60,
+      "note": "MODEL DISCOVERED from official ASRock motherboard index. TPM compatibility not yet VERIFIED.",
+      "sources": [
+        "https://www.asrock.com/mb/index.asp"
+      ],
+      "evidence": [
+        "Exact motherboard model is listed in the official ASROCK gaming/motherboard catalog."
+      ]
+    },
+    {
+      "manufacturer": "ASROCK",
+      "model": "B850 Challenger WiFi White",
+      "revision": "*",
+      "status": "pending",
+      "chipset": "AMD B850",
+      "socket": "AM5",
+      "header": "",
+      "bus": "",
+      "pinLayout": "",
+      "module": "",
+      "confidence": 60,
+      "note": "MODEL DISCOVERED from official ASRock motherboard index. TPM compatibility not yet VERIFIED.",
+      "sources": [
+        "https://www.asrock.com/mb/index.asp"
+      ],
+      "evidence": [
+        "Exact motherboard model is listed in the official ASROCK gaming/motherboard catalog."
+      ]
+    },
+    {
+      "manufacturer": "ASROCK",
+      "model": "B850 LiveMixer WiFi",
+      "revision": "*",
+      "status": "pending",
+      "chipset": "AMD B850",
+      "socket": "AM5",
+      "header": "",
+      "bus": "",
+      "pinLayout": "",
+      "module": "",
+      "confidence": 60,
+      "note": "MODEL DISCOVERED from official ASRock motherboard index. TPM compatibility not yet VERIFIED.",
+      "sources": [
+        "https://www.asrock.com/mb/index.asp"
+      ],
+      "evidence": [
+        "Exact motherboard model is listed in the official ASROCK gaming/motherboard catalog."
+      ]
+    },
+    {
+      "manufacturer": "ASROCK",
+      "model": "B850 Pro RS WiFi",
+      "revision": "*",
+      "status": "pending",
+      "chipset": "AMD B850",
+      "socket": "AM5",
+      "header": "",
+      "bus": "",
+      "pinLayout": "",
+      "module": "",
+      "confidence": 60,
+      "note": "MODEL DISCOVERED from official ASRock motherboard index. TPM compatibility not yet VERIFIED.",
+      "sources": [
+        "https://www.asrock.com/mb/index.asp"
+      ],
+      "evidence": [
+        "Exact motherboard model is listed in the official ASROCK gaming/motherboard catalog."
+      ]
+    },
+    {
+      "manufacturer": "ASROCK",
+      "model": "B850 Riptide WiFi",
+      "revision": "*",
+      "status": "pending",
+      "chipset": "AMD B850",
+      "socket": "AM5",
+      "header": "",
+      "bus": "",
+      "pinLayout": "",
+      "module": "",
+      "confidence": 60,
+      "note": "MODEL DISCOVERED from official ASRock motherboard index. TPM compatibility not yet VERIFIED.",
+      "sources": [
+        "https://www.asrock.com/mb/index.asp"
+      ],
+      "evidence": [
+        "Exact motherboard model is listed in the official ASROCK gaming/motherboard catalog."
+      ]
+    },
+    {
+      "manufacturer": "ASROCK",
+      "model": "B850 Rock WiFi 7",
+      "revision": "*",
+      "status": "pending",
+      "chipset": "AMD B850",
+      "socket": "AM5",
+      "header": "",
+      "bus": "",
+      "pinLayout": "",
+      "module": "",
+      "confidence": 60,
+      "note": "MODEL DISCOVERED from official ASRock motherboard index. TPM compatibility not yet VERIFIED.",
+      "sources": [
+        "https://www.asrock.com/mb/index.asp"
+      ],
+      "evidence": [
+        "Exact motherboard model is listed in the official ASROCK gaming/motherboard catalog."
+      ]
+    },
+    {
+      "manufacturer": "ASROCK",
+      "model": "B850 Steel Legend WiFi",
+      "revision": "*",
+      "status": "pending",
+      "chipset": "AMD B850",
+      "socket": "AM5",
+      "header": "",
+      "bus": "",
+      "pinLayout": "",
+      "module": "",
+      "confidence": 60,
+      "note": "MODEL DISCOVERED from official ASRock motherboard index. TPM compatibility not yet VERIFIED.",
+      "sources": [
+        "https://www.asrock.com/mb/index.asp"
+      ],
+      "evidence": [
+        "Exact motherboard model is listed in the official ASROCK gaming/motherboard catalog."
+      ]
+    },
+    {
+      "manufacturer": "ASROCK",
+      "model": "B850I Lightning WiFi",
+      "revision": "*",
+      "status": "pending",
+      "chipset": "AMD B850",
+      "socket": "AM5",
+      "header": "",
+      "bus": "",
+      "pinLayout": "",
+      "module": "",
+      "confidence": 60,
+      "note": "MODEL DISCOVERED from official ASRock motherboard index. TPM compatibility not yet VERIFIED.",
+      "sources": [
+        "https://www.asrock.com/mb/index.asp"
+      ],
+      "evidence": [
+        "Exact motherboard model is listed in the official ASROCK gaming/motherboard catalog."
+      ]
+    },
+    {
+      "manufacturer": "ASROCK",
+      "model": "B850M Pro RS WiFi",
+      "revision": "*",
+      "status": "pending",
+      "chipset": "AMD B850",
+      "socket": "AM5",
+      "header": "",
+      "bus": "",
+      "pinLayout": "",
+      "module": "",
+      "confidence": 60,
+      "note": "MODEL DISCOVERED from official ASRock motherboard index. TPM compatibility not yet VERIFIED.",
+      "sources": [
+        "https://www.asrock.com/mb/index.asp"
+      ],
+      "evidence": [
+        "Exact motherboard model is listed in the official ASROCK gaming/motherboard catalog."
+      ]
+    },
+    {
+      "manufacturer": "ASROCK",
+      "model": "B850M Rock WiFi",
+      "revision": "*",
+      "status": "pending",
+      "chipset": "AMD B850",
+      "socket": "AM5",
+      "header": "",
+      "bus": "",
+      "pinLayout": "",
+      "module": "",
+      "confidence": 60,
+      "note": "MODEL DISCOVERED from official ASRock motherboard index. TPM compatibility not yet VERIFIED.",
+      "sources": [
+        "https://www.asrock.com/mb/index.asp"
+      ],
+      "evidence": [
+        "Exact motherboard model is listed in the official ASROCK gaming/motherboard catalog."
+      ]
+    },
+    {
+      "manufacturer": "ASROCK",
+      "model": "B850M Steel Legend WiFi",
+      "revision": "*",
+      "status": "pending",
+      "chipset": "AMD B850",
+      "socket": "AM5",
+      "header": "",
+      "bus": "",
+      "pinLayout": "",
+      "module": "",
+      "confidence": 60,
+      "note": "MODEL DISCOVERED from official ASRock motherboard index. TPM compatibility not yet VERIFIED.",
+      "sources": [
+        "https://www.asrock.com/mb/index.asp"
+      ],
+      "evidence": [
+        "Exact motherboard model is listed in the official ASROCK gaming/motherboard catalog."
+      ]
+    },
+    {
+      "manufacturer": "ASROCK",
+      "model": "B860 Challenger WiFi",
+      "revision": "*",
+      "status": "pending",
+      "chipset": "Intel B860",
+      "socket": "LGA1851",
+      "header": "",
+      "bus": "",
+      "pinLayout": "",
+      "module": "",
+      "confidence": 60,
+      "note": "MODEL DISCOVERED from official ASRock motherboard index. TPM compatibility not yet VERIFIED.",
+      "sources": [
+        "https://www.asrock.com/mb/index.asp"
+      ],
+      "evidence": [
+        "Exact motherboard model is listed in the official ASROCK gaming/motherboard catalog."
+      ]
+    },
+    {
+      "manufacturer": "ASROCK",
+      "model": "B860 Challenger WiFi White",
+      "revision": "*",
+      "status": "pending",
+      "chipset": "Intel B860",
+      "socket": "LGA1851",
+      "header": "",
+      "bus": "",
+      "pinLayout": "",
+      "module": "",
+      "confidence": 60,
+      "note": "MODEL DISCOVERED from official ASRock motherboard index. TPM compatibility not yet VERIFIED.",
+      "sources": [
+        "https://www.asrock.com/mb/index.asp"
+      ],
+      "evidence": [
+        "Exact motherboard model is listed in the official ASROCK gaming/motherboard catalog."
+      ]
+    },
+    {
+      "manufacturer": "ASROCK",
+      "model": "B860 LiveMixer WiFi",
+      "revision": "*",
+      "status": "pending",
+      "chipset": "Intel B860",
+      "socket": "LGA1851",
+      "header": "",
+      "bus": "",
+      "pinLayout": "",
+      "module": "",
+      "confidence": 60,
+      "note": "MODEL DISCOVERED from official ASRock motherboard index. TPM compatibility not yet VERIFIED.",
+      "sources": [
+        "https://www.asrock.com/mb/index.asp"
+      ],
+      "evidence": [
+        "Exact motherboard model is listed in the official ASROCK gaming/motherboard catalog."
+      ]
+    },
+    {
+      "manufacturer": "ASROCK",
+      "model": "B860 Pro RS WiFi",
+      "revision": "*",
+      "status": "pending",
+      "chipset": "Intel B860",
+      "socket": "LGA1851",
+      "header": "",
+      "bus": "",
+      "pinLayout": "",
+      "module": "",
+      "confidence": 60,
+      "note": "MODEL DISCOVERED from official ASRock motherboard index. TPM compatibility not yet VERIFIED.",
+      "sources": [
+        "https://www.asrock.com/mb/index.asp"
+      ],
+      "evidence": [
+        "Exact motherboard model is listed in the official ASROCK gaming/motherboard catalog."
+      ]
+    },
+    {
+      "manufacturer": "ASROCK",
+      "model": "B860 Rock WiFi 7",
+      "revision": "*",
+      "status": "pending",
+      "chipset": "Intel B860",
+      "socket": "LGA1851",
+      "header": "",
+      "bus": "",
+      "pinLayout": "",
+      "module": "",
+      "confidence": 60,
+      "note": "MODEL DISCOVERED from official ASRock motherboard index. TPM compatibility not yet VERIFIED.",
+      "sources": [
+        "https://www.asrock.com/mb/index.asp"
+      ],
+      "evidence": [
+        "Exact motherboard model is listed in the official ASROCK gaming/motherboard catalog."
+      ]
+    },
+    {
+      "manufacturer": "ASROCK",
+      "model": "B860 Steel Legend WiFi",
+      "revision": "*",
+      "status": "pending",
+      "chipset": "Intel B860",
+      "socket": "LGA1851",
+      "header": "",
+      "bus": "",
+      "pinLayout": "",
+      "module": "",
+      "confidence": 60,
+      "note": "MODEL DISCOVERED from official ASRock motherboard index. TPM compatibility not yet VERIFIED.",
+      "sources": [
+        "https://www.asrock.com/mb/index.asp"
+      ],
+      "evidence": [
+        "Exact motherboard model is listed in the official ASROCK gaming/motherboard catalog."
+      ]
+    },
+    {
+      "manufacturer": "ASROCK",
+      "model": "B860I Lightning WiFi",
+      "revision": "*",
+      "status": "pending",
+      "chipset": "Intel B860",
+      "socket": "LGA1851",
+      "header": "",
+      "bus": "",
+      "pinLayout": "",
+      "module": "",
+      "confidence": 60,
+      "note": "MODEL DISCOVERED from official ASRock motherboard index. TPM compatibility not yet VERIFIED.",
+      "sources": [
+        "https://www.asrock.com/mb/index.asp"
+      ],
+      "evidence": [
+        "Exact motherboard model is listed in the official ASROCK gaming/motherboard catalog."
+      ]
+    },
+    {
+      "manufacturer": "ASROCK",
+      "model": "B860M LiveMixer WiFi",
+      "revision": "*",
+      "status": "pending",
+      "chipset": "Intel B860",
+      "socket": "LGA1851",
+      "header": "",
+      "bus": "",
+      "pinLayout": "",
+      "module": "",
+      "confidence": 60,
+      "note": "MODEL DISCOVERED from official ASRock motherboard index. TPM compatibility not yet VERIFIED.",
+      "sources": [
+        "https://www.asrock.com/mb/index.asp"
+      ],
+      "evidence": [
+        "Exact motherboard model is listed in the official ASROCK gaming/motherboard catalog."
+      ]
+    },
+    {
+      "manufacturer": "ASROCK",
+      "model": "B860M Rock WiFi",
+      "revision": "*",
+      "status": "pending",
+      "chipset": "Intel B860",
+      "socket": "LGA1851",
+      "header": "",
+      "bus": "",
+      "pinLayout": "",
+      "module": "",
+      "confidence": 60,
+      "note": "MODEL DISCOVERED from official ASRock motherboard index. TPM compatibility not yet VERIFIED.",
+      "sources": [
+        "https://www.asrock.com/mb/index.asp"
+      ],
+      "evidence": [
+        "Exact motherboard model is listed in the official ASROCK gaming/motherboard catalog."
+      ]
+    },
+    {
+      "manufacturer": "ASROCK",
+      "model": "B860M Steel Legend WiFi",
+      "revision": "*",
+      "status": "pending",
+      "chipset": "Intel B860",
+      "socket": "LGA1851",
+      "header": "",
+      "bus": "",
+      "pinLayout": "",
+      "module": "",
+      "confidence": 60,
+      "note": "MODEL DISCOVERED from official ASRock motherboard index. TPM compatibility not yet VERIFIED.",
+      "sources": [
+        "https://www.asrock.com/mb/index.asp"
+      ],
+      "evidence": [
+        "Exact motherboard model is listed in the official ASROCK gaming/motherboard catalog."
+      ]
+    },
+    {
+      "manufacturer": "ASROCK",
+      "model": "X670E Steel Legend",
+      "revision": "*",
+      "status": "pending",
+      "chipset": "AMD X670E",
+      "socket": "AM5",
+      "header": "",
+      "bus": "",
+      "pinLayout": "",
+      "module": "",
+      "confidence": 60,
+      "note": "MODEL DISCOVERED from official ASRock motherboard index. TPM compatibility not yet VERIFIED.",
+      "sources": [
+        "https://www.asrock.com/mb/index.asp"
+      ],
+      "evidence": [
+        "Exact motherboard model is listed in the official ASROCK gaming/motherboard catalog."
+      ]
+    },
+    {
+      "manufacturer": "ASROCK",
+      "model": "X870 LiveMixer WiFi",
+      "revision": "*",
+      "status": "pending",
+      "chipset": "AMD X870",
+      "socket": "AM5",
+      "header": "",
+      "bus": "",
+      "pinLayout": "",
+      "module": "",
+      "confidence": 60,
+      "note": "MODEL DISCOVERED from official ASRock motherboard index. TPM compatibility not yet VERIFIED.",
+      "sources": [
+        "https://www.asrock.com/mb/index.asp"
+      ],
+      "evidence": [
+        "Exact motherboard model is listed in the official ASROCK gaming/motherboard catalog."
+      ]
+    },
+    {
+      "manufacturer": "ASROCK",
+      "model": "X870 Nova WiFi",
+      "revision": "*",
+      "status": "pending",
+      "chipset": "AMD X870",
+      "socket": "AM5",
+      "header": "",
+      "bus": "",
+      "pinLayout": "",
+      "module": "",
+      "confidence": 60,
+      "note": "MODEL DISCOVERED from official ASRock motherboard index. TPM compatibility not yet VERIFIED.",
+      "sources": [
+        "https://www.asrock.com/mb/index.asp"
+      ],
+      "evidence": [
+        "Exact motherboard model is listed in the official ASROCK gaming/motherboard catalog."
+      ]
+    },
+    {
+      "manufacturer": "ASROCK",
+      "model": "X870 Pro RS WiFi",
+      "revision": "*",
+      "status": "pending",
+      "chipset": "AMD X870",
+      "socket": "AM5",
+      "header": "",
+      "bus": "",
+      "pinLayout": "",
+      "module": "",
+      "confidence": 60,
+      "note": "MODEL DISCOVERED from official ASRock motherboard index. TPM compatibility not yet VERIFIED.",
+      "sources": [
+        "https://www.asrock.com/mb/index.asp"
+      ],
+      "evidence": [
+        "Exact motherboard model is listed in the official ASROCK gaming/motherboard catalog."
+      ]
+    },
+    {
+      "manufacturer": "ASROCK",
+      "model": "X870 Pro-A WiFi",
+      "revision": "*",
+      "status": "pending",
+      "chipset": "AMD X870",
+      "socket": "AM5",
+      "header": "",
+      "bus": "",
+      "pinLayout": "",
+      "module": "",
+      "confidence": 60,
+      "note": "MODEL DISCOVERED from official ASRock motherboard index. TPM compatibility not yet VERIFIED.",
+      "sources": [
+        "https://www.asrock.com/mb/index.asp"
+      ],
+      "evidence": [
+        "Exact motherboard model is listed in the official ASROCK gaming/motherboard catalog."
+      ]
+    },
+    {
+      "manufacturer": "ASROCK",
+      "model": "X870 Steel Legend WiFi",
+      "revision": "*",
+      "status": "pending",
+      "chipset": "AMD X870",
+      "socket": "AM5",
+      "header": "",
+      "bus": "",
+      "pinLayout": "",
+      "module": "",
+      "confidence": 60,
+      "note": "MODEL DISCOVERED from official ASRock motherboard index. TPM compatibility not yet VERIFIED.",
+      "sources": [
+        "https://www.asrock.com/mb/index.asp"
+      ],
+      "evidence": [
+        "Exact motherboard model is listed in the official ASROCK gaming/motherboard catalog."
+      ]
+    },
+    {
+      "manufacturer": "ASROCK",
+      "model": "X870 Taichi Creator",
+      "revision": "*",
+      "status": "pending",
+      "chipset": "AMD X870",
+      "socket": "AM5",
+      "header": "",
+      "bus": "",
+      "pinLayout": "",
+      "module": "",
+      "confidence": 60,
+      "note": "MODEL DISCOVERED from official ASRock motherboard index. TPM compatibility not yet VERIFIED.",
+      "sources": [
+        "https://www.asrock.com/mb/index.asp"
+      ],
+      "evidence": [
+        "Exact motherboard model is listed in the official ASROCK gaming/motherboard catalog."
+      ]
+    },
+    {
+      "manufacturer": "ASROCK",
+      "model": "X870E Nova WiFi",
+      "revision": "*",
+      "status": "pending",
+      "chipset": "AMD X870E",
+      "socket": "AM5",
+      "header": "",
+      "bus": "",
+      "pinLayout": "",
+      "module": "",
+      "confidence": 60,
+      "note": "MODEL DISCOVERED from official ASRock motherboard index. TPM compatibility not yet VERIFIED.",
+      "sources": [
+        "https://www.asrock.com/mb/index.asp"
+      ],
+      "evidence": [
+        "Exact motherboard model is listed in the official ASROCK gaming/motherboard catalog."
+      ]
+    },
+    {
+      "manufacturer": "ASROCK",
+      "model": "X870E Taichi",
+      "revision": "*",
+      "status": "pending",
+      "chipset": "AMD X870E",
+      "socket": "AM5",
+      "header": "",
+      "bus": "",
+      "pinLayout": "",
+      "module": "",
+      "confidence": 60,
+      "note": "MODEL DISCOVERED from official ASRock motherboard index. TPM compatibility not yet VERIFIED.",
+      "sources": [
+        "https://www.asrock.com/mb/index.asp"
+      ],
+      "evidence": [
+        "Exact motherboard model is listed in the official ASROCK gaming/motherboard catalog."
+      ]
+    },
+    {
+      "manufacturer": "ASROCK",
+      "model": "X870E Taichi White",
+      "revision": "*",
+      "status": "pending",
+      "chipset": "AMD X870E",
+      "socket": "AM5",
+      "header": "",
+      "bus": "",
+      "pinLayout": "",
+      "module": "",
+      "confidence": 60,
+      "note": "MODEL DISCOVERED from official ASRock motherboard index. TPM compatibility not yet VERIFIED.",
+      "sources": [
+        "https://www.asrock.com/mb/index.asp"
+      ],
+      "evidence": [
+        "Exact motherboard model is listed in the official ASROCK gaming/motherboard catalog."
+      ]
+    },
+    {
+      "manufacturer": "ASROCK",
+      "model": "Z890 LiveMixer WiFi",
+      "revision": "*",
+      "status": "pending",
+      "chipset": "Intel Z890",
+      "socket": "LGA1851",
+      "header": "",
+      "bus": "",
+      "pinLayout": "",
+      "module": "",
+      "confidence": 60,
+      "note": "MODEL DISCOVERED from official ASRock motherboard index. TPM compatibility not yet VERIFIED.",
+      "sources": [
+        "https://www.asrock.com/mb/index.asp"
+      ],
+      "evidence": [
+        "Exact motherboard model is listed in the official ASROCK gaming/motherboard catalog."
+      ]
+    },
+    {
+      "manufacturer": "ASROCK",
+      "model": "Z890 Nova WiFi",
+      "revision": "*",
+      "status": "pending",
+      "chipset": "Intel Z890",
+      "socket": "LGA1851",
+      "header": "",
+      "bus": "",
+      "pinLayout": "",
+      "module": "",
+      "confidence": 60,
+      "note": "MODEL DISCOVERED from official ASRock motherboard index. TPM compatibility not yet VERIFIED.",
+      "sources": [
+        "https://www.asrock.com/mb/index.asp"
+      ],
+      "evidence": [
+        "Exact motherboard model is listed in the official ASROCK gaming/motherboard catalog."
+      ]
+    },
+    {
+      "manufacturer": "ASROCK",
+      "model": "Z890 Pro RS WiFi White",
+      "revision": "*",
+      "status": "pending",
+      "chipset": "Intel Z890",
+      "socket": "LGA1851",
+      "header": "",
+      "bus": "",
+      "pinLayout": "",
+      "module": "",
+      "confidence": 60,
+      "note": "MODEL DISCOVERED from official ASRock motherboard index. TPM compatibility not yet VERIFIED.",
+      "sources": [
+        "https://www.asrock.com/mb/index.asp"
+      ],
+      "evidence": [
+        "Exact motherboard model is listed in the official ASROCK gaming/motherboard catalog."
+      ]
+    },
+    {
+      "manufacturer": "ASROCK",
+      "model": "Z890 Steel Legend WiFi",
+      "revision": "*",
+      "status": "pending",
+      "chipset": "Intel Z890",
+      "socket": "LGA1851",
+      "header": "",
+      "bus": "",
+      "pinLayout": "",
+      "module": "",
+      "confidence": 60,
+      "note": "MODEL DISCOVERED from official ASRock motherboard index. TPM compatibility not yet VERIFIED.",
+      "sources": [
+        "https://www.asrock.com/mb/index.asp"
+      ],
+      "evidence": [
+        "Exact motherboard model is listed in the official ASROCK gaming/motherboard catalog."
+      ]
+    },
+    {
+      "manufacturer": "ASROCK",
+      "model": "Z890 Taichi",
+      "revision": "*",
+      "status": "pending",
+      "chipset": "Intel Z890",
+      "socket": "LGA1851",
+      "header": "",
+      "bus": "",
+      "pinLayout": "",
+      "module": "",
+      "confidence": 60,
+      "note": "MODEL DISCOVERED from official ASRock motherboard index. TPM compatibility not yet VERIFIED.",
+      "sources": [
+        "https://www.asrock.com/mb/index.asp"
+      ],
+      "evidence": [
+        "Exact motherboard model is listed in the official ASROCK gaming/motherboard catalog."
+      ]
+    },
+    {
+      "manufacturer": "ASROCK",
+      "model": "Z890 Taichi AQUA",
+      "revision": "*",
+      "status": "pending",
+      "chipset": "Intel Z890",
+      "socket": "LGA1851",
+      "header": "",
+      "bus": "",
+      "pinLayout": "",
+      "module": "",
+      "confidence": 60,
+      "note": "MODEL DISCOVERED from official ASRock motherboard index. TPM compatibility not yet VERIFIED.",
+      "sources": [
+        "https://www.asrock.com/mb/index.asp"
+      ],
+      "evidence": [
+        "Exact motherboard model is listed in the official ASROCK gaming/motherboard catalog."
+      ]
+    },
+    {
+      "manufacturer": "ASROCK",
+      "model": "Z890 Taichi OCF",
+      "revision": "*",
+      "status": "pending",
+      "chipset": "Intel Z890",
+      "socket": "LGA1851",
+      "header": "",
+      "bus": "",
+      "pinLayout": "",
+      "module": "",
+      "confidence": 60,
+      "note": "MODEL DISCOVERED from official ASRock motherboard index. TPM compatibility not yet VERIFIED.",
+      "sources": [
+        "https://www.asrock.com/mb/index.asp"
+      ],
+      "evidence": [
+        "Exact motherboard model is listed in the official ASROCK gaming/motherboard catalog."
+      ]
+    },
+    {
+      "manufacturer": "ASUS",
+      "model": "ROG CROSSHAIR X670E EXTREME",
+      "revision": "*",
+      "status": "pending",
+      "chipset": "AMD X670E",
+      "socket": "AM5",
+      "header": "",
+      "bus": "",
+      "pinLayout": "",
+      "module": "",
+      "confidence": 60,
+      "note": "MODEL DISCOVERED from official ASUS/ROG gaming motherboard catalog. TPM compatibility not yet VERIFIED.",
+      "sources": [
+        "https://rog.asus.com/motherboards-group/allmodels/"
+      ],
+      "evidence": [
+        "Exact motherboard model is listed in the official ASUS gaming/motherboard catalog."
+      ]
+    },
+    {
+      "manufacturer": "ASUS",
+      "model": "ROG CROSSHAIR X670E GENE",
+      "revision": "*",
+      "status": "pending",
+      "chipset": "AMD X670E",
+      "socket": "AM5",
+      "header": "",
+      "bus": "",
+      "pinLayout": "",
+      "module": "",
+      "confidence": 60,
+      "note": "MODEL DISCOVERED from official ASUS/ROG gaming motherboard catalog. TPM compatibility not yet VERIFIED.",
+      "sources": [
+        "https://rog.asus.com/motherboards-group/allmodels/"
+      ],
+      "evidence": [
+        "Exact motherboard model is listed in the official ASUS gaming/motherboard catalog."
+      ]
+    },
+    {
+      "manufacturer": "ASUS",
+      "model": "ROG CROSSHAIR X670E HERO",
+      "revision": "*",
+      "status": "pending",
+      "chipset": "AMD X670E",
+      "socket": "AM5",
+      "header": "",
+      "bus": "",
+      "pinLayout": "",
+      "module": "",
+      "confidence": 60,
+      "note": "MODEL DISCOVERED from official ASUS/ROG gaming motherboard catalog. TPM compatibility not yet VERIFIED.",
+      "sources": [
+        "https://rog.asus.com/motherboards-group/allmodels/"
+      ],
+      "evidence": [
+        "Exact motherboard model is listed in the official ASUS gaming/motherboard catalog."
+      ]
+    },
+    {
+      "manufacturer": "ASUS",
+      "model": "ROG CROSSHAIR X870E APEX",
+      "revision": "*",
+      "status": "pending",
+      "chipset": "AMD X870E",
+      "socket": "AM5",
+      "header": "",
+      "bus": "",
+      "pinLayout": "",
+      "module": "",
+      "confidence": 60,
+      "note": "MODEL DISCOVERED from official ASUS/ROG gaming motherboard catalog. TPM compatibility not yet VERIFIED.",
+      "sources": [
+        "https://rog.asus.com/motherboards-group/allmodels/"
+      ],
+      "evidence": [
+        "Exact motherboard model is listed in the official ASUS gaming/motherboard catalog."
+      ]
+    },
+    {
+      "manufacturer": "ASUS",
+      "model": "ROG CROSSHAIR X870E EDITION 20",
+      "revision": "*",
+      "status": "pending",
+      "chipset": "AMD X870E",
+      "socket": "AM5",
+      "header": "",
+      "bus": "",
+      "pinLayout": "",
+      "module": "",
+      "confidence": 60,
+      "note": "MODEL DISCOVERED from official ASUS/ROG gaming motherboard catalog. TPM compatibility not yet VERIFIED.",
+      "sources": [
+        "https://rog.asus.com/motherboards-group/allmodels/"
+      ],
+      "evidence": [
+        "Exact motherboard model is listed in the official ASUS gaming/motherboard catalog."
+      ]
+    },
+    {
+      "manufacturer": "ASUS",
+      "model": "ROG CROSSHAIR X870E EXTREME",
+      "revision": "*",
+      "status": "pending",
+      "chipset": "AMD X870E",
+      "socket": "AM5",
+      "header": "",
+      "bus": "",
+      "pinLayout": "",
+      "module": "",
+      "confidence": 60,
+      "note": "MODEL DISCOVERED from official ASUS/ROG gaming motherboard catalog. TPM compatibility not yet VERIFIED.",
+      "sources": [
+        "https://rog.asus.com/motherboards-group/allmodels/"
+      ],
+      "evidence": [
+        "Exact motherboard model is listed in the official ASUS gaming/motherboard catalog."
+      ]
+    },
+    {
+      "manufacturer": "ASUS",
+      "model": "ROG CROSSHAIR X870E HERO",
+      "revision": "*",
+      "status": "pending",
+      "chipset": "AMD X870E",
+      "socket": "AM5",
+      "header": "",
+      "bus": "",
+      "pinLayout": "",
+      "module": "",
+      "confidence": 60,
+      "note": "MODEL DISCOVERED from official ASUS/ROG gaming motherboard catalog. TPM compatibility not yet VERIFIED.",
+      "sources": [
+        "https://rog.asus.com/motherboards-group/allmodels/"
+      ],
+      "evidence": [
+        "Exact motherboard model is listed in the official ASUS gaming/motherboard catalog."
+      ]
+    },
+    {
+      "manufacturer": "ASUS",
+      "model": "ROG CROSSHAIR X870E HERO BTF",
+      "revision": "*",
+      "status": "pending",
+      "chipset": "AMD X870E",
+      "socket": "AM5",
+      "header": "",
+      "bus": "",
+      "pinLayout": "",
+      "module": "",
+      "confidence": 60,
+      "note": "MODEL DISCOVERED from official ASUS/ROG gaming motherboard catalog. TPM compatibility not yet VERIFIED.",
+      "sources": [
+        "https://rog.asus.com/motherboards-group/allmodels/"
+      ],
+      "evidence": [
+        "Exact motherboard model is listed in the official ASUS gaming/motherboard catalog."
+      ]
+    },
+    {
+      "manufacturer": "ASUS",
+      "model": "ROG MAXIMUS Z790 APEX",
+      "revision": "*",
+      "status": "pending",
+      "chipset": "Intel Z790",
+      "socket": "LGA1700",
+      "header": "",
+      "bus": "",
+      "pinLayout": "",
+      "module": "",
+      "confidence": 60,
+      "note": "MODEL DISCOVERED from official ASUS/ROG gaming motherboard catalog. TPM compatibility not yet VERIFIED.",
+      "sources": [
+        "https://rog.asus.com/motherboards-group/allmodels/"
+      ],
+      "evidence": [
+        "Exact motherboard model is listed in the official ASUS gaming/motherboard catalog."
+      ]
+    },
+    {
+      "manufacturer": "ASUS",
+      "model": "ROG MAXIMUS Z790 APEX ENCORE",
+      "revision": "*",
+      "status": "pending",
+      "chipset": "Intel Z790",
+      "socket": "LGA1700",
+      "header": "",
+      "bus": "",
+      "pinLayout": "",
+      "module": "",
+      "confidence": 60,
+      "note": "MODEL DISCOVERED from official ASUS/ROG gaming motherboard catalog. TPM compatibility not yet VERIFIED.",
+      "sources": [
+        "https://rog.asus.com/motherboards-group/allmodels/"
+      ],
+      "evidence": [
+        "Exact motherboard model is listed in the official ASUS gaming/motherboard catalog."
+      ]
+    },
+    {
+      "manufacturer": "ASUS",
+      "model": "ROG MAXIMUS Z790 DARK HERO",
+      "revision": "*",
+      "status": "pending",
+      "chipset": "Intel Z790",
+      "socket": "LGA1700",
+      "header": "",
+      "bus": "",
+      "pinLayout": "",
+      "module": "",
+      "confidence": 60,
+      "note": "MODEL DISCOVERED from official ASUS/ROG gaming motherboard catalog. TPM compatibility not yet VERIFIED.",
+      "sources": [
+        "https://rog.asus.com/motherboards-group/allmodels/"
+      ],
+      "evidence": [
+        "Exact motherboard model is listed in the official ASUS gaming/motherboard catalog."
+      ]
+    },
+    {
+      "manufacturer": "ASUS",
+      "model": "ROG MAXIMUS Z790 EXTREME",
+      "revision": "*",
+      "status": "pending",
+      "chipset": "Intel Z790",
+      "socket": "LGA1700",
+      "header": "",
+      "bus": "",
+      "pinLayout": "",
+      "module": "",
+      "confidence": 60,
+      "note": "MODEL DISCOVERED from official ASUS/ROG gaming motherboard catalog. TPM compatibility not yet VERIFIED.",
+      "sources": [
+        "https://rog.asus.com/motherboards-group/allmodels/"
+      ],
+      "evidence": [
+        "Exact motherboard model is listed in the official ASUS gaming/motherboard catalog."
+      ]
+    },
+    {
+      "manufacturer": "ASUS",
+      "model": "ROG MAXIMUS Z790 FORMULA",
+      "revision": "*",
+      "status": "pending",
+      "chipset": "Intel Z790",
+      "socket": "LGA1700",
+      "header": "",
+      "bus": "",
+      "pinLayout": "",
+      "module": "",
+      "confidence": 60,
+      "note": "MODEL DISCOVERED from official ASUS/ROG gaming motherboard catalog. TPM compatibility not yet VERIFIED.",
+      "sources": [
+        "https://rog.asus.com/motherboards-group/allmodels/"
+      ],
+      "evidence": [
+        "Exact motherboard model is listed in the official ASUS gaming/motherboard catalog."
+      ]
+    },
+    {
+      "manufacturer": "ASUS",
+      "model": "ROG MAXIMUS Z790 HERO",
+      "revision": "*",
+      "status": "pending",
+      "chipset": "Intel Z790",
+      "socket": "LGA1700",
+      "header": "",
+      "bus": "",
+      "pinLayout": "",
+      "module": "",
+      "confidence": 60,
+      "note": "MODEL DISCOVERED from official ASUS/ROG gaming motherboard catalog. TPM compatibility not yet VERIFIED.",
+      "sources": [
+        "https://rog.asus.com/motherboards-group/allmodels/"
+      ],
+      "evidence": [
+        "Exact motherboard model is listed in the official ASUS gaming/motherboard catalog."
+      ]
+    },
+    {
+      "manufacturer": "ASUS",
+      "model": "ROG MAXIMUS Z790 HERO BTF",
+      "revision": "*",
+      "status": "pending",
+      "chipset": "Intel Z790",
+      "socket": "LGA1700",
+      "header": "",
+      "bus": "",
+      "pinLayout": "",
+      "module": "",
+      "confidence": 60,
+      "note": "MODEL DISCOVERED from official ASUS/ROG gaming motherboard catalog. TPM compatibility not yet VERIFIED.",
+      "sources": [
+        "https://rog.asus.com/motherboards-group/allmodels/"
+      ],
+      "evidence": [
+        "Exact motherboard model is listed in the official ASUS gaming/motherboard catalog."
+      ]
+    },
+    {
+      "manufacturer": "ASUS",
+      "model": "ROG MAXIMUS Z790 HERO EVA-02 EDITION",
+      "revision": "*",
+      "status": "pending",
+      "chipset": "Intel Z790",
+      "socket": "LGA1700",
+      "header": "",
+      "bus": "",
+      "pinLayout": "",
+      "module": "",
+      "confidence": 60,
+      "note": "MODEL DISCOVERED from official ASUS/ROG gaming motherboard catalog. TPM compatibility not yet VERIFIED.",
+      "sources": [
+        "https://rog.asus.com/motherboards-group/allmodels/"
+      ],
+      "evidence": [
+        "Exact motherboard model is listed in the official ASUS gaming/motherboard catalog."
+      ]
+    },
+    {
+      "manufacturer": "ASUS",
+      "model": "ROG MAXIMUS Z890 APEX",
+      "revision": "*",
+      "status": "pending",
+      "chipset": "Intel Z890",
+      "socket": "LGA1851",
+      "header": "",
+      "bus": "",
+      "pinLayout": "",
+      "module": "",
+      "confidence": 60,
+      "note": "MODEL DISCOVERED from official ASUS/ROG gaming motherboard catalog. TPM compatibility not yet VERIFIED.",
+      "sources": [
+        "https://rog.asus.com/motherboards-group/allmodels/"
+      ],
+      "evidence": [
+        "Exact motherboard model is listed in the official ASUS gaming/motherboard catalog."
+      ]
+    },
+    {
+      "manufacturer": "ASUS",
+      "model": "ROG MAXIMUS Z890 EXTREME",
+      "revision": "*",
+      "status": "pending",
+      "chipset": "Intel Z890",
+      "socket": "LGA1851",
+      "header": "",
+      "bus": "",
+      "pinLayout": "",
+      "module": "",
+      "confidence": 60,
+      "note": "MODEL DISCOVERED from official ASUS/ROG gaming motherboard catalog. TPM compatibility not yet VERIFIED.",
+      "sources": [
+        "https://rog.asus.com/motherboards-group/allmodels/"
+      ],
+      "evidence": [
+        "Exact motherboard model is listed in the official ASUS gaming/motherboard catalog."
+      ]
+    },
+    {
+      "manufacturer": "ASUS",
+      "model": "ROG MAXIMUS Z890 HERO",
+      "revision": "*",
+      "status": "pending",
+      "chipset": "Intel Z890",
+      "socket": "LGA1851",
+      "header": "",
+      "bus": "",
+      "pinLayout": "",
+      "module": "",
+      "confidence": 60,
+      "note": "MODEL DISCOVERED from official ASUS/ROG gaming motherboard catalog. TPM compatibility not yet VERIFIED.",
+      "sources": [
+        "https://rog.asus.com/motherboards-group/allmodels/"
+      ],
+      "evidence": [
+        "Exact motherboard model is listed in the official ASUS gaming/motherboard catalog."
+      ]
+    },
+    {
+      "manufacturer": "ASUS",
+      "model": "ROG MAXIMUS Z890 HERO BTF",
+      "revision": "*",
+      "status": "pending",
+      "chipset": "Intel Z890",
+      "socket": "LGA1851",
+      "header": "",
+      "bus": "",
+      "pinLayout": "",
+      "module": "",
+      "confidence": 60,
+      "note": "MODEL DISCOVERED from official ASUS/ROG gaming motherboard catalog. TPM compatibility not yet VERIFIED.",
+      "sources": [
+        "https://rog.asus.com/motherboards-group/allmodels/"
+      ],
+      "evidence": [
+        "Exact motherboard model is listed in the official ASUS gaming/motherboard catalog."
+      ]
+    },
+    {
+      "manufacturer": "ASUS",
+      "model": "ROG STRIX B650-A GAMING WIFI",
+      "revision": "*",
+      "status": "pending",
+      "chipset": "AMD B650",
+      "socket": "AM5",
+      "header": "",
+      "bus": "",
+      "pinLayout": "",
+      "module": "",
+      "confidence": 60,
+      "note": "MODEL DISCOVERED from official ASUS/ROG gaming motherboard catalog. TPM compatibility not yet VERIFIED.",
+      "sources": [
+        "https://rog.asus.com/motherboards-group/allmodels/"
+      ],
+      "evidence": [
+        "Exact motherboard model is listed in the official ASUS gaming/motherboard catalog."
+      ]
+    },
+    {
+      "manufacturer": "ASUS",
+      "model": "ROG STRIX B650E-E GAMING WIFI",
+      "revision": "*",
+      "status": "pending",
+      "chipset": "AMD B650E",
+      "socket": "AM5",
+      "header": "",
+      "bus": "",
+      "pinLayout": "",
+      "module": "",
+      "confidence": 60,
+      "note": "MODEL DISCOVERED from official ASUS/ROG gaming motherboard catalog. TPM compatibility not yet VERIFIED.",
+      "sources": [
+        "https://rog.asus.com/motherboards-group/allmodels/"
+      ],
+      "evidence": [
+        "Exact motherboard model is listed in the official ASUS gaming/motherboard catalog."
+      ]
+    },
+    {
+      "manufacturer": "ASUS",
+      "model": "ROG STRIX B650E-F GAMING WIFI",
+      "revision": "*",
+      "status": "pending",
+      "chipset": "AMD B650E",
+      "socket": "AM5",
+      "header": "",
+      "bus": "",
+      "pinLayout": "",
+      "module": "",
+      "confidence": 60,
+      "note": "MODEL DISCOVERED from official ASUS/ROG gaming motherboard catalog. TPM compatibility not yet VERIFIED.",
+      "sources": [
+        "https://rog.asus.com/motherboards-group/allmodels/"
+      ],
+      "evidence": [
+        "Exact motherboard model is listed in the official ASUS gaming/motherboard catalog."
+      ]
+    },
+    {
+      "manufacturer": "ASUS",
+      "model": "ROG STRIX B650E-I GAMING WIFI",
+      "revision": "*",
+      "status": "pending",
+      "chipset": "AMD B650E",
+      "socket": "AM5",
+      "header": "",
+      "bus": "",
+      "pinLayout": "",
+      "module": "",
+      "confidence": 60,
+      "note": "MODEL DISCOVERED from official ASUS/ROG gaming motherboard catalog. TPM compatibility not yet VERIFIED.",
+      "sources": [
+        "https://rog.asus.com/motherboards-group/allmodels/"
+      ],
+      "evidence": [
+        "Exact motherboard model is listed in the official ASUS gaming/motherboard catalog."
+      ]
+    },
+    {
+      "manufacturer": "ASUS",
+      "model": "ROG STRIX B760-G GAMING WIFI D4",
+      "revision": "*",
+      "status": "pending",
+      "chipset": "Intel B760",
+      "socket": "LGA1700",
+      "header": "",
+      "bus": "",
+      "pinLayout": "",
+      "module": "",
+      "confidence": 60,
+      "note": "MODEL DISCOVERED from official ASUS/ROG gaming motherboard catalog. TPM compatibility not yet VERIFIED.",
+      "sources": [
+        "https://rog.asus.com/motherboards-group/allmodels/"
+      ],
+      "evidence": [
+        "Exact motherboard model is listed in the official ASUS gaming/motherboard catalog."
+      ]
+    },
+    {
+      "manufacturer": "ASUS",
+      "model": "ROG STRIX B850-A GAMING WIFI",
+      "revision": "*",
+      "status": "pending",
+      "chipset": "AMD B850",
+      "socket": "AM5",
+      "header": "",
+      "bus": "",
+      "pinLayout": "",
+      "module": "",
+      "confidence": 60,
+      "note": "MODEL DISCOVERED from official ASUS/ROG gaming motherboard catalog. TPM compatibility not yet VERIFIED.",
+      "sources": [
+        "https://rog.asus.com/motherboards-group/allmodels/"
+      ],
+      "evidence": [
+        "Exact motherboard model is listed in the official ASUS gaming/motherboard catalog."
+      ]
+    },
+    {
+      "manufacturer": "ASUS",
+      "model": "ROG STRIX B850-A GAMING WIFI R2",
+      "revision": "*",
+      "status": "pending",
+      "chipset": "AMD B850",
+      "socket": "AM5",
+      "header": "",
+      "bus": "",
+      "pinLayout": "",
+      "module": "",
+      "confidence": 60,
+      "note": "MODEL DISCOVERED from official ASUS/ROG gaming motherboard catalog. TPM compatibility not yet VERIFIED.",
+      "sources": [
+        "https://rog.asus.com/motherboards-group/allmodels/"
+      ],
+      "evidence": [
+        "Exact motherboard model is listed in the official ASUS gaming/motherboard catalog."
+      ]
+    },
+    {
+      "manufacturer": "ASUS",
+      "model": "ROG STRIX B850-A GAMING WIFI S",
+      "revision": "*",
+      "status": "pending",
+      "chipset": "AMD B850",
+      "socket": "AM5",
+      "header": "",
+      "bus": "",
+      "pinLayout": "",
+      "module": "",
+      "confidence": 60,
+      "note": "MODEL DISCOVERED from official ASUS/ROG gaming motherboard catalog. TPM compatibility not yet VERIFIED.",
+      "sources": [
+        "https://rog.asus.com/motherboards-group/allmodels/"
+      ],
+      "evidence": [
+        "Exact motherboard model is listed in the official ASUS gaming/motherboard catalog."
+      ]
+    },
+    {
+      "manufacturer": "ASUS",
+      "model": "ROG STRIX B850-A GAMING WIFI7 NEO",
+      "revision": "*",
+      "status": "pending",
+      "chipset": "AMD B850",
+      "socket": "AM5",
+      "header": "",
+      "bus": "",
+      "pinLayout": "",
+      "module": "",
+      "confidence": 60,
+      "note": "MODEL DISCOVERED from official ASUS/ROG gaming motherboard catalog. TPM compatibility not yet VERIFIED.",
+      "sources": [
+        "https://rog.asus.com/motherboards-group/allmodels/"
+      ],
+      "evidence": [
+        "Exact motherboard model is listed in the official ASUS gaming/motherboard catalog."
+      ]
+    },
+    {
+      "manufacturer": "ASUS",
+      "model": "ROG STRIX B850-E GAMING WIFI",
+      "revision": "*",
+      "status": "pending",
+      "chipset": "AMD B850",
+      "socket": "AM5",
+      "header": "",
+      "bus": "",
+      "pinLayout": "",
+      "module": "",
+      "confidence": 60,
+      "note": "MODEL DISCOVERED from official ASUS/ROG gaming motherboard catalog. TPM compatibility not yet VERIFIED.",
+      "sources": [
+        "https://rog.asus.com/motherboards-group/allmodels/"
+      ],
+      "evidence": [
+        "Exact motherboard model is listed in the official ASUS gaming/motherboard catalog."
+      ]
+    },
+    {
+      "manufacturer": "ASUS",
+      "model": "ROG STRIX B850-F GAMING WIFI",
+      "revision": "*",
+      "status": "pending",
+      "chipset": "AMD B850",
+      "socket": "AM5",
+      "header": "",
+      "bus": "",
+      "pinLayout": "",
+      "module": "",
+      "confidence": 60,
+      "note": "MODEL DISCOVERED from official ASUS/ROG gaming motherboard catalog. TPM compatibility not yet VERIFIED.",
+      "sources": [
+        "https://rog.asus.com/motherboards-group/allmodels/"
+      ],
+      "evidence": [
+        "Exact motherboard model is listed in the official ASUS gaming/motherboard catalog."
+      ]
+    },
+    {
+      "manufacturer": "ASUS",
+      "model": "ROG STRIX B850-F GAMING WIFI7 NEO",
+      "revision": "*",
+      "status": "pending",
+      "chipset": "AMD B850",
+      "socket": "AM5",
+      "header": "",
+      "bus": "",
+      "pinLayout": "",
+      "module": "",
+      "confidence": 60,
+      "note": "MODEL DISCOVERED from official ASUS/ROG gaming motherboard catalog. TPM compatibility not yet VERIFIED.",
+      "sources": [
+        "https://rog.asus.com/motherboards-group/allmodels/"
+      ],
+      "evidence": [
+        "Exact motherboard model is listed in the official ASUS gaming/motherboard catalog."
+      ]
+    },
+    {
+      "manufacturer": "ASUS",
+      "model": "ROG STRIX B850-G GAMING WIFI",
+      "revision": "*",
+      "status": "pending",
+      "chipset": "AMD B850",
+      "socket": "AM5",
+      "header": "",
+      "bus": "",
+      "pinLayout": "",
+      "module": "",
+      "confidence": 60,
+      "note": "MODEL DISCOVERED from official ASUS/ROG gaming motherboard catalog. TPM compatibility not yet VERIFIED.",
+      "sources": [
+        "https://rog.asus.com/motherboards-group/allmodels/"
+      ],
+      "evidence": [
+        "Exact motherboard model is listed in the official ASUS gaming/motherboard catalog."
+      ]
+    },
+    {
+      "manufacturer": "ASUS",
+      "model": "ROG STRIX B850-I GAMING WIFI",
+      "revision": "*",
+      "status": "pending",
+      "chipset": "AMD B850",
+      "socket": "AM5",
+      "header": "",
+      "bus": "",
+      "pinLayout": "",
+      "module": "",
+      "confidence": 60,
+      "note": "MODEL DISCOVERED from official ASUS/ROG gaming motherboard catalog. TPM compatibility not yet VERIFIED.",
+      "sources": [
+        "https://rog.asus.com/motherboards-group/allmodels/"
+      ],
+      "evidence": [
+        "Exact motherboard model is listed in the official ASUS gaming/motherboard catalog."
+      ]
+    },
+    {
+      "manufacturer": "ASUS",
+      "model": "ROG STRIX B850-I GAMING WIFI7 W",
+      "revision": "*",
+      "status": "pending",
+      "chipset": "AMD B850",
+      "socket": "AM5",
+      "header": "",
+      "bus": "",
+      "pinLayout": "",
+      "module": "",
+      "confidence": 60,
+      "note": "MODEL DISCOVERED from official ASUS/ROG gaming motherboard catalog. TPM compatibility not yet VERIFIED.",
+      "sources": [
+        "https://rog.asus.com/motherboards-group/allmodels/"
+      ],
+      "evidence": [
+        "Exact motherboard model is listed in the official ASUS gaming/motherboard catalog."
+      ]
+    },
+    {
+      "manufacturer": "ASUS",
+      "model": "ROG STRIX B860-A GAMING WIFI",
+      "revision": "*",
+      "status": "pending",
+      "chipset": "Intel B860",
+      "socket": "LGA1851",
+      "header": "",
+      "bus": "",
+      "pinLayout": "",
+      "module": "",
+      "confidence": 60,
+      "note": "MODEL DISCOVERED from official ASUS/ROG gaming motherboard catalog. TPM compatibility not yet VERIFIED.",
+      "sources": [
+        "https://rog.asus.com/motherboards-group/allmodels/"
+      ],
+      "evidence": [
+        "Exact motherboard model is listed in the official ASUS gaming/motherboard catalog."
+      ]
+    },
+    {
+      "manufacturer": "ASUS",
+      "model": "ROG STRIX B860-A GAMING WIFI S",
+      "revision": "*",
+      "status": "pending",
+      "chipset": "Intel B860",
+      "socket": "LGA1851",
+      "header": "",
+      "bus": "",
+      "pinLayout": "",
+      "module": "",
+      "confidence": 60,
+      "note": "MODEL DISCOVERED from official ASUS/ROG gaming motherboard catalog. TPM compatibility not yet VERIFIED.",
+      "sources": [
+        "https://rog.asus.com/motherboards-group/allmodels/"
+      ],
+      "evidence": [
+        "Exact motherboard model is listed in the official ASUS gaming/motherboard catalog."
+      ]
+    },
+    {
+      "manufacturer": "ASUS",
+      "model": "ROG STRIX B860-F GAMING WIFI",
+      "revision": "*",
+      "status": "pending",
+      "chipset": "Intel B860",
+      "socket": "LGA1851",
+      "header": "",
+      "bus": "",
+      "pinLayout": "",
+      "module": "",
+      "confidence": 60,
+      "note": "MODEL DISCOVERED from official ASUS/ROG gaming motherboard catalog. TPM compatibility not yet VERIFIED.",
+      "sources": [
+        "https://rog.asus.com/motherboards-group/allmodels/"
+      ],
+      "evidence": [
+        "Exact motherboard model is listed in the official ASUS gaming/motherboard catalog."
+      ]
+    },
+    {
+      "manufacturer": "ASUS",
+      "model": "ROG STRIX B860-G GAMING WIFI",
+      "revision": "*",
+      "status": "pending",
+      "chipset": "Intel B860",
+      "socket": "LGA1851",
+      "header": "",
+      "bus": "",
+      "pinLayout": "",
+      "module": "",
+      "confidence": 60,
+      "note": "MODEL DISCOVERED from official ASUS/ROG gaming motherboard catalog. TPM compatibility not yet VERIFIED.",
+      "sources": [
+        "https://rog.asus.com/motherboards-group/allmodels/"
+      ],
+      "evidence": [
+        "Exact motherboard model is listed in the official ASUS gaming/motherboard catalog."
+      ]
+    },
+    {
+      "manufacturer": "ASUS",
+      "model": "ROG STRIX B860-G GAMING WIFI S",
+      "revision": "*",
+      "status": "pending",
+      "chipset": "Intel B860",
+      "socket": "LGA1851",
+      "header": "",
+      "bus": "",
+      "pinLayout": "",
+      "module": "",
+      "confidence": 60,
+      "note": "MODEL DISCOVERED from official ASUS/ROG gaming motherboard catalog. TPM compatibility not yet VERIFIED.",
+      "sources": [
+        "https://rog.asus.com/motherboards-group/allmodels/"
+      ],
+      "evidence": [
+        "Exact motherboard model is listed in the official ASUS gaming/motherboard catalog."
+      ]
+    },
+    {
+      "manufacturer": "ASUS",
+      "model": "ROG STRIX B860-I GAMING WIFI",
+      "revision": "*",
+      "status": "pending",
+      "chipset": "Intel B860",
+      "socket": "LGA1851",
+      "header": "",
+      "bus": "",
+      "pinLayout": "",
+      "module": "",
+      "confidence": 60,
+      "note": "MODEL DISCOVERED from official ASUS/ROG gaming motherboard catalog. TPM compatibility not yet VERIFIED.",
+      "sources": [
+        "https://rog.asus.com/motherboards-group/allmodels/"
+      ],
+      "evidence": [
+        "Exact motherboard model is listed in the official ASUS gaming/motherboard catalog."
+      ]
+    },
+    {
+      "manufacturer": "ASUS",
+      "model": "ROG STRIX X870-A GAMING WIFI",
+      "revision": "*",
+      "status": "pending",
+      "chipset": "AMD X870",
+      "socket": "AM5",
+      "header": "",
+      "bus": "",
+      "pinLayout": "",
+      "module": "",
+      "confidence": 60,
+      "note": "MODEL DISCOVERED from official ASUS/ROG gaming motherboard catalog. TPM compatibility not yet VERIFIED.",
+      "sources": [
+        "https://rog.asus.com/motherboards-group/allmodels/"
+      ],
+      "evidence": [
+        "Exact motherboard model is listed in the official ASUS gaming/motherboard catalog."
+      ]
+    },
+    {
+      "manufacturer": "ASUS",
+      "model": "ROG STRIX X870-A GAMING WIFI S",
+      "revision": "*",
+      "status": "pending",
+      "chipset": "AMD X870",
+      "socket": "AM5",
+      "header": "",
+      "bus": "",
+      "pinLayout": "",
+      "module": "",
+      "confidence": 60,
+      "note": "MODEL DISCOVERED from official ASUS/ROG gaming motherboard catalog. TPM compatibility not yet VERIFIED.",
+      "sources": [
+        "https://rog.asus.com/motherboards-group/allmodels/"
+      ],
+      "evidence": [
+        "Exact motherboard model is listed in the official ASUS gaming/motherboard catalog."
+      ]
+    },
+    {
+      "manufacturer": "ASUS",
+      "model": "ROG STRIX X870-F GAMING WIFI",
+      "revision": "*",
+      "status": "pending",
+      "chipset": "AMD X870",
+      "socket": "AM5",
+      "header": "",
+      "bus": "",
+      "pinLayout": "",
+      "module": "",
+      "confidence": 60,
+      "note": "MODEL DISCOVERED from official ASUS/ROG gaming motherboard catalog. TPM compatibility not yet VERIFIED.",
+      "sources": [
+        "https://rog.asus.com/motherboards-group/allmodels/"
+      ],
+      "evidence": [
+        "Exact motherboard model is listed in the official ASUS gaming/motherboard catalog."
+      ]
+    },
+    {
+      "manufacturer": "ASUS",
+      "model": "ROG STRIX X870-I GAMING WIFI",
+      "revision": "*",
+      "status": "pending",
+      "chipset": "AMD X870",
+      "socket": "AM5",
+      "header": "",
+      "bus": "",
+      "pinLayout": "",
+      "module": "",
+      "confidence": 60,
+      "note": "MODEL DISCOVERED from official ASUS/ROG gaming motherboard catalog. TPM compatibility not yet VERIFIED.",
+      "sources": [
+        "https://rog.asus.com/motherboards-group/allmodels/"
+      ],
+      "evidence": [
+        "Exact motherboard model is listed in the official ASUS gaming/motherboard catalog."
+      ]
+    },
+    {
+      "manufacturer": "ASUS",
+      "model": "ROG STRIX X870E-A GAMING WIFI7 NEO",
+      "revision": "*",
+      "status": "pending",
+      "chipset": "AMD X870E",
+      "socket": "AM5",
+      "header": "",
+      "bus": "",
+      "pinLayout": "",
+      "module": "",
+      "confidence": 60,
+      "note": "MODEL DISCOVERED from official ASUS/ROG gaming motherboard catalog. TPM compatibility not yet VERIFIED.",
+      "sources": [
+        "https://rog.asus.com/motherboards-group/allmodels/"
+      ],
+      "evidence": [
+        "Exact motherboard model is listed in the official ASUS gaming/motherboard catalog."
+      ]
+    },
+    {
+      "manufacturer": "ASUS",
+      "model": "ROG STRIX X870E-E GAMING WIFI",
+      "revision": "*",
+      "status": "pending",
+      "chipset": "AMD X870E",
+      "socket": "AM5",
+      "header": "",
+      "bus": "",
+      "pinLayout": "",
+      "module": "",
+      "confidence": 60,
+      "note": "MODEL DISCOVERED from official ASUS/ROG gaming motherboard catalog. TPM compatibility not yet VERIFIED.",
+      "sources": [
+        "https://rog.asus.com/motherboards-group/allmodels/"
+      ],
+      "evidence": [
+        "Exact motherboard model is listed in the official ASUS gaming/motherboard catalog."
+      ]
+    },
+    {
+      "manufacturer": "ASUS",
+      "model": "ROG STRIX Z790-E GAMING WIFI II",
+      "revision": "*",
+      "status": "pending",
+      "chipset": "Intel Z790",
+      "socket": "LGA1700",
+      "header": "",
+      "bus": "",
+      "pinLayout": "",
+      "module": "",
+      "confidence": 60,
+      "note": "MODEL DISCOVERED from official ASUS/ROG gaming motherboard catalog. TPM compatibility not yet VERIFIED.",
+      "sources": [
+        "https://rog.asus.com/motherboards-group/allmodels/"
+      ],
+      "evidence": [
+        "Exact motherboard model is listed in the official ASUS gaming/motherboard catalog."
+      ]
+    },
+    {
+      "manufacturer": "ASUS",
+      "model": "ROG STRIX Z790-F GAMING WIFI II",
+      "revision": "*",
+      "status": "pending",
+      "chipset": "Intel Z790",
+      "socket": "LGA1700",
+      "header": "",
+      "bus": "",
+      "pinLayout": "",
+      "module": "",
+      "confidence": 60,
+      "note": "MODEL DISCOVERED from official ASUS/ROG gaming motherboard catalog. TPM compatibility not yet VERIFIED.",
+      "sources": [
+        "https://rog.asus.com/motherboards-group/allmodels/"
+      ],
+      "evidence": [
+        "Exact motherboard model is listed in the official ASUS gaming/motherboard catalog."
+      ]
+    },
+    {
+      "manufacturer": "ASUS",
+      "model": "ROG STRIX Z890-A GAMING WIFI",
+      "revision": "*",
+      "status": "pending",
+      "chipset": "Intel Z890",
+      "socket": "LGA1851",
+      "header": "",
+      "bus": "",
+      "pinLayout": "",
+      "module": "",
+      "confidence": 60,
+      "note": "MODEL DISCOVERED from official ASUS/ROG gaming motherboard catalog. TPM compatibility not yet VERIFIED.",
+      "sources": [
+        "https://rog.asus.com/motherboards-group/allmodels/"
+      ],
+      "evidence": [
+        "Exact motherboard model is listed in the official ASUS gaming/motherboard catalog."
+      ]
+    },
+    {
+      "manufacturer": "ASUS",
+      "model": "ROG STRIX Z890-A GAMING WIFI S",
+      "revision": "*",
+      "status": "pending",
+      "chipset": "Intel Z890",
+      "socket": "LGA1851",
+      "header": "",
+      "bus": "",
+      "pinLayout": "",
+      "module": "",
+      "confidence": 60,
+      "note": "MODEL DISCOVERED from official ASUS/ROG gaming motherboard catalog. TPM compatibility not yet VERIFIED.",
+      "sources": [
+        "https://rog.asus.com/motherboards-group/allmodels/"
+      ],
+      "evidence": [
+        "Exact motherboard model is listed in the official ASUS gaming/motherboard catalog."
+      ]
+    },
+    {
+      "manufacturer": "ASUS",
+      "model": "ROG STRIX Z890-E GAMING WIFI",
+      "revision": "*",
+      "status": "pending",
+      "chipset": "Intel Z890",
+      "socket": "LGA1851",
+      "header": "",
+      "bus": "",
+      "pinLayout": "",
+      "module": "",
+      "confidence": 60,
+      "note": "MODEL DISCOVERED from official ASUS/ROG gaming motherboard catalog. TPM compatibility not yet VERIFIED.",
+      "sources": [
+        "https://rog.asus.com/motherboards-group/allmodels/"
+      ],
+      "evidence": [
+        "Exact motherboard model is listed in the official ASUS gaming/motherboard catalog."
+      ]
+    },
+    {
+      "manufacturer": "ASUS",
+      "model": "ROG STRIX Z890-F GAMING WIFI",
+      "revision": "*",
+      "status": "pending",
+      "chipset": "Intel Z890",
+      "socket": "LGA1851",
+      "header": "",
+      "bus": "",
+      "pinLayout": "",
+      "module": "",
+      "confidence": 60,
+      "note": "MODEL DISCOVERED from official ASUS/ROG gaming motherboard catalog. TPM compatibility not yet VERIFIED.",
+      "sources": [
+        "https://rog.asus.com/motherboards-group/allmodels/"
+      ],
+      "evidence": [
+        "Exact motherboard model is listed in the official ASUS gaming/motherboard catalog."
+      ]
+    },
+    {
+      "manufacturer": "ASUS",
+      "model": "ROG STRIX Z890-H GAMING WIFI",
+      "revision": "*",
+      "status": "pending",
+      "chipset": "Intel Z890",
+      "socket": "LGA1851",
+      "header": "",
+      "bus": "",
+      "pinLayout": "",
+      "module": "",
+      "confidence": 60,
+      "note": "MODEL DISCOVERED from official ASUS/ROG gaming motherboard catalog. TPM compatibility not yet VERIFIED.",
+      "sources": [
+        "https://rog.asus.com/motherboards-group/allmodels/"
+      ],
+      "evidence": [
+        "Exact motherboard model is listed in the official ASUS gaming/motherboard catalog."
+      ]
+    },
+    {
+      "manufacturer": "ASUS",
+      "model": "ROG STRIX Z890-H GAMING WIFI S",
+      "revision": "*",
+      "status": "pending",
+      "chipset": "Intel Z890",
+      "socket": "LGA1851",
+      "header": "",
+      "bus": "",
+      "pinLayout": "",
+      "module": "",
+      "confidence": 60,
+      "note": "MODEL DISCOVERED from official ASUS/ROG gaming motherboard catalog. TPM compatibility not yet VERIFIED.",
+      "sources": [
+        "https://rog.asus.com/motherboards-group/allmodels/"
+      ],
+      "evidence": [
+        "Exact motherboard model is listed in the official ASUS gaming/motherboard catalog."
+      ]
+    },
+    {
+      "manufacturer": "ASUS",
+      "model": "ROG STRIX Z890-I GAMING WIFI",
+      "revision": "*",
+      "status": "pending",
+      "chipset": "Intel Z890",
+      "socket": "LGA1851",
+      "header": "",
+      "bus": "",
+      "pinLayout": "",
+      "module": "",
+      "confidence": 60,
+      "note": "MODEL DISCOVERED from official ASUS/ROG gaming motherboard catalog. TPM compatibility not yet VERIFIED.",
+      "sources": [
+        "https://rog.asus.com/motherboards-group/allmodels/"
+      ],
+      "evidence": [
+        "Exact motherboard model is listed in the official ASUS gaming/motherboard catalog."
+      ]
+    },
+    {
+      "manufacturer": "ASUS",
+      "model": "TUF GAMING A620AM-PLUS",
+      "revision": "*",
+      "status": "pending",
+      "chipset": "AMD A620A",
+      "socket": "AM5",
+      "header": "",
+      "bus": "",
+      "pinLayout": "",
+      "module": "",
+      "confidence": 60,
+      "note": "MODEL DISCOVERED from official ASUS/ROG gaming motherboard catalog. TPM compatibility not yet VERIFIED.",
+      "sources": [
+        "https://rog.asus.com/motherboards-group/allmodels/"
+      ],
+      "evidence": [
+        "Exact motherboard model is listed in the official ASUS gaming/motherboard catalog."
+      ]
+    },
+    {
+      "manufacturer": "ASUS",
+      "model": "TUF GAMING A620AM-PLUS WIFI",
+      "revision": "*",
+      "status": "pending",
+      "chipset": "AMD A620A",
+      "socket": "AM5",
+      "header": "",
+      "bus": "",
+      "pinLayout": "",
+      "module": "",
+      "confidence": 60,
+      "note": "MODEL DISCOVERED from official ASUS/ROG gaming motherboard catalog. TPM compatibility not yet VERIFIED.",
+      "sources": [
+        "https://rog.asus.com/motherboards-group/allmodels/"
+      ],
+      "evidence": [
+        "Exact motherboard model is listed in the official ASUS gaming/motherboard catalog."
+      ]
+    },
+    {
+      "manufacturer": "ASUS",
+      "model": "TUF GAMING B650E-E WIFI",
+      "revision": "*",
+      "status": "pending",
+      "chipset": "AMD B650E",
+      "socket": "AM5",
+      "header": "",
+      "bus": "",
+      "pinLayout": "",
+      "module": "",
+      "confidence": 60,
+      "note": "MODEL DISCOVERED from official ASUS/ROG gaming motherboard catalog. TPM compatibility not yet VERIFIED.",
+      "sources": [
+        "https://rog.asus.com/motherboards-group/allmodels/"
+      ],
+      "evidence": [
+        "Exact motherboard model is listed in the official ASUS gaming/motherboard catalog."
+      ]
+    },
+    {
+      "manufacturer": "ASUS",
+      "model": "TUF GAMING B650E-PLUS WIFI",
+      "revision": "*",
+      "status": "pending",
+      "chipset": "AMD B650E",
+      "socket": "AM5",
+      "header": "",
+      "bus": "",
+      "pinLayout": "",
+      "module": "",
+      "confidence": 60,
+      "note": "MODEL DISCOVERED from official ASUS/ROG gaming motherboard catalog. TPM compatibility not yet VERIFIED.",
+      "sources": [
+        "https://rog.asus.com/motherboards-group/allmodels/"
+      ],
+      "evidence": [
+        "Exact motherboard model is listed in the official ASUS gaming/motherboard catalog."
+      ]
+    },
+    {
+      "manufacturer": "ASUS",
+      "model": "TUF GAMING B650EM-E WIFI",
+      "revision": "*",
+      "status": "pending",
+      "chipset": "AMD B650E",
+      "socket": "AM5",
+      "header": "",
+      "bus": "",
+      "pinLayout": "",
+      "module": "",
+      "confidence": 60,
+      "note": "MODEL DISCOVERED from official ASUS/ROG gaming motherboard catalog. TPM compatibility not yet VERIFIED.",
+      "sources": [
+        "https://rog.asus.com/motherboards-group/allmodels/"
+      ],
+      "evidence": [
+        "Exact motherboard model is listed in the official ASUS gaming/motherboard catalog."
+      ]
+    },
+    {
+      "manufacturer": "ASUS",
+      "model": "TUF GAMING B650EM-PLUS WIFI",
+      "revision": "*",
+      "status": "pending",
+      "chipset": "AMD B650E",
+      "socket": "AM5",
+      "header": "",
+      "bus": "",
+      "pinLayout": "",
+      "module": "",
+      "confidence": 60,
+      "note": "MODEL DISCOVERED from official ASUS/ROG gaming motherboard catalog. TPM compatibility not yet VERIFIED.",
+      "sources": [
+        "https://rog.asus.com/motherboards-group/allmodels/"
+      ],
+      "evidence": [
+        "Exact motherboard model is listed in the official ASUS gaming/motherboard catalog."
+      ]
+    },
+    {
+      "manufacturer": "ASUS",
+      "model": "TUF GAMING B850-BTF WIFI W",
+      "revision": "*",
+      "status": "pending",
+      "chipset": "AMD B850",
+      "socket": "AM5",
+      "header": "",
+      "bus": "",
+      "pinLayout": "",
+      "module": "",
+      "confidence": 60,
+      "note": "MODEL DISCOVERED from official ASUS/ROG gaming motherboard catalog. TPM compatibility not yet VERIFIED.",
+      "sources": [
+        "https://rog.asus.com/motherboards-group/allmodels/"
+      ],
+      "evidence": [
+        "Exact motherboard model is listed in the official ASUS gaming/motherboard catalog."
+      ]
+    },
+    {
+      "manufacturer": "ASUS",
+      "model": "TUF GAMING B850-E WIFI",
+      "revision": "*",
+      "status": "pending",
+      "chipset": "AMD B850",
+      "socket": "AM5",
+      "header": "",
+      "bus": "",
+      "pinLayout": "",
+      "module": "",
+      "confidence": 60,
+      "note": "MODEL DISCOVERED from official ASUS/ROG gaming motherboard catalog. TPM compatibility not yet VERIFIED.",
+      "sources": [
+        "https://rog.asus.com/motherboards-group/allmodels/"
+      ],
+      "evidence": [
+        "Exact motherboard model is listed in the official ASUS gaming/motherboard catalog."
+      ]
+    },
+    {
+      "manufacturer": "ASUS",
+      "model": "TUF GAMING B850-PLUS WIFI",
+      "revision": "*",
+      "status": "pending",
+      "chipset": "AMD B850",
+      "socket": "AM5",
+      "header": "",
+      "bus": "",
+      "pinLayout": "",
+      "module": "",
+      "confidence": 60,
+      "note": "MODEL DISCOVERED from official ASUS/ROG gaming motherboard catalog. TPM compatibility not yet VERIFIED.",
+      "sources": [
+        "https://rog.asus.com/motherboards-group/allmodels/"
+      ],
+      "evidence": [
+        "Exact motherboard model is listed in the official ASUS gaming/motherboard catalog."
+      ]
+    },
+    {
+      "manufacturer": "ASUS",
+      "model": "TUF GAMING B850-PRO WIFI7 W NEO",
+      "revision": "*",
+      "status": "pending",
+      "chipset": "AMD B850",
+      "socket": "AM5",
+      "header": "",
+      "bus": "",
+      "pinLayout": "",
+      "module": "",
+      "confidence": 60,
+      "note": "MODEL DISCOVERED from official ASUS/ROG gaming motherboard catalog. TPM compatibility not yet VERIFIED.",
+      "sources": [
+        "https://rog.asus.com/motherboards-group/allmodels/"
+      ],
+      "evidence": [
+        "Exact motherboard model is listed in the official ASUS gaming/motherboard catalog."
+      ]
+    },
+    {
+      "manufacturer": "ASUS",
+      "model": "TUF GAMING B850I WIFI NEO",
+      "revision": "*",
+      "status": "pending",
+      "chipset": "AMD B850",
+      "socket": "AM5",
+      "header": "",
+      "bus": "",
+      "pinLayout": "",
+      "module": "",
+      "confidence": 60,
+      "note": "MODEL DISCOVERED from official ASUS/ROG gaming motherboard catalog. TPM compatibility not yet VERIFIED.",
+      "sources": [
+        "https://rog.asus.com/motherboards-group/allmodels/"
+      ],
+      "evidence": [
+        "Exact motherboard model is listed in the official ASUS gaming/motherboard catalog."
+      ]
+    },
+    {
+      "manufacturer": "ASUS",
+      "model": "TUF GAMING B850M WIFI",
+      "revision": "*",
+      "status": "pending",
+      "chipset": "AMD B850",
+      "socket": "AM5",
+      "header": "",
+      "bus": "",
+      "pinLayout": "",
+      "module": "",
+      "confidence": 60,
+      "note": "MODEL DISCOVERED from official ASUS/ROG gaming motherboard catalog. TPM compatibility not yet VERIFIED.",
+      "sources": [
+        "https://rog.asus.com/motherboards-group/allmodels/"
+      ],
+      "evidence": [
+        "Exact motherboard model is listed in the official ASUS gaming/motherboard catalog."
+      ]
+    },
+    {
+      "manufacturer": "ASUS",
+      "model": "TUF GAMING B850M-PLUS II",
+      "revision": "*",
+      "status": "pending",
+      "chipset": "AMD B850",
+      "socket": "AM5",
+      "header": "",
+      "bus": "",
+      "pinLayout": "",
+      "module": "",
+      "confidence": 60,
+      "note": "MODEL DISCOVERED from official ASUS/ROG gaming motherboard catalog. TPM compatibility not yet VERIFIED.",
+      "sources": [
+        "https://rog.asus.com/motherboards-group/allmodels/"
+      ],
+      "evidence": [
+        "Exact motherboard model is listed in the official ASUS gaming/motherboard catalog."
+      ]
+    },
+    {
+      "manufacturer": "ASUS",
+      "model": "TUF GAMING B850M-PLUS WIFI7",
+      "revision": "*",
+      "status": "pending",
+      "chipset": "AMD B850",
+      "socket": "AM5",
+      "header": "",
+      "bus": "",
+      "pinLayout": "",
+      "module": "",
+      "confidence": 60,
+      "note": "MODEL DISCOVERED from official ASUS/ROG gaming motherboard catalog. TPM compatibility not yet VERIFIED.",
+      "sources": [
+        "https://rog.asus.com/motherboards-group/allmodels/"
+      ],
+      "evidence": [
+        "Exact motherboard model is listed in the official ASUS gaming/motherboard catalog."
+      ]
+    },
+    {
+      "manufacturer": "ASUS",
+      "model": "TUF GAMING B850M-PLUS WIFI7 W",
+      "revision": "*",
+      "status": "pending",
+      "chipset": "AMD B850",
+      "socket": "AM5",
+      "header": "",
+      "bus": "",
+      "pinLayout": "",
+      "module": "",
+      "confidence": 60,
+      "note": "MODEL DISCOVERED from official ASUS/ROG gaming motherboard catalog. TPM compatibility not yet VERIFIED.",
+      "sources": [
+        "https://rog.asus.com/motherboards-group/allmodels/"
+      ],
+      "evidence": [
+        "Exact motherboard model is listed in the official ASUS gaming/motherboard catalog."
+      ]
+    },
+    {
+      "manufacturer": "ASUS",
+      "model": "TUF GAMING B860-PLUS WIFI",
+      "revision": "*",
+      "status": "pending",
+      "chipset": "Intel B860",
+      "socket": "LGA1851",
+      "header": "",
+      "bus": "",
+      "pinLayout": "",
+      "module": "",
+      "confidence": 60,
+      "note": "MODEL DISCOVERED from official ASUS/ROG gaming motherboard catalog. TPM compatibility not yet VERIFIED.",
+      "sources": [
+        "https://rog.asus.com/motherboards-group/allmodels/"
+      ],
+      "evidence": [
+        "Exact motherboard model is listed in the official ASUS gaming/motherboard catalog."
+      ]
+    },
+    {
+      "manufacturer": "ASUS",
+      "model": "TUF GAMING B860M-PLUS",
+      "revision": "*",
+      "status": "pending",
+      "chipset": "Intel B860",
+      "socket": "LGA1851",
+      "header": "",
+      "bus": "",
+      "pinLayout": "",
+      "module": "",
+      "confidence": 60,
+      "note": "MODEL DISCOVERED from official ASUS/ROG gaming motherboard catalog. TPM compatibility not yet VERIFIED.",
+      "sources": [
+        "https://rog.asus.com/motherboards-group/allmodels/"
+      ],
+      "evidence": [
+        "Exact motherboard model is listed in the official ASUS gaming/motherboard catalog."
+      ]
+    },
+    {
+      "manufacturer": "ASUS",
+      "model": "TUF GAMING B860M-PLUS WIFI",
+      "revision": "*",
+      "status": "pending",
+      "chipset": "Intel B860",
+      "socket": "LGA1851",
+      "header": "",
+      "bus": "",
+      "pinLayout": "",
+      "module": "",
+      "confidence": 60,
+      "note": "MODEL DISCOVERED from official ASUS/ROG gaming motherboard catalog. TPM compatibility not yet VERIFIED.",
+      "sources": [
+        "https://rog.asus.com/motherboards-group/allmodels/"
+      ],
+      "evidence": [
+        "Exact motherboard model is listed in the official ASUS gaming/motherboard catalog."
+      ]
+    },
+    {
+      "manufacturer": "ASUS",
+      "model": "TUF GAMING X870-PLUS WIFI",
+      "revision": "*",
+      "status": "pending",
+      "chipset": "AMD X870",
+      "socket": "AM5",
+      "header": "",
+      "bus": "",
+      "pinLayout": "",
+      "module": "",
+      "confidence": 60,
+      "note": "MODEL DISCOVERED from official ASUS/ROG gaming motherboard catalog. TPM compatibility not yet VERIFIED.",
+      "sources": [
+        "https://rog.asus.com/motherboards-group/allmodels/"
+      ],
+      "evidence": [
+        "Exact motherboard model is listed in the official ASUS gaming/motherboard catalog."
+      ]
+    },
+    {
+      "manufacturer": "ASUS",
+      "model": "TUF GAMING X870-PRO WIFI7 W NEO",
+      "revision": "*",
+      "status": "pending",
+      "chipset": "AMD X870",
+      "socket": "AM5",
+      "header": "",
+      "bus": "",
+      "pinLayout": "",
+      "module": "",
+      "confidence": 60,
+      "note": "MODEL DISCOVERED from official ASUS/ROG gaming motherboard catalog. TPM compatibility not yet VERIFIED.",
+      "sources": [
+        "https://rog.asus.com/motherboards-group/allmodels/"
+      ],
+      "evidence": [
+        "Exact motherboard model is listed in the official ASUS gaming/motherboard catalog."
+      ]
+    },
+    {
+      "manufacturer": "ASUS",
+      "model": "TUF GAMING X870E-PLUS WIFI7",
+      "revision": "*",
+      "status": "pending",
+      "chipset": "AMD X870E",
+      "socket": "AM5",
+      "header": "",
+      "bus": "",
+      "pinLayout": "",
+      "module": "",
+      "confidence": 60,
+      "note": "MODEL DISCOVERED from official ASUS/ROG gaming motherboard catalog. TPM compatibility not yet VERIFIED.",
+      "sources": [
+        "https://rog.asus.com/motherboards-group/allmodels/"
+      ],
+      "evidence": [
+        "Exact motherboard model is listed in the official ASUS gaming/motherboard catalog."
+      ]
+    },
+    {
+      "manufacturer": "ASUS",
+      "model": "TUF GAMING Z890-PRO WIFI",
+      "revision": "*",
+      "status": "pending",
+      "chipset": "Intel Z890",
+      "socket": "LGA1851",
+      "header": "",
+      "bus": "",
+      "pinLayout": "",
+      "module": "",
+      "confidence": 60,
+      "note": "MODEL DISCOVERED from official ASUS/ROG gaming motherboard catalog. TPM compatibility not yet VERIFIED.",
+      "sources": [
+        "https://rog.asus.com/motherboards-group/allmodels/"
+      ],
+      "evidence": [
+        "Exact motherboard model is listed in the official ASUS gaming/motherboard catalog."
+      ]
+    },
+    {
+      "manufacturer": "GIGABYTE",
+      "model": "B360 AORUS GAMING 3 WIFI",
+      "revision": "*",
+      "status": "pending",
+      "chipset": "Intel B360",
+      "socket": "LGA1151",
+      "header": "",
+      "bus": "",
+      "pinLayout": "",
+      "module": "",
+      "confidence": 60,
+      "note": "MODEL DISCOVERED from official GIGABYTE/AORUS motherboard catalog. TPM compatibility not yet VERIFIED.",
+      "sources": [
+        "https://www.gigabyte.com/us/Motherboard/AORUS"
+      ],
+      "evidence": [
+        "Exact motherboard model is listed in the official GIGABYTE gaming/motherboard catalog."
+      ]
+    },
+    {
+      "manufacturer": "GIGABYTE",
+      "model": "B460 AORUS PRO AC",
+      "revision": "*",
+      "status": "pending",
+      "chipset": "Intel B460",
+      "socket": "LGA1200",
+      "header": "",
+      "bus": "",
+      "pinLayout": "",
+      "module": "",
+      "confidence": 60,
+      "note": "MODEL DISCOVERED from official GIGABYTE/AORUS motherboard catalog. TPM compatibility not yet VERIFIED.",
+      "sources": [
+        "https://www.gigabyte.com/us/Motherboard/AORUS"
+      ],
+      "evidence": [
+        "Exact motherboard model is listed in the official GIGABYTE gaming/motherboard catalog."
+      ]
+    },
+    {
+      "manufacturer": "GIGABYTE",
+      "model": "B460M AORUS ELITE",
+      "revision": "*",
+      "status": "pending",
+      "chipset": "Intel B460",
+      "socket": "LGA1200",
+      "header": "",
+      "bus": "",
+      "pinLayout": "",
+      "module": "",
+      "confidence": 60,
+      "note": "MODEL DISCOVERED from official GIGABYTE/AORUS motherboard catalog. TPM compatibility not yet VERIFIED.",
+      "sources": [
+        "https://www.gigabyte.com/us/Motherboard/AORUS"
+      ],
+      "evidence": [
+        "Exact motherboard model is listed in the official GIGABYTE gaming/motherboard catalog."
+      ]
+    },
+    {
+      "manufacturer": "GIGABYTE",
+      "model": "B460M AORUS PRO",
+      "revision": "*",
+      "status": "pending",
+      "chipset": "Intel B460",
+      "socket": "LGA1200",
+      "header": "",
+      "bus": "",
+      "pinLayout": "",
+      "module": "",
+      "confidence": 60,
+      "note": "MODEL DISCOVERED from official GIGABYTE/AORUS motherboard catalog. TPM compatibility not yet VERIFIED.",
+      "sources": [
+        "https://www.gigabyte.com/us/Motherboard/AORUS"
+      ],
+      "evidence": [
+        "Exact motherboard model is listed in the official GIGABYTE gaming/motherboard catalog."
+      ]
+    },
+    {
+      "manufacturer": "GIGABYTE",
+      "model": "B550 AORUS ELITE",
+      "revision": "*",
+      "status": "pending",
+      "chipset": "AMD B550",
+      "socket": "AM4",
+      "header": "",
+      "bus": "",
+      "pinLayout": "",
+      "module": "",
+      "confidence": 60,
+      "note": "MODEL DISCOVERED from official GIGABYTE/AORUS motherboard catalog. TPM compatibility not yet VERIFIED.",
+      "sources": [
+        "https://www.gigabyte.com/us/Motherboard/AORUS"
+      ],
+      "evidence": [
+        "Exact motherboard model is listed in the official GIGABYTE gaming/motherboard catalog."
+      ]
+    },
+    {
+      "manufacturer": "GIGABYTE",
+      "model": "B550 AORUS ELITE AX",
+      "revision": "*",
+      "status": "pending",
+      "chipset": "AMD B550",
+      "socket": "AM4",
+      "header": "",
+      "bus": "",
+      "pinLayout": "",
+      "module": "",
+      "confidence": 60,
+      "note": "MODEL DISCOVERED from official GIGABYTE/AORUS motherboard catalog. TPM compatibility not yet VERIFIED.",
+      "sources": [
+        "https://www.gigabyte.com/us/Motherboard/AORUS"
+      ],
+      "evidence": [
+        "Exact motherboard model is listed in the official GIGABYTE gaming/motherboard catalog."
+      ]
+    },
+    {
+      "manufacturer": "GIGABYTE",
+      "model": "B550 AORUS ELITE AX V2",
+      "revision": "*",
+      "status": "pending",
+      "chipset": "AMD B550",
+      "socket": "AM4",
+      "header": "",
+      "bus": "",
+      "pinLayout": "",
+      "module": "",
+      "confidence": 60,
+      "note": "MODEL DISCOVERED from official GIGABYTE/AORUS motherboard catalog. TPM compatibility not yet VERIFIED.",
+      "sources": [
+        "https://www.gigabyte.com/us/Motherboard/AORUS"
+      ],
+      "evidence": [
+        "Exact motherboard model is listed in the official GIGABYTE gaming/motherboard catalog."
+      ]
+    },
     {
       "manufacturer": "GIGABYTE",
       "model": "B550 AORUS ELITE V2",
@@ -21,6 +2561,926 @@
       ],
       "evidence": [
         "Official GIGABYTE specification: 2x6-pin TPM header, for the GC-TPM2.0_S module only."
+      ]
+    },
+    {
+      "manufacturer": "GIGABYTE",
+      "model": "B550 AORUS MASTER",
+      "revision": "*",
+      "status": "pending",
+      "chipset": "AMD B550",
+      "socket": "AM4",
+      "header": "",
+      "bus": "",
+      "pinLayout": "",
+      "module": "",
+      "confidence": 60,
+      "note": "MODEL DISCOVERED from official GIGABYTE/AORUS motherboard catalog. TPM compatibility not yet VERIFIED.",
+      "sources": [
+        "https://www.gigabyte.com/us/Motherboard/AORUS"
+      ],
+      "evidence": [
+        "Exact motherboard model is listed in the official GIGABYTE gaming/motherboard catalog."
+      ]
+    },
+    {
+      "manufacturer": "GIGABYTE",
+      "model": "B550 AORUS PRO",
+      "revision": "*",
+      "status": "pending",
+      "chipset": "AMD B550",
+      "socket": "AM4",
+      "header": "",
+      "bus": "",
+      "pinLayout": "",
+      "module": "",
+      "confidence": 60,
+      "note": "MODEL DISCOVERED from official GIGABYTE/AORUS motherboard catalog. TPM compatibility not yet VERIFIED.",
+      "sources": [
+        "https://www.gigabyte.com/us/Motherboard/AORUS"
+      ],
+      "evidence": [
+        "Exact motherboard model is listed in the official GIGABYTE gaming/motherboard catalog."
+      ]
+    },
+    {
+      "manufacturer": "GIGABYTE",
+      "model": "B550 AORUS PRO AC",
+      "revision": "*",
+      "status": "pending",
+      "chipset": "AMD B550",
+      "socket": "AM4",
+      "header": "",
+      "bus": "",
+      "pinLayout": "",
+      "module": "",
+      "confidence": 60,
+      "note": "MODEL DISCOVERED from official GIGABYTE/AORUS motherboard catalog. TPM compatibility not yet VERIFIED.",
+      "sources": [
+        "https://www.gigabyte.com/us/Motherboard/AORUS"
+      ],
+      "evidence": [
+        "Exact motherboard model is listed in the official GIGABYTE gaming/motherboard catalog."
+      ]
+    },
+    {
+      "manufacturer": "GIGABYTE",
+      "model": "B550 AORUS PRO AX",
+      "revision": "*",
+      "status": "pending",
+      "chipset": "AMD B550",
+      "socket": "AM4",
+      "header": "",
+      "bus": "",
+      "pinLayout": "",
+      "module": "",
+      "confidence": 60,
+      "note": "MODEL DISCOVERED from official GIGABYTE/AORUS motherboard catalog. TPM compatibility not yet VERIFIED.",
+      "sources": [
+        "https://www.gigabyte.com/us/Motherboard/AORUS"
+      ],
+      "evidence": [
+        "Exact motherboard model is listed in the official GIGABYTE gaming/motherboard catalog."
+      ]
+    },
+    {
+      "manufacturer": "GIGABYTE",
+      "model": "B550 AORUS PRO V2",
+      "revision": "*",
+      "status": "pending",
+      "chipset": "AMD B550",
+      "socket": "AM4",
+      "header": "",
+      "bus": "",
+      "pinLayout": "",
+      "module": "",
+      "confidence": 60,
+      "note": "MODEL DISCOVERED from official GIGABYTE/AORUS motherboard catalog. TPM compatibility not yet VERIFIED.",
+      "sources": [
+        "https://www.gigabyte.com/us/Motherboard/AORUS"
+      ],
+      "evidence": [
+        "Exact motherboard model is listed in the official GIGABYTE gaming/motherboard catalog."
+      ]
+    },
+    {
+      "manufacturer": "GIGABYTE",
+      "model": "B550 GAMING X",
+      "revision": "*",
+      "status": "pending",
+      "chipset": "AMD B550",
+      "socket": "AM4",
+      "header": "",
+      "bus": "",
+      "pinLayout": "",
+      "module": "",
+      "confidence": 60,
+      "note": "MODEL DISCOVERED from official GIGABYTE/AORUS motherboard catalog. TPM compatibility not yet VERIFIED.",
+      "sources": [
+        "https://www.gigabyte.com/us/Motherboard/AORUS"
+      ],
+      "evidence": [
+        "Exact motherboard model is listed in the official GIGABYTE gaming/motherboard catalog."
+      ]
+    },
+    {
+      "manufacturer": "GIGABYTE",
+      "model": "B550 GAMING X V2",
+      "revision": "*",
+      "status": "pending",
+      "chipset": "AMD B550",
+      "socket": "AM4",
+      "header": "",
+      "bus": "",
+      "pinLayout": "",
+      "module": "",
+      "confidence": 60,
+      "note": "MODEL DISCOVERED from official GIGABYTE/AORUS motherboard catalog. TPM compatibility not yet VERIFIED.",
+      "sources": [
+        "https://www.gigabyte.com/us/Motherboard/AORUS"
+      ],
+      "evidence": [
+        "Exact motherboard model is listed in the official GIGABYTE gaming/motherboard catalog."
+      ]
+    },
+    {
+      "manufacturer": "GIGABYTE",
+      "model": "B550I AORUS PRO AX",
+      "revision": "*",
+      "status": "pending",
+      "chipset": "AMD B550",
+      "socket": "AM4",
+      "header": "",
+      "bus": "",
+      "pinLayout": "",
+      "module": "",
+      "confidence": 60,
+      "note": "MODEL DISCOVERED from official GIGABYTE/AORUS motherboard catalog. TPM compatibility not yet VERIFIED.",
+      "sources": [
+        "https://www.gigabyte.com/us/Motherboard/AORUS"
+      ],
+      "evidence": [
+        "Exact motherboard model is listed in the official GIGABYTE gaming/motherboard catalog."
+      ]
+    },
+    {
+      "manufacturer": "GIGABYTE",
+      "model": "B550M AORUS ELITE",
+      "revision": "*",
+      "status": "pending",
+      "chipset": "AMD B550",
+      "socket": "AM4",
+      "header": "",
+      "bus": "",
+      "pinLayout": "",
+      "module": "",
+      "confidence": 60,
+      "note": "MODEL DISCOVERED from official GIGABYTE/AORUS motherboard catalog. TPM compatibility not yet VERIFIED.",
+      "sources": [
+        "https://www.gigabyte.com/us/Motherboard/AORUS"
+      ],
+      "evidence": [
+        "Exact motherboard model is listed in the official GIGABYTE gaming/motherboard catalog."
+      ]
+    },
+    {
+      "manufacturer": "GIGABYTE",
+      "model": "B550M AORUS PRO",
+      "revision": "*",
+      "status": "pending",
+      "chipset": "AMD B550",
+      "socket": "AM4",
+      "header": "",
+      "bus": "",
+      "pinLayout": "",
+      "module": "",
+      "confidence": 60,
+      "note": "MODEL DISCOVERED from official GIGABYTE/AORUS motherboard catalog. TPM compatibility not yet VERIFIED.",
+      "sources": [
+        "https://www.gigabyte.com/us/Motherboard/AORUS"
+      ],
+      "evidence": [
+        "Exact motherboard model is listed in the official GIGABYTE gaming/motherboard catalog."
+      ]
+    },
+    {
+      "manufacturer": "GIGABYTE",
+      "model": "B550M AORUS PRO-P",
+      "revision": "*",
+      "status": "pending",
+      "chipset": "AMD B550",
+      "socket": "AM4",
+      "header": "",
+      "bus": "",
+      "pinLayout": "",
+      "module": "",
+      "confidence": 60,
+      "note": "MODEL DISCOVERED from official GIGABYTE/AORUS motherboard catalog. TPM compatibility not yet VERIFIED.",
+      "sources": [
+        "https://www.gigabyte.com/us/Motherboard/AORUS"
+      ],
+      "evidence": [
+        "Exact motherboard model is listed in the official GIGABYTE gaming/motherboard catalog."
+      ]
+    },
+    {
+      "manufacturer": "GIGABYTE",
+      "model": "B550M X AORUS ELITE",
+      "revision": "*",
+      "status": "pending",
+      "chipset": "AMD B550",
+      "socket": "AM4",
+      "header": "",
+      "bus": "",
+      "pinLayout": "",
+      "module": "",
+      "confidence": 60,
+      "note": "MODEL DISCOVERED from official GIGABYTE/AORUS motherboard catalog. TPM compatibility not yet VERIFIED.",
+      "sources": [
+        "https://www.gigabyte.com/us/Motherboard/AORUS"
+      ],
+      "evidence": [
+        "Exact motherboard model is listed in the official GIGABYTE gaming/motherboard catalog."
+      ]
+    },
+    {
+      "manufacturer": "GIGABYTE",
+      "model": "B550M X AORUS ELITE WIFI7",
+      "revision": "*",
+      "status": "pending",
+      "chipset": "AMD B550",
+      "socket": "AM4",
+      "header": "",
+      "bus": "",
+      "pinLayout": "",
+      "module": "",
+      "confidence": 60,
+      "note": "MODEL DISCOVERED from official GIGABYTE/AORUS motherboard catalog. TPM compatibility not yet VERIFIED.",
+      "sources": [
+        "https://www.gigabyte.com/us/Motherboard/AORUS"
+      ],
+      "evidence": [
+        "Exact motherboard model is listed in the official GIGABYTE gaming/motherboard catalog."
+      ]
+    },
+    {
+      "manufacturer": "GIGABYTE",
+      "model": "B650 AORUS ELITE",
+      "revision": "*",
+      "status": "pending",
+      "chipset": "AMD B650",
+      "socket": "AM5",
+      "header": "",
+      "bus": "",
+      "pinLayout": "",
+      "module": "",
+      "confidence": 60,
+      "note": "MODEL DISCOVERED from official GIGABYTE/AORUS motherboard catalog. TPM compatibility not yet VERIFIED.",
+      "sources": [
+        "https://www.gigabyte.com/us/Motherboard/AORUS"
+      ],
+      "evidence": [
+        "Exact motherboard model is listed in the official GIGABYTE gaming/motherboard catalog."
+      ]
+    },
+    {
+      "manufacturer": "GIGABYTE",
+      "model": "B650 AORUS ELITE AX",
+      "revision": "*",
+      "status": "pending",
+      "chipset": "AMD B650",
+      "socket": "AM5",
+      "header": "",
+      "bus": "",
+      "pinLayout": "",
+      "module": "",
+      "confidence": 60,
+      "note": "MODEL DISCOVERED from official GIGABYTE/AORUS motherboard catalog. TPM compatibility not yet VERIFIED.",
+      "sources": [
+        "https://www.gigabyte.com/us/Motherboard/AORUS"
+      ],
+      "evidence": [
+        "Exact motherboard model is listed in the official GIGABYTE gaming/motherboard catalog."
+      ]
+    },
+    {
+      "manufacturer": "GIGABYTE",
+      "model": "B650 AORUS PRO AX",
+      "revision": "*",
+      "status": "pending",
+      "chipset": "AMD B650",
+      "socket": "AM5",
+      "header": "",
+      "bus": "",
+      "pinLayout": "",
+      "module": "",
+      "confidence": 60,
+      "note": "MODEL DISCOVERED from official GIGABYTE/AORUS motherboard catalog. TPM compatibility not yet VERIFIED.",
+      "sources": [
+        "https://www.gigabyte.com/us/Motherboard/AORUS"
+      ],
+      "evidence": [
+        "Exact motherboard model is listed in the official GIGABYTE gaming/motherboard catalog."
+      ]
+    },
+    {
+      "manufacturer": "GIGABYTE",
+      "model": "B650 GAMING X",
+      "revision": "*",
+      "status": "pending",
+      "chipset": "AMD B650",
+      "socket": "AM5",
+      "header": "",
+      "bus": "",
+      "pinLayout": "",
+      "module": "",
+      "confidence": 60,
+      "note": "MODEL DISCOVERED from official GIGABYTE/AORUS motherboard catalog. TPM compatibility not yet VERIFIED.",
+      "sources": [
+        "https://www.gigabyte.com/us/Motherboard/AORUS"
+      ],
+      "evidence": [
+        "Exact motherboard model is listed in the official GIGABYTE gaming/motherboard catalog."
+      ]
+    },
+    {
+      "manufacturer": "GIGABYTE",
+      "model": "B650 GAMING X AX",
+      "revision": "*",
+      "status": "pending",
+      "chipset": "AMD B650",
+      "socket": "AM5",
+      "header": "",
+      "bus": "",
+      "pinLayout": "",
+      "module": "",
+      "confidence": 60,
+      "note": "MODEL DISCOVERED from official GIGABYTE/AORUS motherboard catalog. TPM compatibility not yet VERIFIED.",
+      "sources": [
+        "https://www.gigabyte.com/us/Motherboard/AORUS"
+      ],
+      "evidence": [
+        "Exact motherboard model is listed in the official GIGABYTE gaming/motherboard catalog."
+      ]
+    },
+    {
+      "manufacturer": "GIGABYTE",
+      "model": "B650E AORUS MASTER",
+      "revision": "*",
+      "status": "pending",
+      "chipset": "AMD B650E",
+      "socket": "AM5",
+      "header": "",
+      "bus": "",
+      "pinLayout": "",
+      "module": "",
+      "confidence": 60,
+      "note": "MODEL DISCOVERED from official GIGABYTE/AORUS motherboard catalog. TPM compatibility not yet VERIFIED.",
+      "sources": [
+        "https://www.gigabyte.com/us/Motherboard/AORUS"
+      ],
+      "evidence": [
+        "Exact motherboard model is listed in the official GIGABYTE gaming/motherboard catalog."
+      ]
+    },
+    {
+      "manufacturer": "GIGABYTE",
+      "model": "B650E AORUS TACHYON",
+      "revision": "*",
+      "status": "pending",
+      "chipset": "AMD B650E",
+      "socket": "AM5",
+      "header": "",
+      "bus": "",
+      "pinLayout": "",
+      "module": "",
+      "confidence": 60,
+      "note": "MODEL DISCOVERED from official GIGABYTE/AORUS motherboard catalog. TPM compatibility not yet VERIFIED.",
+      "sources": [
+        "https://www.gigabyte.com/us/Motherboard/AORUS"
+      ],
+      "evidence": [
+        "Exact motherboard model is listed in the official GIGABYTE gaming/motherboard catalog."
+      ]
+    },
+    {
+      "manufacturer": "GIGABYTE",
+      "model": "B650I AORUS ULTRA",
+      "revision": "*",
+      "status": "pending",
+      "chipset": "AMD B650",
+      "socket": "AM5",
+      "header": "",
+      "bus": "",
+      "pinLayout": "",
+      "module": "",
+      "confidence": 60,
+      "note": "MODEL DISCOVERED from official GIGABYTE/AORUS motherboard catalog. TPM compatibility not yet VERIFIED.",
+      "sources": [
+        "https://www.gigabyte.com/us/Motherboard/AORUS"
+      ],
+      "evidence": [
+        "Exact motherboard model is listed in the official GIGABYTE gaming/motherboard catalog."
+      ]
+    },
+    {
+      "manufacturer": "GIGABYTE",
+      "model": "B650M AORUS ELITE",
+      "revision": "*",
+      "status": "pending",
+      "chipset": "AMD B650",
+      "socket": "AM5",
+      "header": "",
+      "bus": "",
+      "pinLayout": "",
+      "module": "",
+      "confidence": 60,
+      "note": "MODEL DISCOVERED from official GIGABYTE/AORUS motherboard catalog. TPM compatibility not yet VERIFIED.",
+      "sources": [
+        "https://www.gigabyte.com/us/Motherboard/AORUS"
+      ],
+      "evidence": [
+        "Exact motherboard model is listed in the official GIGABYTE gaming/motherboard catalog."
+      ]
+    },
+    {
+      "manufacturer": "GIGABYTE",
+      "model": "B650M AORUS ELITE AX",
+      "revision": "*",
+      "status": "pending",
+      "chipset": "AMD B650",
+      "socket": "AM5",
+      "header": "",
+      "bus": "",
+      "pinLayout": "",
+      "module": "",
+      "confidence": 60,
+      "note": "MODEL DISCOVERED from official GIGABYTE/AORUS motherboard catalog. TPM compatibility not yet VERIFIED.",
+      "sources": [
+        "https://www.gigabyte.com/us/Motherboard/AORUS"
+      ],
+      "evidence": [
+        "Exact motherboard model is listed in the official GIGABYTE gaming/motherboard catalog."
+      ]
+    },
+    {
+      "manufacturer": "GIGABYTE",
+      "model": "B650M AORUS PRO AX",
+      "revision": "*",
+      "status": "pending",
+      "chipset": "AMD B650",
+      "socket": "AM5",
+      "header": "",
+      "bus": "",
+      "pinLayout": "",
+      "module": "",
+      "confidence": 60,
+      "note": "MODEL DISCOVERED from official GIGABYTE/AORUS motherboard catalog. TPM compatibility not yet VERIFIED.",
+      "sources": [
+        "https://www.gigabyte.com/us/Motherboard/AORUS"
+      ],
+      "evidence": [
+        "Exact motherboard model is listed in the official GIGABYTE gaming/motherboard catalog."
+      ]
+    },
+    {
+      "manufacturer": "GIGABYTE",
+      "model": "B650M GAMING X AX",
+      "revision": "*",
+      "status": "pending",
+      "chipset": "AMD B650",
+      "socket": "AM5",
+      "header": "",
+      "bus": "",
+      "pinLayout": "",
+      "module": "",
+      "confidence": 60,
+      "note": "MODEL DISCOVERED from official GIGABYTE/AORUS motherboard catalog. TPM compatibility not yet VERIFIED.",
+      "sources": [
+        "https://www.gigabyte.com/us/Motherboard/AORUS"
+      ],
+      "evidence": [
+        "Exact motherboard model is listed in the official GIGABYTE gaming/motherboard catalog."
+      ]
+    },
+    {
+      "manufacturer": "GIGABYTE",
+      "model": "B660 AORUS MASTER DDR4",
+      "revision": "*",
+      "status": "pending",
+      "chipset": "Intel B660",
+      "socket": "LGA1700",
+      "header": "",
+      "bus": "",
+      "pinLayout": "",
+      "module": "",
+      "confidence": 60,
+      "note": "MODEL DISCOVERED from official GIGABYTE/AORUS motherboard catalog. TPM compatibility not yet VERIFIED.",
+      "sources": [
+        "https://www.gigabyte.com/us/Motherboard/AORUS"
+      ],
+      "evidence": [
+        "Exact motherboard model is listed in the official GIGABYTE gaming/motherboard catalog."
+      ]
+    },
+    {
+      "manufacturer": "GIGABYTE",
+      "model": "B660 GAMING X",
+      "revision": "*",
+      "status": "pending",
+      "chipset": "Intel B660",
+      "socket": "LGA1700",
+      "header": "",
+      "bus": "",
+      "pinLayout": "",
+      "module": "",
+      "confidence": 60,
+      "note": "MODEL DISCOVERED from official GIGABYTE/AORUS motherboard catalog. TPM compatibility not yet VERIFIED.",
+      "sources": [
+        "https://www.gigabyte.com/us/Motherboard/AORUS"
+      ],
+      "evidence": [
+        "Exact motherboard model is listed in the official GIGABYTE gaming/motherboard catalog."
+      ]
+    },
+    {
+      "manufacturer": "GIGABYTE",
+      "model": "B660 GAMING X AX DDR4",
+      "revision": "*",
+      "status": "pending",
+      "chipset": "Intel B660",
+      "socket": "LGA1700",
+      "header": "",
+      "bus": "",
+      "pinLayout": "",
+      "module": "",
+      "confidence": 60,
+      "note": "MODEL DISCOVERED from official GIGABYTE/AORUS motherboard catalog. TPM compatibility not yet VERIFIED.",
+      "sources": [
+        "https://www.gigabyte.com/us/Motherboard/AORUS"
+      ],
+      "evidence": [
+        "Exact motherboard model is listed in the official GIGABYTE gaming/motherboard catalog."
+      ]
+    },
+    {
+      "manufacturer": "GIGABYTE",
+      "model": "B660I AORUS PRO DDR4",
+      "revision": "*",
+      "status": "pending",
+      "chipset": "Intel B660",
+      "socket": "LGA1700",
+      "header": "",
+      "bus": "",
+      "pinLayout": "",
+      "module": "",
+      "confidence": 60,
+      "note": "MODEL DISCOVERED from official GIGABYTE/AORUS motherboard catalog. TPM compatibility not yet VERIFIED.",
+      "sources": [
+        "https://www.gigabyte.com/us/Motherboard/AORUS"
+      ],
+      "evidence": [
+        "Exact motherboard model is listed in the official GIGABYTE gaming/motherboard catalog."
+      ]
+    },
+    {
+      "manufacturer": "GIGABYTE",
+      "model": "B660M AORUS ELITE AX DDR4",
+      "revision": "*",
+      "status": "pending",
+      "chipset": "Intel B660",
+      "socket": "LGA1700",
+      "header": "",
+      "bus": "",
+      "pinLayout": "",
+      "module": "",
+      "confidence": 60,
+      "note": "MODEL DISCOVERED from official GIGABYTE/AORUS motherboard catalog. TPM compatibility not yet VERIFIED.",
+      "sources": [
+        "https://www.gigabyte.com/us/Motherboard/AORUS"
+      ],
+      "evidence": [
+        "Exact motherboard model is listed in the official GIGABYTE gaming/motherboard catalog."
+      ]
+    },
+    {
+      "manufacturer": "GIGABYTE",
+      "model": "B660M AORUS ELITE DDR4",
+      "revision": "*",
+      "status": "pending",
+      "chipset": "Intel B660",
+      "socket": "LGA1700",
+      "header": "",
+      "bus": "",
+      "pinLayout": "",
+      "module": "",
+      "confidence": 60,
+      "note": "MODEL DISCOVERED from official GIGABYTE/AORUS motherboard catalog. TPM compatibility not yet VERIFIED.",
+      "sources": [
+        "https://www.gigabyte.com/us/Motherboard/AORUS"
+      ],
+      "evidence": [
+        "Exact motherboard model is listed in the official GIGABYTE gaming/motherboard catalog."
+      ]
+    },
+    {
+      "manufacturer": "GIGABYTE",
+      "model": "B660M GAMING X",
+      "revision": "*",
+      "status": "pending",
+      "chipset": "Intel B660",
+      "socket": "LGA1700",
+      "header": "",
+      "bus": "",
+      "pinLayout": "",
+      "module": "",
+      "confidence": 60,
+      "note": "MODEL DISCOVERED from official GIGABYTE/AORUS motherboard catalog. TPM compatibility not yet VERIFIED.",
+      "sources": [
+        "https://www.gigabyte.com/us/Motherboard/AORUS"
+      ],
+      "evidence": [
+        "Exact motherboard model is listed in the official GIGABYTE gaming/motherboard catalog."
+      ]
+    },
+    {
+      "manufacturer": "GIGABYTE",
+      "model": "B660M GAMING X AX",
+      "revision": "*",
+      "status": "pending",
+      "chipset": "Intel B660",
+      "socket": "LGA1700",
+      "header": "",
+      "bus": "",
+      "pinLayout": "",
+      "module": "",
+      "confidence": 60,
+      "note": "MODEL DISCOVERED from official GIGABYTE/AORUS motherboard catalog. TPM compatibility not yet VERIFIED.",
+      "sources": [
+        "https://www.gigabyte.com/us/Motherboard/AORUS"
+      ],
+      "evidence": [
+        "Exact motherboard model is listed in the official GIGABYTE gaming/motherboard catalog."
+      ]
+    },
+    {
+      "manufacturer": "GIGABYTE",
+      "model": "B660M GAMING X AX DDR4",
+      "revision": "*",
+      "status": "pending",
+      "chipset": "Intel B660",
+      "socket": "LGA1700",
+      "header": "",
+      "bus": "",
+      "pinLayout": "",
+      "module": "",
+      "confidence": 60,
+      "note": "MODEL DISCOVERED from official GIGABYTE/AORUS motherboard catalog. TPM compatibility not yet VERIFIED.",
+      "sources": [
+        "https://www.gigabyte.com/us/Motherboard/AORUS"
+      ],
+      "evidence": [
+        "Exact motherboard model is listed in the official GIGABYTE gaming/motherboard catalog."
+      ]
+    },
+    {
+      "manufacturer": "GIGABYTE",
+      "model": "B660M GAMING X DDR4",
+      "revision": "*",
+      "status": "pending",
+      "chipset": "Intel B660",
+      "socket": "LGA1700",
+      "header": "",
+      "bus": "",
+      "pinLayout": "",
+      "module": "",
+      "confidence": 60,
+      "note": "MODEL DISCOVERED from official GIGABYTE/AORUS motherboard catalog. TPM compatibility not yet VERIFIED.",
+      "sources": [
+        "https://www.gigabyte.com/us/Motherboard/AORUS"
+      ],
+      "evidence": [
+        "Exact motherboard model is listed in the official GIGABYTE gaming/motherboard catalog."
+      ]
+    },
+    {
+      "manufacturer": "GIGABYTE",
+      "model": "B850 AORUS ELITE WIFI7",
+      "revision": "*",
+      "status": "pending",
+      "chipset": "AMD B850",
+      "socket": "AM5",
+      "header": "",
+      "bus": "",
+      "pinLayout": "",
+      "module": "",
+      "confidence": 60,
+      "note": "MODEL DISCOVERED from official GIGABYTE/AORUS motherboard catalog. TPM compatibility not yet VERIFIED.",
+      "sources": [
+        "https://www.gigabyte.com/us/Motherboard/AORUS"
+      ],
+      "evidence": [
+        "Exact motherboard model is listed in the official GIGABYTE gaming/motherboard catalog."
+      ]
+    },
+    {
+      "manufacturer": "GIGABYTE",
+      "model": "B850 AORUS ELITE WIFI7 ICE",
+      "revision": "*",
+      "status": "pending",
+      "chipset": "AMD B850",
+      "socket": "AM5",
+      "header": "",
+      "bus": "",
+      "pinLayout": "",
+      "module": "",
+      "confidence": 60,
+      "note": "MODEL DISCOVERED from official GIGABYTE/AORUS motherboard catalog. TPM compatibility not yet VERIFIED.",
+      "sources": [
+        "https://www.gigabyte.com/us/Motherboard/AORUS"
+      ],
+      "evidence": [
+        "Exact motherboard model is listed in the official GIGABYTE gaming/motherboard catalog."
+      ]
+    },
+    {
+      "manufacturer": "GIGABYTE",
+      "model": "B850 AORUS ELITE-P ICE",
+      "revision": "*",
+      "status": "pending",
+      "chipset": "AMD B850",
+      "socket": "AM5",
+      "header": "",
+      "bus": "",
+      "pinLayout": "",
+      "module": "",
+      "confidence": 60,
+      "note": "MODEL DISCOVERED from official GIGABYTE/AORUS motherboard catalog. TPM compatibility not yet VERIFIED.",
+      "sources": [
+        "https://www.gigabyte.com/us/Motherboard/AORUS"
+      ],
+      "evidence": [
+        "Exact motherboard model is listed in the official GIGABYTE gaming/motherboard catalog."
+      ]
+    },
+    {
+      "manufacturer": "GIGABYTE",
+      "model": "B850I AORUS PRO",
+      "revision": "*",
+      "status": "pending",
+      "chipset": "AMD B850",
+      "socket": "AM5",
+      "header": "",
+      "bus": "",
+      "pinLayout": "",
+      "module": "",
+      "confidence": 60,
+      "note": "MODEL DISCOVERED from official GIGABYTE/AORUS motherboard catalog. TPM compatibility not yet VERIFIED.",
+      "sources": [
+        "https://www.gigabyte.com/us/Motherboard/AORUS"
+      ],
+      "evidence": [
+        "Exact motherboard model is listed in the official GIGABYTE gaming/motherboard catalog."
+      ]
+    },
+    {
+      "manufacturer": "GIGABYTE",
+      "model": "B850M AORUS ELITE WIFI6E ICE",
+      "revision": "*",
+      "status": "pending",
+      "chipset": "AMD B850",
+      "socket": "AM5",
+      "header": "",
+      "bus": "",
+      "pinLayout": "",
+      "module": "",
+      "confidence": 60,
+      "note": "MODEL DISCOVERED from official GIGABYTE/AORUS motherboard catalog. TPM compatibility not yet VERIFIED.",
+      "sources": [
+        "https://www.gigabyte.com/us/Motherboard/AORUS"
+      ],
+      "evidence": [
+        "Exact motherboard model is listed in the official GIGABYTE gaming/motherboard catalog."
+      ]
+    },
+    {
+      "manufacturer": "GIGABYTE",
+      "model": "B850M AORUS PRO WIFI7",
+      "revision": "*",
+      "status": "pending",
+      "chipset": "AMD B850",
+      "socket": "AM5",
+      "header": "",
+      "bus": "",
+      "pinLayout": "",
+      "module": "",
+      "confidence": 60,
+      "note": "MODEL DISCOVERED from official GIGABYTE/AORUS motherboard catalog. TPM compatibility not yet VERIFIED.",
+      "sources": [
+        "https://www.gigabyte.com/us/Motherboard/AORUS"
+      ],
+      "evidence": [
+        "Exact motherboard model is listed in the official GIGABYTE gaming/motherboard catalog."
+      ]
+    },
+    {
+      "manufacturer": "GIGABYTE",
+      "model": "H370 AORUS GAMING 3",
+      "revision": "*",
+      "status": "pending",
+      "chipset": "Intel H370",
+      "socket": "LGA1151",
+      "header": "",
+      "bus": "",
+      "pinLayout": "",
+      "module": "",
+      "confidence": 60,
+      "note": "MODEL DISCOVERED from official GIGABYTE/AORUS motherboard catalog. TPM compatibility not yet VERIFIED.",
+      "sources": [
+        "https://www.gigabyte.com/us/Motherboard/AORUS"
+      ],
+      "evidence": [
+        "Exact motherboard model is listed in the official GIGABYTE gaming/motherboard catalog."
+      ]
+    },
+    {
+      "manufacturer": "GIGABYTE",
+      "model": "H370 AORUS GAMING 3 WIFI",
+      "revision": "*",
+      "status": "pending",
+      "chipset": "Intel H370",
+      "socket": "LGA1151",
+      "header": "",
+      "bus": "",
+      "pinLayout": "",
+      "module": "",
+      "confidence": 60,
+      "note": "MODEL DISCOVERED from official GIGABYTE/AORUS motherboard catalog. TPM compatibility not yet VERIFIED.",
+      "sources": [
+        "https://www.gigabyte.com/us/Motherboard/AORUS"
+      ],
+      "evidence": [
+        "Exact motherboard model is listed in the official GIGABYTE gaming/motherboard catalog."
+      ]
+    },
+    {
+      "manufacturer": "GIGABYTE",
+      "model": "TRX40 AORUS MASTER",
+      "revision": "*",
+      "status": "pending",
+      "chipset": "AMD TRX40",
+      "socket": "sTRX4",
+      "header": "",
+      "bus": "",
+      "pinLayout": "",
+      "module": "",
+      "confidence": 60,
+      "note": "MODEL DISCOVERED from official GIGABYTE/AORUS motherboard catalog. TPM compatibility not yet VERIFIED.",
+      "sources": [
+        "https://www.gigabyte.com/us/Motherboard/AORUS"
+      ],
+      "evidence": [
+        "Exact motherboard model is listed in the official GIGABYTE gaming/motherboard catalog."
+      ]
+    },
+    {
+      "manufacturer": "GIGABYTE",
+      "model": "TRX40 AORUS PRO WIFI",
+      "revision": "*",
+      "status": "pending",
+      "chipset": "AMD TRX40",
+      "socket": "sTRX4",
+      "header": "",
+      "bus": "",
+      "pinLayout": "",
+      "module": "",
+      "confidence": 60,
+      "note": "MODEL DISCOVERED from official GIGABYTE/AORUS motherboard catalog. TPM compatibility not yet VERIFIED.",
+      "sources": [
+        "https://www.gigabyte.com/us/Motherboard/AORUS"
+      ],
+      "evidence": [
+        "Exact motherboard model is listed in the official GIGABYTE gaming/motherboard catalog."
+      ]
+    },
+    {
+      "manufacturer": "GIGABYTE",
+      "model": "TRX40 AORUS XTREME",
+      "revision": "*",
+      "status": "pending",
+      "chipset": "AMD TRX40",
+      "socket": "sTRX4",
+      "header": "",
+      "bus": "",
+      "pinLayout": "",
+      "module": "",
+      "confidence": 60,
+      "note": "MODEL DISCOVERED from official GIGABYTE/AORUS motherboard catalog. TPM compatibility not yet VERIFIED.",
+      "sources": [
+        "https://www.gigabyte.com/us/Motherboard/AORUS"
+      ],
+      "evidence": [
+        "Exact motherboard model is listed in the official GIGABYTE gaming/motherboard catalog."
       ]
     },
     {
@@ -65,6 +3525,286 @@
     },
     {
       "manufacturer": "GIGABYTE",
+      "model": "X570 AORUS MASTER",
+      "revision": "*",
+      "status": "pending",
+      "chipset": "AMD X570",
+      "socket": "AM4",
+      "header": "",
+      "bus": "",
+      "pinLayout": "",
+      "module": "",
+      "confidence": 60,
+      "note": "MODEL DISCOVERED from official GIGABYTE/AORUS motherboard catalog. TPM compatibility not yet VERIFIED.",
+      "sources": [
+        "https://www.gigabyte.com/us/Motherboard/AORUS"
+      ],
+      "evidence": [
+        "Exact motherboard model is listed in the official GIGABYTE gaming/motherboard catalog."
+      ]
+    },
+    {
+      "manufacturer": "GIGABYTE",
+      "model": "X570 AORUS PRO",
+      "revision": "*",
+      "status": "pending",
+      "chipset": "AMD X570",
+      "socket": "AM4",
+      "header": "",
+      "bus": "",
+      "pinLayout": "",
+      "module": "",
+      "confidence": 60,
+      "note": "MODEL DISCOVERED from official GIGABYTE/AORUS motherboard catalog. TPM compatibility not yet VERIFIED.",
+      "sources": [
+        "https://www.gigabyte.com/us/Motherboard/AORUS"
+      ],
+      "evidence": [
+        "Exact motherboard model is listed in the official GIGABYTE gaming/motherboard catalog."
+      ]
+    },
+    {
+      "manufacturer": "GIGABYTE",
+      "model": "X570 AORUS PRO WIFI",
+      "revision": "*",
+      "status": "pending",
+      "chipset": "AMD X570",
+      "socket": "AM4",
+      "header": "",
+      "bus": "",
+      "pinLayout": "",
+      "module": "",
+      "confidence": 60,
+      "note": "MODEL DISCOVERED from official GIGABYTE/AORUS motherboard catalog. TPM compatibility not yet VERIFIED.",
+      "sources": [
+        "https://www.gigabyte.com/us/Motherboard/AORUS"
+      ],
+      "evidence": [
+        "Exact motherboard model is listed in the official GIGABYTE gaming/motherboard catalog."
+      ]
+    },
+    {
+      "manufacturer": "GIGABYTE",
+      "model": "X570 AORUS ULTRA",
+      "revision": "*",
+      "status": "pending",
+      "chipset": "AMD X570",
+      "socket": "AM4",
+      "header": "",
+      "bus": "",
+      "pinLayout": "",
+      "module": "",
+      "confidence": 60,
+      "note": "MODEL DISCOVERED from official GIGABYTE/AORUS motherboard catalog. TPM compatibility not yet VERIFIED.",
+      "sources": [
+        "https://www.gigabyte.com/us/Motherboard/AORUS"
+      ],
+      "evidence": [
+        "Exact motherboard model is listed in the official GIGABYTE gaming/motherboard catalog."
+      ]
+    },
+    {
+      "manufacturer": "GIGABYTE",
+      "model": "X570 AORUS XTREME",
+      "revision": "*",
+      "status": "pending",
+      "chipset": "AMD X570",
+      "socket": "AM4",
+      "header": "",
+      "bus": "",
+      "pinLayout": "",
+      "module": "",
+      "confidence": 60,
+      "note": "MODEL DISCOVERED from official GIGABYTE/AORUS motherboard catalog. TPM compatibility not yet VERIFIED.",
+      "sources": [
+        "https://www.gigabyte.com/us/Motherboard/AORUS"
+      ],
+      "evidence": [
+        "Exact motherboard model is listed in the official GIGABYTE gaming/motherboard catalog."
+      ]
+    },
+    {
+      "manufacturer": "GIGABYTE",
+      "model": "X570 GAMING X",
+      "revision": "*",
+      "status": "pending",
+      "chipset": "AMD X570",
+      "socket": "AM4",
+      "header": "",
+      "bus": "",
+      "pinLayout": "",
+      "module": "",
+      "confidence": 60,
+      "note": "MODEL DISCOVERED from official GIGABYTE/AORUS motherboard catalog. TPM compatibility not yet VERIFIED.",
+      "sources": [
+        "https://www.gigabyte.com/us/Motherboard/AORUS"
+      ],
+      "evidence": [
+        "Exact motherboard model is listed in the official GIGABYTE gaming/motherboard catalog."
+      ]
+    },
+    {
+      "manufacturer": "GIGABYTE",
+      "model": "X570 I AORUS PRO WIFI",
+      "revision": "*",
+      "status": "pending",
+      "chipset": "AMD X570",
+      "socket": "AM4",
+      "header": "",
+      "bus": "",
+      "pinLayout": "",
+      "module": "",
+      "confidence": 60,
+      "note": "MODEL DISCOVERED from official GIGABYTE/AORUS motherboard catalog. TPM compatibility not yet VERIFIED.",
+      "sources": [
+        "https://www.gigabyte.com/us/Motherboard/AORUS"
+      ],
+      "evidence": [
+        "Exact motherboard model is listed in the official GIGABYTE gaming/motherboard catalog."
+      ]
+    },
+    {
+      "manufacturer": "GIGABYTE",
+      "model": "X570S AORUS ELITE AX",
+      "revision": "*",
+      "status": "pending",
+      "chipset": "AMD X570S",
+      "socket": "AM4",
+      "header": "",
+      "bus": "",
+      "pinLayout": "",
+      "module": "",
+      "confidence": 60,
+      "note": "MODEL DISCOVERED from official GIGABYTE/AORUS motherboard catalog. TPM compatibility not yet VERIFIED.",
+      "sources": [
+        "https://www.gigabyte.com/us/Motherboard/AORUS"
+      ],
+      "evidence": [
+        "Exact motherboard model is listed in the official GIGABYTE gaming/motherboard catalog."
+      ]
+    },
+    {
+      "manufacturer": "GIGABYTE",
+      "model": "X570S AORUS MASTER",
+      "revision": "*",
+      "status": "pending",
+      "chipset": "AMD X570S",
+      "socket": "AM4",
+      "header": "",
+      "bus": "",
+      "pinLayout": "",
+      "module": "",
+      "confidence": 60,
+      "note": "MODEL DISCOVERED from official GIGABYTE/AORUS motherboard catalog. TPM compatibility not yet VERIFIED.",
+      "sources": [
+        "https://www.gigabyte.com/us/Motherboard/AORUS"
+      ],
+      "evidence": [
+        "Exact motherboard model is listed in the official GIGABYTE gaming/motherboard catalog."
+      ]
+    },
+    {
+      "manufacturer": "GIGABYTE",
+      "model": "X570S AORUS PRO AX",
+      "revision": "*",
+      "status": "pending",
+      "chipset": "AMD X570S",
+      "socket": "AM4",
+      "header": "",
+      "bus": "",
+      "pinLayout": "",
+      "module": "",
+      "confidence": 60,
+      "note": "MODEL DISCOVERED from official GIGABYTE/AORUS motherboard catalog. TPM compatibility not yet VERIFIED.",
+      "sources": [
+        "https://www.gigabyte.com/us/Motherboard/AORUS"
+      ],
+      "evidence": [
+        "Exact motherboard model is listed in the official GIGABYTE gaming/motherboard catalog."
+      ]
+    },
+    {
+      "manufacturer": "GIGABYTE",
+      "model": "X570SI AORUS PRO AX",
+      "revision": "*",
+      "status": "pending",
+      "chipset": "AMD X570S",
+      "socket": "AM4",
+      "header": "",
+      "bus": "",
+      "pinLayout": "",
+      "module": "",
+      "confidence": 60,
+      "note": "MODEL DISCOVERED from official GIGABYTE/AORUS motherboard catalog. TPM compatibility not yet VERIFIED.",
+      "sources": [
+        "https://www.gigabyte.com/us/Motherboard/AORUS"
+      ],
+      "evidence": [
+        "Exact motherboard model is listed in the official GIGABYTE gaming/motherboard catalog."
+      ]
+    },
+    {
+      "manufacturer": "GIGABYTE",
+      "model": "X670 AORUS ELITE AX",
+      "revision": "*",
+      "status": "pending",
+      "chipset": "AMD X670",
+      "socket": "AM5",
+      "header": "",
+      "bus": "",
+      "pinLayout": "",
+      "module": "",
+      "confidence": 60,
+      "note": "MODEL DISCOVERED from official GIGABYTE/AORUS motherboard catalog. TPM compatibility not yet VERIFIED.",
+      "sources": [
+        "https://www.gigabyte.com/us/Motherboard/AORUS"
+      ],
+      "evidence": [
+        "Exact motherboard model is listed in the official GIGABYTE gaming/motherboard catalog."
+      ]
+    },
+    {
+      "manufacturer": "GIGABYTE",
+      "model": "X670E AORUS MASTER",
+      "revision": "*",
+      "status": "pending",
+      "chipset": "AMD X670E",
+      "socket": "AM5",
+      "header": "",
+      "bus": "",
+      "pinLayout": "",
+      "module": "",
+      "confidence": 60,
+      "note": "MODEL DISCOVERED from official GIGABYTE/AORUS motherboard catalog. TPM compatibility not yet VERIFIED.",
+      "sources": [
+        "https://www.gigabyte.com/us/Motherboard/AORUS"
+      ],
+      "evidence": [
+        "Exact motherboard model is listed in the official GIGABYTE gaming/motherboard catalog."
+      ]
+    },
+    {
+      "manufacturer": "GIGABYTE",
+      "model": "X670E AORUS XTREME",
+      "revision": "*",
+      "status": "pending",
+      "chipset": "AMD X670E",
+      "socket": "AM5",
+      "header": "",
+      "bus": "",
+      "pinLayout": "",
+      "module": "",
+      "confidence": 60,
+      "note": "MODEL DISCOVERED from official GIGABYTE/AORUS motherboard catalog. TPM compatibility not yet VERIFIED.",
+      "sources": [
+        "https://www.gigabyte.com/us/Motherboard/AORUS"
+      ],
+      "evidence": [
+        "Exact motherboard model is listed in the official GIGABYTE gaming/motherboard catalog."
+      ]
+    },
+    {
+      "manufacturer": "GIGABYTE",
       "model": "X870 AORUS ELITE WIFI7",
       "revision": "1.0/1.1",
       "status": "verified",
@@ -105,6 +3845,66 @@
     },
     {
       "manufacturer": "GIGABYTE",
+      "model": "X870 AORUS ELITE WIFI7 ICE",
+      "revision": "*",
+      "status": "pending",
+      "chipset": "AMD X870",
+      "socket": "AM5",
+      "header": "",
+      "bus": "",
+      "pinLayout": "",
+      "module": "",
+      "confidence": 60,
+      "note": "MODEL DISCOVERED from official GIGABYTE/AORUS motherboard catalog. TPM compatibility not yet VERIFIED.",
+      "sources": [
+        "https://www.gigabyte.com/us/Motherboard/AORUS"
+      ],
+      "evidence": [
+        "Exact motherboard model is listed in the official GIGABYTE gaming/motherboard catalog."
+      ]
+    },
+    {
+      "manufacturer": "GIGABYTE",
+      "model": "X870 AORUS INFINITY",
+      "revision": "*",
+      "status": "pending",
+      "chipset": "AMD X870",
+      "socket": "AM5",
+      "header": "",
+      "bus": "",
+      "pinLayout": "",
+      "module": "",
+      "confidence": 60,
+      "note": "MODEL DISCOVERED from official GIGABYTE/AORUS motherboard catalog. TPM compatibility not yet VERIFIED.",
+      "sources": [
+        "https://www.gigabyte.com/us/Motherboard/AORUS"
+      ],
+      "evidence": [
+        "Exact motherboard model is listed in the official GIGABYTE gaming/motherboard catalog."
+      ]
+    },
+    {
+      "manufacturer": "GIGABYTE",
+      "model": "X870 AORUS STEALTH ICE",
+      "revision": "*",
+      "status": "pending",
+      "chipset": "AMD X870",
+      "socket": "AM5",
+      "header": "",
+      "bus": "",
+      "pinLayout": "",
+      "module": "",
+      "confidence": 60,
+      "note": "MODEL DISCOVERED from official GIGABYTE/AORUS motherboard catalog. TPM compatibility not yet VERIFIED.",
+      "sources": [
+        "https://www.gigabyte.com/us/Motherboard/AORUS"
+      ],
+      "evidence": [
+        "Exact motherboard model is listed in the official GIGABYTE gaming/motherboard catalog."
+      ]
+    },
+    {
+      "manufacturer": "GIGABYTE",
       "model": "X870E AORUS ELITE WIFI7",
       "revision": "1.2",
       "status": "verified",
@@ -141,6 +3941,46 @@
       ],
       "evidence": [
         "Official manufacturer documentation supports this model/module compatibility."
+      ]
+    },
+    {
+      "manufacturer": "GIGABYTE",
+      "model": "X870E AORUS MASTER X3D ICE",
+      "revision": "*",
+      "status": "pending",
+      "chipset": "AMD X870E",
+      "socket": "AM5",
+      "header": "",
+      "bus": "",
+      "pinLayout": "",
+      "module": "",
+      "confidence": 60,
+      "note": "MODEL DISCOVERED from official GIGABYTE/AORUS motherboard catalog. TPM compatibility not yet VERIFIED.",
+      "sources": [
+        "https://www.gigabyte.com/us/Motherboard/AORUS"
+      ],
+      "evidence": [
+        "Exact motherboard model is listed in the official GIGABYTE gaming/motherboard catalog."
+      ]
+    },
+    {
+      "manufacturer": "GIGABYTE",
+      "model": "X870E AORUS PRO",
+      "revision": "*",
+      "status": "pending",
+      "chipset": "AMD X870E",
+      "socket": "AM5",
+      "header": "",
+      "bus": "",
+      "pinLayout": "",
+      "module": "",
+      "confidence": 60,
+      "note": "MODEL DISCOVERED from official GIGABYTE/AORUS motherboard catalog. TPM compatibility not yet VERIFIED.",
+      "sources": [
+        "https://www.gigabyte.com/us/Motherboard/AORUS"
+      ],
+      "evidence": [
+        "Exact motherboard model is listed in the official GIGABYTE gaming/motherboard catalog."
       ]
     },
     {
@@ -186,6 +4026,66 @@
     },
     {
       "manufacturer": "GIGABYTE",
+      "model": "X870E AORUS PRO X3D ICE",
+      "revision": "*",
+      "status": "pending",
+      "chipset": "AMD X870E",
+      "socket": "AM5",
+      "header": "",
+      "bus": "",
+      "pinLayout": "",
+      "module": "",
+      "confidence": 60,
+      "note": "MODEL DISCOVERED from official GIGABYTE/AORUS motherboard catalog. TPM compatibility not yet VERIFIED.",
+      "sources": [
+        "https://www.gigabyte.com/us/Motherboard/AORUS"
+      ],
+      "evidence": [
+        "Exact motherboard model is listed in the official GIGABYTE gaming/motherboard catalog."
+      ]
+    },
+    {
+      "manufacturer": "GIGABYTE",
+      "model": "X870E AORUS XTREME AI TOP",
+      "revision": "*",
+      "status": "pending",
+      "chipset": "AMD X870E",
+      "socket": "AM5",
+      "header": "",
+      "bus": "",
+      "pinLayout": "",
+      "module": "",
+      "confidence": 60,
+      "note": "MODEL DISCOVERED from official GIGABYTE/AORUS motherboard catalog. TPM compatibility not yet VERIFIED.",
+      "sources": [
+        "https://www.gigabyte.com/us/Motherboard/AORUS"
+      ],
+      "evidence": [
+        "Exact motherboard model is listed in the official GIGABYTE gaming/motherboard catalog."
+      ]
+    },
+    {
+      "manufacturer": "GIGABYTE",
+      "model": "X870E AORUS XTREME X3D AI TOP",
+      "revision": "*",
+      "status": "pending",
+      "chipset": "AMD X870E",
+      "socket": "AM5",
+      "header": "",
+      "bus": "",
+      "pinLayout": "",
+      "module": "",
+      "confidence": 60,
+      "note": "MODEL DISCOVERED from official GIGABYTE/AORUS motherboard catalog. TPM compatibility not yet VERIFIED.",
+      "sources": [
+        "https://www.gigabyte.com/us/Motherboard/AORUS"
+      ],
+      "evidence": [
+        "Exact motherboard model is listed in the official GIGABYTE gaming/motherboard catalog."
+      ]
+    },
+    {
+      "manufacturer": "GIGABYTE",
       "model": "X870M AORUS ELITE WIFI7",
       "revision": "*",
       "status": "verified",
@@ -206,6 +4106,386 @@
     },
     {
       "manufacturer": "GIGABYTE",
+      "model": "Z390 AORUS ELITE",
+      "revision": "*",
+      "status": "pending",
+      "chipset": "Intel Z390",
+      "socket": "LGA1151",
+      "header": "",
+      "bus": "",
+      "pinLayout": "",
+      "module": "",
+      "confidence": 60,
+      "note": "MODEL DISCOVERED from official GIGABYTE/AORUS motherboard catalog. TPM compatibility not yet VERIFIED.",
+      "sources": [
+        "https://www.gigabyte.com/us/Motherboard/AORUS"
+      ],
+      "evidence": [
+        "Exact motherboard model is listed in the official GIGABYTE gaming/motherboard catalog."
+      ]
+    },
+    {
+      "manufacturer": "GIGABYTE",
+      "model": "Z390 AORUS MASTER",
+      "revision": "*",
+      "status": "pending",
+      "chipset": "Intel Z390",
+      "socket": "LGA1151",
+      "header": "",
+      "bus": "",
+      "pinLayout": "",
+      "module": "",
+      "confidence": 60,
+      "note": "MODEL DISCOVERED from official GIGABYTE/AORUS motherboard catalog. TPM compatibility not yet VERIFIED.",
+      "sources": [
+        "https://www.gigabyte.com/us/Motherboard/AORUS"
+      ],
+      "evidence": [
+        "Exact motherboard model is listed in the official GIGABYTE gaming/motherboard catalog."
+      ]
+    },
+    {
+      "manufacturer": "GIGABYTE",
+      "model": "Z390 AORUS PRO",
+      "revision": "*",
+      "status": "pending",
+      "chipset": "Intel Z390",
+      "socket": "LGA1151",
+      "header": "",
+      "bus": "",
+      "pinLayout": "",
+      "module": "",
+      "confidence": 60,
+      "note": "MODEL DISCOVERED from official GIGABYTE/AORUS motherboard catalog. TPM compatibility not yet VERIFIED.",
+      "sources": [
+        "https://www.gigabyte.com/us/Motherboard/AORUS"
+      ],
+      "evidence": [
+        "Exact motherboard model is listed in the official GIGABYTE gaming/motherboard catalog."
+      ]
+    },
+    {
+      "manufacturer": "GIGABYTE",
+      "model": "Z390 AORUS PRO WIFI",
+      "revision": "*",
+      "status": "pending",
+      "chipset": "Intel Z390",
+      "socket": "LGA1151",
+      "header": "",
+      "bus": "",
+      "pinLayout": "",
+      "module": "",
+      "confidence": 60,
+      "note": "MODEL DISCOVERED from official GIGABYTE/AORUS motherboard catalog. TPM compatibility not yet VERIFIED.",
+      "sources": [
+        "https://www.gigabyte.com/us/Motherboard/AORUS"
+      ],
+      "evidence": [
+        "Exact motherboard model is listed in the official GIGABYTE gaming/motherboard catalog."
+      ]
+    },
+    {
+      "manufacturer": "GIGABYTE",
+      "model": "Z390 AORUS ULTRA",
+      "revision": "*",
+      "status": "pending",
+      "chipset": "Intel Z390",
+      "socket": "LGA1151",
+      "header": "",
+      "bus": "",
+      "pinLayout": "",
+      "module": "",
+      "confidence": 60,
+      "note": "MODEL DISCOVERED from official GIGABYTE/AORUS motherboard catalog. TPM compatibility not yet VERIFIED.",
+      "sources": [
+        "https://www.gigabyte.com/us/Motherboard/AORUS"
+      ],
+      "evidence": [
+        "Exact motherboard model is listed in the official GIGABYTE gaming/motherboard catalog."
+      ]
+    },
+    {
+      "manufacturer": "GIGABYTE",
+      "model": "Z390 AORUS XTREME",
+      "revision": "*",
+      "status": "pending",
+      "chipset": "Intel Z390",
+      "socket": "LGA1151",
+      "header": "",
+      "bus": "",
+      "pinLayout": "",
+      "module": "",
+      "confidence": 60,
+      "note": "MODEL DISCOVERED from official GIGABYTE/AORUS motherboard catalog. TPM compatibility not yet VERIFIED.",
+      "sources": [
+        "https://www.gigabyte.com/us/Motherboard/AORUS"
+      ],
+      "evidence": [
+        "Exact motherboard model is listed in the official GIGABYTE gaming/motherboard catalog."
+      ]
+    },
+    {
+      "manufacturer": "GIGABYTE",
+      "model": "Z390 AORUS XTREME WATERFORCE",
+      "revision": "*",
+      "status": "pending",
+      "chipset": "Intel Z390",
+      "socket": "LGA1151",
+      "header": "",
+      "bus": "",
+      "pinLayout": "",
+      "module": "",
+      "confidence": 60,
+      "note": "MODEL DISCOVERED from official GIGABYTE/AORUS motherboard catalog. TPM compatibility not yet VERIFIED.",
+      "sources": [
+        "https://www.gigabyte.com/us/Motherboard/AORUS"
+      ],
+      "evidence": [
+        "Exact motherboard model is listed in the official GIGABYTE gaming/motherboard catalog."
+      ]
+    },
+    {
+      "manufacturer": "GIGABYTE",
+      "model": "Z390 I AORUS PRO WIFI",
+      "revision": "*",
+      "status": "pending",
+      "chipset": "Intel Z390",
+      "socket": "LGA1151",
+      "header": "",
+      "bus": "",
+      "pinLayout": "",
+      "module": "",
+      "confidence": 60,
+      "note": "MODEL DISCOVERED from official GIGABYTE/AORUS motherboard catalog. TPM compatibility not yet VERIFIED.",
+      "sources": [
+        "https://www.gigabyte.com/us/Motherboard/AORUS"
+      ],
+      "evidence": [
+        "Exact motherboard model is listed in the official GIGABYTE gaming/motherboard catalog."
+      ]
+    },
+    {
+      "manufacturer": "GIGABYTE",
+      "model": "Z490 AORUS ELITE",
+      "revision": "*",
+      "status": "pending",
+      "chipset": "Intel Z490",
+      "socket": "LGA1200",
+      "header": "",
+      "bus": "",
+      "pinLayout": "",
+      "module": "",
+      "confidence": 60,
+      "note": "MODEL DISCOVERED from official GIGABYTE/AORUS motherboard catalog. TPM compatibility not yet VERIFIED.",
+      "sources": [
+        "https://www.gigabyte.com/us/Motherboard/AORUS"
+      ],
+      "evidence": [
+        "Exact motherboard model is listed in the official GIGABYTE gaming/motherboard catalog."
+      ]
+    },
+    {
+      "manufacturer": "GIGABYTE",
+      "model": "Z490 AORUS ELITE AC",
+      "revision": "*",
+      "status": "pending",
+      "chipset": "Intel Z490",
+      "socket": "LGA1200",
+      "header": "",
+      "bus": "",
+      "pinLayout": "",
+      "module": "",
+      "confidence": 60,
+      "note": "MODEL DISCOVERED from official GIGABYTE/AORUS motherboard catalog. TPM compatibility not yet VERIFIED.",
+      "sources": [
+        "https://www.gigabyte.com/us/Motherboard/AORUS"
+      ],
+      "evidence": [
+        "Exact motherboard model is listed in the official GIGABYTE gaming/motherboard catalog."
+      ]
+    },
+    {
+      "manufacturer": "GIGABYTE",
+      "model": "Z490 AORUS MASTER",
+      "revision": "*",
+      "status": "pending",
+      "chipset": "Intel Z490",
+      "socket": "LGA1200",
+      "header": "",
+      "bus": "",
+      "pinLayout": "",
+      "module": "",
+      "confidence": 60,
+      "note": "MODEL DISCOVERED from official GIGABYTE/AORUS motherboard catalog. TPM compatibility not yet VERIFIED.",
+      "sources": [
+        "https://www.gigabyte.com/us/Motherboard/AORUS"
+      ],
+      "evidence": [
+        "Exact motherboard model is listed in the official GIGABYTE gaming/motherboard catalog."
+      ]
+    },
+    {
+      "manufacturer": "GIGABYTE",
+      "model": "Z490 AORUS MASTER WATERFORCE",
+      "revision": "*",
+      "status": "pending",
+      "chipset": "Intel Z490",
+      "socket": "LGA1200",
+      "header": "",
+      "bus": "",
+      "pinLayout": "",
+      "module": "",
+      "confidence": 60,
+      "note": "MODEL DISCOVERED from official GIGABYTE/AORUS motherboard catalog. TPM compatibility not yet VERIFIED.",
+      "sources": [
+        "https://www.gigabyte.com/us/Motherboard/AORUS"
+      ],
+      "evidence": [
+        "Exact motherboard model is listed in the official GIGABYTE gaming/motherboard catalog."
+      ]
+    },
+    {
+      "manufacturer": "GIGABYTE",
+      "model": "Z490 AORUS PRO AX",
+      "revision": "*",
+      "status": "pending",
+      "chipset": "Intel Z490",
+      "socket": "LGA1200",
+      "header": "",
+      "bus": "",
+      "pinLayout": "",
+      "module": "",
+      "confidence": 60,
+      "note": "MODEL DISCOVERED from official GIGABYTE/AORUS motherboard catalog. TPM compatibility not yet VERIFIED.",
+      "sources": [
+        "https://www.gigabyte.com/us/Motherboard/AORUS"
+      ],
+      "evidence": [
+        "Exact motherboard model is listed in the official GIGABYTE gaming/motherboard catalog."
+      ]
+    },
+    {
+      "manufacturer": "GIGABYTE",
+      "model": "Z490 AORUS ULTRA",
+      "revision": "*",
+      "status": "pending",
+      "chipset": "Intel Z490",
+      "socket": "LGA1200",
+      "header": "",
+      "bus": "",
+      "pinLayout": "",
+      "module": "",
+      "confidence": 60,
+      "note": "MODEL DISCOVERED from official GIGABYTE/AORUS motherboard catalog. TPM compatibility not yet VERIFIED.",
+      "sources": [
+        "https://www.gigabyte.com/us/Motherboard/AORUS"
+      ],
+      "evidence": [
+        "Exact motherboard model is listed in the official GIGABYTE gaming/motherboard catalog."
+      ]
+    },
+    {
+      "manufacturer": "GIGABYTE",
+      "model": "Z490 AORUS ULTRA G2",
+      "revision": "*",
+      "status": "pending",
+      "chipset": "Intel Z490",
+      "socket": "LGA1200",
+      "header": "",
+      "bus": "",
+      "pinLayout": "",
+      "module": "",
+      "confidence": 60,
+      "note": "MODEL DISCOVERED from official GIGABYTE/AORUS motherboard catalog. TPM compatibility not yet VERIFIED.",
+      "sources": [
+        "https://www.gigabyte.com/us/Motherboard/AORUS"
+      ],
+      "evidence": [
+        "Exact motherboard model is listed in the official GIGABYTE gaming/motherboard catalog."
+      ]
+    },
+    {
+      "manufacturer": "GIGABYTE",
+      "model": "Z490 AORUS XTREME",
+      "revision": "*",
+      "status": "pending",
+      "chipset": "Intel Z490",
+      "socket": "LGA1200",
+      "header": "",
+      "bus": "",
+      "pinLayout": "",
+      "module": "",
+      "confidence": 60,
+      "note": "MODEL DISCOVERED from official GIGABYTE/AORUS motherboard catalog. TPM compatibility not yet VERIFIED.",
+      "sources": [
+        "https://www.gigabyte.com/us/Motherboard/AORUS"
+      ],
+      "evidence": [
+        "Exact motherboard model is listed in the official GIGABYTE gaming/motherboard catalog."
+      ]
+    },
+    {
+      "manufacturer": "GIGABYTE",
+      "model": "Z490 GAMING X",
+      "revision": "*",
+      "status": "pending",
+      "chipset": "Intel Z490",
+      "socket": "LGA1200",
+      "header": "",
+      "bus": "",
+      "pinLayout": "",
+      "module": "",
+      "confidence": 60,
+      "note": "MODEL DISCOVERED from official GIGABYTE/AORUS motherboard catalog. TPM compatibility not yet VERIFIED.",
+      "sources": [
+        "https://www.gigabyte.com/us/Motherboard/AORUS"
+      ],
+      "evidence": [
+        "Exact motherboard model is listed in the official GIGABYTE gaming/motherboard catalog."
+      ]
+    },
+    {
+      "manufacturer": "GIGABYTE",
+      "model": "Z490I AORUS ULTRA",
+      "revision": "*",
+      "status": "pending",
+      "chipset": "Intel Z490",
+      "socket": "LGA1200",
+      "header": "",
+      "bus": "",
+      "pinLayout": "",
+      "module": "",
+      "confidence": 60,
+      "note": "MODEL DISCOVERED from official GIGABYTE/AORUS motherboard catalog. TPM compatibility not yet VERIFIED.",
+      "sources": [
+        "https://www.gigabyte.com/us/Motherboard/AORUS"
+      ],
+      "evidence": [
+        "Exact motherboard model is listed in the official GIGABYTE gaming/motherboard catalog."
+      ]
+    },
+    {
+      "manufacturer": "GIGABYTE",
+      "model": "Z490M GAMING X",
+      "revision": "*",
+      "status": "pending",
+      "chipset": "Intel Z490",
+      "socket": "LGA1200",
+      "header": "",
+      "bus": "",
+      "pinLayout": "",
+      "module": "",
+      "confidence": 60,
+      "note": "MODEL DISCOVERED from official GIGABYTE/AORUS motherboard catalog. TPM compatibility not yet VERIFIED.",
+      "sources": [
+        "https://www.gigabyte.com/us/Motherboard/AORUS"
+      ],
+      "evidence": [
+        "Exact motherboard model is listed in the official GIGABYTE gaming/motherboard catalog."
+      ]
+    },
+    {
+      "manufacturer": "GIGABYTE",
       "model": "Z690 AORUS ELITE",
       "revision": "1.x",
       "status": "verified",
@@ -222,6 +4502,366 @@
       ],
       "evidence": [
         "Official GIGABYTE specification states the TPM header is for GC-TPM2.0 SPI / GC-TPM2.0 SPI 2.0."
+      ]
+    },
+    {
+      "manufacturer": "GIGABYTE",
+      "model": "Z690 AORUS ELITE AX",
+      "revision": "*",
+      "status": "pending",
+      "chipset": "Intel Z690",
+      "socket": "LGA1700",
+      "header": "",
+      "bus": "",
+      "pinLayout": "",
+      "module": "",
+      "confidence": 60,
+      "note": "MODEL DISCOVERED from official GIGABYTE/AORUS motherboard catalog. TPM compatibility not yet VERIFIED.",
+      "sources": [
+        "https://www.gigabyte.com/us/Motherboard/AORUS"
+      ],
+      "evidence": [
+        "Exact motherboard model is listed in the official GIGABYTE gaming/motherboard catalog."
+      ]
+    },
+    {
+      "manufacturer": "GIGABYTE",
+      "model": "Z690 AORUS ELITE AX DDR4",
+      "revision": "*",
+      "status": "pending",
+      "chipset": "Intel Z690",
+      "socket": "LGA1700",
+      "header": "",
+      "bus": "",
+      "pinLayout": "",
+      "module": "",
+      "confidence": 60,
+      "note": "MODEL DISCOVERED from official GIGABYTE/AORUS motherboard catalog. TPM compatibility not yet VERIFIED.",
+      "sources": [
+        "https://www.gigabyte.com/us/Motherboard/AORUS"
+      ],
+      "evidence": [
+        "Exact motherboard model is listed in the official GIGABYTE gaming/motherboard catalog."
+      ]
+    },
+    {
+      "manufacturer": "GIGABYTE",
+      "model": "Z690 AORUS ELITE DDR4",
+      "revision": "*",
+      "status": "pending",
+      "chipset": "Intel Z690",
+      "socket": "LGA1700",
+      "header": "",
+      "bus": "",
+      "pinLayout": "",
+      "module": "",
+      "confidence": 60,
+      "note": "MODEL DISCOVERED from official GIGABYTE/AORUS motherboard catalog. TPM compatibility not yet VERIFIED.",
+      "sources": [
+        "https://www.gigabyte.com/us/Motherboard/AORUS"
+      ],
+      "evidence": [
+        "Exact motherboard model is listed in the official GIGABYTE gaming/motherboard catalog."
+      ]
+    },
+    {
+      "manufacturer": "GIGABYTE",
+      "model": "Z690 AORUS MASTER",
+      "revision": "*",
+      "status": "pending",
+      "chipset": "Intel Z690",
+      "socket": "LGA1700",
+      "header": "",
+      "bus": "",
+      "pinLayout": "",
+      "module": "",
+      "confidence": 60,
+      "note": "MODEL DISCOVERED from official GIGABYTE/AORUS motherboard catalog. TPM compatibility not yet VERIFIED.",
+      "sources": [
+        "https://www.gigabyte.com/us/Motherboard/AORUS"
+      ],
+      "evidence": [
+        "Exact motherboard model is listed in the official GIGABYTE gaming/motherboard catalog."
+      ]
+    },
+    {
+      "manufacturer": "GIGABYTE",
+      "model": "Z690 AORUS PRO",
+      "revision": "*",
+      "status": "pending",
+      "chipset": "Intel Z690",
+      "socket": "LGA1700",
+      "header": "",
+      "bus": "",
+      "pinLayout": "",
+      "module": "",
+      "confidence": 60,
+      "note": "MODEL DISCOVERED from official GIGABYTE/AORUS motherboard catalog. TPM compatibility not yet VERIFIED.",
+      "sources": [
+        "https://www.gigabyte.com/us/Motherboard/AORUS"
+      ],
+      "evidence": [
+        "Exact motherboard model is listed in the official GIGABYTE gaming/motherboard catalog."
+      ]
+    },
+    {
+      "manufacturer": "GIGABYTE",
+      "model": "Z690 AORUS PRO DDR4",
+      "revision": "*",
+      "status": "pending",
+      "chipset": "Intel Z690",
+      "socket": "LGA1700",
+      "header": "",
+      "bus": "",
+      "pinLayout": "",
+      "module": "",
+      "confidence": 60,
+      "note": "MODEL DISCOVERED from official GIGABYTE/AORUS motherboard catalog. TPM compatibility not yet VERIFIED.",
+      "sources": [
+        "https://www.gigabyte.com/us/Motherboard/AORUS"
+      ],
+      "evidence": [
+        "Exact motherboard model is listed in the official GIGABYTE gaming/motherboard catalog."
+      ]
+    },
+    {
+      "manufacturer": "GIGABYTE",
+      "model": "Z690 AORUS TACHYON",
+      "revision": "*",
+      "status": "pending",
+      "chipset": "Intel Z690",
+      "socket": "LGA1700",
+      "header": "",
+      "bus": "",
+      "pinLayout": "",
+      "module": "",
+      "confidence": 60,
+      "note": "MODEL DISCOVERED from official GIGABYTE/AORUS motherboard catalog. TPM compatibility not yet VERIFIED.",
+      "sources": [
+        "https://www.gigabyte.com/us/Motherboard/AORUS"
+      ],
+      "evidence": [
+        "Exact motherboard model is listed in the official GIGABYTE gaming/motherboard catalog."
+      ]
+    },
+    {
+      "manufacturer": "GIGABYTE",
+      "model": "Z690 AORUS ULTRA",
+      "revision": "*",
+      "status": "pending",
+      "chipset": "Intel Z690",
+      "socket": "LGA1700",
+      "header": "",
+      "bus": "",
+      "pinLayout": "",
+      "module": "",
+      "confidence": 60,
+      "note": "MODEL DISCOVERED from official GIGABYTE/AORUS motherboard catalog. TPM compatibility not yet VERIFIED.",
+      "sources": [
+        "https://www.gigabyte.com/us/Motherboard/AORUS"
+      ],
+      "evidence": [
+        "Exact motherboard model is listed in the official GIGABYTE gaming/motherboard catalog."
+      ]
+    },
+    {
+      "manufacturer": "GIGABYTE",
+      "model": "Z690 AORUS XTREME",
+      "revision": "*",
+      "status": "pending",
+      "chipset": "Intel Z690",
+      "socket": "LGA1700",
+      "header": "",
+      "bus": "",
+      "pinLayout": "",
+      "module": "",
+      "confidence": 60,
+      "note": "MODEL DISCOVERED from official GIGABYTE/AORUS motherboard catalog. TPM compatibility not yet VERIFIED.",
+      "sources": [
+        "https://www.gigabyte.com/us/Motherboard/AORUS"
+      ],
+      "evidence": [
+        "Exact motherboard model is listed in the official GIGABYTE gaming/motherboard catalog."
+      ]
+    },
+    {
+      "manufacturer": "GIGABYTE",
+      "model": "Z690 GAMING X",
+      "revision": "*",
+      "status": "pending",
+      "chipset": "Intel Z690",
+      "socket": "LGA1700",
+      "header": "",
+      "bus": "",
+      "pinLayout": "",
+      "module": "",
+      "confidence": 60,
+      "note": "MODEL DISCOVERED from official GIGABYTE/AORUS motherboard catalog. TPM compatibility not yet VERIFIED.",
+      "sources": [
+        "https://www.gigabyte.com/us/Motherboard/AORUS"
+      ],
+      "evidence": [
+        "Exact motherboard model is listed in the official GIGABYTE gaming/motherboard catalog."
+      ]
+    },
+    {
+      "manufacturer": "GIGABYTE",
+      "model": "Z690 GAMING X DDR4",
+      "revision": "*",
+      "status": "pending",
+      "chipset": "Intel Z690",
+      "socket": "LGA1700",
+      "header": "",
+      "bus": "",
+      "pinLayout": "",
+      "module": "",
+      "confidence": 60,
+      "note": "MODEL DISCOVERED from official GIGABYTE/AORUS motherboard catalog. TPM compatibility not yet VERIFIED.",
+      "sources": [
+        "https://www.gigabyte.com/us/Motherboard/AORUS"
+      ],
+      "evidence": [
+        "Exact motherboard model is listed in the official GIGABYTE gaming/motherboard catalog."
+      ]
+    },
+    {
+      "manufacturer": "GIGABYTE",
+      "model": "Z690I AORUS ULTRA",
+      "revision": "*",
+      "status": "pending",
+      "chipset": "Intel Z690",
+      "socket": "LGA1700",
+      "header": "",
+      "bus": "",
+      "pinLayout": "",
+      "module": "",
+      "confidence": 60,
+      "note": "MODEL DISCOVERED from official GIGABYTE/AORUS motherboard catalog. TPM compatibility not yet VERIFIED.",
+      "sources": [
+        "https://www.gigabyte.com/us/Motherboard/AORUS"
+      ],
+      "evidence": [
+        "Exact motherboard model is listed in the official GIGABYTE gaming/motherboard catalog."
+      ]
+    },
+    {
+      "manufacturer": "GIGABYTE",
+      "model": "Z690I AORUS ULTRA DDR4",
+      "revision": "*",
+      "status": "pending",
+      "chipset": "Intel Z690",
+      "socket": "LGA1700",
+      "header": "",
+      "bus": "",
+      "pinLayout": "",
+      "module": "",
+      "confidence": 60,
+      "note": "MODEL DISCOVERED from official GIGABYTE/AORUS motherboard catalog. TPM compatibility not yet VERIFIED.",
+      "sources": [
+        "https://www.gigabyte.com/us/Motherboard/AORUS"
+      ],
+      "evidence": [
+        "Exact motherboard model is listed in the official GIGABYTE gaming/motherboard catalog."
+      ]
+    },
+    {
+      "manufacturer": "GIGABYTE",
+      "model": "Z690M AORUS ELITE AX DDR4",
+      "revision": "*",
+      "status": "pending",
+      "chipset": "Intel Z690",
+      "socket": "LGA1700",
+      "header": "",
+      "bus": "",
+      "pinLayout": "",
+      "module": "",
+      "confidence": 60,
+      "note": "MODEL DISCOVERED from official GIGABYTE/AORUS motherboard catalog. TPM compatibility not yet VERIFIED.",
+      "sources": [
+        "https://www.gigabyte.com/us/Motherboard/AORUS"
+      ],
+      "evidence": [
+        "Exact motherboard model is listed in the official GIGABYTE gaming/motherboard catalog."
+      ]
+    },
+    {
+      "manufacturer": "GIGABYTE",
+      "model": "Z690M AORUS ELITE DDR4",
+      "revision": "*",
+      "status": "pending",
+      "chipset": "Intel Z690",
+      "socket": "LGA1700",
+      "header": "",
+      "bus": "",
+      "pinLayout": "",
+      "module": "",
+      "confidence": 60,
+      "note": "MODEL DISCOVERED from official GIGABYTE/AORUS motherboard catalog. TPM compatibility not yet VERIFIED.",
+      "sources": [
+        "https://www.gigabyte.com/us/Motherboard/AORUS"
+      ],
+      "evidence": [
+        "Exact motherboard model is listed in the official GIGABYTE gaming/motherboard catalog."
+      ]
+    },
+    {
+      "manufacturer": "GIGABYTE",
+      "model": "Z890 AORUS ELITE DUO X",
+      "revision": "*",
+      "status": "pending",
+      "chipset": "Intel Z890",
+      "socket": "LGA1851",
+      "header": "",
+      "bus": "",
+      "pinLayout": "",
+      "module": "",
+      "confidence": 60,
+      "note": "MODEL DISCOVERED from official GIGABYTE/AORUS motherboard catalog. TPM compatibility not yet VERIFIED.",
+      "sources": [
+        "https://www.gigabyte.com/us/Motherboard/AORUS"
+      ],
+      "evidence": [
+        "Exact motherboard model is listed in the official GIGABYTE gaming/motherboard catalog."
+      ]
+    },
+    {
+      "manufacturer": "GIGABYTE",
+      "model": "Z890 AORUS ELITE WIFI7 PLUS",
+      "revision": "*",
+      "status": "pending",
+      "chipset": "Intel Z890",
+      "socket": "LGA1851",
+      "header": "",
+      "bus": "",
+      "pinLayout": "",
+      "module": "",
+      "confidence": 60,
+      "note": "MODEL DISCOVERED from official GIGABYTE/AORUS motherboard catalog. TPM compatibility not yet VERIFIED.",
+      "sources": [
+        "https://www.gigabyte.com/us/Motherboard/AORUS"
+      ],
+      "evidence": [
+        "Exact motherboard model is listed in the official GIGABYTE gaming/motherboard catalog."
+      ]
+    },
+    {
+      "manufacturer": "GIGABYTE",
+      "model": "Z890 AORUS TACHYON DUO X ICE",
+      "revision": "*",
+      "status": "pending",
+      "chipset": "Intel Z890",
+      "socket": "LGA1851",
+      "header": "",
+      "bus": "",
+      "pinLayout": "",
+      "module": "",
+      "confidence": 60,
+      "note": "MODEL DISCOVERED from official GIGABYTE/AORUS motherboard catalog. TPM compatibility not yet VERIFIED.",
+      "sources": [
+        "https://www.gigabyte.com/us/Motherboard/AORUS"
+      ],
+      "evidence": [
+        "Exact motherboard model is listed in the official GIGABYTE gaming/motherboard catalog."
       ]
     },
     {
@@ -2649,5 +7289,5 @@
       ]
     }
   ],
-  "databaseVersion": "V16-MASS-DISCOVERY"
+  "databaseVersion": "V17-ALL-BRANDS-MASS-DISCOVERY"
 }

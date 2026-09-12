@@ -1,12 +1,37 @@
-DMA Best EU V16 MASS DISCOVERY
+DMA Best EU V17 - ALL BRANDS MASS DISCOVERY
 
-TOTAL PROFILES: 131
+TOTAL PROFILES: 363
 VERIFIED: 35
-PENDING/DISCOVERED: 96
+PENDING: 328
 
-This is the first scalable database build.
-The existing 35 verified profiles are preserved unchanged.
-A large MSI gaming motherboard model set was imported from MSI's official CPU-support catalog.
-Discovered models include exact model, chipset and socket and remain PENDING until exact TPM compatibility is verified.
+BY BRAND:
+{
+  "ASROCK": {
+    "total": 42,
+    "verified": 0,
+    "pending": 42
+  },
+  "ASUS": {
+    "total": 78,
+    "verified": 0,
+    "pending": 78
+  },
+  "GIGABYTE": {
+    "total": 123,
+    "verified": 11,
+    "pending": 112
+  },
+  "MSI": {
+    "total": 120,
+    "verified": 24,
+    "pending": 96
+  }
+}
 
-Upload ALL files in this package to GitHub and deploy latest commit on Render.
+Sources:
+- ASUS/ROG official gaming motherboard catalogs
+- GIGABYTE/AORUS official motherboard catalog
+- ASRock official motherboard index
+- MSI official motherboard CPU-support catalog from V16
+
+New models remain PENDING until exact TPM header/module/pinout is verified.
