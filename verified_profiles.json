@@ -1,0 +1,467 @@
+[
+  {
+    "manufacturer": "GIGABYTE",
+    "model": "X870E AORUS MASTER",
+    "revision": "x.x",
+    "chipset": "AMD X870E",
+    "socket": "AM5",
+    "header": "Trusted Platform Module header",
+    "bus": "SPI",
+    "modules": [
+      "GC-TPM2.0 SPI V2"
+    ],
+    "status": "verified",
+    "confidence": 100,
+    "source": "https://www.gigabyte.com/hu/Motherboard/X870E-AORUS-MASTER/sp"
+  },
+  {
+    "manufacturer": "GIGABYTE",
+    "model": "X870 AORUS ELITE WIFI7",
+    "revision": "1.0/1.1",
+    "chipset": "AMD X870",
+    "socket": "AM5",
+    "header": "Trusted Platform Module header",
+    "bus": "SPI",
+    "modules": [
+      "GC-TPM2.0 SPI",
+      "GC-TPM2.0 SPI 2.0",
+      "GC-TPM2.0 SPI V2"
+    ],
+    "status": "verified",
+    "confidence": 100,
+    "source": "https://www.gigabyte.com/hu/Motherboard/X870-AORUS-ELITE-WIFI7-rev-10-11/sp"
+  },
+  {
+    "manufacturer": "GIGABYTE",
+    "model": "X870 AORUS ELITE WIFI7",
+    "revision": "1.2",
+    "chipset": "AMD X870",
+    "socket": "AM5",
+    "header": "Trusted Platform Module header",
+    "bus": "SPI",
+    "modules": [
+      "GC-TPM2.0 SPI",
+      "GC-TPM2.0 SPI 2.0",
+      "GC-TPM2.0 SPI V2"
+    ],
+    "status": "verified",
+    "confidence": 100,
+    "source": "https://www.gigabyte.com/us/Motherboard/X870-AORUS-ELITE-WIFI7-rev-12/sp"
+  },
+  {
+    "manufacturer": "GIGABYTE",
+    "model": "X870E AORUS ELITE WIFI7",
+    "revision": "1.2",
+    "chipset": "AMD X870E",
+    "socket": "AM5",
+    "header": "Trusted Platform Module header",
+    "bus": "SPI",
+    "modules": [
+      "GC-TPM2.0 SPI",
+      "GC-TPM2.0 SPI 2.0",
+      "GC-TPM2.0 SPI V2"
+    ],
+    "status": "verified",
+    "confidence": 100,
+    "source": "https://www.gigabyte.com/hu/Motherboard/X870E-AORUS-ELITE-WIFI7-rev-12/sp"
+  },
+  {
+    "manufacturer": "GIGABYTE",
+    "model": "X870M AORUS ELITE WIFI7",
+    "revision": "x.x",
+    "chipset": "AMD X870",
+    "socket": "AM5",
+    "header": "Trusted Platform Module header",
+    "bus": "SPI",
+    "modules": [
+      "GC-TPM2.0 SPI V2"
+    ],
+    "status": "verified",
+    "confidence": 100,
+    "source": "https://www.gigabyte.com/hu/Motherboard/X870M-AORUS-ELITE-WIFI7/sp"
+  },
+  {
+    "manufacturer": "MSI",
+    "model": "PRO X870E-P WIFI",
+    "revision": "x.x",
+    "chipset": "AMD X870E",
+    "socket": "AM5",
+    "header": "TPM module connector",
+    "bus": "SPI",
+    "modules": [
+      "TPM 2.0 (9672)",
+      "TPM 2.0 (MS-4462)"
+    ],
+    "status": "verified",
+    "confidence": 100,
+    "source": "https://us.msi.com/faq/11095"
+  },
+  {
+    "manufacturer": "MSI",
+    "model": "MPG X870E CARBON WIFI",
+    "revision": "x.x",
+    "chipset": "AMD X870E",
+    "socket": "AM5",
+    "header": "TPM module connector",
+    "bus": "SPI",
+    "modules": [
+      "TPM 2.0 (9672)",
+      "TPM 2.0 (MS-4462)"
+    ],
+    "status": "verified",
+    "confidence": 100,
+    "source": "https://us.msi.com/faq/11095"
+  },
+  {
+    "manufacturer": "MSI",
+    "model": "MPG Z890 CARBON WIFI",
+    "revision": "x.x",
+    "chipset": "Intel Z890",
+    "socket": "LGA1851",
+    "header": "TPM module connector",
+    "bus": "SPI",
+    "modules": [
+      "TPM 2.0 (9672)",
+      "TPM 2.0 (MS-4462)"
+    ],
+    "status": "verified",
+    "confidence": 100,
+    "source": "https://us.msi.com/faq/11095"
+  },
+  {
+    "manufacturer": "MSI",
+    "model": "PRO Z890-P WIFI",
+    "revision": "x.x",
+    "chipset": "Intel Z890",
+    "socket": "LGA1851",
+    "header": "TPM module connector",
+    "bus": "SPI",
+    "modules": [
+      "TPM 2.0 (9672)",
+      "TPM 2.0 (MS-4462)"
+    ],
+    "status": "verified",
+    "confidence": 100,
+    "source": "https://us.msi.com/faq/11095"
+  },
+  {
+    "manufacturer": "MSI",
+    "model": "X870E GAMING PLUS WIFI",
+    "revision": "x.x",
+    "chipset": "AMD X870E",
+    "socket": "AM5",
+    "header": "TPM module connector",
+    "bus": "SPI",
+    "modules": [
+      "TPM 2.0 (9672)",
+      "TPM 2.0 (MS-4462)"
+    ],
+    "status": "verified",
+    "confidence": 100,
+    "source": "https://us.msi.com/faq/11095"
+  },
+  {
+    "manufacturer": "MSI",
+    "model": "MPG X870E EDGE TI WIFI",
+    "revision": "x.x",
+    "chipset": "AMD X870E",
+    "socket": "AM5",
+    "header": "TPM module connector",
+    "bus": "SPI",
+    "modules": [
+      "TPM 2.0 (9672)",
+      "TPM 2.0 (MS-4462)"
+    ],
+    "status": "verified",
+    "confidence": 100,
+    "source": "https://us.msi.com/faq/11095"
+  },
+  {
+    "manufacturer": "MSI",
+    "model": "PRO Z890-S WIFI",
+    "revision": "x.x",
+    "chipset": "Intel Z890",
+    "socket": "LGA1851",
+    "header": "TPM module connector",
+    "bus": "SPI",
+    "modules": [
+      "TPM 2.0 (9672)",
+      "TPM 2.0 (MS-4462)"
+    ],
+    "status": "verified",
+    "confidence": 100,
+    "source": "https://us.msi.com/faq/11095"
+  },
+  {
+    "manufacturer": "MSI",
+    "model": "X870 GAMING PLUS WIFI",
+    "revision": "x.x",
+    "chipset": "AMD X870",
+    "socket": "AM5",
+    "header": "TPM module connector",
+    "bus": "SPI",
+    "modules": [
+      "TPM 2.0 (9672)",
+      "TPM 2.0 (MS-4462)"
+    ],
+    "status": "verified",
+    "confidence": 100,
+    "source": "https://us.msi.com/faq/11095"
+  },
+  {
+    "manufacturer": "MSI",
+    "model": "Z890 GAMING WIFI",
+    "revision": "x.x",
+    "chipset": "Intel Z890",
+    "socket": "LGA1851",
+    "header": "TPM module connector",
+    "bus": "SPI",
+    "modules": [
+      "TPM 2.0 (9672)",
+      "TPM 2.0 (MS-4462)"
+    ],
+    "status": "verified",
+    "confidence": 100,
+    "source": "https://us.msi.com/faq/11095"
+  },
+  {
+    "manufacturer": "MSI",
+    "model": "MAG Z890 TOMAHAWK WIFI",
+    "revision": "x.x",
+    "chipset": "Intel Z890",
+    "socket": "LGA1851",
+    "header": "TPM module connector",
+    "bus": "SPI",
+    "modules": [
+      "TPM 2.0 (9672)",
+      "TPM 2.0 (MS-4462)"
+    ],
+    "status": "verified",
+    "confidence": 100,
+    "source": "https://us.msi.com/faq/11095"
+  },
+  {
+    "manufacturer": "MSI",
+    "model": "MEG Z890 UNIFY-X",
+    "revision": "x.x",
+    "chipset": "Intel Z890",
+    "socket": "LGA1851",
+    "header": "TPM module connector",
+    "bus": "SPI",
+    "modules": [
+      "TPM 2.0 (9672)",
+      "TPM 2.0 (MS-4462)"
+    ],
+    "status": "verified",
+    "confidence": 100,
+    "source": "https://us.msi.com/faq/11095"
+  },
+  {
+    "manufacturer": "MSI",
+    "model": "MPG Z890 EDGE TI WIFI",
+    "revision": "x.x",
+    "chipset": "Intel Z890",
+    "socket": "LGA1851",
+    "header": "TPM module connector",
+    "bus": "SPI",
+    "modules": [
+      "TPM 2.0 (9672)",
+      "TPM 2.0 (MS-4462)"
+    ],
+    "status": "verified",
+    "confidence": 100,
+    "source": "https://us.msi.com/faq/11095"
+  },
+  {
+    "manufacturer": "MSI",
+    "model": "PRO Z890-S WIFI WHITE",
+    "revision": "x.x",
+    "chipset": "Intel Z890",
+    "socket": "LGA1851",
+    "header": "TPM module connector",
+    "bus": "SPI",
+    "modules": [
+      "TPM 2.0 (9672)",
+      "TPM 2.0 (MS-4462)"
+    ],
+    "status": "verified",
+    "confidence": 100,
+    "source": "https://us.msi.com/faq/11095"
+  },
+  {
+    "manufacturer": "MSI",
+    "model": "PRO Z890-A WIFI",
+    "revision": "x.x",
+    "chipset": "Intel Z890",
+    "socket": "LGA1851",
+    "header": "TPM module connector",
+    "bus": "SPI",
+    "modules": [
+      "TPM 2.0 (9672)",
+      "TPM 2.0 (MS-4462)"
+    ],
+    "status": "verified",
+    "confidence": 100,
+    "source": "https://us.msi.com/faq/11095"
+  },
+  {
+    "manufacturer": "MSI",
+    "model": "PRO Z890-P",
+    "revision": "x.x",
+    "chipset": "Intel Z890",
+    "socket": "LGA1851",
+    "header": "TPM module connector",
+    "bus": "SPI",
+    "modules": [
+      "TPM 2.0 (9672)",
+      "TPM 2.0 (MS-4462)"
+    ],
+    "status": "verified",
+    "confidence": 100,
+    "source": "https://us.msi.com/faq/11095"
+  },
+  {
+    "manufacturer": "MSI",
+    "model": "MAG X870E TOMAHAWK WIFI",
+    "revision": "x.x",
+    "chipset": "AMD X870E",
+    "socket": "AM5",
+    "header": "TPM module connector",
+    "bus": "SPI",
+    "modules": [
+      "TPM 2.0 (9672)",
+      "TPM 2.0 (MS-4462)"
+    ],
+    "status": "verified",
+    "confidence": 100,
+    "source": "https://us.msi.com/faq/11095"
+  },
+  {
+    "manufacturer": "MSI",
+    "model": "MEG Z890 ACE",
+    "revision": "x.x",
+    "chipset": "Intel Z890",
+    "socket": "LGA1851",
+    "header": "TPM module connector",
+    "bus": "SPI",
+    "modules": [
+      "TPM 2.0 (9672)",
+      "TPM 2.0 (MS-4462)"
+    ],
+    "status": "verified",
+    "confidence": 100,
+    "source": "https://us.msi.com/faq/11095"
+  },
+  {
+    "manufacturer": "MSI",
+    "model": "Z890 GAMING PLUS WIFI",
+    "revision": "x.x",
+    "chipset": "Intel Z890",
+    "socket": "LGA1851",
+    "header": "TPM module connector",
+    "bus": "SPI",
+    "modules": [
+      "TPM 2.0 (9672)",
+      "TPM 2.0 (MS-4462)"
+    ],
+    "status": "verified",
+    "confidence": 100,
+    "source": "https://us.msi.com/faq/11095"
+  },
+  {
+    "manufacturer": "MSI",
+    "model": "MEG Z890 GODLIKE",
+    "revision": "x.x",
+    "chipset": "Intel Z890",
+    "socket": "LGA1851",
+    "header": "TPM module connector",
+    "bus": "SPI",
+    "modules": [
+      "TPM 2.0 (9672)",
+      "TPM 2.0 (MS-4462)"
+    ],
+    "status": "verified",
+    "confidence": 100,
+    "source": "https://us.msi.com/faq/11095"
+  },
+  {
+    "manufacturer": "MSI",
+    "model": "PRO X870-P WIFI",
+    "revision": "x.x",
+    "chipset": "AMD X870",
+    "socket": "AM5",
+    "header": "TPM module connector",
+    "bus": "SPI",
+    "modules": [
+      "TPM 2.0 (9672)",
+      "TPM 2.0 (MS-4462)"
+    ],
+    "status": "verified",
+    "confidence": 100,
+    "source": "https://us.msi.com/faq/11095"
+  },
+  {
+    "manufacturer": "MSI",
+    "model": "MEG X870E GODLIKE",
+    "revision": "x.x",
+    "chipset": "AMD X870E",
+    "socket": "AM5",
+    "header": "TPM module connector",
+    "bus": "SPI",
+    "modules": [
+      "TPM 2.0 (9672)",
+      "TPM 2.0 (MS-4462)"
+    ],
+    "status": "verified",
+    "confidence": 100,
+    "source": "https://us.msi.com/faq/11095"
+  },
+  {
+    "manufacturer": "MSI",
+    "model": "PRO Z890-S WIFI PZ",
+    "revision": "x.x",
+    "chipset": "Intel Z890",
+    "socket": "LGA1851",
+    "header": "TPM module connector",
+    "bus": "SPI",
+    "modules": [
+      "TPM 2.0 (9672)",
+      "TPM 2.0 (MS-4462)"
+    ],
+    "status": "verified",
+    "confidence": 100,
+    "source": "https://us.msi.com/faq/11095"
+  },
+  {
+    "manufacturer": "MSI",
+    "model": "MAG X870 TOMAHAWK WIFI",
+    "revision": "x.x",
+    "chipset": "AMD X870",
+    "socket": "AM5",
+    "header": "TPM module connector",
+    "bus": "SPI",
+    "modules": [
+      "TPM 2.0 (9672)",
+      "TPM 2.0 (MS-4462)"
+    ],
+    "status": "verified",
+    "confidence": 100,
+    "source": "https://us.msi.com/faq/11095"
+  },
+  {
+    "manufacturer": "MSI",
+    "model": "MPG Z890I EDGE TI WIFI",
+    "revision": "x.x",
+    "chipset": "Intel Z890",
+    "socket": "LGA1851",
+    "header": "TPM module connector",
+    "bus": "SPI",
+    "modules": [
+      "TPM 2.0 (9672)",
+      "TPM 2.0 (MS-4462)"
+    ],
+    "status": "verified",
+    "confidence": 100,
+    "source": "https://us.msi.com/faq/11095"
+  }
+]

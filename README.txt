@@ -1,18 +1,8 @@
-DMA Best EU Research V12 - STRICT VERIFIED DATABASE
-
-Profiles: 12
-
-STRICT RULE:
-A profile is VERIFIED only when the exact motherboard/model is supported by official manufacturer documentation.
-No chipset-family guessing.
-No module-family guessing.
-No inferred revision support.
-
-This batch contains only official-source-verified GIGABYTE and MSI profiles.
-ASUS/ASRock are intentionally not included as VERIFIED in this batch because exact model-to-module compatibility was not yet fully established from official model-specific sources.
-
-Upload ALL files to GitHub including motherboards.json.
-Then deploy the latest commit in Render.
-
-Expected startup log:
-verified motherboard DB loaded: 12 profiles
+DMA BEST EU STRICT EXPANSION V13
+New verified profiles: 29
+Test cases: 29
+Rule: VERIFIED only where the exact model/module relationship is explicitly supported by an official manufacturer source.
+Files:
+- verified_profiles.json
+- testcases.json
+This is an expansion dataset/test pack. Merge verified_profiles.json into the server's existing strict profile database, preserving the existing 12 verified V12 profiles.
