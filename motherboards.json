@@ -1,0 +1,78 @@
+[
+  {
+    "manufacturer": "GIGABYTE",
+    "model": "X870E AORUS PRO ICE",
+    "aliases": [
+      "GIGABYTE X870E AORUS PRO ICE"
+    ],
+    "revision": "1.1",
+    "chipset": "AMD X870E",
+    "socket": "AM5",
+    "header": "SPI_TPM",
+    "bus": "SPI",
+    "pinLayout": "12 positions (2x6); pin 3 is No Pin",
+    "module": "GIGABYTE GC-TPM2.0 SPI V2",
+    "biosHint": "",
+    "sources": [
+      "https://www.gigabyte.com/hu/Motherboard/X870E-AORUS-PRO-ICE-rev-11/sp",
+      "https://download.gigabyte.com/FileList/Manual/mb_manual_x870e-aorus-pro-ice_1002_e.pdf"
+    ],
+    "evidence": [
+      "Official GIGABYTE specification: AMD Socket AM5 and AMD X870E chipset.",
+      "Official GIGABYTE specification for Rev. 1.1: TPM header supports GC-TPM2.0 SPI V2.",
+      "Official manual: SPI_TPM header uses SPI and has 12 positions; pin 3 is No Pin."
+    ],
+    "note": "VERIFIED profile for Rev. 1.1. Always confirm the revision printed on the motherboard before buying a TPM module."
+  },
+  {
+    "manufacturer": "GIGABYTE",
+    "model": "X870E AORUS PRO ICE",
+    "aliases": [
+      "GIGABYTE X870E AORUS PRO ICE"
+    ],
+    "revision": "*",
+    "chipset": "AMD X870E",
+    "socket": "AM5",
+    "header": "SPI_TPM",
+    "bus": "SPI",
+    "pinLayout": "12 positions (2x6); pin 3 is No Pin",
+    "module": "GC-TPM2.0 SPI / GC-TPM2.0 SPI 2.0 / GC-TPM2.0 SPI V2 (revision-dependent)",
+    "biosHint": "",
+    "sources": [
+      "https://www.gigabyte.com/cz/Motherboard/X870E-AORUS-PRO-ICE-rev-10/sp",
+      "https://www.gigabyte.com/hu/Motherboard/X870E-AORUS-PRO-ICE-rev-11/sp",
+      "https://download.gigabyte.com/FileList/Manual/mb_manual_x870e-aorus-pro-ice_1002_e.pdf"
+    ],
+    "evidence": [
+      "Official GIGABYTE specifications: AMD Socket AM5 and AMD X870E chipset.",
+      "Official manual: SPI_TPM header uses SPI and has 12 positions; pin 3 is No Pin.",
+      "Official manual lists GC-TPM2.0 SPI, GC-TPM2.0 SPI 2.0 and GC-TPM2.0 SPI V2; exact support is revision-dependent."
+    ],
+    "note": "VERIFIED hardware profile. Exact motherboard Rev. 1.0/1.1 must be confirmed before selecting the TPM module."
+  },
+  {
+    "manufacturer": "MSI",
+    "model": "X570-A PRO",
+    "aliases": [
+      "MSI X570-A PRO",
+      "X570-A PRO (MS-7C37)"
+    ],
+    "revision": "*",
+    "chipset": "AMD X570",
+    "socket": "AM4",
+    "header": "JTPM1",
+    "bus": "LPC",
+    "pinLayout": "14-pin layout (2x7); pin 10 is No Pin",
+    "module": "",
+    "biosHint": "",
+    "sources": [
+      "https://www.msi.com/Motherboard/X570-A-PRO/Specification",
+      "https://download-2.msi.com/archive/mnu_exe/mb/E7B85v1.4.pdf"
+    ],
+    "evidence": [
+      "Official MSI specification: AM4 socket and AMD X570 chipset.",
+      "Official MSI manual: JTPM1 TPM Module Connector uses LPC signals and a 14-pin layout; pin 10 is No Pin."
+    ],
+    "note": "VERIFIED header/chipset/socket profile. Exact MSI TPM module part number is intentionally left blank until separately verified from an official compatibility source."
+  }
+]

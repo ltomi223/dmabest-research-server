@@ -1,6 +1,7 @@
 package main
 
 import (
+	_ "embed"
 	"crypto/sha256"
 	"encoding/hex"
 	"encoding/json"
@@ -52,6 +53,120 @@ type ResearchResult struct {
 	Updated      string   `json:"updated"`
 	Cached       bool     `json:"cached,omitempty"`
 }
+
+
+type DBEntry struct {
+	Manufacturer string   `json:"manufacturer"`
+	Model        string   `json:"model"`
+	Aliases      []string `json:"aliases"`
+	Revision     string   `json:"revision"`
+	Chipset      string   `json:"chipset"`
+	Socket       string   `json:"socket"`
+	Header       string   `json:"header"`
+	Bus          string   `json:"bus"`
+	PinLayout    string   `json:"pinLayout"`
+	Module       string   `json:"module"`
+	BIOSHint     string   `json:"biosHint"`
+	Sources      []string `json:"sources"`
+	Evidence     []string `json:"evidence"`
+	Note         string   `json:"note"`
+}
+
+//go:embed motherboards.json
+var motherboardDBBytes []byte
+
+var verifiedDB []DBEntry
+
+func init() {
+	if err := json.Unmarshal(motherboardDBBytes, &verifiedDB); err != nil {
+		log.Printf("verified DB load error: %v", err)
+		verifiedDB = nil
+	}
+	log.Printf("verified motherboard DB loaded: %d profiles", len(verifiedDB))
+}
+
+func normModel(s string) string {
+	s = strings.ToUpper(strings.TrimSpace(s))
+	s = strings.NewReplacer(
+		"®", "", "™", "", "-", " ", "_", " ", "/", " ", "\\", " ",
+		"(", " ", ")", " ", "[", " ", "]", " ", ".", " ",
+	).Replace(s)
+	return strings.Join(strings.Fields(s), " ")
+}
+
+func revisionMatches(dbRev, detected string) bool {
+	dbRev = strings.ToUpper(strings.TrimSpace(dbRev))
+	detected = strings.ToUpper(strings.TrimSpace(detected))
+	if dbRev == "" || dbRev == "*" || dbRev == "ANY" {
+		return true
+	}
+	if detected == "" || detected == "X.X" || detected == "UNKNOWN" || detected == "STANDARD" {
+		return false
+	}
+	return dbRev == detected
+}
+
+func findVerifiedProfile(h Hardware) (ResearchResult, bool) {
+	maker := normMaker(h.Manufacturer)
+	if maker == "" {
+		maker = normMaker(h.SystemManufacturer)
+	}
+	model := strings.TrimSpace(h.Product)
+	if model == "" {
+		model = h.SystemModel
+	}
+	nm := normModel(model)
+
+	// Prefer an exact-revision profile.
+	for pass := 0; pass < 2; pass++ {
+		for _, e := range verifiedDB {
+			if normMaker(e.Manufacturer) != maker {
+				continue
+			}
+			names := append([]string{e.Model}, e.Aliases...)
+			nameMatch := false
+			for _, n := range names {
+				if normModel(n) == nm {
+					nameMatch = true
+					break
+				}
+			}
+			if !nameMatch {
+				continue
+			}
+
+			exactRev := strings.TrimSpace(e.Revision) != "" && strings.TrimSpace(e.Revision) != "*" && strings.ToUpper(strings.TrimSpace(e.Revision)) != "ANY"
+			if pass == 0 && (!exactRev || !revisionMatches(e.Revision, h.Version)) {
+				continue
+			}
+			if pass == 1 && exactRev {
+				continue
+			}
+
+			r := ResearchResult{
+				Status:       "verified",
+				Manufacturer: e.Manufacturer,
+				Model:        e.Model,
+				Chipset:      e.Chipset,
+				Socket:       e.Socket,
+				Header:       e.Header,
+				Bus:          e.Bus,
+				PinLayout:    e.PinLayout,
+				Module:       e.Module,
+				BIOSHint:     e.BIOSHint,
+				Confidence:   100,
+				Sources:      append([]string(nil), e.Sources...),
+				Evidence:     append([]string(nil), e.Evidence...),
+				Note:         e.Note,
+				Updated:      time.Now().Format(time.RFC3339),
+			}
+			missingFields(&r)
+			return r, true
+		}
+	}
+	return ResearchResult{}, false
+}
+
 
 type Config struct {
 	Listen   string
@@ -567,6 +682,7 @@ func main() {
 			"ok":         true,
 			"service":    "DMA Best EU Free Manufacturer Research",
 			"aiRequired": false,
+			"verifiedProfiles": len(verifiedDB),
 		})
 	})
 
@@ -586,6 +702,12 @@ func main() {
 			http.Error(w, "bad json", http.StatusBadRequest)
 			return
 		}
+		if verified, ok := findVerifiedProfile(h); ok {
+			w.Header().Set("Content-Type", "application/json")
+			_ = json.NewEncoder(w).Encode(verified)
+			return
+		}
+
 		if cached, ok := loadCache(cfg, h); ok {
 			w.Header().Set("Content-Type", "application/json")
 			_ = json.NewEncoder(w).Encode(cached)
@@ -600,5 +722,6 @@ func main() {
 
 	log.Printf("DMA Best EU FREE Research listening on %s", cfg.Listen)
 	log.Printf("No OpenAI API key required")
+	log.Printf("Hybrid mode: verified DB first, official-web fallback second")
 	log.Fatal(http.ListenAndServe(cfg.Listen, mux))
 }

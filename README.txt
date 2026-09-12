@@ -1,22 +1,22 @@
-DMA Best EU FREE Manufacturer Research V6
+DMA Best EU HYBRID Research V7
 
-No OpenAI API. No per-request AI token cost.
+NO OPENAI API. NO PER-REQUEST AI TOKEN COST.
 
-Flow:
-Checker EXE -> Render backend -> direct official manufacturer pages + official web search -> official manual PDF text extraction -> pending profile -> cache
+Priority:
+1. Built-in VERIFIED motherboard database (motherboards.json)
+2. If no verified match: official manufacturer pages/manuals
+3. If still uncertain: fields remain empty and result stays PENDING
 
-V6 changes:
-- Direct official manufacturer URL candidates are tried before search-engine discovery.
-- GIGABYTE product specification/support pages are checked for rev. 1.0 and rev. 1.1.
-- Official PDF manuals discovered on manufacturer pages/search results are parsed with pdftotext.
-- Only pages that actually yield relevant hardware/TPM data are recorded as sources.
-- Unknown fields stay empty; no guessed TPM module.
+This gives known boards deterministic, repeatable results while still allowing
+new/unknown boards to fall back to official web research.
 
-Safety:
-- Only official manufacturer domains are accepted as sources.
-- Unknown fields stay empty.
-- Automatic results are always PENDING until approved.
-- Results are cached for 30 days.
+Current verified seed profiles:
+- GIGABYTE X870E AORUS PRO ICE (generic revision profile + Rev. 1.1 exact profile)
+- MSI X570-A PRO header/chipset/socket profile
+
+To expand the verified database later:
+edit motherboards.json in GitHub and deploy the latest commit.
+The customer EXE does NOT need to be replaced.
 
 Endpoints:
 GET /health
