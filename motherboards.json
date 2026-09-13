@@ -1,7 +1,7 @@
 {
-  "schemaVersion": 11,
+  "schemaVersion": 12,
   "generated": "2026-09-13",
-  "verificationPolicy": "STRICT V20: all previously unresolved records were audited. VERIFIED requires exact official TPM evidence. Records without sufficient exact evidence are terminal REVIEWED-UNVERIFIED and must not receive automatic physical TPM recommendations.",
+  "verificationPolicy": "STRICT V21: reviewed records are promoted only from exact official motherboard specification/manual evidence. Absence of a discrete TPM header is not converted into a module recommendation.",
   "profiles": [
     {
       "manufacturer": "ASROCK",
@@ -4035,42 +4035,40 @@
       "manufacturer": "GIGABYTE",
       "model": "X870 AORUS ELITE WIFI7 ICE",
       "revision": "*",
-      "status": "reviewed-unverified",
+      "status": "verified",
       "chipset": "AMD X870",
       "socket": "AM5",
-      "header": "",
-      "bus": "",
-      "pinLayout": "",
-      "module": "",
-      "confidence": 60,
-      "note": "FULLY AUDITED: exact board is known, but no exact official discrete-TPM module/header proof was captured strongly enough for STRICT VERIFIED status. Do not recommend a physical TPM module automatically.",
+      "header": "SPI_TPM (Trusted Platform Module Header)",
+      "bus": "SPI",
+      "pinLayout": "12-pin header (pin 3 absent/no-pin)",
+      "module": "GC-TPM2.0 SPI / GC-TPM2.0 SPI 2.0 / GC-TPM2.0 SPI V2",
+      "confidence": 100,
+      "note": "VERIFIED from exact official motherboard specification/manual; no chipset-only inference used.",
       "sources": [
-        "https://www.gigabyte.com/us/Motherboard/AORUS"
+        "https://www.gigabyte.com/hu/Motherboard/X870-AORUS-ELITE-WIFI7-ICE-rev-10-11/sp"
       ],
       "evidence": [
-        "Exact motherboard model is listed in the official GIGABYTE gaming/motherboard catalog.",
-        "STRICT audit completed. Existing official evidence is sufficient for model/chipset/socket recognition, but not sufficient to prove an exact discrete TPM module mapping for this board."
+        "Exact GIGABYTE specification lists the compatible GC-TPM2.0 SPI module family; official manual gives the SPI_TPM pinout."
       ]
     },
     {
       "manufacturer": "GIGABYTE",
       "model": "X870 AORUS INFINITY",
       "revision": "*",
-      "status": "reviewed-unverified",
+      "status": "verified",
       "chipset": "AMD X870",
       "socket": "AM5",
-      "header": "",
-      "bus": "",
-      "pinLayout": "",
-      "module": "",
-      "confidence": 60,
-      "note": "FULLY AUDITED: exact board is known, but no exact official discrete-TPM module/header proof was captured strongly enough for STRICT VERIFIED status. Do not recommend a physical TPM module automatically.",
+      "header": "Trusted Platform Module header",
+      "bus": "SPI",
+      "pinLayout": "GIGABYTE SPI TPM header",
+      "module": "GC-TPM2.0 SPI V2",
+      "confidence": 100,
+      "note": "VERIFIED from exact official motherboard specification/manual; no chipset-only inference used.",
       "sources": [
-        "https://www.gigabyte.com/us/Motherboard/AORUS"
+        "https://www.gigabyte.com/hu/Motherboard/X870-AORUS-INFINITY/sp"
       ],
       "evidence": [
-        "Exact motherboard model is listed in the official GIGABYTE gaming/motherboard catalog.",
-        "STRICT audit completed. Existing official evidence is sufficient for model/chipset/socket recognition, but not sufficient to prove an exact discrete TPM module mapping for this board."
+        "Exact GIGABYTE specification: TPM header is for GC-TPM2.0 SPI V2 only."
       ]
     },
     {
@@ -7714,5 +7712,5 @@
       ]
     }
   ],
-  "databaseVersion": "V20-ALL-191-AUDITED"
+  "databaseVersion": "V21-EXACT-BOARD-VERIFICATION"
 }

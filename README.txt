@@ -1,47 +1,14 @@
-DMA Best EU V20 - ALL 191 AUDITED
+DMA Best EU V21 - EXACT BOARD VERIFICATION
 
-TOTAL PROFILES: 363
-VERIFIED: 173
-REVIEWED-UNVERIFIED: 190
-PENDING: 0
+Total profiles: 363
+Verified: 175
+Reviewed-unverified: 188
+New exact promotions this batch: 2
 
-THIS PASS PROCESSES ALL 191 PREVIOUSLY UNRESOLVED RECORDS.
+Promoted:
+- GIGABYTE X870 AORUS ELITE WIFI7 ICE -> GC-TPM2.0 SPI / GC-TPM2.0 SPI 2.0 / GC-TPM2.0 SPI V2
+- GIGABYTE X870 AORUS INFINITY -> GC-TPM2.0 SPI V2
 
-New exact verification:
-- ASRock B550 Steel Legend -> VERIFIED from exact official board spec + TPM-SPI docs.
-
-For every other unresolved ASUS/GIGABYTE entry:
-- model/chipset/socket recognition is preserved
-- audit is marked complete
-- status is REVIEWED-UNVERIFIED
-- the API must NOT automatically recommend a physical TPM module without exact official evidence
-
-This is deliberate: no guessed TPM modules are promoted as VERIFIED.
-
-BY BRAND:
-{
-  "ASROCK": {
-    "verified": 42,
-    "reviewed-unverified": 0,
-    "pending": 0,
-    "total": 42
-  },
-  "ASUS": {
-    "verified": 0,
-    "reviewed-unverified": 78,
-    "pending": 0,
-    "total": 78
-  },
-  "GIGABYTE": {
-    "verified": 11,
-    "reviewed-unverified": 112,
-    "pending": 0,
-    "total": 123
-  },
-  "MSI": {
-    "verified": 120,
-    "reviewed-unverified": 0,
-    "pending": 0,
-    "total": 120
-  }
-}
+Policy:
+Only exact official motherboard specification/manual evidence can promote a physical TPM recommendation.
+ASUS boards whose exact official spec does not list a discrete TPM header are intentionally not assigned a physical TPM module.
