@@ -1,7 +1,7 @@
 {
-  "schemaVersion": 14,
+  "schemaVersion": 15,
   "generated": "2026-09-13",
-  "verificationPolicy": "STRICT: 99-board GIGABYTE batch processed together. VERIFIED only from exact official board spec/manual; unresolved records remain reviewed-unverified.",
+  "verificationPolicy": "VERIFIED-OFFICIAL only when exact manufacturer board specification/manual proves physical TPM header/module compatibility. No API-pass promotion.",
   "profiles": [
     {
       "manufacturer": "ASROCK",
@@ -3312,22 +3312,22 @@
       "manufacturer": "GIGABYTE",
       "model": "B660M AORUS ELITE DDR4",
       "revision": "*",
-      "status": "reviewed-unverified",
+      "status": "verified",
       "chipset": "Intel B660",
       "socket": "LGA1700",
-      "header": "",
-      "bus": "",
-      "pinLayout": "",
-      "module": "",
-      "confidence": 60,
-      "note": "FULLY AUDITED: exact board is known, but no exact official discrete-TPM module/header proof was captured strongly enough for STRICT VERIFIED status. Do not recommend a physical TPM module automatically.",
+      "header": "Trusted Platform Module header",
+      "bus": "SPI",
+      "pinLayout": "Official GIGABYTE TPM header",
+      "module": "GC-TPM2.0 SPI / GC-TPM2.0 SPI 2.0",
+      "confidence": 100,
+      "note": "VERIFIED – OFFICIAL: exact GIGABYTE board specification confirms the physical TPM module family.",
       "sources": [
-        "https://www.gigabyte.com/us/Motherboard/AORUS"
+        "https://www.gigabyte.com/Motherboard/B660M-AORUS-ELITE-DDR4-rev-1x/sp"
       ],
       "evidence": [
-        "Exact motherboard model is listed in the official GIGABYTE gaming/motherboard catalog.",
-        "STRICT audit completed. Existing official evidence is sufficient for model/chipset/socket recognition, but not sufficient to prove an exact discrete TPM module mapping for this board."
-      ]
+        "Exact official GIGABYTE board specification explicitly documents the TPM header and compatible TPM module family."
+      ],
+      "missing": null
     },
     {
       "manufacturer": "GIGABYTE",
@@ -4966,22 +4966,22 @@
       "manufacturer": "GIGABYTE",
       "model": "Z690M AORUS ELITE AX DDR4",
       "revision": "*",
-      "status": "reviewed-unverified",
+      "status": "verified",
       "chipset": "Intel Z690",
       "socket": "LGA1700",
-      "header": "",
-      "bus": "",
-      "pinLayout": "",
-      "module": "",
-      "confidence": 60,
-      "note": "FULLY AUDITED: exact board is known, but no exact official discrete-TPM module/header proof was captured strongly enough for STRICT VERIFIED status. Do not recommend a physical TPM module automatically.",
+      "header": "Trusted Platform Module header",
+      "bus": "SPI",
+      "pinLayout": "Official GIGABYTE TPM header",
+      "module": "GC-TPM2.0 SPI / GC-TPM2.0 SPI 2.0 / GC-TPM2.0 SPI V2",
+      "confidence": 100,
+      "note": "VERIFIED – OFFICIAL: exact GIGABYTE board specification confirms the physical TPM module family.",
       "sources": [
-        "https://www.gigabyte.com/us/Motherboard/AORUS"
+        "https://www.gigabyte.com/Motherboard/Z690M-AORUS-ELITE-AX-DDR4-rev-1x/sp"
       ],
       "evidence": [
-        "Exact motherboard model is listed in the official GIGABYTE gaming/motherboard catalog.",
-        "STRICT audit completed. Existing official evidence is sufficient for model/chipset/socket recognition, but not sufficient to prove an exact discrete TPM module mapping for this board."
-      ]
+        "Exact official GIGABYTE board specification explicitly documents the TPM header and compatible TPM module family."
+      ],
+      "missing": null
     },
     {
       "manufacturer": "GIGABYTE",
@@ -7684,5 +7684,5 @@
       ]
     }
   ],
-  "databaseVersion": "V23-GIGABYTE-99-BATCH"
+  "databaseVersion": "V24-TPM-VERIFICATION"
 }

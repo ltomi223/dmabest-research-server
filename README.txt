@@ -1,10 +1,9 @@
-DMA Best EU V23 - GIGABYTE 99 BOARD BATCH
+DMA Best EU V24 - TPM VERIFICATION
 
-Batch size: 99 GIGABYTE boards processed together
-New exact VERIFIED in this batch: 15
+Focus: physical TPM compatibility verification, not API self-testing.
+New/updated exact official mappings this pass: 2
 Total profiles: 363
-Total VERIFIED: 203
-Remaining reviewed-unverified: 160
+Total VERIFIED: 205
+Remaining reviewed-unverified: 158
 
-This is a 99-board batch, not a 13-board workflow.
-The tester below checks all 99 batch records in one run.
+VERIFIED means exact official board evidence captured.
