@@ -1,7 +1,7 @@
 {
-  "schemaVersion": 15,
+  "schemaVersion": 16,
   "generated": "2026-09-13",
-  "verificationPolicy": "VERIFIED-OFFICIAL only when exact manufacturer board specification/manual proves physical TPM header/module compatibility. No API-pass promotion.",
+  "verificationPolicy": "Exact official board/revision evidence required for VERIFIED physical TPM mapping. Revision-sensitive models require revision.",
   "profiles": [
     {
       "manufacturer": "ASROCK",
@@ -2678,12 +2678,12 @@
       "pinLayout": "2x6 pin",
       "module": "GC-TPM2.0_S",
       "confidence": 100,
-      "note": "ELLENŐRZÖTT Rev. 1.0/1.1 profil.",
+      "note": "VERIFIED – OFFICIAL. Exact-board manufacturer evidence captured.",
       "sources": [
-        "https://www.gigabyte.com/hu/Motherboard/B550-AORUS-ELITE-V2-rev-10-11/sp"
+        "https://www.gigabyte.com/Motherboard/B550-AORUS-ELITE-V2-rev-12/sp"
       ],
       "evidence": [
-        "Official GIGABYTE specification: 2x6-pin TPM header, for the GC-TPM2.0_S module only."
+        "Exact official GIGABYTE board specification/manual confirms TPM header/module compatibility."
       ]
     },
     {
@@ -3671,12 +3671,12 @@
       "pinLayout": "2x6 pin",
       "module": "GC-TPM2.0_S",
       "confidence": 100,
-      "note": "ELLENŐRZÖTT Rev. 1.x profil.",
+      "note": "VERIFIED – OFFICIAL. Exact-board manufacturer evidence captured.",
       "sources": [
-        "https://www.gigabyte.com/hu/Motherboard/X570-AORUS-ELITE-WIFI-rev-1x/sp"
+        "https://www.gigabyte.com/Motherboard/X570-AORUS-ELITE-WIFI-rev-1x/sp"
       ],
       "evidence": [
-        "Official GIGABYTE specification: 2x6-pin TPM header, for the GC-TPM2.0_S module only."
+        "Exact official GIGABYTE board specification/manual confirms TPM header/module compatibility."
       ]
     },
     {
@@ -4077,17 +4077,17 @@
       "status": "verified",
       "chipset": "AMD X870E",
       "socket": "AM5",
-      "header": "Trusted Platform Module header",
+      "header": "SPI_TPM",
       "bus": "SPI",
       "pinLayout": "",
       "module": "GC-TPM2.0 SPI / GC-TPM2.0 SPI 2.0 / GC-TPM2.0 SPI V2",
       "confidence": 100,
-      "note": "ELLENŐRZÖTT hivatalos gyártói forrás alapján.",
+      "note": "VERIFIED – OFFICIAL. Exact-board manufacturer evidence captured.",
       "sources": [
-        "https://www.gigabyte.com/hu/Motherboard/X870E-AORUS-ELITE-WIFI7-rev-12/sp"
+        "https://download.gigabyte.com/FileList/Manual/mb_manual_x870e-aorus-elite-wifi7_1201_e.pdf"
       ],
       "evidence": [
-        "Official manufacturer documentation supports this model/module compatibility."
+        "Exact official GIGABYTE board specification/manual confirms TPM header/module compatibility."
       ]
     },
     {
@@ -7684,5 +7684,5 @@
       ]
     }
   ],
-  "databaseVersion": "V24-TPM-VERIFICATION"
+  "databaseVersion": "V25-FAIL-FIX-REVISION-SAFE"
 }

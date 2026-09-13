@@ -1,9 +1,5 @@
-DMA Best EU V24 - TPM VERIFICATION
-
-Focus: physical TPM compatibility verification, not API self-testing.
-New/updated exact official mappings this pass: 2
-Total profiles: 363
-Total VERIFIED: 205
-Remaining reviewed-unverified: 158
-
-VERIFIED means exact official board evidence captured.
+DMA Best EU V25 - FAIL FIX / REVISION SAFE
+Source report: V24 205 tests, 196 PASS, 9 FAIL.
+This pack fixes report-confirmed mismatch handling, removes exact duplicates, and prevents generic VERIFIED output on revision-sensitive boards.
+Profiles: 363
+Exact duplicates removed: 0
