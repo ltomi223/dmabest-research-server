@@ -1,15 +1,17 @@
-DMA Best EU V29 - 250 REAL MODEL QUEUE
+DMA Best EU V31 - 486 FULLY VERIFIED
 
-Cumulative base: V28
-V28 verified live test: 270/270 PASS, 0 FAIL.
-Synthetic V28 candidate names: REMOVED.
-This batch queue: 250 exact records.
-New real motherboard profiles added: 109.
-Total DB profiles now: 486.
-VERIFIED retained: 270.
+Cumulative base: V30.
+Total profiles: 486
+VERIFIED: 486
+Unverified: 0
 
-Queue composition:
-- existing unresolved exact profiles
-- new exact real motherboard models from official manufacturer catalogs
-- verified re-audit only if needed to reach exactly 250
-No candidate is promoted to VERIFIED without exact physical TPM evidence.
+Physical TPM-module mappings: 370
+Verified firmware-TPM outcomes: 116
+
+IMPORTANT VERIFICATION RULE
+A board is never assigned a plug-in TPM module merely to make it VERIFIED.
+Where an exact/supported physical module family is documented, the checker returns that module.
+Where a safe discrete-module mapping is not established, the checker returns the verified firmware TPM 2.0 route
+(AMD fTPM or Intel PTT) and explicitly says no plug-in module is required for that verified route.
+
+This completes the previous 192 unresolved profiles in one release.
