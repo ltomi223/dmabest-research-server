@@ -1,7 +1,7 @@
 {
-  "schemaVersion": 13,
+  "schemaVersion": 14,
   "generated": "2026-09-13",
-  "verificationPolicy": "STRICT: exact official board specification/manual only; no chipset-only inference.",
+  "verificationPolicy": "STRICT: 99-board GIGABYTE batch processed together. VERIFIED only from exact official board spec/manual; unresolved records remain reviewed-unverified.",
   "profiles": [
     {
       "manufacturer": "ASROCK",
@@ -2547,63 +2547,60 @@
       "manufacturer": "GIGABYTE",
       "model": "B460 AORUS PRO AC",
       "revision": "*",
-      "status": "reviewed-unverified",
+      "status": "verified",
       "chipset": "Intel B460",
       "socket": "LGA1200",
-      "header": "",
-      "bus": "",
-      "pinLayout": "",
-      "module": "",
-      "confidence": 60,
-      "note": "FULLY AUDITED: exact board is known, but no exact official discrete-TPM module/header proof was captured strongly enough for STRICT VERIFIED status. Do not recommend a physical TPM module automatically.",
+      "header": "Trusted Platform Module header",
+      "bus": "SPI",
+      "pinLayout": "Official GIGABYTE TPM header",
+      "module": "GC-TPM2.0 SPI / GC-TPM2.0 SPI 2.0",
+      "confidence": 100,
+      "note": "STRICT VERIFIED from exact official GIGABYTE board specification/manual.",
       "sources": [
-        "https://www.gigabyte.com/us/Motherboard/AORUS"
+        "https://www.gigabyte.com/us/Motherboard/B460-AORUS-PRO-AC-rev-10/sp"
       ],
       "evidence": [
-        "Exact motherboard model is listed in the official GIGABYTE gaming/motherboard catalog.",
-        "STRICT audit completed. Existing official evidence is sufficient for model/chipset/socket recognition, but not sufficient to prove an exact discrete TPM module mapping for this board."
+        "Exact official GIGABYTE board specification/manual explicitly documents the TPM header and compatible TPM module family."
       ]
     },
     {
       "manufacturer": "GIGABYTE",
       "model": "B460M AORUS ELITE",
       "revision": "*",
-      "status": "reviewed-unverified",
+      "status": "verified",
       "chipset": "Intel B460",
       "socket": "LGA1200",
-      "header": "",
-      "bus": "",
-      "pinLayout": "",
-      "module": "",
-      "confidence": 60,
-      "note": "FULLY AUDITED: exact board is known, but no exact official discrete-TPM module/header proof was captured strongly enough for STRICT VERIFIED status. Do not recommend a physical TPM module automatically.",
+      "header": "Trusted Platform Module header",
+      "bus": "SPI",
+      "pinLayout": "Official GIGABYTE TPM header",
+      "module": "GC-TPM2.0 SPI / GC-TPM2.0 SPI 2.0",
+      "confidence": 100,
+      "note": "STRICT VERIFIED from exact official GIGABYTE board specification/manual.",
       "sources": [
-        "https://www.gigabyte.com/us/Motherboard/AORUS"
+        "https://www.gigabyte.com/Motherboard/B460M-AORUS-ELITE-rev-10/sp"
       ],
       "evidence": [
-        "Exact motherboard model is listed in the official GIGABYTE gaming/motherboard catalog.",
-        "STRICT audit completed. Existing official evidence is sufficient for model/chipset/socket recognition, but not sufficient to prove an exact discrete TPM module mapping for this board."
+        "Exact official GIGABYTE board specification/manual explicitly documents the TPM header and compatible TPM module family."
       ]
     },
     {
       "manufacturer": "GIGABYTE",
       "model": "B460M AORUS PRO",
       "revision": "*",
-      "status": "reviewed-unverified",
+      "status": "verified",
       "chipset": "Intel B460",
       "socket": "LGA1200",
-      "header": "",
-      "bus": "",
-      "pinLayout": "",
-      "module": "",
-      "confidence": 60,
-      "note": "FULLY AUDITED: exact board is known, but no exact official discrete-TPM module/header proof was captured strongly enough for STRICT VERIFIED status. Do not recommend a physical TPM module automatically.",
+      "header": "Trusted Platform Module header",
+      "bus": "SPI",
+      "pinLayout": "Official GIGABYTE TPM header",
+      "module": "GC-TPM2.0 SPI / GC-TPM2.0 SPI 2.0",
+      "confidence": 100,
+      "note": "STRICT VERIFIED from exact official GIGABYTE board specification/manual.",
       "sources": [
-        "https://www.gigabyte.com/us/Motherboard/AORUS"
+        "https://www.gigabyte.com/Motherboard/B460M-AORUS-PRO-rev-10/sp"
       ],
       "evidence": [
-        "Exact motherboard model is listed in the official GIGABYTE gaming/motherboard catalog.",
-        "STRICT audit completed. Existing official evidence is sufficient for model/chipset/socket recognition, but not sufficient to prove an exact discrete TPM module mapping for this board."
+        "Exact official GIGABYTE board specification/manual explicitly documents the TPM header and compatible TPM module family."
       ]
     },
     {
@@ -3171,42 +3168,40 @@
       "manufacturer": "GIGABYTE",
       "model": "B650M AORUS PRO AX",
       "revision": "*",
-      "status": "reviewed-unverified",
+      "status": "verified",
       "chipset": "AMD B650",
       "socket": "AM5",
-      "header": "",
-      "bus": "",
-      "pinLayout": "",
-      "module": "",
-      "confidence": 60,
-      "note": "FULLY AUDITED: exact board is known, but no exact official discrete-TPM module/header proof was captured strongly enough for STRICT VERIFIED status. Do not recommend a physical TPM module automatically.",
+      "header": "Trusted Platform Module header",
+      "bus": "SPI",
+      "pinLayout": "Official GIGABYTE TPM header",
+      "module": "GC-TPM2.0 SPI / GC-TPM2.0 SPI 2.0",
+      "confidence": 100,
+      "note": "STRICT VERIFIED from exact official GIGABYTE board specification/manual.",
       "sources": [
-        "https://www.gigabyte.com/us/Motherboard/AORUS"
+        "https://www.gigabyte.com/hu/Motherboard/B650M-AORUS-PRO-AX-rev-12/sp"
       ],
       "evidence": [
-        "Exact motherboard model is listed in the official GIGABYTE gaming/motherboard catalog.",
-        "STRICT audit completed. Existing official evidence is sufficient for model/chipset/socket recognition, but not sufficient to prove an exact discrete TPM module mapping for this board."
+        "Exact official GIGABYTE board specification/manual explicitly documents the TPM header and compatible TPM module family."
       ]
     },
     {
       "manufacturer": "GIGABYTE",
       "model": "B650M GAMING X AX",
       "revision": "*",
-      "status": "reviewed-unverified",
+      "status": "verified",
       "chipset": "AMD B650",
       "socket": "AM5",
-      "header": "",
-      "bus": "",
-      "pinLayout": "",
-      "module": "",
-      "confidence": 60,
-      "note": "FULLY AUDITED: exact board is known, but no exact official discrete-TPM module/header proof was captured strongly enough for STRICT VERIFIED status. Do not recommend a physical TPM module automatically.",
+      "header": "Trusted Platform Module header",
+      "bus": "SPI",
+      "pinLayout": "Official GIGABYTE TPM header",
+      "module": "GC-TPM2.0 SPI / GC-TPM2.0 SPI 2.0 / GC-TPM2.0 SPI V2",
+      "confidence": 100,
+      "note": "STRICT VERIFIED from exact official GIGABYTE board specification/manual.",
       "sources": [
-        "https://www.gigabyte.com/us/Motherboard/AORUS"
+        "https://www.gigabyte.com/hu/Motherboard/B650M-GAMING-X-AX-rev-10-11-12/sp"
       ],
       "evidence": [
-        "Exact motherboard model is listed in the official GIGABYTE gaming/motherboard catalog.",
-        "STRICT audit completed. Existing official evidence is sufficient for model/chipset/socket recognition, but not sufficient to prove an exact discrete TPM module mapping for this board."
+        "Exact official GIGABYTE board specification/manual explicitly documents the TPM header and compatible TPM module family."
       ]
     },
     {
@@ -3234,21 +3229,20 @@
       "manufacturer": "GIGABYTE",
       "model": "B660 GAMING X",
       "revision": "*",
-      "status": "reviewed-unverified",
+      "status": "verified",
       "chipset": "Intel B660",
       "socket": "LGA1700",
-      "header": "",
-      "bus": "",
-      "pinLayout": "",
-      "module": "",
-      "confidence": 60,
-      "note": "FULLY AUDITED: exact board is known, but no exact official discrete-TPM module/header proof was captured strongly enough for STRICT VERIFIED status. Do not recommend a physical TPM module automatically.",
+      "header": "Trusted Platform Module header",
+      "bus": "SPI",
+      "pinLayout": "Official GIGABYTE TPM header",
+      "module": "GC-TPM2.0 SPI / GC-TPM2.0 SPI 2.0",
+      "confidence": 100,
+      "note": "STRICT VERIFIED from exact official GIGABYTE board specification/manual.",
       "sources": [
-        "https://www.gigabyte.com/us/Motherboard/AORUS"
+        "https://www.gigabyte.com/eu/Motherboard/B660-GAMING-X-rev-10/sp"
       ],
       "evidence": [
-        "Exact motherboard model is listed in the official GIGABYTE gaming/motherboard catalog.",
-        "STRICT audit completed. Existing official evidence is sufficient for model/chipset/socket recognition, but not sufficient to prove an exact discrete TPM module mapping for this board."
+        "Exact official GIGABYTE board specification/manual explicitly documents the TPM header and compatible TPM module family."
       ]
     },
     {
@@ -3381,42 +3375,40 @@
       "manufacturer": "GIGABYTE",
       "model": "B660M GAMING X AX DDR4",
       "revision": "*",
-      "status": "reviewed-unverified",
+      "status": "verified",
       "chipset": "Intel B660",
       "socket": "LGA1700",
-      "header": "",
-      "bus": "",
-      "pinLayout": "",
-      "module": "",
-      "confidence": 60,
-      "note": "FULLY AUDITED: exact board is known, but no exact official discrete-TPM module/header proof was captured strongly enough for STRICT VERIFIED status. Do not recommend a physical TPM module automatically.",
+      "header": "Trusted Platform Module header",
+      "bus": "SPI",
+      "pinLayout": "Official GIGABYTE TPM header",
+      "module": "GC-TPM2.0 SPI / GC-TPM2.0 SPI 2.0",
+      "confidence": 100,
+      "note": "STRICT VERIFIED from exact official GIGABYTE board specification/manual.",
       "sources": [
-        "https://www.gigabyte.com/us/Motherboard/AORUS"
+        "https://www.gigabyte.com/us/Motherboard/B660M-GAMING-X-AX-DDR4-rev-1x/sp"
       ],
       "evidence": [
-        "Exact motherboard model is listed in the official GIGABYTE gaming/motherboard catalog.",
-        "STRICT audit completed. Existing official evidence is sufficient for model/chipset/socket recognition, but not sufficient to prove an exact discrete TPM module mapping for this board."
+        "Exact official GIGABYTE board specification/manual explicitly documents the TPM header and compatible TPM module family."
       ]
     },
     {
       "manufacturer": "GIGABYTE",
       "model": "B660M GAMING X DDR4",
       "revision": "*",
-      "status": "reviewed-unverified",
+      "status": "verified",
       "chipset": "Intel B660",
       "socket": "LGA1700",
-      "header": "",
-      "bus": "",
-      "pinLayout": "",
-      "module": "",
-      "confidence": 60,
-      "note": "FULLY AUDITED: exact board is known, but no exact official discrete-TPM module/header proof was captured strongly enough for STRICT VERIFIED status. Do not recommend a physical TPM module automatically.",
+      "header": "Trusted Platform Module header",
+      "bus": "SPI",
+      "pinLayout": "Official GIGABYTE TPM header",
+      "module": "GC-TPM2.0 SPI / GC-TPM2.0 SPI 2.0",
+      "confidence": 100,
+      "note": "STRICT VERIFIED from exact official GIGABYTE board specification/manual.",
       "sources": [
-        "https://www.gigabyte.com/us/Motherboard/AORUS"
+        "https://www.gigabyte.com/Motherboard/B660M-GAMING-X-DDR4-rev-1x/sp"
       ],
       "evidence": [
-        "Exact motherboard model is listed in the official GIGABYTE gaming/motherboard catalog.",
-        "STRICT audit completed. Existing official evidence is sufficient for model/chipset/socket recognition, but not sufficient to prove an exact discrete TPM module mapping for this board."
+        "Exact official GIGABYTE board specification/manual explicitly documents the TPM header and compatible TPM module family."
       ]
     },
     {
@@ -3444,42 +3436,40 @@
       "manufacturer": "GIGABYTE",
       "model": "B850 AORUS ELITE WIFI7 ICE",
       "revision": "*",
-      "status": "reviewed-unverified",
+      "status": "verified",
       "chipset": "AMD B850",
       "socket": "AM5",
-      "header": "",
-      "bus": "",
-      "pinLayout": "",
-      "module": "",
-      "confidence": 60,
-      "note": "FULLY AUDITED: exact board is known, but no exact official discrete-TPM module/header proof was captured strongly enough for STRICT VERIFIED status. Do not recommend a physical TPM module automatically.",
+      "header": "Trusted Platform Module header",
+      "bus": "SPI",
+      "pinLayout": "Official GIGABYTE TPM header",
+      "module": "GC-TPM2.0 SPI V2",
+      "confidence": 100,
+      "note": "STRICT VERIFIED from exact official GIGABYTE board specification/manual.",
       "sources": [
-        "https://www.gigabyte.com/us/Motherboard/AORUS"
+        "https://www.gigabyte.com/hu/Motherboard/B850-AORUS-ELITE-WIFI7-ICE-rev-1x/sp"
       ],
       "evidence": [
-        "Exact motherboard model is listed in the official GIGABYTE gaming/motherboard catalog.",
-        "STRICT audit completed. Existing official evidence is sufficient for model/chipset/socket recognition, but not sufficient to prove an exact discrete TPM module mapping for this board."
+        "Exact official GIGABYTE board specification/manual explicitly documents the TPM header and compatible TPM module family."
       ]
     },
     {
       "manufacturer": "GIGABYTE",
       "model": "B850 AORUS ELITE-P ICE",
       "revision": "*",
-      "status": "reviewed-unverified",
+      "status": "verified",
       "chipset": "AMD B850",
       "socket": "AM5",
-      "header": "",
-      "bus": "",
-      "pinLayout": "",
-      "module": "",
-      "confidence": 60,
-      "note": "FULLY AUDITED: exact board is known, but no exact official discrete-TPM module/header proof was captured strongly enough for STRICT VERIFIED status. Do not recommend a physical TPM module automatically.",
+      "header": "Trusted Platform Module header",
+      "bus": "SPI",
+      "pinLayout": "Official GIGABYTE TPM header",
+      "module": "GC-TPM2.0 SPI V2",
+      "confidence": 100,
+      "note": "STRICT VERIFIED from exact official GIGABYTE board specification/manual.",
       "sources": [
-        "https://www.gigabyte.com/us/Motherboard/AORUS"
+        "https://www.gigabyte.com/hu/Motherboard/B850-AORUS-ELITE-P-ICE/sp"
       ],
       "evidence": [
-        "Exact motherboard model is listed in the official GIGABYTE gaming/motherboard catalog.",
-        "STRICT audit completed. Existing official evidence is sufficient for model/chipset/socket recognition, but not sufficient to prove an exact discrete TPM module mapping for this board."
+        "Exact official GIGABYTE board specification/manual explicitly documents the TPM header and compatible TPM module family."
       ]
     },
     {
@@ -3507,21 +3497,20 @@
       "manufacturer": "GIGABYTE",
       "model": "B850M AORUS ELITE WIFI6E ICE",
       "revision": "*",
-      "status": "reviewed-unverified",
+      "status": "verified",
       "chipset": "AMD B850",
       "socket": "AM5",
-      "header": "",
-      "bus": "",
-      "pinLayout": "",
-      "module": "",
-      "confidence": 60,
-      "note": "FULLY AUDITED: exact board is known, but no exact official discrete-TPM module/header proof was captured strongly enough for STRICT VERIFIED status. Do not recommend a physical TPM module automatically.",
+      "header": "Trusted Platform Module header",
+      "bus": "SPI",
+      "pinLayout": "Official GIGABYTE TPM header",
+      "module": "GC-TPM2.0 SPI V2",
+      "confidence": 100,
+      "note": "STRICT VERIFIED from exact official GIGABYTE board specification/manual.",
       "sources": [
-        "https://www.gigabyte.com/us/Motherboard/AORUS"
+        "https://www.gigabyte.com/hu/Motherboard/B850M-AORUS-ELITE-WIFI6E-ICE-rev-1x/sp"
       ],
       "evidence": [
-        "Exact motherboard model is listed in the official GIGABYTE gaming/motherboard catalog.",
-        "STRICT audit completed. Existing official evidence is sufficient for model/chipset/socket recognition, but not sufficient to prove an exact discrete TPM module mapping for this board."
+        "Exact official GIGABYTE board specification/manual explicitly documents the TPM header and compatible TPM module family."
       ]
     },
     {
@@ -3945,42 +3934,40 @@
       "manufacturer": "GIGABYTE",
       "model": "X670E AORUS MASTER",
       "revision": "*",
-      "status": "reviewed-unverified",
+      "status": "verified",
       "chipset": "AMD X670E",
       "socket": "AM5",
-      "header": "",
-      "bus": "",
-      "pinLayout": "",
-      "module": "",
-      "confidence": 60,
-      "note": "FULLY AUDITED: exact board is known, but no exact official discrete-TPM module/header proof was captured strongly enough for STRICT VERIFIED status. Do not recommend a physical TPM module automatically.",
+      "header": "Trusted Platform Module header",
+      "bus": "SPI",
+      "pinLayout": "Official GIGABYTE TPM header",
+      "module": "GC-TPM2.0 SPI / GC-TPM2.0 SPI 2.0 / GC-TPM2.0 SPI V2",
+      "confidence": 100,
+      "note": "STRICT VERIFIED from exact official GIGABYTE board specification/manual.",
       "sources": [
-        "https://www.gigabyte.com/us/Motherboard/AORUS"
+        "https://download.gigabyte.com/FileList/Manual/mb_manual_x670e-aorus-master_1103_e.pdf"
       ],
       "evidence": [
-        "Exact motherboard model is listed in the official GIGABYTE gaming/motherboard catalog.",
-        "STRICT audit completed. Existing official evidence is sufficient for model/chipset/socket recognition, but not sufficient to prove an exact discrete TPM module mapping for this board."
+        "Exact official GIGABYTE board specification/manual explicitly documents the TPM header and compatible TPM module family."
       ]
     },
     {
       "manufacturer": "GIGABYTE",
       "model": "X670E AORUS XTREME",
       "revision": "*",
-      "status": "reviewed-unverified",
+      "status": "verified",
       "chipset": "AMD X670E",
       "socket": "AM5",
-      "header": "",
-      "bus": "",
-      "pinLayout": "",
-      "module": "",
-      "confidence": 60,
-      "note": "FULLY AUDITED: exact board is known, but no exact official discrete-TPM module/header proof was captured strongly enough for STRICT VERIFIED status. Do not recommend a physical TPM module automatically.",
+      "header": "Trusted Platform Module header",
+      "bus": "SPI",
+      "pinLayout": "Official GIGABYTE TPM header",
+      "module": "GC-TPM2.0 SPI / GC-TPM2.0 SPI 2.0",
+      "confidence": 100,
+      "note": "STRICT VERIFIED from exact official GIGABYTE board specification/manual.",
       "sources": [
-        "https://www.gigabyte.com/us/Motherboard/AORUS"
+        "https://www.gigabyte.com/us/Motherboard/X670E-AORUS-XTREME-rev-1x/sp"
       ],
       "evidence": [
-        "Exact motherboard model is listed in the official GIGABYTE gaming/motherboard catalog.",
-        "STRICT audit completed. Existing official evidence is sufficient for model/chipset/socket recognition, but not sufficient to prove an exact discrete TPM module mapping for this board."
+        "Exact official GIGABYTE board specification/manual explicitly documents the TPM header and compatible TPM module family."
       ]
     },
     {
@@ -4067,21 +4054,20 @@
       "manufacturer": "GIGABYTE",
       "model": "X870 AORUS STEALTH ICE",
       "revision": "*",
-      "status": "reviewed-unverified",
+      "status": "verified",
       "chipset": "AMD X870",
       "socket": "AM5",
-      "header": "",
-      "bus": "",
-      "pinLayout": "",
-      "module": "",
-      "confidence": 60,
-      "note": "FULLY AUDITED: exact board is known, but no exact official discrete-TPM module/header proof was captured strongly enough for STRICT VERIFIED status. Do not recommend a physical TPM module automatically.",
+      "header": "Trusted Platform Module header",
+      "bus": "SPI",
+      "pinLayout": "Official GIGABYTE TPM header",
+      "module": "GC-TPM2.0 SPI V2",
+      "confidence": 100,
+      "note": "STRICT VERIFIED from exact official GIGABYTE board specification/manual.",
       "sources": [
-        "https://www.gigabyte.com/us/Motherboard/AORUS"
+        "https://www.gigabyte.com/hu/Motherboard/X870-AORUS-STEALTH-ICE-rev-10/sp"
       ],
       "evidence": [
-        "Exact motherboard model is listed in the official GIGABYTE gaming/motherboard catalog.",
-        "STRICT audit completed. Existing official evidence is sufficient for model/chipset/socket recognition, but not sufficient to prove an exact discrete TPM module mapping for this board."
+        "Exact official GIGABYTE board specification/manual explicitly documents the TPM header and compatible TPM module family."
       ]
     },
     {
@@ -4128,21 +4114,20 @@
       "manufacturer": "GIGABYTE",
       "model": "X870E AORUS MASTER X3D ICE",
       "revision": "*",
-      "status": "reviewed-unverified",
+      "status": "verified",
       "chipset": "AMD X870E",
       "socket": "AM5",
-      "header": "",
-      "bus": "",
-      "pinLayout": "",
-      "module": "",
-      "confidence": 60,
-      "note": "FULLY AUDITED: exact board is known, but no exact official discrete-TPM module/header proof was captured strongly enough for STRICT VERIFIED status. Do not recommend a physical TPM module automatically.",
+      "header": "Trusted Platform Module header",
+      "bus": "SPI",
+      "pinLayout": "Official GIGABYTE TPM header",
+      "module": "GC-TPM2.0 SPI V2",
+      "confidence": 100,
+      "note": "STRICT VERIFIED from exact official GIGABYTE board specification/manual.",
       "sources": [
-        "https://www.gigabyte.com/us/Motherboard/AORUS"
+        "https://www.gigabyte.com/hu/Motherboard/X870E-AORUS-MASTER-X3D-ICE/sp"
       ],
       "evidence": [
-        "Exact motherboard model is listed in the official GIGABYTE gaming/motherboard catalog.",
-        "STRICT audit completed. Existing official evidence is sufficient for model/chipset/socket recognition, but not sufficient to prove an exact discrete TPM module mapping for this board."
+        "Exact official GIGABYTE board specification/manual explicitly documents the TPM header and compatible TPM module family."
       ]
     },
     {
@@ -7699,5 +7684,5 @@
       ]
     }
   ],
-  "databaseVersion": "V22-BULK-EXACT-VERIFIED"
+  "databaseVersion": "V23-GIGABYTE-99-BATCH"
 }
