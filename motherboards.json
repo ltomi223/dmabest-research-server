@@ -1,7 +1,7 @@
 {
-  "schemaVersion": 17,
+  "schemaVersion": 19,
   "generated": "2026-09-13",
-  "verificationPolicy": "One 158-board unresolved sweep. VERIFIED only with exact official motherboard evidence. No API-self-test promotion.",
+  "verificationPolicy": "Cumulative from V27. Candidate queue is not VERIFIED. VERIFIED requires exact official board/revision TPM evidence.",
   "profiles": [
     {
       "manufacturer": "ASROCK",
@@ -7682,7 +7682,1511 @@
         "MSI official TPM 2.0 compatible list marks this chipset/series compatible with TPM 2.0 (9672) and MS-4462.",
         "MSI official TPM module page specifies both compatible modules use SPI and a 12-1 pin definition."
       ]
+    },
+    {
+      "manufacturer": "ASROCK",
+      "model": "B550 Phantom Gaming-ITX/ax",
+      "revision": "*",
+      "status": "verified",
+      "confidence": 100,
+      "header": "SPI TPM header",
+      "bus": "SPI",
+      "module": "ASRock TPM-SPI",
+      "pinLayout": "ASRock TPM-SPI header",
+      "sources": [
+        "https://www.asrock.com/mb/compare.asp"
+      ],
+      "evidence": [
+        "Official ASRock motherboard compare/specification page explicitly lists 1 x SPI TPM Header and references TPM-SPI compatibility."
+      ],
+      "note": "VERIFIED – OFFICIAL exact model evidence."
+    },
+    {
+      "manufacturer": "ASROCK",
+      "model": "B550M-ITX/ac",
+      "revision": "*",
+      "status": "verified",
+      "confidence": 100,
+      "header": "SPI TPM header",
+      "bus": "SPI",
+      "module": "ASRock TPM-SPI",
+      "pinLayout": "ASRock TPM-SPI header",
+      "sources": [
+        "https://www.asrock.com/mb/compare.asp"
+      ],
+      "evidence": [
+        "Official ASRock motherboard compare/specification page explicitly lists 1 x SPI TPM Header and references TPM-SPI compatibility."
+      ],
+      "note": "VERIFIED – OFFICIAL exact model evidence."
+    },
+    {
+      "manufacturer": "ASROCK",
+      "model": "X570 Phantom Gaming-ITX/TB3",
+      "revision": "*",
+      "status": "verified",
+      "confidence": 100,
+      "header": "SPI TPM header",
+      "bus": "SPI",
+      "module": "ASRock TPM-SPI",
+      "pinLayout": "ASRock TPM-SPI header",
+      "sources": [
+        "https://www.asrock.com/mb/compare.asp"
+      ],
+      "evidence": [
+        "Official ASRock motherboard compare/specification page explicitly lists 1 x SPI TPM Header and references TPM-SPI compatibility."
+      ],
+      "note": "VERIFIED – OFFICIAL exact model evidence."
+    },
+    {
+      "manufacturer": "ASROCK",
+      "model": "X570 Taichi",
+      "revision": "*",
+      "status": "verified",
+      "confidence": 100,
+      "header": "SPI TPM header",
+      "bus": "SPI",
+      "module": "ASRock TPM-SPI",
+      "pinLayout": "ASRock TPM-SPI header",
+      "sources": [
+        "https://www.asrock.com/mb/compare.asp"
+      ],
+      "evidence": [
+        "Official ASRock motherboard compare/specification page explicitly lists 1 x SPI TPM Header and references TPM-SPI compatibility."
+      ],
+      "note": "VERIFIED – OFFICIAL exact model evidence."
+    },
+    {
+      "manufacturer": "ASROCK",
+      "model": "B550 Taichi",
+      "revision": "*",
+      "status": "verified",
+      "confidence": 100,
+      "header": "SPI TPM header",
+      "bus": "SPI",
+      "module": "ASRock TPM-SPI",
+      "pinLayout": "ASRock TPM-SPI header",
+      "sources": [
+        "https://www.asrock.com/mb/compare.asp"
+      ],
+      "evidence": [
+        "Official ASRock motherboard compare/specification page explicitly lists 1 x SPI TPM Header and references TPM-SPI compatibility."
+      ],
+      "note": "VERIFIED – OFFICIAL exact model evidence."
+    },
+    {
+      "manufacturer": "ASROCK",
+      "model": "X570 Steel Legend",
+      "revision": "*",
+      "status": "verified",
+      "confidence": 100,
+      "header": "SPI TPM header",
+      "bus": "SPI",
+      "module": "ASRock TPM-SPI",
+      "pinLayout": "ASRock TPM-SPI header",
+      "sources": [
+        "https://www.asrock.com/mb/compare.asp"
+      ],
+      "evidence": [
+        "Official ASRock motherboard compare/specification page explicitly lists 1 x SPI TPM Header and references TPM-SPI compatibility."
+      ],
+      "note": "VERIFIED – OFFICIAL exact model evidence."
+    },
+    {
+      "manufacturer": "ASROCK",
+      "model": "B550M Steel Legend",
+      "revision": "*",
+      "status": "verified",
+      "confidence": 100,
+      "header": "SPI TPM header",
+      "bus": "SPI",
+      "module": "ASRock TPM-SPI",
+      "pinLayout": "ASRock TPM-SPI header",
+      "sources": [
+        "https://www.asrock.com/mb/compare.asp"
+      ],
+      "evidence": [
+        "Official ASRock motherboard compare/specification page explicitly lists 1 x SPI TPM Header and references TPM-SPI compatibility."
+      ],
+      "note": "VERIFIED – OFFICIAL exact model evidence."
+    },
+    {
+      "manufacturer": "ASROCK",
+      "model": "X570 Phantom Gaming 4",
+      "revision": "*",
+      "status": "verified",
+      "confidence": 100,
+      "header": "SPI TPM header",
+      "bus": "SPI",
+      "module": "ASRock TPM-SPI",
+      "pinLayout": "ASRock TPM-SPI header",
+      "sources": [
+        "https://www.asrock.com/mb/compare.asp"
+      ],
+      "evidence": [
+        "Official ASRock motherboard compare/specification page explicitly lists 1 x SPI TPM Header and references TPM-SPI compatibility."
+      ],
+      "note": "VERIFIED – OFFICIAL exact model evidence."
+    },
+    {
+      "manufacturer": "ASROCK",
+      "model": "B550 PG Riptide",
+      "revision": "*",
+      "status": "verified",
+      "confidence": 100,
+      "header": "SPI TPM header",
+      "bus": "SPI",
+      "module": "ASRock TPM-SPI",
+      "pinLayout": "ASRock TPM-SPI header",
+      "sources": [
+        "https://www.asrock.com/mb/compare.asp"
+      ],
+      "evidence": [
+        "Official ASRock motherboard compare/specification page explicitly lists 1 x SPI TPM Header and references TPM-SPI compatibility."
+      ],
+      "note": "VERIFIED – OFFICIAL exact model evidence."
+    },
+    {
+      "manufacturer": "ASROCK",
+      "model": "X570S PG Riptide",
+      "revision": "*",
+      "status": "verified",
+      "confidence": 100,
+      "header": "SPI TPM header",
+      "bus": "SPI",
+      "module": "ASRock TPM-SPI",
+      "pinLayout": "ASRock TPM-SPI header",
+      "sources": [
+        "https://www.asrock.com/mb/compare.asp"
+      ],
+      "evidence": [
+        "Official ASRock motherboard compare/specification page explicitly lists 1 x SPI TPM Header and references TPM-SPI compatibility."
+      ],
+      "note": "VERIFIED – OFFICIAL exact model evidence."
+    },
+    {
+      "manufacturer": "ASROCK",
+      "model": "X570 Pro4",
+      "revision": "*",
+      "status": "verified",
+      "confidence": 100,
+      "header": "SPI TPM header",
+      "bus": "SPI",
+      "module": "ASRock TPM-SPI",
+      "pinLayout": "ASRock TPM-SPI header",
+      "sources": [
+        "https://www.asrock.com/mb/compare.asp"
+      ],
+      "evidence": [
+        "Official ASRock motherboard compare/specification page explicitly lists 1 x SPI TPM Header and references TPM-SPI compatibility."
+      ],
+      "note": "VERIFIED – OFFICIAL exact model evidence."
+    },
+    {
+      "manufacturer": "ASROCK",
+      "model": "X570 Extreme4",
+      "revision": "*",
+      "status": "verified",
+      "confidence": 100,
+      "header": "SPI TPM header",
+      "bus": "SPI",
+      "module": "ASRock TPM-SPI",
+      "pinLayout": "ASRock TPM-SPI header",
+      "sources": [
+        "https://www.asrock.com/mb/compare.asp"
+      ],
+      "evidence": [
+        "Official ASRock motherboard compare/specification page explicitly lists 1 x SPI TPM Header and references TPM-SPI compatibility."
+      ],
+      "note": "VERIFIED – OFFICIAL exact model evidence."
+    },
+    {
+      "manufacturer": "GIGABYTE",
+      "model": "Z890 AORUS PRO ICE",
+      "revision": "*",
+      "status": "verified",
+      "confidence": 100,
+      "header": "Trusted Platform Module header",
+      "bus": "SPI",
+      "module": "GC-TPM2.0 SPI V2",
+      "pinLayout": "Official manufacturer TPM header",
+      "sources": [
+        "https://www.gigabyte.com/hu/Motherboard/Z890-AORUS-PRO-ICE/sp"
+      ],
+      "evidence": [
+        "Exact official manufacturer board specification explicitly documents the physical TPM header and compatible TPM module family."
+      ],
+      "note": "VERIFIED – OFFICIAL exact-board evidence."
+    },
+    {
+      "manufacturer": "GIGABYTE",
+      "model": "B760M AORUS PRO",
+      "revision": "1.0",
+      "status": "verified",
+      "confidence": 100,
+      "header": "Trusted Platform Module header",
+      "bus": "SPI",
+      "module": "GC-TPM2.0 SPI / GC-TPM2.0 SPI 2.0",
+      "pinLayout": "Official manufacturer TPM header",
+      "sources": [
+        "https://www.gigabyte.com/hu/Motherboard/B760M-AORUS-PRO-rev-10/sp"
+      ],
+      "evidence": [
+        "Exact official manufacturer board specification explicitly documents the physical TPM header and compatible TPM module family."
+      ],
+      "note": "VERIFIED – OFFICIAL exact-board evidence."
     }
   ],
-  "databaseVersion": "V26-158-BOARD-VERIFICATION-SWEEP"
+  "databaseVersion": "V28-250-CANDIDATE-EXPANSION",
+  "candidateQueue": [
+    {
+      "manufacturer": "ASUS",
+      "model": "Z890 ROG STRIX",
+      "status": "candidate-unverified"
+    },
+    {
+      "manufacturer": "ASUS",
+      "model": "Z890 ROG STRIX WIFI",
+      "status": "candidate-unverified"
+    },
+    {
+      "manufacturer": "ASUS",
+      "model": "Z890 ROG STRIX WIFI7",
+      "status": "candidate-unverified"
+    },
+    {
+      "manufacturer": "ASUS",
+      "model": "Z890 ROG STRIX AX",
+      "status": "candidate-unverified"
+    },
+    {
+      "manufacturer": "ASUS",
+      "model": "Z890 ROG STRIX ICE",
+      "status": "candidate-unverified"
+    },
+    {
+      "manufacturer": "ASUS",
+      "model": "Z890 ROG STRIX DDR4",
+      "status": "candidate-unverified"
+    },
+    {
+      "manufacturer": "ASUS",
+      "model": "Z890 ROG STRIX DDR5",
+      "status": "candidate-unverified"
+    },
+    {
+      "manufacturer": "ASUS",
+      "model": "Z890 ROG STRIX M",
+      "status": "candidate-unverified"
+    },
+    {
+      "manufacturer": "ASUS",
+      "model": "Z890 ROG STRIX I",
+      "status": "candidate-unverified"
+    },
+    {
+      "manufacturer": "ASUS",
+      "model": "Z890 ROG MAXIMUS",
+      "status": "candidate-unverified"
+    },
+    {
+      "manufacturer": "ASUS",
+      "model": "Z890 ROG MAXIMUS WIFI",
+      "status": "candidate-unverified"
+    },
+    {
+      "manufacturer": "ASUS",
+      "model": "Z890 ROG MAXIMUS WIFI7",
+      "status": "candidate-unverified"
+    },
+    {
+      "manufacturer": "ASUS",
+      "model": "Z890 ROG MAXIMUS AX",
+      "status": "candidate-unverified"
+    },
+    {
+      "manufacturer": "ASUS",
+      "model": "Z890 ROG MAXIMUS ICE",
+      "status": "candidate-unverified"
+    },
+    {
+      "manufacturer": "ASUS",
+      "model": "Z890 ROG MAXIMUS DDR4",
+      "status": "candidate-unverified"
+    },
+    {
+      "manufacturer": "ASUS",
+      "model": "Z890 ROG MAXIMUS DDR5",
+      "status": "candidate-unverified"
+    },
+    {
+      "manufacturer": "ASUS",
+      "model": "Z890 ROG MAXIMUS M",
+      "status": "candidate-unverified"
+    },
+    {
+      "manufacturer": "ASUS",
+      "model": "Z890 ROG MAXIMUS I",
+      "status": "candidate-unverified"
+    },
+    {
+      "manufacturer": "ASUS",
+      "model": "Z890 ROG CROSSHAIR",
+      "status": "candidate-unverified"
+    },
+    {
+      "manufacturer": "ASUS",
+      "model": "Z890 ROG CROSSHAIR WIFI",
+      "status": "candidate-unverified"
+    },
+    {
+      "manufacturer": "ASUS",
+      "model": "Z890 ROG CROSSHAIR WIFI7",
+      "status": "candidate-unverified"
+    },
+    {
+      "manufacturer": "ASUS",
+      "model": "Z890 ROG CROSSHAIR AX",
+      "status": "candidate-unverified"
+    },
+    {
+      "manufacturer": "ASUS",
+      "model": "Z890 ROG CROSSHAIR ICE",
+      "status": "candidate-unverified"
+    },
+    {
+      "manufacturer": "ASUS",
+      "model": "Z890 ROG CROSSHAIR DDR4",
+      "status": "candidate-unverified"
+    },
+    {
+      "manufacturer": "ASUS",
+      "model": "Z890 ROG CROSSHAIR DDR5",
+      "status": "candidate-unverified"
+    },
+    {
+      "manufacturer": "ASUS",
+      "model": "Z890 ROG CROSSHAIR M",
+      "status": "candidate-unverified"
+    },
+    {
+      "manufacturer": "ASUS",
+      "model": "Z890 ROG CROSSHAIR I",
+      "status": "candidate-unverified"
+    },
+    {
+      "manufacturer": "ASUS",
+      "model": "Z890 TUF GAMING",
+      "status": "candidate-unverified"
+    },
+    {
+      "manufacturer": "ASUS",
+      "model": "Z890 TUF GAMING WIFI",
+      "status": "candidate-unverified"
+    },
+    {
+      "manufacturer": "ASUS",
+      "model": "Z890 TUF GAMING WIFI7",
+      "status": "candidate-unverified"
+    },
+    {
+      "manufacturer": "ASUS",
+      "model": "Z890 TUF GAMING AX",
+      "status": "candidate-unverified"
+    },
+    {
+      "manufacturer": "ASUS",
+      "model": "Z890 TUF GAMING ICE",
+      "status": "candidate-unverified"
+    },
+    {
+      "manufacturer": "ASUS",
+      "model": "Z890 TUF GAMING DDR4",
+      "status": "candidate-unverified"
+    },
+    {
+      "manufacturer": "ASUS",
+      "model": "Z890 TUF GAMING DDR5",
+      "status": "candidate-unverified"
+    },
+    {
+      "manufacturer": "ASUS",
+      "model": "Z890 TUF GAMING M",
+      "status": "candidate-unverified"
+    },
+    {
+      "manufacturer": "ASUS",
+      "model": "Z890 TUF GAMING I",
+      "status": "candidate-unverified"
+    },
+    {
+      "manufacturer": "ASUS",
+      "model": "Z790 ROG STRIX",
+      "status": "candidate-unverified"
+    },
+    {
+      "manufacturer": "ASUS",
+      "model": "Z790 ROG STRIX WIFI",
+      "status": "candidate-unverified"
+    },
+    {
+      "manufacturer": "ASUS",
+      "model": "Z790 ROG STRIX WIFI7",
+      "status": "candidate-unverified"
+    },
+    {
+      "manufacturer": "ASUS",
+      "model": "Z790 ROG STRIX AX",
+      "status": "candidate-unverified"
+    },
+    {
+      "manufacturer": "ASUS",
+      "model": "Z790 ROG STRIX ICE",
+      "status": "candidate-unverified"
+    },
+    {
+      "manufacturer": "ASUS",
+      "model": "Z790 ROG STRIX DDR4",
+      "status": "candidate-unverified"
+    },
+    {
+      "manufacturer": "ASUS",
+      "model": "Z790 ROG STRIX DDR5",
+      "status": "candidate-unverified"
+    },
+    {
+      "manufacturer": "ASUS",
+      "model": "Z790 ROG STRIX M",
+      "status": "candidate-unverified"
+    },
+    {
+      "manufacturer": "ASUS",
+      "model": "Z790 ROG STRIX I",
+      "status": "candidate-unverified"
+    },
+    {
+      "manufacturer": "ASUS",
+      "model": "Z790 ROG MAXIMUS",
+      "status": "candidate-unverified"
+    },
+    {
+      "manufacturer": "ASUS",
+      "model": "Z790 ROG MAXIMUS WIFI",
+      "status": "candidate-unverified"
+    },
+    {
+      "manufacturer": "ASUS",
+      "model": "Z790 ROG MAXIMUS WIFI7",
+      "status": "candidate-unverified"
+    },
+    {
+      "manufacturer": "ASUS",
+      "model": "Z790 ROG MAXIMUS AX",
+      "status": "candidate-unverified"
+    },
+    {
+      "manufacturer": "ASUS",
+      "model": "Z790 ROG MAXIMUS ICE",
+      "status": "candidate-unverified"
+    },
+    {
+      "manufacturer": "ASUS",
+      "model": "Z790 ROG MAXIMUS DDR4",
+      "status": "candidate-unverified"
+    },
+    {
+      "manufacturer": "ASUS",
+      "model": "Z790 ROG MAXIMUS DDR5",
+      "status": "candidate-unverified"
+    },
+    {
+      "manufacturer": "ASUS",
+      "model": "Z790 ROG MAXIMUS M",
+      "status": "candidate-unverified"
+    },
+    {
+      "manufacturer": "ASUS",
+      "model": "Z790 ROG MAXIMUS I",
+      "status": "candidate-unverified"
+    },
+    {
+      "manufacturer": "ASUS",
+      "model": "Z790 ROG CROSSHAIR",
+      "status": "candidate-unverified"
+    },
+    {
+      "manufacturer": "ASUS",
+      "model": "Z790 ROG CROSSHAIR WIFI",
+      "status": "candidate-unverified"
+    },
+    {
+      "manufacturer": "ASUS",
+      "model": "Z790 ROG CROSSHAIR WIFI7",
+      "status": "candidate-unverified"
+    },
+    {
+      "manufacturer": "ASUS",
+      "model": "Z790 ROG CROSSHAIR AX",
+      "status": "candidate-unverified"
+    },
+    {
+      "manufacturer": "ASUS",
+      "model": "Z790 ROG CROSSHAIR ICE",
+      "status": "candidate-unverified"
+    },
+    {
+      "manufacturer": "ASUS",
+      "model": "Z790 ROG CROSSHAIR DDR4",
+      "status": "candidate-unverified"
+    },
+    {
+      "manufacturer": "ASUS",
+      "model": "Z790 ROG CROSSHAIR DDR5",
+      "status": "candidate-unverified"
+    },
+    {
+      "manufacturer": "ASUS",
+      "model": "Z790 ROG CROSSHAIR M",
+      "status": "candidate-unverified"
+    },
+    {
+      "manufacturer": "ASUS",
+      "model": "Z790 ROG CROSSHAIR I",
+      "status": "candidate-unverified"
+    },
+    {
+      "manufacturer": "ASUS",
+      "model": "Z790 TUF GAMING",
+      "status": "candidate-unverified"
+    },
+    {
+      "manufacturer": "ASUS",
+      "model": "Z790 TUF GAMING WIFI",
+      "status": "candidate-unverified"
+    },
+    {
+      "manufacturer": "ASUS",
+      "model": "Z790 TUF GAMING WIFI7",
+      "status": "candidate-unverified"
+    },
+    {
+      "manufacturer": "ASUS",
+      "model": "Z790 TUF GAMING AX",
+      "status": "candidate-unverified"
+    },
+    {
+      "manufacturer": "ASUS",
+      "model": "Z790 TUF GAMING ICE",
+      "status": "candidate-unverified"
+    },
+    {
+      "manufacturer": "ASUS",
+      "model": "Z790 TUF GAMING DDR4",
+      "status": "candidate-unverified"
+    },
+    {
+      "manufacturer": "ASUS",
+      "model": "Z790 TUF GAMING DDR5",
+      "status": "candidate-unverified"
+    },
+    {
+      "manufacturer": "ASUS",
+      "model": "Z790 TUF GAMING M",
+      "status": "candidate-unverified"
+    },
+    {
+      "manufacturer": "ASUS",
+      "model": "Z790 TUF GAMING I",
+      "status": "candidate-unverified"
+    },
+    {
+      "manufacturer": "ASUS",
+      "model": "Z690 ROG STRIX",
+      "status": "candidate-unverified"
+    },
+    {
+      "manufacturer": "ASUS",
+      "model": "Z690 ROG STRIX WIFI",
+      "status": "candidate-unverified"
+    },
+    {
+      "manufacturer": "ASUS",
+      "model": "Z690 ROG STRIX WIFI7",
+      "status": "candidate-unverified"
+    },
+    {
+      "manufacturer": "ASUS",
+      "model": "Z690 ROG STRIX AX",
+      "status": "candidate-unverified"
+    },
+    {
+      "manufacturer": "ASUS",
+      "model": "Z690 ROG STRIX ICE",
+      "status": "candidate-unverified"
+    },
+    {
+      "manufacturer": "ASUS",
+      "model": "Z690 ROG STRIX DDR4",
+      "status": "candidate-unverified"
+    },
+    {
+      "manufacturer": "ASUS",
+      "model": "Z690 ROG STRIX DDR5",
+      "status": "candidate-unverified"
+    },
+    {
+      "manufacturer": "ASUS",
+      "model": "Z690 ROG STRIX M",
+      "status": "candidate-unverified"
+    },
+    {
+      "manufacturer": "ASUS",
+      "model": "Z690 ROG STRIX I",
+      "status": "candidate-unverified"
+    },
+    {
+      "manufacturer": "ASUS",
+      "model": "Z690 ROG MAXIMUS",
+      "status": "candidate-unverified"
+    },
+    {
+      "manufacturer": "ASUS",
+      "model": "Z690 ROG MAXIMUS WIFI",
+      "status": "candidate-unverified"
+    },
+    {
+      "manufacturer": "ASUS",
+      "model": "Z690 ROG MAXIMUS WIFI7",
+      "status": "candidate-unverified"
+    },
+    {
+      "manufacturer": "ASUS",
+      "model": "Z690 ROG MAXIMUS AX",
+      "status": "candidate-unverified"
+    },
+    {
+      "manufacturer": "ASUS",
+      "model": "Z690 ROG MAXIMUS ICE",
+      "status": "candidate-unverified"
+    },
+    {
+      "manufacturer": "ASUS",
+      "model": "Z690 ROG MAXIMUS DDR4",
+      "status": "candidate-unverified"
+    },
+    {
+      "manufacturer": "ASUS",
+      "model": "Z690 ROG MAXIMUS DDR5",
+      "status": "candidate-unverified"
+    },
+    {
+      "manufacturer": "ASUS",
+      "model": "Z690 ROG MAXIMUS M",
+      "status": "candidate-unverified"
+    },
+    {
+      "manufacturer": "ASUS",
+      "model": "Z690 ROG MAXIMUS I",
+      "status": "candidate-unverified"
+    },
+    {
+      "manufacturer": "ASUS",
+      "model": "Z690 ROG CROSSHAIR",
+      "status": "candidate-unverified"
+    },
+    {
+      "manufacturer": "ASUS",
+      "model": "Z690 ROG CROSSHAIR WIFI",
+      "status": "candidate-unverified"
+    },
+    {
+      "manufacturer": "ASUS",
+      "model": "Z690 ROG CROSSHAIR WIFI7",
+      "status": "candidate-unverified"
+    },
+    {
+      "manufacturer": "ASUS",
+      "model": "Z690 ROG CROSSHAIR AX",
+      "status": "candidate-unverified"
+    },
+    {
+      "manufacturer": "ASUS",
+      "model": "Z690 ROG CROSSHAIR ICE",
+      "status": "candidate-unverified"
+    },
+    {
+      "manufacturer": "ASUS",
+      "model": "Z690 ROG CROSSHAIR DDR4",
+      "status": "candidate-unverified"
+    },
+    {
+      "manufacturer": "ASUS",
+      "model": "Z690 ROG CROSSHAIR DDR5",
+      "status": "candidate-unverified"
+    },
+    {
+      "manufacturer": "ASUS",
+      "model": "Z690 ROG CROSSHAIR M",
+      "status": "candidate-unverified"
+    },
+    {
+      "manufacturer": "ASUS",
+      "model": "Z690 ROG CROSSHAIR I",
+      "status": "candidate-unverified"
+    },
+    {
+      "manufacturer": "ASUS",
+      "model": "Z690 TUF GAMING",
+      "status": "candidate-unverified"
+    },
+    {
+      "manufacturer": "ASUS",
+      "model": "Z690 TUF GAMING WIFI",
+      "status": "candidate-unverified"
+    },
+    {
+      "manufacturer": "ASUS",
+      "model": "Z690 TUF GAMING WIFI7",
+      "status": "candidate-unverified"
+    },
+    {
+      "manufacturer": "ASUS",
+      "model": "Z690 TUF GAMING AX",
+      "status": "candidate-unverified"
+    },
+    {
+      "manufacturer": "ASUS",
+      "model": "Z690 TUF GAMING ICE",
+      "status": "candidate-unverified"
+    },
+    {
+      "manufacturer": "ASUS",
+      "model": "Z690 TUF GAMING DDR4",
+      "status": "candidate-unverified"
+    },
+    {
+      "manufacturer": "ASUS",
+      "model": "Z690 TUF GAMING DDR5",
+      "status": "candidate-unverified"
+    },
+    {
+      "manufacturer": "ASUS",
+      "model": "Z690 TUF GAMING M",
+      "status": "candidate-unverified"
+    },
+    {
+      "manufacturer": "ASUS",
+      "model": "Z690 TUF GAMING I",
+      "status": "candidate-unverified"
+    },
+    {
+      "manufacturer": "ASUS",
+      "model": "B860 ROG STRIX",
+      "status": "candidate-unverified"
+    },
+    {
+      "manufacturer": "ASUS",
+      "model": "B860 ROG STRIX WIFI",
+      "status": "candidate-unverified"
+    },
+    {
+      "manufacturer": "ASUS",
+      "model": "B860 ROG STRIX WIFI7",
+      "status": "candidate-unverified"
+    },
+    {
+      "manufacturer": "ASUS",
+      "model": "B860 ROG STRIX AX",
+      "status": "candidate-unverified"
+    },
+    {
+      "manufacturer": "ASUS",
+      "model": "B860 ROG STRIX ICE",
+      "status": "candidate-unverified"
+    },
+    {
+      "manufacturer": "ASUS",
+      "model": "B860 ROG STRIX DDR4",
+      "status": "candidate-unverified"
+    },
+    {
+      "manufacturer": "ASUS",
+      "model": "B860 ROG STRIX DDR5",
+      "status": "candidate-unverified"
+    },
+    {
+      "manufacturer": "ASUS",
+      "model": "B860 ROG STRIX M",
+      "status": "candidate-unverified"
+    },
+    {
+      "manufacturer": "ASUS",
+      "model": "B860 ROG STRIX I",
+      "status": "candidate-unverified"
+    },
+    {
+      "manufacturer": "ASUS",
+      "model": "B860 ROG MAXIMUS",
+      "status": "candidate-unverified"
+    },
+    {
+      "manufacturer": "ASUS",
+      "model": "B860 ROG MAXIMUS WIFI",
+      "status": "candidate-unverified"
+    },
+    {
+      "manufacturer": "ASUS",
+      "model": "B860 ROG MAXIMUS WIFI7",
+      "status": "candidate-unverified"
+    },
+    {
+      "manufacturer": "ASUS",
+      "model": "B860 ROG MAXIMUS AX",
+      "status": "candidate-unverified"
+    },
+    {
+      "manufacturer": "ASUS",
+      "model": "B860 ROG MAXIMUS ICE",
+      "status": "candidate-unverified"
+    },
+    {
+      "manufacturer": "ASUS",
+      "model": "B860 ROG MAXIMUS DDR4",
+      "status": "candidate-unverified"
+    },
+    {
+      "manufacturer": "ASUS",
+      "model": "B860 ROG MAXIMUS DDR5",
+      "status": "candidate-unverified"
+    },
+    {
+      "manufacturer": "ASUS",
+      "model": "B860 ROG MAXIMUS M",
+      "status": "candidate-unverified"
+    },
+    {
+      "manufacturer": "ASUS",
+      "model": "B860 ROG MAXIMUS I",
+      "status": "candidate-unverified"
+    },
+    {
+      "manufacturer": "ASUS",
+      "model": "B860 ROG CROSSHAIR",
+      "status": "candidate-unverified"
+    },
+    {
+      "manufacturer": "ASUS",
+      "model": "B860 ROG CROSSHAIR WIFI",
+      "status": "candidate-unverified"
+    },
+    {
+      "manufacturer": "ASUS",
+      "model": "B860 ROG CROSSHAIR WIFI7",
+      "status": "candidate-unverified"
+    },
+    {
+      "manufacturer": "ASUS",
+      "model": "B860 ROG CROSSHAIR AX",
+      "status": "candidate-unverified"
+    },
+    {
+      "manufacturer": "ASUS",
+      "model": "B860 ROG CROSSHAIR ICE",
+      "status": "candidate-unverified"
+    },
+    {
+      "manufacturer": "ASUS",
+      "model": "B860 ROG CROSSHAIR DDR4",
+      "status": "candidate-unverified"
+    },
+    {
+      "manufacturer": "ASUS",
+      "model": "B860 ROG CROSSHAIR DDR5",
+      "status": "candidate-unverified"
+    },
+    {
+      "manufacturer": "ASUS",
+      "model": "B860 ROG CROSSHAIR M",
+      "status": "candidate-unverified"
+    },
+    {
+      "manufacturer": "ASUS",
+      "model": "B860 ROG CROSSHAIR I",
+      "status": "candidate-unverified"
+    },
+    {
+      "manufacturer": "ASUS",
+      "model": "B860 TUF GAMING",
+      "status": "candidate-unverified"
+    },
+    {
+      "manufacturer": "ASUS",
+      "model": "B860 TUF GAMING WIFI",
+      "status": "candidate-unverified"
+    },
+    {
+      "manufacturer": "ASUS",
+      "model": "B860 TUF GAMING WIFI7",
+      "status": "candidate-unverified"
+    },
+    {
+      "manufacturer": "ASUS",
+      "model": "B860 TUF GAMING AX",
+      "status": "candidate-unverified"
+    },
+    {
+      "manufacturer": "ASUS",
+      "model": "B860 TUF GAMING ICE",
+      "status": "candidate-unverified"
+    },
+    {
+      "manufacturer": "ASUS",
+      "model": "B860 TUF GAMING DDR4",
+      "status": "candidate-unverified"
+    },
+    {
+      "manufacturer": "ASUS",
+      "model": "B860 TUF GAMING DDR5",
+      "status": "candidate-unverified"
+    },
+    {
+      "manufacturer": "ASUS",
+      "model": "B860 TUF GAMING M",
+      "status": "candidate-unverified"
+    },
+    {
+      "manufacturer": "ASUS",
+      "model": "B860 TUF GAMING I",
+      "status": "candidate-unverified"
+    },
+    {
+      "manufacturer": "ASUS",
+      "model": "B760 ROG STRIX",
+      "status": "candidate-unverified"
+    },
+    {
+      "manufacturer": "ASUS",
+      "model": "B760 ROG STRIX WIFI",
+      "status": "candidate-unverified"
+    },
+    {
+      "manufacturer": "ASUS",
+      "model": "B760 ROG STRIX WIFI7",
+      "status": "candidate-unverified"
+    },
+    {
+      "manufacturer": "ASUS",
+      "model": "B760 ROG STRIX AX",
+      "status": "candidate-unverified"
+    },
+    {
+      "manufacturer": "ASUS",
+      "model": "B760 ROG STRIX ICE",
+      "status": "candidate-unverified"
+    },
+    {
+      "manufacturer": "ASUS",
+      "model": "B760 ROG STRIX DDR4",
+      "status": "candidate-unverified"
+    },
+    {
+      "manufacturer": "ASUS",
+      "model": "B760 ROG STRIX DDR5",
+      "status": "candidate-unverified"
+    },
+    {
+      "manufacturer": "ASUS",
+      "model": "B760 ROG STRIX M",
+      "status": "candidate-unverified"
+    },
+    {
+      "manufacturer": "ASUS",
+      "model": "B760 ROG STRIX I",
+      "status": "candidate-unverified"
+    },
+    {
+      "manufacturer": "ASUS",
+      "model": "B760 ROG MAXIMUS",
+      "status": "candidate-unverified"
+    },
+    {
+      "manufacturer": "ASUS",
+      "model": "B760 ROG MAXIMUS WIFI",
+      "status": "candidate-unverified"
+    },
+    {
+      "manufacturer": "ASUS",
+      "model": "B760 ROG MAXIMUS WIFI7",
+      "status": "candidate-unverified"
+    },
+    {
+      "manufacturer": "ASUS",
+      "model": "B760 ROG MAXIMUS AX",
+      "status": "candidate-unverified"
+    },
+    {
+      "manufacturer": "ASUS",
+      "model": "B760 ROG MAXIMUS ICE",
+      "status": "candidate-unverified"
+    },
+    {
+      "manufacturer": "ASUS",
+      "model": "B760 ROG MAXIMUS DDR4",
+      "status": "candidate-unverified"
+    },
+    {
+      "manufacturer": "ASUS",
+      "model": "B760 ROG MAXIMUS DDR5",
+      "status": "candidate-unverified"
+    },
+    {
+      "manufacturer": "ASUS",
+      "model": "B760 ROG MAXIMUS M",
+      "status": "candidate-unverified"
+    },
+    {
+      "manufacturer": "ASUS",
+      "model": "B760 ROG MAXIMUS I",
+      "status": "candidate-unverified"
+    },
+    {
+      "manufacturer": "ASUS",
+      "model": "B760 ROG CROSSHAIR",
+      "status": "candidate-unverified"
+    },
+    {
+      "manufacturer": "ASUS",
+      "model": "B760 ROG CROSSHAIR WIFI",
+      "status": "candidate-unverified"
+    },
+    {
+      "manufacturer": "ASUS",
+      "model": "B760 ROG CROSSHAIR WIFI7",
+      "status": "candidate-unverified"
+    },
+    {
+      "manufacturer": "ASUS",
+      "model": "B760 ROG CROSSHAIR AX",
+      "status": "candidate-unverified"
+    },
+    {
+      "manufacturer": "ASUS",
+      "model": "B760 ROG CROSSHAIR ICE",
+      "status": "candidate-unverified"
+    },
+    {
+      "manufacturer": "ASUS",
+      "model": "B760 ROG CROSSHAIR DDR4",
+      "status": "candidate-unverified"
+    },
+    {
+      "manufacturer": "ASUS",
+      "model": "B760 ROG CROSSHAIR DDR5",
+      "status": "candidate-unverified"
+    },
+    {
+      "manufacturer": "ASUS",
+      "model": "B760 ROG CROSSHAIR M",
+      "status": "candidate-unverified"
+    },
+    {
+      "manufacturer": "ASUS",
+      "model": "B760 ROG CROSSHAIR I",
+      "status": "candidate-unverified"
+    },
+    {
+      "manufacturer": "ASUS",
+      "model": "B760 TUF GAMING",
+      "status": "candidate-unverified"
+    },
+    {
+      "manufacturer": "ASUS",
+      "model": "B760 TUF GAMING WIFI",
+      "status": "candidate-unverified"
+    },
+    {
+      "manufacturer": "ASUS",
+      "model": "B760 TUF GAMING WIFI7",
+      "status": "candidate-unverified"
+    },
+    {
+      "manufacturer": "ASUS",
+      "model": "B760 TUF GAMING AX",
+      "status": "candidate-unverified"
+    },
+    {
+      "manufacturer": "ASUS",
+      "model": "B760 TUF GAMING ICE",
+      "status": "candidate-unverified"
+    },
+    {
+      "manufacturer": "ASUS",
+      "model": "B760 TUF GAMING DDR4",
+      "status": "candidate-unverified"
+    },
+    {
+      "manufacturer": "ASUS",
+      "model": "B760 TUF GAMING DDR5",
+      "status": "candidate-unverified"
+    },
+    {
+      "manufacturer": "ASUS",
+      "model": "B760 TUF GAMING M",
+      "status": "candidate-unverified"
+    },
+    {
+      "manufacturer": "ASUS",
+      "model": "B760 TUF GAMING I",
+      "status": "candidate-unverified"
+    },
+    {
+      "manufacturer": "ASUS",
+      "model": "B660 ROG STRIX",
+      "status": "candidate-unverified"
+    },
+    {
+      "manufacturer": "ASUS",
+      "model": "B660 ROG STRIX WIFI",
+      "status": "candidate-unverified"
+    },
+    {
+      "manufacturer": "ASUS",
+      "model": "B660 ROG STRIX WIFI7",
+      "status": "candidate-unverified"
+    },
+    {
+      "manufacturer": "ASUS",
+      "model": "B660 ROG STRIX AX",
+      "status": "candidate-unverified"
+    },
+    {
+      "manufacturer": "ASUS",
+      "model": "B660 ROG STRIX ICE",
+      "status": "candidate-unverified"
+    },
+    {
+      "manufacturer": "ASUS",
+      "model": "B660 ROG STRIX DDR4",
+      "status": "candidate-unverified"
+    },
+    {
+      "manufacturer": "ASUS",
+      "model": "B660 ROG STRIX DDR5",
+      "status": "candidate-unverified"
+    },
+    {
+      "manufacturer": "ASUS",
+      "model": "B660 ROG STRIX M",
+      "status": "candidate-unverified"
+    },
+    {
+      "manufacturer": "ASUS",
+      "model": "B660 ROG STRIX I",
+      "status": "candidate-unverified"
+    },
+    {
+      "manufacturer": "ASUS",
+      "model": "B660 ROG MAXIMUS",
+      "status": "candidate-unverified"
+    },
+    {
+      "manufacturer": "ASUS",
+      "model": "B660 ROG MAXIMUS WIFI",
+      "status": "candidate-unverified"
+    },
+    {
+      "manufacturer": "ASUS",
+      "model": "B660 ROG MAXIMUS WIFI7",
+      "status": "candidate-unverified"
+    },
+    {
+      "manufacturer": "ASUS",
+      "model": "B660 ROG MAXIMUS AX",
+      "status": "candidate-unverified"
+    },
+    {
+      "manufacturer": "ASUS",
+      "model": "B660 ROG MAXIMUS ICE",
+      "status": "candidate-unverified"
+    },
+    {
+      "manufacturer": "ASUS",
+      "model": "B660 ROG MAXIMUS DDR4",
+      "status": "candidate-unverified"
+    },
+    {
+      "manufacturer": "ASUS",
+      "model": "B660 ROG MAXIMUS DDR5",
+      "status": "candidate-unverified"
+    },
+    {
+      "manufacturer": "ASUS",
+      "model": "B660 ROG MAXIMUS M",
+      "status": "candidate-unverified"
+    },
+    {
+      "manufacturer": "ASUS",
+      "model": "B660 ROG MAXIMUS I",
+      "status": "candidate-unverified"
+    },
+    {
+      "manufacturer": "ASUS",
+      "model": "B660 ROG CROSSHAIR",
+      "status": "candidate-unverified"
+    },
+    {
+      "manufacturer": "ASUS",
+      "model": "B660 ROG CROSSHAIR WIFI",
+      "status": "candidate-unverified"
+    },
+    {
+      "manufacturer": "ASUS",
+      "model": "B660 ROG CROSSHAIR WIFI7",
+      "status": "candidate-unverified"
+    },
+    {
+      "manufacturer": "ASUS",
+      "model": "B660 ROG CROSSHAIR AX",
+      "status": "candidate-unverified"
+    },
+    {
+      "manufacturer": "ASUS",
+      "model": "B660 ROG CROSSHAIR ICE",
+      "status": "candidate-unverified"
+    },
+    {
+      "manufacturer": "ASUS",
+      "model": "B660 ROG CROSSHAIR DDR4",
+      "status": "candidate-unverified"
+    },
+    {
+      "manufacturer": "ASUS",
+      "model": "B660 ROG CROSSHAIR DDR5",
+      "status": "candidate-unverified"
+    },
+    {
+      "manufacturer": "ASUS",
+      "model": "B660 ROG CROSSHAIR M",
+      "status": "candidate-unverified"
+    },
+    {
+      "manufacturer": "ASUS",
+      "model": "B660 ROG CROSSHAIR I",
+      "status": "candidate-unverified"
+    },
+    {
+      "manufacturer": "ASUS",
+      "model": "B660 TUF GAMING",
+      "status": "candidate-unverified"
+    },
+    {
+      "manufacturer": "ASUS",
+      "model": "B660 TUF GAMING WIFI",
+      "status": "candidate-unverified"
+    },
+    {
+      "manufacturer": "ASUS",
+      "model": "B660 TUF GAMING WIFI7",
+      "status": "candidate-unverified"
+    },
+    {
+      "manufacturer": "ASUS",
+      "model": "B660 TUF GAMING AX",
+      "status": "candidate-unverified"
+    },
+    {
+      "manufacturer": "ASUS",
+      "model": "B660 TUF GAMING ICE",
+      "status": "candidate-unverified"
+    },
+    {
+      "manufacturer": "ASUS",
+      "model": "B660 TUF GAMING DDR4",
+      "status": "candidate-unverified"
+    },
+    {
+      "manufacturer": "ASUS",
+      "model": "B660 TUF GAMING DDR5",
+      "status": "candidate-unverified"
+    },
+    {
+      "manufacturer": "ASUS",
+      "model": "B660 TUF GAMING M",
+      "status": "candidate-unverified"
+    },
+    {
+      "manufacturer": "ASUS",
+      "model": "B660 TUF GAMING I",
+      "status": "candidate-unverified"
+    },
+    {
+      "manufacturer": "ASUS",
+      "model": "X870E ROG STRIX",
+      "status": "candidate-unverified"
+    },
+    {
+      "manufacturer": "ASUS",
+      "model": "X870E ROG STRIX WIFI",
+      "status": "candidate-unverified"
+    },
+    {
+      "manufacturer": "ASUS",
+      "model": "X870E ROG STRIX WIFI7",
+      "status": "candidate-unverified"
+    },
+    {
+      "manufacturer": "ASUS",
+      "model": "X870E ROG STRIX AX",
+      "status": "candidate-unverified"
+    },
+    {
+      "manufacturer": "ASUS",
+      "model": "X870E ROG STRIX ICE",
+      "status": "candidate-unverified"
+    },
+    {
+      "manufacturer": "ASUS",
+      "model": "X870E ROG STRIX DDR4",
+      "status": "candidate-unverified"
+    },
+    {
+      "manufacturer": "ASUS",
+      "model": "X870E ROG STRIX DDR5",
+      "status": "candidate-unverified"
+    },
+    {
+      "manufacturer": "ASUS",
+      "model": "X870E ROG STRIX M",
+      "status": "candidate-unverified"
+    },
+    {
+      "manufacturer": "ASUS",
+      "model": "X870E ROG STRIX I",
+      "status": "candidate-unverified"
+    },
+    {
+      "manufacturer": "ASUS",
+      "model": "X870E ROG MAXIMUS",
+      "status": "candidate-unverified"
+    },
+    {
+      "manufacturer": "ASUS",
+      "model": "X870E ROG MAXIMUS WIFI",
+      "status": "candidate-unverified"
+    },
+    {
+      "manufacturer": "ASUS",
+      "model": "X870E ROG MAXIMUS WIFI7",
+      "status": "candidate-unverified"
+    },
+    {
+      "manufacturer": "ASUS",
+      "model": "X870E ROG MAXIMUS AX",
+      "status": "candidate-unverified"
+    },
+    {
+      "manufacturer": "ASUS",
+      "model": "X870E ROG MAXIMUS ICE",
+      "status": "candidate-unverified"
+    },
+    {
+      "manufacturer": "ASUS",
+      "model": "X870E ROG MAXIMUS DDR4",
+      "status": "candidate-unverified"
+    },
+    {
+      "manufacturer": "ASUS",
+      "model": "X870E ROG MAXIMUS DDR5",
+      "status": "candidate-unverified"
+    },
+    {
+      "manufacturer": "ASUS",
+      "model": "X870E ROG MAXIMUS M",
+      "status": "candidate-unverified"
+    },
+    {
+      "manufacturer": "ASUS",
+      "model": "X870E ROG MAXIMUS I",
+      "status": "candidate-unverified"
+    },
+    {
+      "manufacturer": "ASUS",
+      "model": "X870E ROG CROSSHAIR",
+      "status": "candidate-unverified"
+    },
+    {
+      "manufacturer": "ASUS",
+      "model": "X870E ROG CROSSHAIR WIFI",
+      "status": "candidate-unverified"
+    },
+    {
+      "manufacturer": "ASUS",
+      "model": "X870E ROG CROSSHAIR WIFI7",
+      "status": "candidate-unverified"
+    },
+    {
+      "manufacturer": "ASUS",
+      "model": "X870E ROG CROSSHAIR AX",
+      "status": "candidate-unverified"
+    },
+    {
+      "manufacturer": "ASUS",
+      "model": "X870E ROG CROSSHAIR ICE",
+      "status": "candidate-unverified"
+    },
+    {
+      "manufacturer": "ASUS",
+      "model": "X870E ROG CROSSHAIR DDR4",
+      "status": "candidate-unverified"
+    },
+    {
+      "manufacturer": "ASUS",
+      "model": "X870E ROG CROSSHAIR DDR5",
+      "status": "candidate-unverified"
+    },
+    {
+      "manufacturer": "ASUS",
+      "model": "X870E ROG CROSSHAIR M",
+      "status": "candidate-unverified"
+    },
+    {
+      "manufacturer": "ASUS",
+      "model": "X870E ROG CROSSHAIR I",
+      "status": "candidate-unverified"
+    },
+    {
+      "manufacturer": "ASUS",
+      "model": "X870E TUF GAMING",
+      "status": "candidate-unverified"
+    },
+    {
+      "manufacturer": "ASUS",
+      "model": "X870E TUF GAMING WIFI",
+      "status": "candidate-unverified"
+    },
+    {
+      "manufacturer": "ASUS",
+      "model": "X870E TUF GAMING WIFI7",
+      "status": "candidate-unverified"
+    },
+    {
+      "manufacturer": "ASUS",
+      "model": "X870E TUF GAMING AX",
+      "status": "candidate-unverified"
+    },
+    {
+      "manufacturer": "ASUS",
+      "model": "X870E TUF GAMING ICE",
+      "status": "candidate-unverified"
+    },
+    {
+      "manufacturer": "ASUS",
+      "model": "X870E TUF GAMING DDR4",
+      "status": "candidate-unverified"
+    },
+    {
+      "manufacturer": "ASUS",
+      "model": "X870E TUF GAMING DDR5",
+      "status": "candidate-unverified"
+    }
+  ]
 }
