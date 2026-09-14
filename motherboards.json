@@ -1,7 +1,7 @@
 {
   "schemaVersion": 25,
   "generated": "2026-09-14",
-  "verificationPolicy": "Cumulative from V32. Added 250 VERIFIED profiles in one batch: 125 ASRock exact real models and 125 GIGABYTE exact model/revision profiles. Revision-specific profiles require the user revision when no wildcard match exists. Physical TPM is only asserted where official platform/module documentation supports it; otherwise the verified firmware TPM route is returned. Hotfix: added exact GIGABYTE B760 GAMING X AX DDR4 profile with official physical TPM mapping.",
+  "verificationPolicy": "Cumulative from V32. Added 250 VERIFIED profiles in one batch: 125 ASRock exact real models and 125 GIGABYTE exact model/revision profiles. Revision-specific profiles require the user revision when no wildcard match exists. Physical TPM is only asserted where official platform/module documentation supports it; otherwise the verified firmware TPM route is returned. Hotfix: added exact GIGABYTE B760 GAMING X AX DDR4 profile with official physical TPM mapping. Runtime matcher hotfix: canonicalizes real SMBIOS manufacturer names and strips trailing MSI board IDs such as (MS-7D98) before exact DB matching.",
   "profiles": [
     {
       "manufacturer": "ASROCK",
@@ -21666,5 +21666,5 @@
       "note": "VERIFIED – OFFICIAL. Exact DDR4 model added; physical SPI TPM header supported."
     }
   ],
-  "databaseVersion": "V33-986-VERIFIED-HOTFIX-B760-GAMING-X-AX-DDR4"
+  "databaseVersion": "V33-REAL-HARDWARE-NORMALIZATION-HOTFIX"
 }

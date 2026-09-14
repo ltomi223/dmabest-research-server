@@ -104,15 +104,47 @@ func normDBText(v string) string {
 	return strings.Join(strings.Fields(v), " ")
 }
 
+func normDBMaker(v string) string {
+	u := normDBText(v)
+	switch {
+	case strings.Contains(u, "MICRO-STAR") || regexp.MustCompile(`\bMSI\b`).MatchString(u):
+		return "MSI"
+	case strings.Contains(u, "GIGABYTE"):
+		return "GIGABYTE"
+	case strings.Contains(u, "ASUSTEK") || regexp.MustCompile(`\bASUS\b`).MatchString(u):
+		return "ASUS"
+	case strings.Contains(u, "ASROCK"):
+		return "ASROCK"
+	case strings.Contains(u, "BIOSTAR"):
+		return "BIOSTAR"
+	}
+	return u
+}
+
+func normDBModel(v string) string {
+	u := normDBText(v)
+
+	// Windows/SMBIOS often appends MSI's board code to the commercial name,
+	// e.g. "B760 GAMING PLUS WIFI (MS-7D98)".
+	reMSIParen := regexp.MustCompile(`\s*\(MS-[A-Z0-9-]+\)\s*$`)
+	u = reMSIParen.ReplaceAllString(u, "")
+
+	// Also accept the less common bracketed form.
+	reMSIBracket := regexp.MustCompile(`\s*\[MS-[A-Z0-9-]+\]\s*$`)
+	u = reMSIBracket.ReplaceAllString(u, "")
+
+	return strings.Join(strings.Fields(u), " ")
+}
+
 func lookupVerifiedProfile(h Hardware) (ResearchResult, bool) {
 	db := verifiedDB()
-	maker := normDBText(h.Manufacturer)
+	maker := normDBMaker(h.Manufacturer)
 	if maker == "" {
-		maker = normDBText(h.SystemManufacturer)
+		maker = normDBMaker(h.SystemManufacturer)
 	}
-	model := normDBText(h.Product)
+	model := normDBModel(h.Product)
 	if model == "" {
-		model = normDBText(h.SystemModel)
+		model = normDBModel(h.SystemModel)
 	}
 	rev := strings.TrimSpace(h.Version)
 	revUpper := strings.ToUpper(rev)
@@ -125,8 +157,8 @@ func lookupVerifiedProfile(h Hardware) (ResearchResult, bool) {
 
 	var candidates []VerifiedProfile
 	for _, p := range db.Profiles {
-		pm := normDBText(p.Manufacturer)
-		pp := normDBText(p.Model)
+		pm := normDBMaker(p.Manufacturer)
+		pp := normDBModel(p.Model)
 		if pp != model {
 			continue
 		}
@@ -624,7 +656,7 @@ func main() {
 		_ = json.NewEncoder(w).Encode(map[string]any{
 			"ok":               true,
 			"service":          "DMA Best EU Research",
-			"databaseVersion":  "V33-986-VERIFIED-HOTFIX-B760-GAMING-X-AX-DDR4",
+			"databaseVersion":  "V33-REAL-HARDWARE-NORMALIZATION-HOTFIX",
 			"databaseSchema":   db.SchemaVersion,
 			"verifiedProfiles": len(db.Profiles),
 			"generated":        db.Generated,

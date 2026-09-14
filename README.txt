@@ -1,22 +1,25 @@
-DMA Best EU V33 HOTFIX
+DMA Best EU V33 - REAL HARDWARE NORMALIZATION HOTFIX
 
-Reason:
-The real machine reports:
-GIGABYTE B760 GAMING X AX DDR4
+GLOBAL MATCHING FIX FOR REAL WINDOWS/SMBIOS STRINGS.
 
-The V33 database had B760 GAMING X AX but not the distinct DDR4 model,
-so the live checker correctly fell back to PENDING.
+Example fixed:
+Micro-Star International Co., Ltd.
+B760 GAMING PLUS WIFI (MS-7D98)
+Rev 3.0
 
-Added exact model:
-GIGABYTE B760 GAMING X AX DDR4
-Status: VERIFIED – OFFICIAL
-TPM header: Trusted Platform Module header
-Bus: SPI
-Physical module:
-- GC-TPM2.0 SPI
-- GC-TPM2.0 SPI 2.0
+now matches the existing VERIFIED database profile:
+MSI
+B760 GAMING PLUS WIFI
+Revision *
 
-Official GIGABYTE specs/manual document this physical TPM header/module family.
+Global normalization:
+- Micro-Star International Co., Ltd. -> MSI
+- ASUSTeK COMPUTER INC. -> ASUS
+- GIGABYTE variants -> GIGABYTE
+- ASRock variants -> ASROCK
+- strips trailing MSI board IDs like (MS-7D98) and [MS-7D98]
+- DOES NOT merge DDR4/non-DDR4 commercial model names
+- revision logic stays active
 
-TOTAL PROFILES: 987
-TOTAL VERIFIED: 987
+Database count remains 987 VERIFIED profiles.
+This is server-side: existing user/friend checker EXE can stay unchanged.
