@@ -1,25 +1,17 @@
-DMA Best EU V33 - REAL HARDWARE NORMALIZATION HOTFIX
+DMA Best EU V33 - B760 GAMING X AX DDR4 SPI V2 HOTFIX
 
-GLOBAL MATCHING FIX FOR REAL WINDOWS/SMBIOS STRINGS.
+Correction:
+GIGABYTE B760 GAMING X AX DDR4 also supports:
+- GC-TPM2.0 SPI
+- GC-TPM2.0 SPI 2.0
+- GC-TPM2.0 SPI V2
 
-Example fixed:
-Micro-Star International Co., Ltd.
-B760 GAMING PLUS WIFI (MS-7D98)
-Rev 3.0
+Reason:
+The current GIGABYTE B760 GAMING X series manual explicitly lists all three modules
+for the Trusted Platform Module header and includes the B760 GAMING X AX DDR4 variant.
 
-now matches the existing VERIFIED database profile:
-MSI
-B760 GAMING PLUS WIFI
-Revision *
+The older product specification page only listed the first two modules, which caused
+the checker to omit SPI V2.
 
-Global normalization:
-- Micro-Star International Co., Ltd. -> MSI
-- ASUSTeK COMPUTER INC. -> ASUS
-- GIGABYTE variants -> GIGABYTE
-- ASRock variants -> ASROCK
-- strips trailing MSI board IDs like (MS-7D98) and [MS-7D98]
-- DOES NOT merge DDR4/non-DDR4 commercial model names
-- revision logic stays active
-
-Database count remains 987 VERIFIED profiles.
-This is server-side: existing user/friend checker EXE can stay unchanged.
+Database remains 987 VERIFIED profiles.
+The real-hardware normalization hotfix is retained.

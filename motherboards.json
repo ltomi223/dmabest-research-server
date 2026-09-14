@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 25,
+  "schemaVersion": 26,
   "generated": "2026-09-14",
   "verificationPolicy": "Cumulative from V32. Added 250 VERIFIED profiles in one batch: 125 ASRock exact real models and 125 GIGABYTE exact model/revision profiles. Revision-specific profiles require the user revision when no wildcard match exists. Physical TPM is only asserted where official platform/module documentation supports it; otherwise the verified firmware TPM route is returned. Hotfix: added exact GIGABYTE B760 GAMING X AX DDR4 profile with official physical TPM mapping. Runtime matcher hotfix: canonicalizes real SMBIOS manufacturer names and strips trailing MSI board IDs such as (MS-7D98) before exact DB matching.",
   "profiles": [
@@ -21652,19 +21652,19 @@
       "header": "Trusted Platform Module header",
       "bus": "SPI",
       "pinLayout": "GIGABYTE SPI TPM header",
-      "module": "GC-TPM2.0 SPI / GC-TPM2.0 SPI 2.0",
+      "module": "GC-TPM2.0 SPI / GC-TPM2.0 SPI 2.0 / GC-TPM2.0 SPI V2",
       "confidence": 100,
       "verificationType": "official-physical",
       "sources": [
-        "https://www.gigabyte.com/cz/Motherboard/B760-GAMING-X-AX-DDR4/sp",
+        "https://www.gigabyte.com/hu/Motherboard/B760-GAMING-X-AX-DDR4/sp",
         "https://download.gigabyte.com/FileList/Manual/mb_manual_b760-gx-series_1301_e.pdf"
       ],
       "evidence": [
-        "Official GIGABYTE specification lists a Trusted Platform Module header for GC-TPM2.0 SPI / GC-TPM2.0 SPI 2.0 only.",
-        "The official B760 GAMING X series manual includes the AX DDR4 variant and documents the TPM header/module family."
+        "GIGABYTE official B760 GAMING X series manual lists the TPM header as compatible with GC-TPM2.0 SPI, GC-TPM2.0 SPI 2.0, and GC-TPM2.0 SPI V2.",
+        "The same manual explicitly includes the B760 GAMING X AX DDR4 variant in the covered series."
       ],
-      "note": "VERIFIED – OFFICIAL. Exact DDR4 model added; physical SPI TPM header supported."
+      "note": "VERIFIED – OFFICIAL. Updated from the newer GIGABYTE series manual: GC-TPM2.0 SPI V2 is also supported."
     }
   ],
-  "databaseVersion": "V33-REAL-HARDWARE-NORMALIZATION-HOTFIX"
+  "databaseVersion": "V33-B760-GAMING-X-AX-DDR4-SPI-V2-HOTFIX"
 }

@@ -656,7 +656,7 @@ func main() {
 		_ = json.NewEncoder(w).Encode(map[string]any{
 			"ok":               true,
 			"service":          "DMA Best EU Research",
-			"databaseVersion":  "V33-REAL-HARDWARE-NORMALIZATION-HOTFIX",
+			"databaseVersion":  "V33-B760-GAMING-X-AX-DDR4-SPI-V2-HOTFIX",
 			"databaseSchema":   db.SchemaVersion,
 			"verifiedProfiles": len(db.Profiles),
 			"generated":        db.Generated,
