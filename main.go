@@ -192,7 +192,7 @@ func lookupVerifiedProfile(h Hardware) (ResearchResult, bool) {
 	}
 
 	// Multiple revision-specific profiles exist but revision is unresolved.
-	if len(candidates) > 1 {
+	if len(candidates) > 0 {
 		base := candidates[0]
 		r := ResearchResult{
 			Status:       "pending",
@@ -624,7 +624,7 @@ func main() {
 		_ = json.NewEncoder(w).Encode(map[string]any{
 			"ok":               true,
 			"service":          "DMA Best EU Research",
-			"databaseVersion":  "V32-MSI-250-EXPANSION-736-VERIFIED",
+			"databaseVersion":  "V33-986-VERIFIED-HOTFIX-B760-GAMING-X-AX-DDR4",
 			"databaseSchema":   db.SchemaVersion,
 			"verifiedProfiles": len(db.Profiles),
 			"generated":        db.Generated,
