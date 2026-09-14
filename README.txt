@@ -1,17 +1,23 @@
-DMA Best EU V31 - 486 FULLY VERIFIED
+DMA Best EU V32 - MSI 250 EXPANSION
 
-Cumulative base: V30.
-Total profiles: 486
-VERIFIED: 486
-Unverified: 0
+Base: V31 486/486 VERIFIED.
+New exact MSI motherboard profiles: 250
+Total profiles: 736
+Total VERIFIED: 736
+New physical TPM mappings: 243
+New firmware-only TPM outcomes: 7
 
-Physical TPM-module mappings: 370
-Verified firmware-TPM outcomes: 116
+Revision handling improved:
+- accepts 1.0
+- accepts Rev 1.0
+- accepts REV1.0
+- accepts Revision 1.0
+If a future board has revision-specific TPM mappings, the exact revision profile is chosen first.
 
-IMPORTANT VERIFICATION RULE
-A board is never assigned a plug-in TPM module merely to make it VERIFIED.
-Where an exact/supported physical module family is documented, the checker returns that module.
-Where a safe discrete-module mapping is not established, the checker returns the verified firmware TPM 2.0 route
-(AMD fTPM or Intel PTT) and explicitly says no plug-in module is required for that verified route.
+Evidence sources:
+- MSI official motherboard support catalog (exact model existence)
+- MSI official TPM 2.0 compatible list (chipset/series to module mapping)
+- MSI official TPM 2.0 module specifications
 
-This completes the previous 192 unresolved profiles in one release.
+No synthetic motherboard names were added.
+No physical TPM module is invented for unsupported/unclear series.

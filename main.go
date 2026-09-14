@@ -115,6 +115,13 @@ func lookupVerifiedProfile(h Hardware) (ResearchResult, bool) {
 		model = normDBText(h.SystemModel)
 	}
 	rev := strings.TrimSpace(h.Version)
+	revUpper := strings.ToUpper(rev)
+	for _, prefix := range []string{"REVISION ", "REVISION", "REV. ", "REV.", "REV ", "REV"} {
+		if strings.HasPrefix(revUpper, prefix) {
+			rev = strings.TrimSpace(rev[len(prefix):])
+			break
+		}
+	}
 
 	var candidates []VerifiedProfile
 	for _, p := range db.Profiles {
@@ -617,7 +624,7 @@ func main() {
 		_ = json.NewEncoder(w).Encode(map[string]any{
 			"ok":               true,
 			"service":          "DMA Best EU Research",
-			"databaseVersion":  "V31-486-FULLY-VERIFIED",
+			"databaseVersion":  "V32-MSI-250-EXPANSION-736-VERIFIED",
 			"databaseSchema":   db.SchemaVersion,
 			"verifiedProfiles": len(db.Profiles),
 			"generated":        db.Generated,
@@ -663,6 +670,6 @@ func main() {
 
 	log.Printf("DMA Best EU FREE Research listening on %s", cfg.Listen)
 	log.Printf("No OpenAI API key required")
-	log.Printf("Database V31 486 FULLY VERIFIED active: %d profiles", len(verifiedDB().Profiles))
+	log.Printf("Database V32 MSI 250 EXPANSION / 736 VERIFIED active: %d profiles", len(verifiedDB().Profiles))
 	log.Fatal(http.ListenAndServe(cfg.Listen, mux))
 }
